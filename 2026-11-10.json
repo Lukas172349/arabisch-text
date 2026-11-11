@@ -1,0 +1,443 @@
+{
+ "date": "2026-11-10",
+ "topic": "Kultur",
+ "title_de": "Neue Stadtbibliothek",
+ "title": "افتتاح مكتبة عامة جديدة في وسط المدينة",
+ "paragraphs": [
+  "افتُتحت صباح أمس مكتبة عامة جديدة في وسط المدينة، بحضور عدد من المسؤولين وممثلي المجتمع المدني، إضافةً إلى عشرات العائلات والطلاب.",
+  "وتضم المكتبة أكثر من عشرين ألف كتاب باللغتين العربية والإنجليزية، إلى جانب قسم خاص بكتب الأطفال، وقاعة للمطالعة تتسع لمئة شخص.",
+  "وقال مدير المكتبة في كلمته خلال حفل الافتتاح إن المشروع يهدف إلى تشجيع القراءة بين الشباب، وتوفير مكان هادئ للدراسة والتعلّم بعيداً عن ضجيج الحياة اليومية.",
+  "وأضاف أن المكتبة ستنظم ورشات عمل أسبوعية في الكتابة والرسم، كما ستقدم دروساً مجانية في الحاسوب لكبار السن.",
+  "من جهتهم، عبّر عدد من الزوار عن سعادتهم بهذا المشروع. وقالت إحدى الأمهات إن أطفالها كانوا ينتظرون افتتاح المكتبة منذ أشهر، وإنهم سيزورونها كل يوم سبت.",
+  "وتفتح المكتبة أبوابها يومياً من الساعة التاسعة صباحاً حتى الساعة الثامنة مساءً، ما عدا يوم الجمعة. ويمكن للزوار الحصول على بطاقة عضوية مجانية عند تقديم بطاقة الهوية.",
+  "ويأتي هذا المشروع ضمن خطة البلدية لتطوير المرافق الثقافية في المدينة خلال السنوات الثلاث المقبلة."
+ ],
+ "dict": {
+  "افتتاح": [
+   "Eröffnung"
+  ],
+  "مكتبة": [
+   "Bibliothek"
+  ],
+  "عامة": [
+   "öffentlich"
+  ],
+  "جديدة": [
+   "neu"
+  ],
+  "في": [
+   "in"
+  ],
+  "وسط": [
+   "Mitte, Zentrum",
+   "وسط المدينة = Stadtzentrum"
+  ],
+  "المدينة": [
+   "die Stadt"
+  ],
+  "افتتحت": [
+   "wurde eröffnet",
+   "Passiv, weiblich"
+  ],
+  "صباح": [
+   "Morgen",
+   "صباح أمس = gestern Morgen"
+  ],
+  "أمس": [
+   "gestern"
+  ],
+  "بحضور": [
+   "in Anwesenheit von",
+   "بـ = mit/in + حضور = Anwesenheit"
+  ],
+  "عدد": [
+   "eine Anzahl",
+   "عدد من = einige"
+  ],
+  "من": [
+   "von, aus; als (nach Vergleich)"
+  ],
+  "المسؤولين": [
+   "der Verantwortlichen, der Amtsträger"
+  ],
+  "وممثلي": [
+   "und Vertreter",
+   "و = und"
+  ],
+  "المجتمع": [
+   "die Gesellschaft"
+  ],
+  "المدني": [
+   "zivil",
+   "المجتمع المدني = Zivilgesellschaft"
+  ],
+  "إضافة": [
+   "Hinzufügung",
+   "إضافةً إلى = zusätzlich zu"
+  ],
+  "إلى": [
+   "zu, nach, bis"
+  ],
+  "عشرات": [
+   "Dutzende"
+  ],
+  "العائلات": [
+   "die Familien"
+  ],
+  "والطلاب": [
+   "und die Studenten/Schüler"
+  ],
+  "وتضم": [
+   "und umfasst",
+   "و = und"
+  ],
+  "المكتبة": [
+   "die Bibliothek"
+  ],
+  "أكثر": [
+   "mehr",
+   "أكثر من = mehr als"
+  ],
+  "عشرين": [
+   "zwanzig"
+  ],
+  "ألف": [
+   "tausend"
+  ],
+  "كتاب": [
+   "Buch"
+  ],
+  "باللغتين": [
+   "in den beiden Sprachen",
+   "بـ = in + اللغتين = die zwei Sprachen (Dual)"
+  ],
+  "العربية": [
+   "Arabisch"
+  ],
+  "والإنجليزية": [
+   "und Englisch"
+  ],
+  "جانب": [
+   "Seite",
+   "إلى جانب = neben"
+  ],
+  "قسم": [
+   "Abteilung"
+  ],
+  "خاص": [
+   "speziell, eigen"
+  ],
+  "بكتب": [
+   "für Bücher",
+   "بـ + كتب (Plural von كتاب)"
+  ],
+  "الأطفال": [
+   "die Kinder"
+  ],
+  "وقاعة": [
+   "und ein Saal"
+  ],
+  "للمطالعة": [
+   "zum Lesen",
+   "لـ = für/zum"
+  ],
+  "تتسع": [
+   "fasst, bietet Platz"
+  ],
+  "لمئة": [
+   "für hundert"
+  ],
+  "شخص": [
+   "Person"
+  ],
+  "وقال": [
+   "und er sagte"
+  ],
+  "مدير": [
+   "Direktor, Leiter"
+  ],
+  "كلمته": [
+   "seine Rede",
+   "ـه = sein"
+  ],
+  "خلال": [
+   "während"
+  ],
+  "حفل": [
+   "Feier, Zeremonie"
+  ],
+  "الافتتاح": [
+   "die Eröffnung"
+  ],
+  "إن": [
+   "dass",
+   "nach قال (sagen)"
+  ],
+  "المشروع": [
+   "das Projekt"
+  ],
+  "يهدف": [
+   "zielt ab",
+   "يهدف إلى = zielt darauf ab"
+  ],
+  "تشجيع": [
+   "Förderung, Ermutigung"
+  ],
+  "القراءة": [
+   "das Lesen"
+  ],
+  "بين": [
+   "zwischen, unter"
+  ],
+  "الشباب": [
+   "die Jugendlichen"
+  ],
+  "وتوفير": [
+   "und Bereitstellung"
+  ],
+  "مكان": [
+   "Ort"
+  ],
+  "هادئ": [
+   "ruhig"
+  ],
+  "للدراسة": [
+   "zum Studieren, zum Lernen"
+  ],
+  "والتعلم": [
+   "und das Lernen"
+  ],
+  "بعيدا": [
+   "fern",
+   "بعيداً عن = fern von"
+  ],
+  "عن": [
+   "von, über"
+  ],
+  "ضجيج": [
+   "Lärm"
+  ],
+  "الحياة": [
+   "das Leben"
+  ],
+  "اليومية": [
+   "alltäglich",
+   "الحياة اليومية = Alltag"
+  ],
+  "وأضاف": [
+   "und er fügte hinzu"
+  ],
+  "أن": [
+   "dass"
+  ],
+  "ستنظم": [
+   "wird organisieren",
+   "سـ = Zukunft"
+  ],
+  "ورشات": [
+   "Werkstätten",
+   "ورشات عمل = Workshops"
+  ],
+  "عمل": [
+   "Arbeit"
+  ],
+  "أسبوعية": [
+   "wöchentlich"
+  ],
+  "الكتابة": [
+   "das Schreiben"
+  ],
+  "والرسم": [
+   "und das Malen/Zeichnen"
+  ],
+  "كما": [
+   "ebenso, ausserdem"
+  ],
+  "ستقدم": [
+   "wird anbieten",
+   "سـ = Zukunft"
+  ],
+  "دروسا": [
+   "Kurse, Lektionen",
+   "Plural von درس"
+  ],
+  "مجانية": [
+   "kostenlos"
+  ],
+  "الحاسوب": [
+   "der Computer"
+  ],
+  "لكبار": [
+   "für die Älteren",
+   "لكبار السن = für Senioren"
+  ],
+  "السن": [
+   "das Alter"
+  ],
+  "جهتهم": [
+   "ihre Seite",
+   "من جهتهم = ihrerseits"
+  ],
+  "عبر": [
+   "drückte aus",
+   "عبّر عن = ausdrücken"
+  ],
+  "الزوار": [
+   "die Besucher"
+  ],
+  "سعادتهم": [
+   "ihre Freude",
+   "ـهم = ihr (Plural)"
+  ],
+  "بهذا": [
+   "über dieses",
+   "بـ + هذا = dieses"
+  ],
+  "وقالت": [
+   "und sie sagte"
+  ],
+  "إحدى": [
+   "eine (von)"
+  ],
+  "الأمهات": [
+   "die Mütter"
+  ],
+  "أطفالها": [
+   "ihre Kinder",
+   "ـها = ihr (Singular, weiblich)"
+  ],
+  "كانوا": [
+   "sie waren",
+   "كانوا ينتظرون = sie warteten"
+  ],
+  "ينتظرون": [
+   "sie warten"
+  ],
+  "منذ": [
+   "seit"
+  ],
+  "أشهر": [
+   "Monate"
+  ],
+  "وإنهم": [
+   "und dass sie"
+  ],
+  "سيزورونها": [
+   "sie werden sie besuchen",
+   "سـ = Zukunft, ـها = sie (die Bibliothek)"
+  ],
+  "كل": [
+   "jeder, jede"
+  ],
+  "يوم": [
+   "Tag"
+  ],
+  "سبت": [
+   "Samstag"
+  ],
+  "وتفتح": [
+   "und sie öffnet"
+  ],
+  "أبوابها": [
+   "ihre Türen",
+   "Plural von باب = Tür"
+  ],
+  "يوميا": [
+   "täglich"
+  ],
+  "الساعة": [
+   "die Uhr, die Stunde"
+  ],
+  "التاسعة": [
+   "neun (Uhr)",
+   "wörtlich: die neunte"
+  ],
+  "صباحا": [
+   "morgens"
+  ],
+  "حتى": [
+   "bis"
+  ],
+  "الثامنة": [
+   "acht (Uhr)",
+   "wörtlich: die achte"
+  ],
+  "مساء": [
+   "abends"
+  ],
+  "ما": [
+   "was",
+   "ما عدا = ausser"
+  ],
+  "عدا": [
+   "ausser"
+  ],
+  "الجمعة": [
+   "Freitag"
+  ],
+  "ويمكن": [
+   "und es ist möglich"
+  ],
+  "للزوار": [
+   "für die Besucher"
+  ],
+  "الحصول": [
+   "der Erhalt",
+   "الحصول على = erhalten"
+  ],
+  "على": [
+   "auf"
+  ],
+  "بطاقة": [
+   "Karte",
+   "بطاقة الهوية = Ausweis"
+  ],
+  "عضوية": [
+   "Mitgliedschaft"
+  ],
+  "عند": [
+   "bei"
+  ],
+  "تقديم": [
+   "Vorlegen, Vorzeigen"
+  ],
+  "الهوية": [
+   "die Identität"
+  ],
+  "ويأتي": [
+   "und es kommt",
+   "يأتي ضمن = ist Teil von"
+  ],
+  "هذا": [
+   "dieses"
+  ],
+  "ضمن": [
+   "im Rahmen von"
+  ],
+  "خطة": [
+   "Plan"
+  ],
+  "البلدية": [
+   "die Gemeinde"
+  ],
+  "لتطوير": [
+   "zur Entwicklung"
+  ],
+  "المرافق": [
+   "die Einrichtungen"
+  ],
+  "الثقافية": [
+   "kulturell"
+  ],
+  "السنوات": [
+   "die Jahre"
+  ],
+  "الثلاث": [
+   "drei"
+  ],
+  "المقبلة": [
+   "kommend, nächste"
+  ]
+ },
+ "sources": []
+}
