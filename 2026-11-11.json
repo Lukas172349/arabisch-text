@@ -1,0 +1,741 @@
+{
+ "date": "2026-11-11",
+ "topic": "Sport",
+ "title_de": "Salah und die Pharaonen",
+ "title": "صلاح يلتحق بمعسكر الفراعنة قبل مواجهتي مالاوي",
+ "paragraphs": [
+  "التحق النجم المصري محمد صلاح، قائد المنتخب الوطني ولاعب نادي طرابزون سبور التركي، صباح الثلاثاء بمعسكر منتخب بلاده في مركز المنتخبات الوطنية، وذلك في إطار الاستعدادات لمباراتين حاسمتين أمام منتخب مالاوي ضمن التصفيات المؤهلة إلى كأس الأمم الأفريقية 2027.",
+  "ويخوض المنتخب المصري اللقاء الأول على أرضه في القاهرة يوم الثالث عشر من نوفمبر، على أن ينتقل بعد أربعة أيام إلى العاصمة المالاوية ليلونغوي لخوض مباراة الإياب، وذلك في إطار الجولتين الثالثة والرابعة من التصفيات.",
+  "وتأتي هذه المرحلة في ظل تغيير لافت على رأس الجهاز الفني، إذ أعلن الاتحاد المصري لكرة القدم مساء السبت تعيين علي ماهر مديراً فنياً جديداً للفريق، خلفاً لحسام حسن الذي أُنهيت مهمته عقب جدل حول مسائل انضباطية.",
+  "ولم يمضِ سوى يوم واحد على تعيينه حتى كشف المدرب الجديد عن قائمته الأولى، التي شهدت عودة عدد من الأسماء البارزة، من بينهم حارس المرمى محمد الشناوي ولاعب الوسط محمود حسن تريزيغيه، فضلاً عن استدعاء المهاجم محمود ممدوح للمرة الأولى في مسيرته.",
+  "كما ضمّت القائمة عدداً من المحترفين في الدوريات الأوروبية، أبرزهم عمر مرموش مهاجم نادي توتنهام الإنجليزي، ومحمد عبد المنعم مدافع نادي نيس الفرنسي، إلى جانب صلاح الذي يحمل شارة القيادة.",
+  "ويتصدّر المنتخب المصري المجموعة الثانية برصيد أربع نقاط، بعد أن تعادل سلبياً مع أنغولا في القاهرة، ثم حقق فوزاً عريضاً على جنوب السودان بخمسة أهداف دون رد في جوبا.",
+  "ومن المقرر أن يعقد الاتحاد مؤتمراً صحفياً لتقديم الجهاز الفني الجديد إلى وسائل الإعلام، في خطوة ينتظرها الجمهور لمعرفة ملامح المرحلة المقبلة.",
+  "ويأمل الفراعنة في حصد النقاط الست من المواجهتين لتعزيز موقعهم في الصدارة، والاقتراب خطوة إضافية من التأهل إلى النهائيات التي تستضيفها كينيا وتنزانيا وأوغندا في الصيف المقبل."
+ ],
+ "dict": {
+  "2027": [
+   "2027",
+   "ألفين وسبعة وعشرين"
+  ],
+  "صلاح": [
+   "Salah",
+   "Eigenname (Mohamed Salah)"
+  ],
+  "يلتحق": [
+   "schliesst sich an",
+   "يلتحق بـ = stösst zu"
+  ],
+  "بمعسكر": [
+   "zum Trainingslager",
+   "بـ = zu/in + معسكر = Lager"
+  ],
+  "الفراعنة": [
+   "die Pharaonen",
+   "Spitzname der ägyptischen Nationalmannschaft"
+  ],
+  "قبل": [
+   "vor"
+  ],
+  "مواجهتي": [
+   "den beiden Begegnungen",
+   "Dual von مواجهة, ـي im Genitiv/Constructus"
+  ],
+  "مالاوي": [
+   "Malawi"
+  ],
+  "التحق": [
+   "stiess hinzu",
+   "Vergangenheit von يلتحق"
+  ],
+  "النجم": [
+   "der Star"
+  ],
+  "المصري": [
+   "ägyptisch"
+  ],
+  "محمد": [
+   "Mohamed",
+   "Eigenname"
+  ],
+  "قائد": [
+   "Kapitän, Anführer"
+  ],
+  "المنتخب": [
+   "die Nationalmannschaft",
+   "wörtlich: die Auswahl"
+  ],
+  "الوطني": [
+   "national"
+  ],
+  "ولاعب": [
+   "und Spieler",
+   "و = und"
+  ],
+  "نادي": [
+   "Klub, Verein"
+  ],
+  "طرابزون": [
+   "Trabzon"
+  ],
+  "سبور": [
+   "-spor",
+   "طرابزون سبور = Trabzonspor"
+  ],
+  "التركي": [
+   "türkisch"
+  ],
+  "صباح": [
+   "Morgen",
+   "صباح الثلاثاء = Dienstagmorgen"
+  ],
+  "الثلاثاء": [
+   "Dienstag"
+  ],
+  "منتخب": [
+   "Nationalmannschaft"
+  ],
+  "بلاده": [
+   "seines Landes",
+   "ـه = sein; بلاد = Land"
+  ],
+  "في": [
+   "in"
+  ],
+  "مركز": [
+   "Zentrum"
+  ],
+  "المنتخبات": [
+   "die Nationalmannschaften",
+   "Plural"
+  ],
+  "الوطنية": [
+   "national (fem./Plural)"
+  ],
+  "وذلك": [
+   "und zwar, und dies",
+   "و + ذلك"
+  ],
+  "إطار": [
+   "Rahmen",
+   "في إطار = im Rahmen von"
+  ],
+  "الاستعدادات": [
+   "die Vorbereitungen"
+  ],
+  "لمباراتين": [
+   "für zwei Spiele",
+   "لـ = für + Dual von مباراة"
+  ],
+  "حاسمتين": [
+   "entscheidend (Dual, fem.)"
+  ],
+  "أمام": [
+   "vor, gegen"
+  ],
+  "ضمن": [
+   "im Rahmen von, innerhalb"
+  ],
+  "التصفيات": [
+   "die Qualifikation",
+   "wörtlich: die Ausscheidungen"
+  ],
+  "المؤهلة": [
+   "qualifizierend",
+   "التصفيات المؤهلة إلى = Qualifikation für"
+  ],
+  "إلى": [
+   "zu, nach, für"
+  ],
+  "كأس": [
+   "Pokal, Cup"
+  ],
+  "الأمم": [
+   "die Nationen",
+   "كأس الأمم الأفريقية = Afrika-Cup"
+  ],
+  "الأفريقية": [
+   "afrikanisch"
+  ],
+  "ويخوض": [
+   "und bestreitet",
+   "و = und; خاض = sich stürzen in, bestreiten"
+  ],
+  "اللقاء": [
+   "das Treffen, die Partie"
+  ],
+  "الأول": [
+   "der erste"
+  ],
+  "على": [
+   "auf, an",
+   "على أن = wobei, mit der Massgabe dass"
+  ],
+  "أرضه": [
+   "seinem Boden",
+   "ـه = sein; على أرضه = im Heimspiel"
+  ],
+  "القاهرة": [
+   "Kairo"
+  ],
+  "يوم": [
+   "Tag"
+  ],
+  "الثالث": [
+   "der dritte"
+  ],
+  "عشر": [
+   "-zehn",
+   "الثالث عشر = der dreizehnte"
+  ],
+  "من": [
+   "von, aus"
+  ],
+  "نوفمبر": [
+   "November"
+  ],
+  "أن": [
+   "dass"
+  ],
+  "ينتقل": [
+   "er zieht weiter, wechselt"
+  ],
+  "بعد": [
+   "nach",
+   "بعد أن = nachdem"
+  ],
+  "أربعة": [
+   "vier"
+  ],
+  "أيام": [
+   "Tage",
+   "Plural von يوم"
+  ],
+  "العاصمة": [
+   "die Hauptstadt"
+  ],
+  "المالاوية": [
+   "malawisch"
+  ],
+  "ليلونغوي": [
+   "Lilongwe"
+  ],
+  "لخوض": [
+   "um zu bestreiten",
+   "لـ = um zu + خوض (Masdar)"
+  ],
+  "مباراة": [
+   "Spiel"
+  ],
+  "الإياب": [
+   "die Rückkehr",
+   "مباراة الإياب = Rückspiel"
+  ],
+  "الجولتين": [
+   "der beiden Runden",
+   "Dual von الجولة"
+  ],
+  "الثالثة": [
+   "die dritte"
+  ],
+  "والرابعة": [
+   "und die vierte"
+  ],
+  "وتأتي": [
+   "und kommt",
+   "و = und; تأتي = kommt (fem.)"
+  ],
+  "هذه": [
+   "diese"
+  ],
+  "المرحلة": [
+   "die Phase, die Etappe"
+  ],
+  "ظل": [
+   "Schatten",
+   "في ظل = unter, angesichts"
+  ],
+  "تغيير": [
+   "Wechsel, Änderung"
+  ],
+  "لافت": [
+   "auffällig, bemerkenswert"
+  ],
+  "رأس": [
+   "Kopf, Spitze",
+   "على رأس = an der Spitze"
+  ],
+  "الجهاز": [
+   "der Apparat",
+   "الجهاز الفني = Trainerstab"
+  ],
+  "الفني": [
+   "technisch"
+  ],
+  "إذ": [
+   "denn, da"
+  ],
+  "أعلن": [
+   "gab bekannt"
+  ],
+  "الاتحاد": [
+   "der Verband"
+  ],
+  "لكرة": [
+   "für Fussball",
+   "لـ + كرة = Ball"
+  ],
+  "القدم": [
+   "der Fuss",
+   "كرة القدم = Fussball"
+  ],
+  "مساء": [
+   "Abend",
+   "مساء السبت = Samstagabend"
+  ],
+  "السبت": [
+   "Samstag"
+  ],
+  "تعيين": [
+   "Ernennung"
+  ],
+  "علي": [
+   "Ali",
+   "Eigenname"
+  ],
+  "ماهر": [
+   "Maher",
+   "Eigenname; auch: geschickt"
+  ],
+  "مديرا": [
+   "als Direktor",
+   "مديراً فنياً = Cheftrainer (Akkusativ)"
+  ],
+  "فنيا": [
+   "technisch (Akk.)"
+  ],
+  "جديدا": [
+   "neu (Akk.)"
+  ],
+  "للفريق": [
+   "für die Mannschaft",
+   "لـ + الفريق"
+  ],
+  "خلفا": [
+   "als Nachfolger",
+   "خلفاً لـ = als Nachfolger von"
+  ],
+  "لحسام": [
+   "für Hossam",
+   "لـ + Eigenname حسام"
+  ],
+  "حسن": [
+   "Hassan",
+   "Eigenname"
+  ],
+  "الذي": [
+   "der, welcher (Relativpronomen)"
+  ],
+  "أنهيت": [
+   "wurde beendet",
+   "Passiv, fem."
+  ],
+  "مهمته": [
+   "seine Aufgabe",
+   "ـه = sein"
+  ],
+  "عقب": [
+   "nach, im Anschluss an"
+  ],
+  "جدل": [
+   "Kontroverse, Streit"
+  ],
+  "حول": [
+   "über, um"
+  ],
+  "مسائل": [
+   "Fragen, Angelegenheiten",
+   "Plural von مسألة"
+  ],
+  "انضباطية": [
+   "disziplinarisch"
+  ],
+  "ولم": [
+   "und nicht",
+   "و + لم (Verneinung der Vergangenheit)"
+  ],
+  "يمض": [
+   "verging",
+   "لم يمضِ = es verging nicht"
+  ],
+  "سوى": [
+   "ausser, nur",
+   "لم … سوى = nur"
+  ],
+  "واحد": [
+   "ein, einer"
+  ],
+  "تعيينه": [
+   "seiner Ernennung",
+   "ـه = sein"
+  ],
+  "حتى": [
+   "bis, da schon"
+  ],
+  "كشف": [
+   "enthüllte",
+   "كشف عن = bekanntgeben"
+  ],
+  "المدرب": [
+   "der Trainer"
+  ],
+  "الجديد": [
+   "der neue"
+  ],
+  "عن": [
+   "über, von"
+  ],
+  "قائمته": [
+   "seine Liste, sein Kader",
+   "ـه = sein"
+  ],
+  "الأولى": [
+   "die erste"
+  ],
+  "التي": [
+   "die, welche (Relativpronomen fem.)"
+  ],
+  "شهدت": [
+   "erlebte, sah"
+  ],
+  "عودة": [
+   "Rückkehr"
+  ],
+  "عدد": [
+   "Anzahl",
+   "عدد من = einige"
+  ],
+  "الأسماء": [
+   "die Namen"
+  ],
+  "البارزة": [
+   "herausragend, prominent"
+  ],
+  "بينهم": [
+   "unter ihnen",
+   "من بينهم = darunter"
+  ],
+  "حارس": [
+   "Wächter",
+   "حارس المرمى = Torhüter"
+  ],
+  "المرمى": [
+   "das Tor"
+  ],
+  "الشناوي": [
+   "El-Shenawy",
+   "Eigenname"
+  ],
+  "الوسط": [
+   "die Mitte",
+   "لاعب الوسط = Mittelfeldspieler"
+  ],
+  "محمود": [
+   "Mahmoud",
+   "Eigenname"
+  ],
+  "تريزيغيه": [
+   "Trezeguet",
+   "Spitzname"
+  ],
+  "فضلا": [
+   "Überschuss",
+   "فضلاً عن = abgesehen von, zudem"
+  ],
+  "استدعاء": [
+   "Aufgebot, Einberufung"
+  ],
+  "المهاجم": [
+   "der Stürmer"
+  ],
+  "ممدوح": [
+   "Mamdouh",
+   "Eigenname"
+  ],
+  "للمرة": [
+   "zum Mal",
+   "للمرة الأولى = zum ersten Mal"
+  ],
+  "مسيرته": [
+   "seiner Laufbahn",
+   "ـه = sein"
+  ],
+  "كما": [
+   "ebenso, ausserdem"
+  ],
+  "ضمت": [
+   "umfasste"
+  ],
+  "القائمة": [
+   "die Liste, der Kader"
+  ],
+  "عددا": [
+   "eine Anzahl (Akk.)"
+  ],
+  "المحترفين": [
+   "die Profis, die Legionäre"
+  ],
+  "الدوريات": [
+   "die Ligen"
+  ],
+  "الأوروبية": [
+   "europäisch"
+  ],
+  "أبرزهم": [
+   "der prominenteste von ihnen",
+   "Elativ + ـهم"
+  ],
+  "عمر": [
+   "Omar",
+   "Eigenname"
+  ],
+  "مرموش": [
+   "Marmoush",
+   "Eigenname"
+  ],
+  "مهاجم": [
+   "Stürmer"
+  ],
+  "توتنهام": [
+   "Tottenham"
+  ],
+  "الإنجليزي": [
+   "englisch"
+  ],
+  "ومحمد": [
+   "und Mohamed",
+   "و = und"
+  ],
+  "عبد": [
+   "Abd",
+   "عبد المنعم = Eigenname"
+  ],
+  "المنعم": [
+   "al-Moneim",
+   "Teil des Namens"
+  ],
+  "مدافع": [
+   "Verteidiger"
+  ],
+  "نيس": [
+   "Nizza"
+  ],
+  "الفرنسي": [
+   "französisch"
+  ],
+  "جانب": [
+   "Seite",
+   "إلى جانب = neben"
+  ],
+  "يحمل": [
+   "trägt"
+  ],
+  "شارة": [
+   "Binde, Abzeichen"
+  ],
+  "القيادة": [
+   "die Führung",
+   "شارة القيادة = Kapitänsbinde"
+  ],
+  "ويتصدر": [
+   "und führt an",
+   "و = und; يتصدّر = an der Spitze stehen"
+  ],
+  "المجموعة": [
+   "die Gruppe"
+  ],
+  "الثانية": [
+   "die zweite"
+  ],
+  "برصيد": [
+   "mit einem Guthaben von",
+   "بـ + رصيد = Punktestand"
+  ],
+  "أربع": [
+   "vier (vor fem. Nomen)"
+  ],
+  "نقاط": [
+   "Punkte"
+  ],
+  "تعادل": [
+   "spielte unentschieden"
+  ],
+  "سلبيا": [
+   "torlos",
+   "wörtlich: negativ; تعادل سلبياً = 0:0"
+  ],
+  "مع": [
+   "mit"
+  ],
+  "أنغولا": [
+   "Angola"
+  ],
+  "ثم": [
+   "dann"
+  ],
+  "حقق": [
+   "erzielte, erreichte"
+  ],
+  "فوزا": [
+   "einen Sieg (Akk.)"
+  ],
+  "عريضا": [
+   "deutlich, breit (Akk.)"
+  ],
+  "جنوب": [
+   "Süden"
+  ],
+  "السودان": [
+   "Sudan",
+   "جنوب السودان = Südsudan"
+  ],
+  "بخمسة": [
+   "mit fünf",
+   "بـ = mit"
+  ],
+  "أهداف": [
+   "Tore",
+   "Plural von هدف"
+  ],
+  "دون": [
+   "ohne"
+  ],
+  "رد": [
+   "Antwort",
+   "دون رد = ohne Gegentor"
+  ],
+  "جوبا": [
+   "Juba"
+  ],
+  "ومن": [
+   "und von",
+   "ومن المقرر = und es ist geplant"
+  ],
+  "المقرر": [
+   "das Beschlossene",
+   "من المقرر أن = es ist geplant, dass"
+  ],
+  "يعقد": [
+   "abhält"
+  ],
+  "مؤتمرا": [
+   "eine Konferenz (Akk.)"
+  ],
+  "صحفيا": [
+   "Presse- (Akk.)",
+   "مؤتمراً صحفياً = Pressekonferenz"
+  ],
+  "لتقديم": [
+   "zur Vorstellung",
+   "لـ + تقديم"
+  ],
+  "وسائل": [
+   "Mittel",
+   "وسائل الإعلام = Medien"
+  ],
+  "الإعلام": [
+   "die Information"
+  ],
+  "خطوة": [
+   "Schritt"
+  ],
+  "ينتظرها": [
+   "auf den wartet",
+   "ـها = ihn (Schritt, fem.)"
+  ],
+  "الجمهور": [
+   "das Publikum"
+  ],
+  "لمعرفة": [
+   "um zu erfahren",
+   "لـ + معرفة = Kenntnis"
+  ],
+  "ملامح": [
+   "Züge, Konturen"
+  ],
+  "المقبلة": [
+   "kommend"
+  ],
+  "ويأمل": [
+   "und hofft",
+   "و = und"
+  ],
+  "حصد": [
+   "Ernte, Einfahren"
+  ],
+  "النقاط": [
+   "die Punkte"
+  ],
+  "الست": [
+   "sechs",
+   "النقاط الست = die sechs Punkte"
+  ],
+  "المواجهتين": [
+   "den beiden Begegnungen",
+   "Dual"
+  ],
+  "لتعزيز": [
+   "zur Festigung",
+   "لـ + تعزيز"
+  ],
+  "موقعهم": [
+   "ihre Position",
+   "ـهم = ihr (Plural)"
+  ],
+  "الصدارة": [
+   "die Tabellenspitze"
+  ],
+  "والاقتراب": [
+   "und die Annäherung",
+   "و = und"
+  ],
+  "إضافية": [
+   "zusätzlich"
+  ],
+  "التأهل": [
+   "die Qualifikation"
+  ],
+  "النهائيات": [
+   "die Endrunde"
+  ],
+  "تستضيفها": [
+   "die … ausrichten",
+   "ـها = sie (die Endrunde)"
+  ],
+  "كينيا": [
+   "Kenia"
+  ],
+  "وتنزانيا": [
+   "und Tansania"
+  ],
+  "وأوغندا": [
+   "und Uganda"
+  ],
+  "الصيف": [
+   "der Sommer"
+  ],
+  "المقبل": [
+   "kommend, nächste"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://www.annahar.com/sports/364801/بعد-24-ساعة-من-تعيينه-علي-ماهر-يعلن-قائمة-منتخب-مصر-لمواجهتي-مالاوي",
+   "title": "An-Nahar: Ali Maher gibt Ägyptens Kader für die Spiele gegen Malawi bekannt (8.11.2026)"
+  },
+  {
+   "url": "https://masrawy.com/sports/sports_news/details/2026/11/10/3076578/%D8%A7%D9%86%D8%B6%D9%85%D8%A7%D9%85-%D8%B5%D9%84%D8%A7%D8%AD-%D9%84%D9%85%D8%B9%D8%B3%D9%83%D8%B1-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%88%D8%A3%D8%B2%D9%85%D8%A9-%D8%AF%D8%A7%D8%AE%D9%84-%D9%86%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D8%A3%D8%A8%D8%B1%D8%B2-%D8%A7%D9%84%D8%A3%D8%AD%D8%AF%D8%A7%D8%AB-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85-",
+   "title": "Masrawy: Salah stösst zum Nationalteam – die Sportereignisse des Tages (10.11.2026)"
+  }
+ ]
+}
