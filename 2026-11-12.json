@@ -1,0 +1,663 @@
+{
+ "date": "2026-11-12",
+ "topic": "Kultur",
+ "title_de": "Filmfestival Kairo eröffnet",
+ "title": "مهرجان القاهرة السينمائي يفتتح دورته السابعة والأربعين احتفاءً بخمسين عاما على انطلاقه",
+ "paragraphs": [
+  "انطلقت مساء الأربعاء في دار الأوبرا المصرية فعاليات الدورة السابعة والأربعين من مهرجان القاهرة السينمائي الدولي، وسط حضور لافت لنجوم الفن وصناع السينما من مصر والعالم العربي وخارجه.",
+  "وتكتسب هذه الدورة طابعا استثنائيا، إذ تتزامن مع مرور نصف قرن على تأسيس المهرجان، الذي أبصر النور عام 1976 بمبادرة من الجمعية المصرية للكتاب والنقاد السينمائيين.",
+  "وأوضح رئيس المهرجان الفنان حسين فهمي أن الرقم الحالي للدورة لا يطابق عدد السنوات، لأن ثلاث دورات لم تعقد في الماضي بسبب ظروف استثنائية.",
+  "وحضر حفل الافتتاح الدكتور عبد العزيز قنصوة، وزير التعليم العالي والقائم بأعمال وزير الثقافة، الذي وصف الدورة بأنها استثنائية، مؤكدا أن المهرجان العريق تحول إلى جسر للتواصل الثقافي بين مصر وبقية العالم.",
+  "وشدد الوزير في كلمته على أن السينما لا تقتصر على كونها صناعة للترفيه، بل تمثل قوة ناعمة تسهم في تشكيل الوعي وتعزيز الحوار بين الشعوب.",
+  "ويشارك في الدورة الحالية مئة وخمسة وأربعون فيلما من أربع وستين دولة، وتستمر العروض حتى العشرين من الشهر الجاري.",
+  "واختارت إدارة المهرجان الفيلم الأمريكي أنا أؤدي روكي للمخرج بيتر فاريلي، الحائز على جائزتي أوسكار، ليكون فيلم الافتتاح.",
+  "وشهدت السجادة الحمراء توافد عدد كبير من الفنانين، من بينهم يسرا وإلهام شاهين وخالد النبوي وآسر ياسين وظافر العابدين.",
+  "ويعد مهرجان القاهرة من أعرق المهرجانات السينمائية في المنطقة، كما ينفرد بكونه المهرجان الوحيد في العالم العربي وأفريقيا المصنف ضمن الفئة أ لدى الاتحاد الدولي للمنتجين في باريس."
+ ],
+ "dict": {
+  "1976": [
+   "1976"
+  ],
+  "مهرجان": [
+   "Festival"
+  ],
+  "القاهرة": [
+   "Kairo"
+  ],
+  "السينمائي": [
+   "Film- / kinematografisch",
+   "مهرجان القاهرة السينمائي: Filmfestival Kairo"
+  ],
+  "يفتتح": [
+   "er eröffnet",
+   "Präsens, 3. Pers. m."
+  ],
+  "دورته": [
+   "seine Ausgabe / Runde",
+   "Suffix ـه: sein"
+  ],
+  "السابعة": [
+   "die siebte"
+  ],
+  "والأربعين": [
+   "und vierzig",
+   "و: und; السابعة والأربعين: die 47."
+  ],
+  "احتفاء": [
+   "als Feier / feiernd",
+   "احتفاءً بـ: zur Feier von (Akkusativ)"
+  ],
+  "بخمسين": [
+   "mit fünfzig",
+   "بـ: mit/von"
+  ],
+  "عاما": [
+   "Jahre",
+   "Akkusativ (Tanwin) nach Zahl"
+  ],
+  "على": [
+   "auf / über",
+   "مرور ... على: seit"
+  ],
+  "انطلاقه": [
+   "sein Start / Beginn",
+   "Suffix ـه: sein"
+  ],
+  "انطلقت": [
+   "sie startete / begann",
+   "Perfekt, 3. Pers. f."
+  ],
+  "مساء": [
+   "am Abend"
+  ],
+  "الأربعاء": [
+   "Mittwoch"
+  ],
+  "في": [
+   "in"
+  ],
+  "دار": [
+   "Haus",
+   "دار الأوبرا: Opernhaus"
+  ],
+  "الأوبرا": [
+   "die Oper"
+  ],
+  "المصرية": [
+   "die ägyptische"
+  ],
+  "فعاليات": [
+   "Veranstaltungen / Aktivitäten"
+  ],
+  "الدورة": [
+   "die Ausgabe / Runde"
+  ],
+  "من": [
+   "von / aus"
+  ],
+  "الدولي": [
+   "der internationale"
+  ],
+  "وسط": [
+   "inmitten"
+  ],
+  "حضور": [
+   "Anwesenheit / Publikum"
+  ],
+  "لافت": [
+   "auffallend, bemerkenswert"
+  ],
+  "لنجوم": [
+   "der Stars",
+   "لـ: von/für; نجوم Pl. von نجم"
+  ],
+  "الفن": [
+   "die Kunst"
+  ],
+  "وصناع": [
+   "und die Macher",
+   "و: und; صناع السينما: Filmschaffende"
+  ],
+  "السينما": [
+   "das Kino / der Film"
+  ],
+  "مصر": [
+   "Ägypten"
+  ],
+  "والعالم": [
+   "und die Welt",
+   "و: und; العالم العربي: arabische Welt"
+  ],
+  "العربي": [
+   "der arabische"
+  ],
+  "وخارجه": [
+   "und ausserhalb davon",
+   "و: und; Suffix ـه"
+  ],
+  "وتكتسب": [
+   "und sie erhält / gewinnt",
+   "و: und; تكتسب طابعا: einen Charakter annehmen"
+  ],
+  "هذه": [
+   "diese"
+  ],
+  "طابعا": [
+   "Charakter / Prägung",
+   "Akkusativ"
+  ],
+  "استثنائيا": [
+   "aussergewöhnlich",
+   "Akkusativ"
+  ],
+  "إذ": [
+   "da / denn"
+  ],
+  "تتزامن": [
+   "sie fällt zeitlich zusammen",
+   "تتزامن مع: gleichzeitig mit"
+  ],
+  "مع": [
+   "mit"
+  ],
+  "مرور": [
+   "Verstreichen",
+   "مرور ... على: seit (Jahre vergangen)"
+  ],
+  "نصف": [
+   "Hälfte"
+  ],
+  "قرن": [
+   "Jahrhundert",
+   "نصف قرن: ein halbes Jahrhundert"
+  ],
+  "تأسيس": [
+   "Gründung"
+  ],
+  "المهرجان": [
+   "das Festival"
+  ],
+  "الذي": [
+   "der / welcher (Relativpronomen m.)"
+  ],
+  "أبصر": [
+   "er erblickte",
+   "أبصر النور: das Licht der Welt erblicken (gegründet werden)"
+  ],
+  "النور": [
+   "das Licht"
+  ],
+  "عام": [
+   "Jahr / im Jahr"
+  ],
+  "بمبادرة": [
+   "auf Initiative",
+   "بـ: durch/auf"
+  ],
+  "الجمعية": [
+   "die Vereinigung / Gesellschaft"
+  ],
+  "للكتاب": [
+   "der Schriftsteller",
+   "لـ + الـ; كتاب Pl. von كاتب"
+  ],
+  "والنقاد": [
+   "und die Kritiker",
+   "و: und; Pl. von ناقد"
+  ],
+  "السينمائيين": [
+   "Film- (Pl.)",
+   "Plural, Genitiv"
+  ],
+  "وأوضح": [
+   "und er erklärte",
+   "و: und"
+  ],
+  "رئيس": [
+   "Präsident / Leiter"
+  ],
+  "الفنان": [
+   "der Künstler"
+  ],
+  "حسين": [
+   "Hussein (Name)"
+  ],
+  "فهمي": [
+   "Fahmy (Name)",
+   "حسين فهمي: Schauspieler, Festivalpräsident"
+  ],
+  "أن": [
+   "dass"
+  ],
+  "الرقم": [
+   "die Nummer / Zahl"
+  ],
+  "الحالي": [
+   "der aktuelle"
+  ],
+  "للدورة": [
+   "der Ausgabe",
+   "لـ + الـ"
+  ],
+  "لا": [
+   "nicht"
+  ],
+  "يطابق": [
+   "er entspricht"
+  ],
+  "عدد": [
+   "Anzahl"
+  ],
+  "السنوات": [
+   "die Jahre"
+  ],
+  "لأن": [
+   "weil",
+   "لـ + أن"
+  ],
+  "ثلاث": [
+   "drei"
+  ],
+  "دورات": [
+   "Ausgaben"
+  ],
+  "لم": [
+   "nicht (Verneinung der Vergangenheit)",
+   "لم + Apokopat"
+  ],
+  "تعقد": [
+   "sie wurde abgehalten",
+   "Passiv; لم تعقد: fand nicht statt"
+  ],
+  "الماضي": [
+   "die Vergangenheit"
+  ],
+  "بسبب": [
+   "wegen",
+   "بـ + سبب"
+  ],
+  "ظروف": [
+   "Umstände"
+  ],
+  "استثنائية": [
+   "aussergewöhnliche"
+  ],
+  "وحضر": [
+   "und es wohnte bei",
+   "و: und"
+  ],
+  "حفل": [
+   "Feier",
+   "حفل الافتتاح: Eröffnungsfeier"
+  ],
+  "الافتتاح": [
+   "die Eröffnung"
+  ],
+  "الدكتور": [
+   "Doktor"
+  ],
+  "عبد": [
+   "Abd (Namensteil)"
+  ],
+  "العزيز": [
+   "al-Aziz (Namensteil)"
+  ],
+  "قنصوة": [
+   "Konsowa (Name)"
+  ],
+  "وزير": [
+   "Minister"
+  ],
+  "التعليم": [
+   "die Bildung"
+  ],
+  "العالي": [
+   "die höhere",
+   "التعليم العالي: Hochschulbildung"
+  ],
+  "والقائم": [
+   "und der Wahrnehmende",
+   "و: und; القائم بأعمال: kommissarisch / geschäftsführend"
+  ],
+  "بأعمال": [
+   "die Geschäfte",
+   "بـ + أعمال"
+  ],
+  "الثقافة": [
+   "die Kultur"
+  ],
+  "وصف": [
+   "er beschrieb",
+   "وصف ... بأنها: beschrieb als"
+  ],
+  "بأنها": [
+   "dass sie (sei)",
+   "بـ + أن + ها"
+  ],
+  "مؤكدا": [
+   "betonend",
+   "Partizip im Akkusativ (Hal)"
+  ],
+  "العريق": [
+   "traditionsreich / alt-ehrwürdig"
+  ],
+  "تحول": [
+   "er wurde zu / verwandelte sich",
+   "تحول إلى: wurde zu"
+  ],
+  "إلى": [
+   "zu / nach"
+  ],
+  "جسر": [
+   "Brücke"
+  ],
+  "للتواصل": [
+   "für den Austausch",
+   "لـ + الـ"
+  ],
+  "الثقافي": [
+   "der kulturelle"
+  ],
+  "بين": [
+   "zwischen"
+  ],
+  "وبقية": [
+   "und dem Rest",
+   "و: und; بقية العالم: der Rest der Welt"
+  ],
+  "العالم": [
+   "die Welt"
+  ],
+  "وشدد": [
+   "und er betonte",
+   "و: und; شدد على: betonen"
+  ],
+  "الوزير": [
+   "der Minister"
+  ],
+  "كلمته": [
+   "seine Rede",
+   "Suffix ـه: sein"
+  ],
+  "تقتصر": [
+   "sie beschränkt sich",
+   "تقتصر على: beschränkt sich auf"
+  ],
+  "كونها": [
+   "ihr Sein / dass sie ist",
+   "كون + ها"
+  ],
+  "صناعة": [
+   "Industrie"
+  ],
+  "للترفيه": [
+   "der Unterhaltung",
+   "لـ + الـ"
+  ],
+  "بل": [
+   "sondern"
+  ],
+  "تمثل": [
+   "sie stellt dar"
+  ],
+  "قوة": [
+   "Kraft / Macht"
+  ],
+  "ناعمة": [
+   "weiche",
+   "قوة ناعمة: Soft Power"
+  ],
+  "تسهم": [
+   "sie trägt bei",
+   "تسهم في: beitragen zu"
+  ],
+  "تشكيل": [
+   "Formung / Gestaltung"
+  ],
+  "الوعي": [
+   "das Bewusstsein"
+  ],
+  "وتعزيز": [
+   "und Stärkung",
+   "و: und"
+  ],
+  "الحوار": [
+   "der Dialog"
+  ],
+  "الشعوب": [
+   "die Völker"
+  ],
+  "ويشارك": [
+   "und es nimmt teil",
+   "و: und"
+  ],
+  "الحالية": [
+   "die aktuelle"
+  ],
+  "مئة": [
+   "hundert"
+  ],
+  "وخمسة": [
+   "und fünf",
+   "و: und"
+  ],
+  "وأربعون": [
+   "und vierzig",
+   "و: und; 145: مئة وخمسة وأربعون"
+  ],
+  "فيلما": [
+   "Film(e)",
+   "Akkusativ nach Zahl"
+  ],
+  "أربع": [
+   "vier"
+  ],
+  "وستين": [
+   "und sechzig",
+   "و: und; أربع وستين: 64"
+  ],
+  "دولة": [
+   "Staat / Land"
+  ],
+  "وتستمر": [
+   "und sie dauern an",
+   "و: und"
+  ],
+  "العروض": [
+   "die Vorführungen"
+  ],
+  "حتى": [
+   "bis"
+  ],
+  "العشرين": [
+   "der zwanzigste"
+  ],
+  "الشهر": [
+   "der Monat"
+  ],
+  "الجاري": [
+   "laufend",
+   "الشهر الجاري: dieser Monat"
+  ],
+  "واختارت": [
+   "und sie wählte",
+   "و: und"
+  ],
+  "إدارة": [
+   "Leitung / Verwaltung"
+  ],
+  "الفيلم": [
+   "der Film"
+  ],
+  "الأمريكي": [
+   "der amerikanische"
+  ],
+  "أنا": [
+   "ich"
+  ],
+  "أؤدي": [
+   "ich spiele / verkörpere",
+   "أنا أؤدي روكي: I Play Rocky (Filmtitel)"
+  ],
+  "روكي": [
+   "Rocky"
+  ],
+  "للمخرج": [
+   "des Regisseurs",
+   "لـ + الـ"
+  ],
+  "بيتر": [
+   "Peter"
+  ],
+  "فاريلي": [
+   "Farrelly"
+  ],
+  "الحائز": [
+   "Träger / Gewinner",
+   "الحائز على: ausgezeichnet mit"
+  ],
+  "جائزتي": [
+   "zwei Preise",
+   "Dual im Genitiv (ohne ن vor Genitivverbindung)"
+  ],
+  "أوسكار": [
+   "Oscar"
+  ],
+  "ليكون": [
+   "damit er sei",
+   "لـ + يكون: um zu sein"
+  ],
+  "فيلم": [
+   "Film"
+  ],
+  "وشهدت": [
+   "und sie erlebte",
+   "و: und"
+  ],
+  "السجادة": [
+   "der Teppich"
+  ],
+  "الحمراء": [
+   "der rote",
+   "السجادة الحمراء: roter Teppich"
+  ],
+  "توافد": [
+   "Eintreffen (in Scharen)"
+  ],
+  "كبير": [
+   "gross"
+  ],
+  "الفنانين": [
+   "die Künstler"
+  ],
+  "بينهم": [
+   "unter ihnen",
+   "بين + هم; من بينهم: darunter"
+  ],
+  "يسرا": [
+   "Yousra (Schauspielerin)"
+  ],
+  "وإلهام": [
+   "und Elham",
+   "و: und"
+  ],
+  "شاهين": [
+   "Shaheen (Name)"
+  ],
+  "وخالد": [
+   "und Khaled",
+   "و: und"
+  ],
+  "النبوي": [
+   "El Nabawy (Name)"
+  ],
+  "وآسر": [
+   "und Asser",
+   "و: und"
+  ],
+  "ياسين": [
+   "Yassin (Name)"
+  ],
+  "وظافر": [
+   "und Dhafer",
+   "و: und"
+  ],
+  "العابدين": [
+   "L'Abidine (Name)"
+  ],
+  "ويعد": [
+   "und es gilt als",
+   "و: und; Passiv يُعَدّ"
+  ],
+  "أعرق": [
+   "traditionsreichste"
+  ],
+  "المهرجانات": [
+   "die Festivals"
+  ],
+  "السينمائية": [
+   "Film- (f./Pl.)"
+  ],
+  "المنطقة": [
+   "die Region"
+  ],
+  "كما": [
+   "ebenso / ausserdem"
+  ],
+  "ينفرد": [
+   "es ist einzigartig",
+   "ينفرد بـ: sich auszeichnen als einziges"
+  ],
+  "بكونه": [
+   "dadurch, dass es ist",
+   "بـ + كون + ـه"
+  ],
+  "الوحيد": [
+   "der einzige"
+  ],
+  "وأفريقيا": [
+   "und Afrika",
+   "و: und"
+  ],
+  "المصنف": [
+   "eingestuft"
+  ],
+  "ضمن": [
+   "innerhalb / in"
+  ],
+  "الفئة": [
+   "die Kategorie"
+  ],
+  "أ": [
+   "A (Buchstabe)",
+   "الفئة أ: Kategorie A"
+  ],
+  "لدى": [
+   "bei"
+  ],
+  "الاتحاد": [
+   "der Verband / die Union"
+  ],
+  "للمنتجين": [
+   "der Produzenten",
+   "لـ + الـ"
+  ],
+  "باريس": [
+   "Paris"
+  ]
+ },
+ "sources": [
+  {
+   "url": "http://arabic.news.cn/20261112/7f4c8d1c1ccb4c389aa2d1c86694a773/c.html",
+   "title": "Xinhua (arabisch): Start der 47. Ausgabe des Filmfestivals Kairo (11.11.2026)"
+  },
+  {
+   "url": "https://al-ain.com/article/cairo-international-film-festival-2026-1",
+   "title": "Al-Ain: Filmfestival Kairo eröffnet 47. Ausgabe mit Filmstars (11.11.2026)"
+  },
+  {
+   "url": "https://al-ain.com/article/opening-cairo-international-film-festival",
+   "title": "Al-Ain: Bilder und Reden von der Eröffnungsfeier (11.11.2026)"
+  }
+ ]
+}
