@@ -42,7 +42,10 @@ article{font-family:var(--ar);font-size:var(--ar-size);line-height:2.2}
 .block .ar{direction:rtl;text-align:right;margin:0}
 .block h1.ar{font-weight:600;font-size:1.8rem;line-height:1.7;text-wrap:balance}
 .block .de{direction:ltr;text-align:left;font:15px/1.6 var(--ui);color:var(--muted);margin:4px 0 6px;padding-left:10px;border-left:3px solid var(--line)}
-.hide-de .block .de{display:none}
+.block .de{display:none}
+.block.open .de,.show-all .block .de{display:block}
+.trbtn{display:block;direction:ltr;margin:2px 0 4px auto;border:0;background:none;padding:2px 4px;font:600 12px var(--ui);color:var(--accent);cursor:pointer;letter-spacing:.02em}
+.trbtn:hover{text-decoration:underline}
 .now{background:var(--hl)}
 .w{cursor:pointer;border-radius:4px;padding:0 1px}
 .w:hover{background:var(--word)}
@@ -96,7 +99,7 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
 @media (prefers-reduced-motion:reduce){.block{transition:none}}
 </style>
 </head>
-<body class="hide-de">
+<body>
 
 <div class="bar"><div class="in">
   <div class="tabs" role="tablist">
@@ -118,9 +121,9 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
 <main>
 <div class="in" id="viewText">
   <p class="meta" id="meta"></p>
-  <p class="hint">Tippe auf ein Wort: Du siehst die Übersetzung von Wort und Satz, und das Wort kommt auf eine Lernkarte.</p>
+  <p class="hint">Tippe auf ein Wort: Du siehst die Übersetzung, und das Wort kommt auf eine Lernkarte. Mit «Satz übersetzen» unter einem Absatz siehst du die Übersetzung des ganzen Satzes.</p>
   <div class="toolrow">
-    <button class="small" id="toggleDe">Satzübersetzung einblenden</button>
+    <button class="small" id="toggleDe">Alle Übersetzungen einblenden</button>
   </div>
   <article id="text"></article>
   <section class="extra" id="sources" hidden><h2>Quellen</h2><ul id="srcList"></ul></section>
@@ -151,11 +154,9 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
   <div class="tar" id="tipAr"></div>
   <div class="tde" id="tipDe"></div>
   <div class="note" id="tipNote"></div>
-  <div class="sent" id="tipSent"><b>Ganzer Satz</b><span id="tipSentDe"></span></div>
   <div class="saved-msg" id="tipSaved">✓ Auf Lernkarte gespeichert</div>
   <div class="row">
     <button class="small" id="tipSay">🔊 Wort</button>
-    <button class="small" id="tipSaySent">🔊 Satz</button>
     <button class="small" id="tipRemove">Karte entfernen</button>
   </div>
 </div>
@@ -234,7 +235,12 @@ function wordSpans(el, text){
 function addBlock(i, tag, ar, de){
   const b=document.createElement('div'); b.className='block'; b.dataset.i=i;
   const a=document.createElement(tag); a.className='ar'; wordSpans(a, ar); b.appendChild(a);
-  if(de){ const d=document.createElement('p'); d.className='de'; d.textContent=de; b.appendChild(d); }
+  if(de){
+    const btn=document.createElement('button'); btn.className='trbtn'; btn.type='button'; btn.textContent='Satz übersetzen ▾';
+    btn.onclick=e=>{ e.stopPropagation(); const o=b.classList.toggle('open'); btn.textContent = o ? 'Übersetzung ausblenden ▴' : 'Satz übersetzen ▾'; };
+    const d=document.createElement('p'); d.className='de'; d.textContent=de;
+    b.appendChild(btn); b.appendChild(d);
+  }
   $('text').appendChild(b);
 }
 function render(d){
@@ -246,6 +252,7 @@ function render(d){
   d.paragraphs.forEach((t,i)=> addBlock(i, 'p', t, (d.translations||[])[i]));
   blocks = [...$('text').children];
   $('toggleDe').hidden = !(d.translations && d.translations.length);
+  applyDe();
   const sl=$('srcList'); sl.innerHTML='';
   (d.sources||[]).forEach(s=>{ const li=document.createElement('li'); const a=document.createElement('a'); a.href=s.url; a.textContent=s.title||s.url; a.target='_blank'; a.rel='noopener'; li.appendChild(a); sl.appendChild(li); });
   $('sources').hidden = !(d.sources && d.sources.length);
@@ -275,7 +282,7 @@ async function load(){
 /* ---------- Satzübersetzung ein/aus ---------- */
 let showDe = false;
 try { showDe = localStorage.getItem('arabisch-show-de') === '1'; } catch(e) {}
-function applyDe(){ document.body.classList.toggle('hide-de', !showDe); $('toggleDe').textContent = showDe ? 'Satzübersetzung ausblenden' : 'Satzübersetzung einblenden'; }
+function applyDe(){ document.body.classList.toggle('show-all', showDe); $('toggleDe').textContent = showDe ? 'Alle Übersetzungen ausblenden' : 'Alle Übersetzungen einblenden'; document.querySelectorAll('.trbtn').forEach(x=>x.hidden=showDe); }
 $('toggleDe').onclick = () => { showDe = !showDe; try { localStorage.setItem('arabisch-show-de', showDe ? '1' : '0'); } catch(e) {} applyDe(); };
 applyDe();
 
@@ -286,12 +293,9 @@ function showTip(w, isNew){
   if(selWord) selWord.classList.remove('sel');
   selWord=w; w.classList.add('sel');
   const e=DICT[w.dataset.key];
-  const i=+w.closest('.block').dataset.i;
-  const sent = i<0 ? DATA.title_tr : (DATA.translations||[])[i];
   $('tipAr').textContent=w.textContent;
   $('tipDe').textContent=e?e[0]:'(keine Übersetzung hinterlegt)';
   $('tipNote').textContent=e&&e[1]?e[1]:''; $('tipNote').hidden=!(e&&e[1]);
-  $('tipSentDe').textContent=sent||''; $('tipSent').hidden=!sent;
   $('tipSaved').textContent = isNew ? '✓ Neu auf Lernkarte gespeichert' : '✓ Schon auf deinen Lernkarten';
   $('tipSaved').hidden = !cards[w.dataset.key]; $('tipRemove').hidden = !cards[w.dataset.key];
   tip.hidden=false;
@@ -346,7 +350,7 @@ $('play').onclick=()=>{ if(!synth){ status.textContent='Dieser Browser unterstü
 $('pause').onclick=()=>{ if(synth&&synth.speaking){ synth.pause(); status.textContent='Pausiert.'; } };
 $('stop').onclick=()=>{ if(!synth) return; running=false; synth.cancel(); idx=0; mark(-1); status.textContent='Gestoppt.'; };
 $('tipSay').onclick=e=>{ e.stopPropagation(); if(selWord) say(selWord.textContent); };
-$('tipSaySent').onclick=e=>{ e.stopPropagation(); if(selWord) say(sentenceOf(selWord)); };
+
 
 /* ---------- Ansicht wechseln ---------- */
 function showView(v){
@@ -391,10 +395,8 @@ function drawCard(){
   if(!flipped){
     h += '<div class="answer-row"><button class="small" id="fSay">🔊 Anhören</button><button class="primary" id="fFlip">Übersetzung zeigen</button></div>';
   } else {
-    const ctx = esc(c.ctxAr||'').split(esc(c.ar)).join('<mark>'+esc(c.ar)+'</mark>');
     h += '<div class="ans">'+esc(c.de||'–')+'</div>';
     if(c.note) h += '<div class="note">'+esc(c.note)+'</div>';
-    if(c.ctxAr) h += '<div class="ctx"><div class="ar">'+ctx+'</div>'+(c.ctxDe?'<div class="de">'+esc(c.ctxDe)+'</div>':'')+'</div>';
     h += '<div class="answer-row"><button class="small" id="fSay">🔊 Anhören</button><button class="again" id="fAgain">Nochmal</button><button class="good" id="fGood">Gewusst</button></div>';
   }
   f.innerHTML=h;
