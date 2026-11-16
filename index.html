@@ -164,6 +164,8 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
 <script>
 /* ===== EINSTELLUNG: Adresse, von der die Tagestexte geladen werden ===== */
 const DATA_BASE = "https://raw.githubusercontent.com/Lukas172349/arabisch-text/main/";
+// Ersatzadressen, falls die erste nicht erreichbar ist
+const DATA_FALLBACKS = ["https://cdn.jsdelivr.net/gh/Lukas172349/arabisch-text@main/", "./"];
 
 const strip = s => s.replace(/[ً-ْـ]/g,'').replace(/[،.؛:!؟,«»"()]/g,'');
 const $ = id => document.getElementById(id);
@@ -207,10 +209,18 @@ function sentenceOf(w){
 function markSaved(){ document.querySelectorAll('.w').forEach(s => s.classList.toggle('saved', !!cards[s.dataset.key])); }
 
 /* ---------- Tagestext laden ---------- */
+let workingBase = null; const loadErrors = [];
 async function getJSON(name){
-  const r = await fetch(DATA_BASE + name + '?t=' + Date.now());
-  if(!r.ok) throw new Error(r.status);
-  return r.json();
+  const bases = workingBase ? [workingBase] : [DATA_BASE, ...DATA_FALLBACKS];
+  for(const base of bases){
+    try{
+      const r = await fetch(base + name + '?t=' + Date.now(), {cache:'no-store'});
+      if(!r.ok) throw new Error('HTTP ' + r.status);
+      const data = await r.json();
+      workingBase = base; return data;
+    }catch(e){ loadErrors.push(base + name + ': ' + e.message); }
+  }
+  throw new Error('nicht erreichbar');
 }
 function wordSpans(el, text){
   text.split(/(\s+)/).forEach(t=>{
@@ -248,7 +258,7 @@ async function load(){
   try{ list = await getJSON('index.json'); }catch(e){}
   const file = wanted ? wanted + '.json' : (list[0] ? list[0].date + '.json' : 'heute.json');
   try{ render(await getJSON(file)); }
-  catch(e){ status.textContent = 'Der Text konnte nicht geladen werden. Bitte später nochmals versuchen.'; }
+  catch(e){ status.textContent = 'Der Text konnte nicht geladen werden. Details: ' + loadErrors.slice(-3).join(' | '); }
   if(list.length){
     const ul=$('archList'); ul.innerHTML='';
     const current = wanted || list[0].date;
