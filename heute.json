@@ -1,663 +1,736 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-15",
  "topic": "Kultur",
- "title_de": "Filmfestival Kairo eröffnet",
- "title": "مهرجان القاهرة السينمائي يفتتح دورته السابعة والأربعين احتفاءً بخمسين عاما على انطلاقه",
+ "title_de": "Buchmesse Sharjah endet",
+ "title": "معرض الشارقة الدولي للكتاب يسدل الستار على دورته الخامسة والأربعين",
  "paragraphs": [
-  "انطلقت مساء الأربعاء في دار الأوبرا المصرية فعاليات الدورة السابعة والأربعين من مهرجان القاهرة السينمائي الدولي، وسط حضور لافت لنجوم الفن وصناع السينما من مصر والعالم العربي وخارجه.",
-  "وتكتسب هذه الدورة طابعا استثنائيا، إذ تتزامن مع مرور نصف قرن على تأسيس المهرجان، الذي أبصر النور عام 1976 بمبادرة من الجمعية المصرية للكتاب والنقاد السينمائيين.",
-  "وأوضح رئيس المهرجان الفنان حسين فهمي أن الرقم الحالي للدورة لا يطابق عدد السنوات، لأن ثلاث دورات لم تعقد في الماضي بسبب ظروف استثنائية.",
-  "وحضر حفل الافتتاح الدكتور عبد العزيز قنصوة، وزير التعليم العالي والقائم بأعمال وزير الثقافة، الذي وصف الدورة بأنها استثنائية، مؤكدا أن المهرجان العريق تحول إلى جسر للتواصل الثقافي بين مصر وبقية العالم.",
-  "وشدد الوزير في كلمته على أن السينما لا تقتصر على كونها صناعة للترفيه، بل تمثل قوة ناعمة تسهم في تشكيل الوعي وتعزيز الحوار بين الشعوب.",
-  "ويشارك في الدورة الحالية مئة وخمسة وأربعون فيلما من أربع وستين دولة، وتستمر العروض حتى العشرين من الشهر الجاري.",
-  "واختارت إدارة المهرجان الفيلم الأمريكي أنا أؤدي روكي للمخرج بيتر فاريلي، الحائز على جائزتي أوسكار، ليكون فيلم الافتتاح.",
-  "وشهدت السجادة الحمراء توافد عدد كبير من الفنانين، من بينهم يسرا وإلهام شاهين وخالد النبوي وآسر ياسين وظافر العابدين.",
-  "ويعد مهرجان القاهرة من أعرق المهرجانات السينمائية في المنطقة، كما ينفرد بكونه المهرجان الوحيد في العالم العربي وأفريقيا المصنف ضمن الفئة أ لدى الاتحاد الدولي للمنتجين في باريس."
+  "يختتم معرض الشارقة الدولي للكتاب اليوم الأحد فعاليات دورته الخامسة والأربعين، التي احتضنها مركز إكسبو الشارقة على مدى اثني عشر يوما منذ انطلاقها في الرابع من نوفمبر الجاري، تحت شعار من صنع الحكايات.",
+  "وشهدت هذه الدورة مشاركة أكثر من ثلاثة آلاف ومئتي ناشر وعارض قدموا من أكثر من مئة وعشرين دولة، وعرضوا ما يقارب مليونا وسبعمئة ألف عنوان بلغات وثقافات متعددة، مما يؤكد مكانة المعرض بوصفه واحدا من أكبر معارض الكتب في العالم.",
+  "وحلت سلطنة عمان ضيف شرف على الدورة الحالية، إذ سلطت مشاركتها الضوء على تراثها الأدبي والثقافي وعلى إسهامات كتابها ومبدعيها، كما شهد المعرض تكريم سعيد يقطين.",
+  "وعلى هامش المعرض، انعقد مؤتمر الشارقة الدولي للمكتبات بين السابع والتاسع من نوفمبر، بتنظيم من هيئة الشارقة للكتاب وبالتعاون مع جمعية المكتبات الأمريكية، وشارك فيه ما يزيد على أربعمئة من أمناء المكتبات والمتخصصين العاملين في المكتبات الأكاديمية والعامة والمدرسية.",
+  "ولم يقتصر البرنامج على الندوات وجلسات توقيع الكتب، بل تضمن أيضا عروضا مسرحية تتطلب حجزا مسبقا، أبرزها عرض غنائي يقدم للمرة الأولى ضمن المعرض، ويستعيد أغاني الطفولة التي ارتبطت بذاكرة أجيال متعاقبة من الجمهور.",
+  "وفي اليوم الختامي، يواصل الزوار التنقل بين الأجنحة بحثا عن عناوين جديدة تنضم إلى مكتباتهم المنزلية، في حين تمنح مكتبات الشارقة العامة زوار جناحها خصما بنسبة خمسين في المئة على رسوم الاشتراك، تشجيعا لهم على مواصلة القراءة طوال العام.",
+  "ويرى بعض المتابعين أن الدورة الحالية تجسد حصاد مشروع ثقافي بعيد المدى أطلقه حاكم الشارقة الشيخ الدكتور سلطان بن محمد القاسمي قبل عقود، واضعا الثقافة في صميم نهضة الإمارة وتطورها، فيما تطرقت حوارات المعرض إلى قضايا الهوية والذكاء الاصطناعي."
  ],
  "dict": {
-  "1976": [
-   "1976"
+  "معرض": [
+   "Messe, Ausstellung"
   ],
-  "مهرجان": [
-   "Festival"
+  "الشارقة": [
+   "Sharjah (Emirat)"
   ],
-  "القاهرة": [
-   "Kairo"
+  "الدولي": [
+   "international"
   ],
-  "السينمائي": [
-   "Film- / kinematografisch",
-   "مهرجان القاهرة السينمائي: Filmfestival Kairo"
+  "للكتاب": [
+   "für das Buch / Buch-",
+   "لـ (für) + الـ + كتاب"
   ],
-  "يفتتح": [
-   "er eröffnet",
-   "Präsens, 3. Pers. m."
+  "يسدل": [
+   "er lässt herab",
+   "feste Wendung: يسدل الستار على = den Vorhang fallen lassen, beenden"
+  ],
+  "الستار": [
+   "der Vorhang"
+  ],
+  "على": [
+   "auf, über"
   ],
   "دورته": [
-   "seine Ausgabe / Runde",
-   "Suffix ـه: sein"
+   "seine Ausgabe (Runde)",
+   "دورة + ـه (sein)"
   ],
-  "السابعة": [
-   "die siebte"
+  "الخامسة": [
+   "die fünfte"
   ],
   "والأربعين": [
    "und vierzig",
-   "و: und; السابعة والأربعين: die 47."
+   "و + الأربعين; الخامسة والأربعين = die 45."
   ],
-  "احتفاء": [
-   "als Feier / feiernd",
-   "احتفاءً بـ: zur Feier von (Akkusativ)"
+  "يختتم": [
+   "er schliesst ab, beendet"
   ],
-  "بخمسين": [
-   "mit fünfzig",
-   "بـ: mit/von"
+  "اليوم": [
+   "heute; der Tag"
   ],
-  "عاما": [
-   "Jahre",
-   "Akkusativ (Tanwin) nach Zahl"
+  "الأحد": [
+   "Sonntag"
   ],
-  "على": [
-   "auf / über",
-   "مرور ... على: seit"
+  "فعاليات": [
+   "Veranstaltungen, Aktivitäten"
   ],
-  "انطلاقه": [
-   "sein Start / Beginn",
-   "Suffix ـه: sein"
+  "التي": [
+   "die, welche (Relativpronomen, fem.)"
   ],
-  "انطلقت": [
-   "sie startete / begann",
-   "Perfekt, 3. Pers. f."
+  "احتضنها": [
+   "beherbergte sie",
+   "احتضن + ـها (sie)"
   ],
-  "مساء": [
-   "am Abend"
+  "مركز": [
+   "Zentrum"
   ],
-  "الأربعاء": [
-   "Mittwoch"
+  "إكسبو": [
+   "Expo"
+  ],
+  "مدى": [
+   "Spanne, Dauer",
+   "على مدى = während, im Lauf von"
+  ],
+  "اثني": [
+   "zwei (Genitiv/Akk.)",
+   "اثني عشر = zwölf"
+  ],
+  "عشر": [
+   "zehn (in 11–19)"
+  ],
+  "يوما": [
+   "Tag (Akk., nach Zahl)"
+  ],
+  "منذ": [
+   "seit"
+  ],
+  "انطلاقها": [
+   "ihr Start",
+   "انطلاق + ـها"
   ],
   "في": [
    "in"
   ],
-  "دار": [
-   "Haus",
-   "دار الأوبرا: Opernhaus"
-  ],
-  "الأوبرا": [
-   "die Oper"
-  ],
-  "المصرية": [
-   "die ägyptische"
-  ],
-  "فعاليات": [
-   "Veranstaltungen / Aktivitäten"
-  ],
-  "الدورة": [
-   "die Ausgabe / Runde"
+  "الرابع": [
+   "der vierte"
   ],
   "من": [
-   "von / aus"
+   "von, aus"
   ],
-  "الدولي": [
-   "der internationale"
+  "نوفمبر": [
+   "November"
   ],
-  "وسط": [
-   "inmitten"
+  "الجاري": [
+   "laufend, aktuell",
+   "الشهر الجاري = dieses Monats"
   ],
-  "حضور": [
-   "Anwesenheit / Publikum"
+  "تحت": [
+   "unter"
   ],
-  "لافت": [
-   "auffallend, bemerkenswert"
+  "شعار": [
+   "Motto, Slogan"
   ],
-  "لنجوم": [
-   "der Stars",
-   "لـ: von/für; نجوم Pl. von نجم"
+  "صنع": [
+   "Herstellung, Machen",
+   "من صنع = gemacht aus/von"
   ],
-  "الفن": [
-   "die Kunst"
+  "الحكايات": [
+   "die Geschichten, Erzählungen"
   ],
-  "وصناع": [
-   "und die Macher",
-   "و: und; صناع السينما: Filmschaffende"
-  ],
-  "السينما": [
-   "das Kino / der Film"
-  ],
-  "مصر": [
-   "Ägypten"
-  ],
-  "والعالم": [
-   "und die Welt",
-   "و: und; العالم العربي: arabische Welt"
-  ],
-  "العربي": [
-   "der arabische"
-  ],
-  "وخارجه": [
-   "und ausserhalb davon",
-   "و: und; Suffix ـه"
-  ],
-  "وتكتسب": [
-   "und sie erhält / gewinnt",
-   "و: und; تكتسب طابعا: einen Charakter annehmen"
+  "وشهدت": [
+   "und sie erlebte, verzeichnete",
+   "و + شهدت"
   ],
   "هذه": [
-   "diese"
+   "diese (fem.)"
   ],
-  "طابعا": [
-   "Charakter / Prägung",
-   "Akkusativ"
+  "الدورة": [
+   "die Ausgabe, Runde"
   ],
-  "استثنائيا": [
-   "aussergewöhnlich",
-   "Akkusativ"
+  "مشاركة": [
+   "Teilnahme"
   ],
-  "إذ": [
-   "da / denn"
+  "أكثر": [
+   "mehr",
+   "أكثر من = mehr als"
   ],
-  "تتزامن": [
-   "sie fällt zeitlich zusammen",
-   "تتزامن مع: gleichzeitig mit"
-  ],
-  "مع": [
-   "mit"
-  ],
-  "مرور": [
-   "Verstreichen",
-   "مرور ... على: seit (Jahre vergangen)"
-  ],
-  "نصف": [
-   "Hälfte"
-  ],
-  "قرن": [
-   "Jahrhundert",
-   "نصف قرن: ein halbes Jahrhundert"
-  ],
-  "تأسيس": [
-   "Gründung"
-  ],
-  "المهرجان": [
-   "das Festival"
-  ],
-  "الذي": [
-   "der / welcher (Relativpronomen m.)"
-  ],
-  "أبصر": [
-   "er erblickte",
-   "أبصر النور: das Licht der Welt erblicken (gegründet werden)"
-  ],
-  "النور": [
-   "das Licht"
-  ],
-  "عام": [
-   "Jahr / im Jahr"
-  ],
-  "بمبادرة": [
-   "auf Initiative",
-   "بـ: durch/auf"
-  ],
-  "الجمعية": [
-   "die Vereinigung / Gesellschaft"
-  ],
-  "للكتاب": [
-   "der Schriftsteller",
-   "لـ + الـ; كتاب Pl. von كاتب"
-  ],
-  "والنقاد": [
-   "und die Kritiker",
-   "و: und; Pl. von ناقد"
-  ],
-  "السينمائيين": [
-   "Film- (Pl.)",
-   "Plural, Genitiv"
-  ],
-  "وأوضح": [
-   "und er erklärte",
-   "و: und"
-  ],
-  "رئيس": [
-   "Präsident / Leiter"
-  ],
-  "الفنان": [
-   "der Künstler"
-  ],
-  "حسين": [
-   "Hussein (Name)"
-  ],
-  "فهمي": [
-   "Fahmy (Name)",
-   "حسين فهمي: Schauspieler, Festivalpräsident"
-  ],
-  "أن": [
-   "dass"
-  ],
-  "الرقم": [
-   "die Nummer / Zahl"
-  ],
-  "الحالي": [
-   "der aktuelle"
-  ],
-  "للدورة": [
-   "der Ausgabe",
-   "لـ + الـ"
-  ],
-  "لا": [
-   "nicht"
-  ],
-  "يطابق": [
-   "er entspricht"
-  ],
-  "عدد": [
-   "Anzahl"
-  ],
-  "السنوات": [
-   "die Jahre"
-  ],
-  "لأن": [
-   "weil",
-   "لـ + أن"
-  ],
-  "ثلاث": [
+  "ثلاثة": [
    "drei"
   ],
-  "دورات": [
-   "Ausgaben"
+  "آلاف": [
+   "Tausende"
   ],
-  "لم": [
-   "nicht (Verneinung der Vergangenheit)",
-   "لم + Apokopat"
+  "ومئتي": [
+   "und zweihundert",
+   "و + مئتي (Dual von مئة, Genitiv)"
   ],
-  "تعقد": [
-   "sie wurde abgehalten",
-   "Passiv; لم تعقد: fand nicht statt"
+  "ناشر": [
+   "Verleger, Verlag"
   ],
-  "الماضي": [
-   "die Vergangenheit"
+  "وعارض": [
+   "und Aussteller",
+   "و + عارض"
   ],
-  "بسبب": [
-   "wegen",
-   "بـ + سبب"
-  ],
-  "ظروف": [
-   "Umstände"
-  ],
-  "استثنائية": [
-   "aussergewöhnliche"
-  ],
-  "وحضر": [
-   "und es wohnte bei",
-   "و: und"
-  ],
-  "حفل": [
-   "Feier",
-   "حفل الافتتاح: Eröffnungsfeier"
-  ],
-  "الافتتاح": [
-   "die Eröffnung"
-  ],
-  "الدكتور": [
-   "Doktor"
-  ],
-  "عبد": [
-   "Abd (Namensteil)"
-  ],
-  "العزيز": [
-   "al-Aziz (Namensteil)"
-  ],
-  "قنصوة": [
-   "Konsowa (Name)"
-  ],
-  "وزير": [
-   "Minister"
-  ],
-  "التعليم": [
-   "die Bildung"
-  ],
-  "العالي": [
-   "die höhere",
-   "التعليم العالي: Hochschulbildung"
-  ],
-  "والقائم": [
-   "und der Wahrnehmende",
-   "و: und; القائم بأعمال: kommissarisch / geschäftsführend"
-  ],
-  "بأعمال": [
-   "die Geschäfte",
-   "بـ + أعمال"
-  ],
-  "الثقافة": [
-   "die Kultur"
-  ],
-  "وصف": [
-   "er beschrieb",
-   "وصف ... بأنها: beschrieb als"
-  ],
-  "بأنها": [
-   "dass sie (sei)",
-   "بـ + أن + ها"
-  ],
-  "مؤكدا": [
-   "betonend",
-   "Partizip im Akkusativ (Hal)"
-  ],
-  "العريق": [
-   "traditionsreich / alt-ehrwürdig"
-  ],
-  "تحول": [
-   "er wurde zu / verwandelte sich",
-   "تحول إلى: wurde zu"
-  ],
-  "إلى": [
-   "zu / nach"
-  ],
-  "جسر": [
-   "Brücke"
-  ],
-  "للتواصل": [
-   "für den Austausch",
-   "لـ + الـ"
-  ],
-  "الثقافي": [
-   "der kulturelle"
-  ],
-  "بين": [
-   "zwischen"
-  ],
-  "وبقية": [
-   "und dem Rest",
-   "و: und; بقية العالم: der Rest der Welt"
-  ],
-  "العالم": [
-   "die Welt"
-  ],
-  "وشدد": [
-   "und er betonte",
-   "و: und; شدد على: betonen"
-  ],
-  "الوزير": [
-   "der Minister"
-  ],
-  "كلمته": [
-   "seine Rede",
-   "Suffix ـه: sein"
-  ],
-  "تقتصر": [
-   "sie beschränkt sich",
-   "تقتصر على: beschränkt sich auf"
-  ],
-  "كونها": [
-   "ihr Sein / dass sie ist",
-   "كون + ها"
-  ],
-  "صناعة": [
-   "Industrie"
-  ],
-  "للترفيه": [
-   "der Unterhaltung",
-   "لـ + الـ"
-  ],
-  "بل": [
-   "sondern"
-  ],
-  "تمثل": [
-   "sie stellt dar"
-  ],
-  "قوة": [
-   "Kraft / Macht"
-  ],
-  "ناعمة": [
-   "weiche",
-   "قوة ناعمة: Soft Power"
-  ],
-  "تسهم": [
-   "sie trägt bei",
-   "تسهم في: beitragen zu"
-  ],
-  "تشكيل": [
-   "Formung / Gestaltung"
-  ],
-  "الوعي": [
-   "das Bewusstsein"
-  ],
-  "وتعزيز": [
-   "und Stärkung",
-   "و: und"
-  ],
-  "الحوار": [
-   "der Dialog"
-  ],
-  "الشعوب": [
-   "die Völker"
-  ],
-  "ويشارك": [
-   "und es nimmt teil",
-   "و: und"
-  ],
-  "الحالية": [
-   "die aktuelle"
+  "قدموا": [
+   "sie kamen"
   ],
   "مئة": [
    "hundert"
   ],
-  "وخمسة": [
-   "und fünf",
-   "و: und"
-  ],
-  "وأربعون": [
-   "und vierzig",
-   "و: und; 145: مئة وخمسة وأربعون"
-  ],
-  "فيلما": [
-   "Film(e)",
-   "Akkusativ nach Zahl"
-  ],
-  "أربع": [
-   "vier"
-  ],
-  "وستين": [
-   "und sechzig",
-   "و: und; أربع وستين: 64"
+  "وعشرين": [
+   "und zwanzig",
+   "و + عشرين"
   ],
   "دولة": [
-   "Staat / Land"
+   "Staat, Land"
   ],
-  "وتستمر": [
-   "und sie dauern an",
-   "و: und"
+  "وعرضوا": [
+   "und sie stellten aus",
+   "و + عرضوا"
   ],
-  "العروض": [
-   "die Vorführungen"
+  "ما": [
+   "was; etwa",
+   "ما يقارب = annähernd; ما يزيد على = über"
   ],
-  "حتى": [
-   "bis"
+  "يقارب": [
+   "er nähert sich, beträgt annähernd"
   ],
-  "العشرين": [
-   "der zwanzigste"
+  "مليونا": [
+   "eine Million (Akk.)"
   ],
-  "الشهر": [
-   "der Monat"
+  "وسبعمئة": [
+   "und siebenhundert",
+   "و + سبعمئة"
   ],
-  "الجاري": [
-   "laufend",
-   "الشهر الجاري: dieser Monat"
+  "ألف": [
+   "tausend"
   ],
-  "واختارت": [
-   "und sie wählte",
-   "و: und"
+  "عنوان": [
+   "Titel"
   ],
-  "إدارة": [
-   "Leitung / Verwaltung"
+  "بلغات": [
+   "in Sprachen",
+   "بـ + لغات"
   ],
-  "الفيلم": [
-   "der Film"
+  "وثقافات": [
+   "und Kulturen",
+   "و + ثقافات"
   ],
-  "الأمريكي": [
-   "der amerikanische"
+  "متعددة": [
+   "vielfältig, zahlreich"
   ],
-  "أنا": [
-   "ich"
+  "مما": [
+   "was (ihrerseits)",
+   "من + ما"
   ],
-  "أؤدي": [
-   "ich spiele / verkörpere",
-   "أنا أؤدي روكي: I Play Rocky (Filmtitel)"
+  "يؤكد": [
+   "er bestätigt, unterstreicht"
   ],
-  "روكي": [
-   "Rocky"
+  "مكانة": [
+   "Stellung, Rang"
   ],
-  "للمخرج": [
-   "des Regisseurs",
-   "لـ + الـ"
+  "المعرض": [
+   "die Messe"
   ],
-  "بيتر": [
-   "Peter"
+  "بوصفه": [
+   "als (in seiner Eigenschaft als)",
+   "بـ + وصف + ـه"
   ],
-  "فاريلي": [
-   "Farrelly"
+  "واحدا": [
+   "einer (Akk.)"
   ],
-  "الحائز": [
-   "Träger / Gewinner",
-   "الحائز على: ausgezeichnet mit"
+  "أكبر": [
+   "grösste(r), grösser"
   ],
-  "جائزتي": [
-   "zwei Preise",
-   "Dual im Genitiv (ohne ن vor Genitivverbindung)"
+  "معارض": [
+   "Messen (Plural von معرض)"
   ],
-  "أوسكار": [
-   "Oscar"
+  "الكتب": [
+   "die Bücher"
   ],
-  "ليكون": [
-   "damit er sei",
-   "لـ + يكون: um zu sein"
+  "العالم": [
+   "die Welt"
   ],
-  "فيلم": [
-   "Film"
+  "وحلت": [
+   "und sie war zu Gast",
+   "و + حلت; حل ضيف شرف = Ehrengast sein"
   ],
-  "وشهدت": [
-   "und sie erlebte",
-   "و: und"
+  "سلطنة": [
+   "Sultanat"
   ],
-  "السجادة": [
-   "der Teppich"
+  "عمان": [
+   "Oman"
   ],
-  "الحمراء": [
-   "der rote",
-   "السجادة الحمراء: roter Teppich"
+  "ضيف": [
+   "Gast"
   ],
-  "توافد": [
-   "Eintreffen (in Scharen)"
+  "شرف": [
+   "Ehre",
+   "ضيف شرف = Ehrengast"
   ],
-  "كبير": [
-   "gross"
+  "الحالية": [
+   "die aktuelle"
   ],
-  "الفنانين": [
-   "die Künstler"
+  "إذ": [
+   "denn, indem"
   ],
-  "بينهم": [
-   "unter ihnen",
-   "بين + هم; من بينهم: darunter"
+  "سلطت": [
+   "sie richtete",
+   "سلط الضوء على = das Licht richten auf, hervorheben"
   ],
-  "يسرا": [
-   "Yousra (Schauspielerin)"
+  "مشاركتها": [
+   "ihre Teilnahme",
+   "مشاركة + ـها"
   ],
-  "وإلهام": [
-   "und Elham",
-   "و: und"
+  "الضوء": [
+   "das Licht"
   ],
-  "شاهين": [
-   "Shaheen (Name)"
+  "تراثها": [
+   "ihr Erbe",
+   "تراث + ـها"
   ],
-  "وخالد": [
-   "und Khaled",
-   "و: und"
+  "الأدبي": [
+   "literarisch"
   ],
-  "النبوي": [
-   "El Nabawy (Name)"
+  "والثقافي": [
+   "und kulturell",
+   "و + الثقافي"
   ],
-  "وآسر": [
-   "und Asser",
-   "و: und"
+  "وعلى": [
+   "und auf",
+   "و + على; على هامش = am Rande von"
   ],
-  "ياسين": [
-   "Yassin (Name)"
+  "إسهامات": [
+   "Beiträge"
   ],
-  "وظافر": [
-   "und Dhafer",
-   "و: und"
+  "كتابها": [
+   "ihre Schriftsteller",
+   "كتّاب + ـها"
   ],
-  "العابدين": [
-   "L'Abidine (Name)"
-  ],
-  "ويعد": [
-   "und es gilt als",
-   "و: und; Passiv يُعَدّ"
-  ],
-  "أعرق": [
-   "traditionsreichste"
-  ],
-  "المهرجانات": [
-   "die Festivals"
-  ],
-  "السينمائية": [
-   "Film- (f./Pl.)"
-  ],
-  "المنطقة": [
-   "die Region"
+  "ومبدعيها": [
+   "und ihre Kreativen",
+   "و + مبدعي + ـها"
   ],
   "كما": [
-   "ebenso / ausserdem"
+   "ebenso, ausserdem"
   ],
-  "ينفرد": [
-   "es ist einzigartig",
-   "ينفرد بـ: sich auszeichnen als einziges"
+  "شهد": [
+   "er erlebte, verzeichnete"
   ],
-  "بكونه": [
-   "dadurch, dass es ist",
-   "بـ + كون + ـه"
+  "تكريم": [
+   "Ehrung"
   ],
-  "الوحيد": [
-   "der einzige"
+  "سعيد": [
+   "Said (Name)"
   ],
-  "وأفريقيا": [
-   "und Afrika",
-   "و: und"
+  "يقطين": [
+   "Yaktine (Name)"
   ],
-  "المصنف": [
-   "eingestuft"
+  "هامش": [
+   "Rand",
+   "على هامش = am Rande"
+  ],
+  "انعقد": [
+   "fand statt, tagte"
+  ],
+  "مؤتمر": [
+   "Konferenz"
+  ],
+  "للمكتبات": [
+   "für Bibliotheken",
+   "لـ + المكتبات"
+  ],
+  "بين": [
+   "zwischen"
+  ],
+  "السابع": [
+   "der siebte"
+  ],
+  "والتاسع": [
+   "und der neunte",
+   "و + التاسع"
+  ],
+  "بتنظيم": [
+   "unter Organisation",
+   "بـ + تنظيم"
+  ],
+  "هيئة": [
+   "Behörde"
+  ],
+  "وبالتعاون": [
+   "und in Zusammenarbeit",
+   "و + بـ + التعاون"
+  ],
+  "مع": [
+   "mit"
+  ],
+  "جمعية": [
+   "Verband, Vereinigung"
+  ],
+  "المكتبات": [
+   "die Bibliotheken"
+  ],
+  "الأمريكية": [
+   "amerikanisch"
+  ],
+  "وشارك": [
+   "und es nahm teil",
+   "و + شارك"
+  ],
+  "فيه": [
+   "daran, darin",
+   "في + ـه"
+  ],
+  "يزيد": [
+   "übersteigt",
+   "ما يزيد على = mehr als"
+  ],
+  "أربعمئة": [
+   "vierhundert"
+  ],
+  "أمناء": [
+   "Hüter",
+   "أمناء المكتبات = Bibliothekare"
+  ],
+  "والمتخصصين": [
+   "und Fachleute",
+   "و + المتخصصين"
+  ],
+  "العاملين": [
+   "die Tätigen, Beschäftigten"
+  ],
+  "الأكاديمية": [
+   "akademisch"
+  ],
+  "والعامة": [
+   "und öffentlich",
+   "و + العامة"
+  ],
+  "والمدرسية": [
+   "und schulisch",
+   "و + المدرسية"
+  ],
+  "ولم": [
+   "und nicht (+ Jussiv = Vergangenheit)",
+   "و + لم"
+  ],
+  "يقتصر": [
+   "sich beschränken",
+   "اقتصر على = sich beschränken auf"
+  ],
+  "البرنامج": [
+   "das Programm"
+  ],
+  "الندوات": [
+   "die Podiumsgespräche, Seminare"
+  ],
+  "وجلسات": [
+   "und Sitzungen",
+   "و + جلسات"
+  ],
+  "توقيع": [
+   "Signierung, Unterzeichnung"
+  ],
+  "بل": [
+   "sondern"
+  ],
+  "تضمن": [
+   "er umfasste, beinhaltete"
+  ],
+  "أيضا": [
+   "auch"
+  ],
+  "عروضا": [
+   "Aufführungen (Akk.)"
+  ],
+  "مسرحية": [
+   "Theater-, theatralisch"
+  ],
+  "تتطلب": [
+   "sie erfordern"
+  ],
+  "حجزا": [
+   "Reservierung (Akk.)"
+  ],
+  "مسبقا": [
+   "im Voraus"
+  ],
+  "أبرزها": [
+   "die herausragendste davon",
+   "أبرز + ـها"
+  ],
+  "عرض": [
+   "Aufführung, Vorstellung"
+  ],
+  "غنائي": [
+   "musikalisch, Gesangs-"
+  ],
+  "يقدم": [
+   "wird präsentiert"
+  ],
+  "للمرة": [
+   "zum Mal",
+   "لـ + المرة; للمرة الأولى = zum ersten Mal"
+  ],
+  "الأولى": [
+   "die erste"
   ],
   "ضمن": [
-   "innerhalb / in"
+   "im Rahmen von, innerhalb"
   ],
-  "الفئة": [
-   "die Kategorie"
+  "ويستعيد": [
+   "und er ruft zurück, lässt aufleben",
+   "و + يستعيد"
   ],
-  "أ": [
-   "A (Buchstabe)",
-   "الفئة أ: Kategorie A"
+  "أغاني": [
+   "Lieder"
   ],
-  "لدى": [
-   "bei"
+  "الطفولة": [
+   "die Kindheit"
   ],
-  "الاتحاد": [
-   "der Verband / die Union"
+  "ارتبطت": [
+   "sie waren verbunden"
   ],
-  "للمنتجين": [
-   "der Produzenten",
-   "لـ + الـ"
+  "بذاكرة": [
+   "mit dem Gedächtnis",
+   "بـ + ذاكرة"
   ],
-  "باريس": [
-   "Paris"
+  "أجيال": [
+   "Generationen"
+  ],
+  "متعاقبة": [
+   "aufeinanderfolgend"
+  ],
+  "الجمهور": [
+   "das Publikum"
+  ],
+  "وفي": [
+   "und in",
+   "و + في"
+  ],
+  "الختامي": [
+   "Schluss-, abschliessend"
+  ],
+  "يواصل": [
+   "setzt fort"
+  ],
+  "الزوار": [
+   "die Besucher"
+  ],
+  "التنقل": [
+   "das Umherwandern, Wechseln"
+  ],
+  "الأجنحة": [
+   "die Pavillons, Stände"
+  ],
+  "بحثا": [
+   "auf der Suche",
+   "بحثا عن = auf der Suche nach"
+  ],
+  "عن": [
+   "über, nach"
+  ],
+  "عناوين": [
+   "Titel (Plural)"
+  ],
+  "جديدة": [
+   "neu"
+  ],
+  "تنضم": [
+   "sie kommen hinzu"
+  ],
+  "إلى": [
+   "zu"
+  ],
+  "مكتباتهم": [
+   "ihre Bibliotheken",
+   "مكتبات + ـهم"
+  ],
+  "المنزلية": [
+   "häuslich, Haus-"
+  ],
+  "حين": [
+   "Zeit; als",
+   "في حين = während (Gegensatz)"
+  ],
+  "تمنح": [
+   "sie gewährt"
+  ],
+  "مكتبات": [
+   "Bibliotheken"
+  ],
+  "العامة": [
+   "öffentlich"
+  ],
+  "زوار": [
+   "Besucher"
+  ],
+  "جناحها": [
+   "ihr Stand",
+   "جناح + ـها"
+  ],
+  "خصما": [
+   "Rabatt (Akk.)"
+  ],
+  "بنسبة": [
+   "in Höhe von (Prozentsatz)",
+   "بـ + نسبة"
+  ],
+  "خمسين": [
+   "fünfzig"
+  ],
+  "المئة": [
+   "das Hundert",
+   "في المئة = Prozent"
+  ],
+  "رسوم": [
+   "Gebühren"
+  ],
+  "الاشتراك": [
+   "das Abonnement, die Mitgliedschaft"
+  ],
+  "تشجيعا": [
+   "zur Ermutigung"
+  ],
+  "لهم": [
+   "für sie",
+   "لـ + ـهم"
+  ],
+  "مواصلة": [
+   "Fortsetzung"
+  ],
+  "القراءة": [
+   "das Lesen"
+  ],
+  "طوال": [
+   "während, das ganze …",
+   "طوال العام = das ganze Jahr"
+  ],
+  "العام": [
+   "das Jahr"
+  ],
+  "ويرى": [
+   "und er sieht, meint",
+   "و + يرى"
+  ],
+  "بعض": [
+   "einige"
+  ],
+  "المتابعين": [
+   "die Beobachter"
+  ],
+  "أن": [
+   "dass"
+  ],
+  "تجسد": [
+   "sie verkörpert"
+  ],
+  "حصاد": [
+   "Ernte, Ertrag"
+  ],
+  "مشروع": [
+   "Projekt"
+  ],
+  "ثقافي": [
+   "kulturell"
+  ],
+  "بعيد": [
+   "weit",
+   "بعيد المدى = langfristig"
+  ],
+  "المدى": [
+   "die Reichweite"
+  ],
+  "أطلقه": [
+   "er startete es",
+   "أطلق + ـه"
+  ],
+  "حاكم": [
+   "Herrscher"
+  ],
+  "الشيخ": [
+   "Scheich"
+  ],
+  "الدكتور": [
+   "Doktor"
+  ],
+  "سلطان": [
+   "Sultan (Name)"
+  ],
+  "بن": [
+   "Sohn des"
+  ],
+  "محمد": [
+   "Mohammed"
+  ],
+  "القاسمي": [
+   "Al Qasimi (Familienname)"
+  ],
+  "قبل": [
+   "vor"
+  ],
+  "عقود": [
+   "Jahrzehnte"
+  ],
+  "واضعا": [
+   "setzend, stellend"
+  ],
+  "الثقافة": [
+   "die Kultur"
+  ],
+  "صميم": [
+   "Kern",
+   "في صميم = im Zentrum von"
+  ],
+  "نهضة": [
+   "Aufschwung"
+  ],
+  "الإمارة": [
+   "das Emirat"
+  ],
+  "وتطورها": [
+   "und seine Entwicklung",
+   "و + تطور + ـها"
+  ],
+  "فيما": [
+   "während, wohingegen"
+  ],
+  "تطرقت": [
+   "sie gingen ein auf",
+   "تطرق إلى = sich befassen mit"
+  ],
+  "حوارات": [
+   "Gespräche, Dialoge"
+  ],
+  "قضايا": [
+   "Themen, Fragen"
+  ],
+  "الهوية": [
+   "die Identität"
+  ],
+  "والذكاء": [
+   "und die Intelligenz",
+   "و + الذكاء; الذكاء الاصطناعي = künstliche Intelligenz"
+  ],
+  "الاصطناعي": [
+   "künstlich"
   ]
  },
  "sources": [
   {
-   "url": "http://arabic.news.cn/20261112/7f4c8d1c1ccb4c389aa2d1c86694a773/c.html",
-   "title": "Xinhua (arabisch): Start der 47. Ausgabe des Filmfestivals Kairo (11.11.2026)"
+   "url": "https://www.emaratalyoum.com/life/culture/2026-11-14-1.2102806",
+   "title": "Emarat Al Youm: Letzter Tag der 45. Buchmesse Sharjah"
   },
   {
-   "url": "https://al-ain.com/article/cairo-international-film-festival-2026-1",
-   "title": "Al-Ain: Filmfestival Kairo eröffnet 47. Ausgabe mit Filmstars (11.11.2026)"
+   "url": "https://al-ain.com/article/sharjah-international-book-fair-2026-2",
+   "title": "Al Ain: Eröffnung mit 3212 Verlagen aus 126 Ländern, Bibliothekskonferenz"
   },
   {
-   "url": "https://al-ain.com/article/opening-cairo-international-film-festival",
-   "title": "Al-Ain: Bilder und Reden von der Eröffnungsfeier (11.11.2026)"
+   "url": "https://www.egypttelegraph.com/article/295412/%D9%85%D8%AA%D9%89-%D9%8A%D9%86%D8%AA%D9%87%D9%8A-%D9%85%D8%B9%D8%B1%D8%B6-%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8-2026-%D9%81%D9%8A-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA",
+   "title": "Telegraph Egypt: Daten und Motto der Messe"
+  },
+  {
+   "url": "https://www.foochia.com/culture/2detjkk",
+   "title": "Foochia: Oman als Ehrengast"
+  },
+  {
+   "url": "https://news50.sa/culture/sharjah-international-book-fair-cultural-impact/",
+   "title": "News50: Bilanz zum Abschluss der Messe"
   }
+ ],
+ "title_tr": "Die Internationale Buchmesse Sharjah schliesst ihre 45. Ausgabe",
+ "translations": [
+  "Die Internationale Buchmesse Sharjah beendet heute, Sonntag, ihre 45. Ausgabe, die seit ihrem Start am 4. November zwölf Tage lang im Expo Centre Sharjah stattfand, unter dem Motto «Wer die Geschichten macht».",
+  "An dieser Ausgabe nahmen mehr als dreitausendzweihundert Verlage und Aussteller aus über hundertzwanzig Ländern teil; sie zeigten fast eine Million siebenhunderttausend Titel in vielen Sprachen und Kulturen, was den Rang der Messe als eine der grössten Buchmessen der Welt bestätigt.",
+  "Das Sultanat Oman war Ehrengast der diesjährigen Ausgabe; seine Teilnahme rückte sein literarisches und kulturelles Erbe sowie die Beiträge seiner Schriftsteller und Kreativen ins Licht. Ausserdem wurde an der Messe Said Yaktine geehrt.",
+  "Am Rande der Messe fand vom 7. bis 9. November die Internationale Bibliothekskonferenz Sharjah statt, organisiert von der Buchbehörde Sharjah in Zusammenarbeit mit der American Library Association; daran nahmen mehr als vierhundert Bibliothekarinnen, Bibliothekare und Fachleute aus wissenschaftlichen, öffentlichen und Schulbibliotheken teil.",
+  "Das Programm beschränkte sich nicht auf Podiumsgespräche und Signierstunden, sondern umfasste auch Theatervorstellungen mit Voranmeldung, allen voran eine musikalische Aufführung, die zum ersten Mal an der Messe gezeigt wird und Kinderlieder aufleben lässt, die mit der Erinnerung mehrerer Generationen des Publikums verbunden sind.",
+  "Am letzten Tag ziehen die Besucher weiter von Stand zu Stand auf der Suche nach neuen Titeln für ihre Bibliotheken zu Hause, während die Öffentlichen Bibliotheken Sharjah den Besuchern ihres Standes fünfzig Prozent Rabatt auf die Abo-Gebühr gewähren, um sie zu ermutigen, das ganze Jahr über weiterzulesen.",
+  "Einige Beobachter sind der Ansicht, dass die aktuelle Ausgabe die Ernte eines langfristigen Kulturprojekts darstellt, das der Herrscher von Sharjah, Scheich Dr. Sultan bin Mohammed Al Qasimi, vor Jahrzehnten angestossen hat und das die Kultur ins Zentrum des Aufschwungs und der Entwicklung des Emirats stellt; die Gespräche an der Messe befassten sich zudem mit Fragen der Identität und der künstlichen Intelligenz."
  ]
 }

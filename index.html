@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Arabischer Text des Tages</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600&family=Inter:wght@400;600&display=swap">
+<style>
+/* ===== DESIGN: hier kannst du Farben und Schriften anpassen ===== */
+:root{
+  --bg:#f6f7f4; --surface:#ffffff; --fg:#1d2420; --muted:#5d6a62; --accent:#1f6f54; --hl:#e3f0e9; --line:#dde3de; --word:#cfe6da;
+  --good:#1f6f54; --again:#a4492f; --card:#fbfcfa;
+  --ar:"Noto Naskh Arabic","Geeza Pro","Arial",serif; --ui:"Inter",system-ui,sans-serif;
+  --ar-size:1.3rem;
+}
+@media (prefers-color-scheme: dark){:root{--bg:#141916;--surface:#1c231f;--fg:#e6ece8;--muted:#9aa8a0;--accent:#6fc7a2;--hl:#24372d;--line:#2c3631;--word:#2f4a3d;--good:#6fc7a2;--again:#e58f74;--card:#202824;color-scheme:dark}}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--ui)}
+.in{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.bar{position:sticky;top:0;background:var(--surface);border-bottom:1px solid var(--line);z-index:5}
+.tabs{display:flex;gap:4px;padding-top:10px}
+.tab{border:0;border-bottom:3px solid transparent;border-radius:0;background:none;padding:8px 12px;font:600 15px var(--ui);color:var(--muted);cursor:pointer}
+.tab[aria-selected="true"]{color:var(--fg);border-bottom-color:var(--accent)}
+.count{display:inline-block;min-width:22px;padding:0 6px;margin-left:4px;border-radius:999px;background:var(--hl);color:var(--accent);font-size:12px;line-height:20px;text-align:center}
+.controls{padding-block:10px 12px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+button{font:600 15px var(--ui);border:1px solid var(--line);background:var(--bg);color:var(--fg);padding:10px 16px;border-radius:999px;cursor:pointer}
+button.primary{background:var(--accent);color:var(--surface);border-color:var(--accent)}
+button.small{padding:6px 12px;font-size:13px}
+button:focus-visible,select:focus-visible,.w:focus-visible,a:focus-visible,.tab:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+label{font-size:13px;color:var(--muted);display:flex;gap:6px;align-items:center}
+select{font:14px var(--ui);padding:6px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--fg);max-width:220px}
+.status{font-size:13px;color:var(--muted);width:100%}
+main .in{padding-block:24px 64px}
+.meta{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:0 0 4px}
+.hint{font-size:13px;color:var(--muted);margin:0 0 18px}
+.toolrow{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
+
+/* Text */
+article{font-family:var(--ar);font-size:var(--ar-size);line-height:2.2}
+.block{border-radius:8px;padding:4px 10px;margin:0 0 12px;transition:background .2s}
+.block .ar{direction:rtl;text-align:right;margin:0}
+.block h1.ar{font-weight:600;font-size:1.8rem;line-height:1.7;text-wrap:balance}
+.block .de{direction:ltr;text-align:left;font:15px/1.6 var(--ui);color:var(--muted);margin:4px 0 6px;padding-left:10px;border-left:3px solid var(--line)}
+.hide-de .block .de{display:none}
+.now{background:var(--hl)}
+.w{cursor:pointer;border-radius:4px;padding:0 1px}
+.w:hover{background:var(--word)}
+.w.saved{text-decoration:underline dotted var(--accent);text-underline-offset:6px}
+.w.sel{background:var(--word);box-shadow:0 0 0 2px var(--accent)}
+
+/* Übersetzungsfenster */
+#tip{position:fixed;z-index:20;background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:12px;box-shadow:0 8px 24px rgb(0 0 0 / .18);padding:12px 14px;width:min(340px,calc(100vw - 32px));display:flex;flex-direction:column;gap:4px}
+#tip[hidden]{display:none}
+#tip .tar{font-family:var(--ar);font-size:1.5rem;direction:rtl;line-height:1.5}
+#tip .tde{font-weight:600;font-size:1.05rem}
+#tip .note{font-size:13px;color:var(--muted)}
+#tip .sent{font-size:14px;line-height:1.5;border-top:1px solid var(--line);margin-top:6px;padding-top:8px}
+#tip .sent b{display:block;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:2px}
+#tip .saved-msg{font-size:13px;color:var(--good);margin-top:6px}
+#tip .row{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+
+section.extra{margin-top:32px;border-top:1px solid var(--line);padding-top:16px}
+section.extra h2{font-size:15px;margin:0 0 8px}
+section.extra ul{margin:0;padding-left:18px}
+section.extra li{margin:4px 0}
+a{color:var(--accent)}
+.today{font-weight:600}
+
+/* Lernkarten */
+.stats{display:flex;flex-wrap:wrap;gap:16px;font-size:14px;color:var(--muted);margin:0 0 16px}
+.stats strong{color:var(--fg);font-variant-numeric:tabular-nums}
+.flash{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px 20px;min-height:240px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center}
+.flash .big{font-family:var(--ar);font-size:2.6rem;line-height:1.5;direction:rtl}
+.flash .ans{font-size:1.3rem;font-weight:600}
+.flash .note{font-size:14px;color:var(--muted)}
+.flash .ctx{width:100%;border-top:1px solid var(--line);padding-top:12px;margin-top:6px;text-align:left}
+.flash .ctx .ar{font-family:var(--ar);font-size:1.15rem;line-height:2;direction:rtl;text-align:right}
+.flash .ctx .ar mark{background:var(--word);color:inherit;border-radius:4px;padding:0 2px}
+.flash .ctx .de{font-size:14px;color:var(--muted);line-height:1.5}
+.flash .box{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.answer-row{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap}
+button.again{border-color:var(--again);color:var(--again)}
+button.good{background:var(--good);border-color:var(--good);color:var(--surface)}
+.empty{color:var(--muted);text-align:center;padding:24px 0}
+.list{list-style:none;margin:0;padding:0}
+.list li{display:flex;align-items:center;gap:12px;border-bottom:1px solid var(--line);padding:8px 0}
+.list .lar{font-family:var(--ar);font-size:1.25rem;direction:rtl;min-width:90px;text-align:right}
+.list .lde{flex:1;min-width:0;font-size:14px}
+.list .lbox{font-size:12px;color:var(--muted);white-space:nowrap}
+.list button{padding:4px 10px;font-size:12px}
+.backup{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:16px;font-size:13px;color:var(--muted)}
+#toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--fg);color:var(--bg);padding:8px 14px;border-radius:999px;font-size:14px;z-index:30}
+#toast[hidden]{display:none}
+[hidden]{display:none!important}
+@media (prefers-reduced-motion:reduce){.block{transition:none}}
+</style>
+</head>
+<body class="hide-de">
+
+<div class="bar"><div class="in">
+  <div class="tabs" role="tablist">
+    <button class="tab" id="tabText" role="tab" aria-selected="true">Text</button>
+    <button class="tab" id="tabCards" role="tab" aria-selected="false">Lernkarten<span class="count" id="cardCount">0</span></button>
+  </div>
+  <div class="controls" id="player">
+    <button id="play" class="primary">▶ Vorlesen</button>
+    <button id="pause">Pause</button>
+    <button id="stop">Stopp</button>
+    <label for="rate">Tempo
+      <select id="rate"><option value="0.7">langsam</option><option value="0.9" selected>normal</option><option value="1.1">schnell</option></select>
+    </label>
+    <label for="voice">Stimme <select id="voice"></select></label>
+    <div class="status" id="status">Text wird geladen …</div>
+  </div>
+</div></div>
+
+<main>
+<div class="in" id="viewText">
+  <p class="meta" id="meta"></p>
+  <p class="hint">Tippe auf ein Wort: Du siehst die Übersetzung von Wort und Satz, und das Wort kommt auf eine Lernkarte.</p>
+  <div class="toolrow">
+    <button class="small" id="toggleDe">Satzübersetzung einblenden</button>
+  </div>
+  <article id="text"></article>
+  <section class="extra" id="sources" hidden><h2>Quellen</h2><ul id="srcList"></ul></section>
+  <section class="extra" id="archive" hidden><h2>Archiv</h2><ul id="archList"></ul></section>
+</div>
+
+<div class="in" id="viewCards" hidden>
+  <div class="stats">
+    <span>Karten: <strong id="stTotal">0</strong></span>
+    <span>Heute fällig: <strong id="stDue">0</strong></span>
+    <span>Gelernt (Stufe 5): <strong id="stDone">0</strong></span>
+  </div>
+  <div class="flash" id="flash"></div>
+  <section class="extra">
+    <h2>Alle Wörter</h2>
+    <ul class="list" id="cardList"></ul>
+    <div class="backup">
+      <span>Die Karten werden in diesem Browser gespeichert.</span>
+      <button class="small" id="exportBtn">Karten sichern</button>
+      <button class="small" id="importBtn">Gesicherte Karten laden</button>
+      <input type="file" id="importFile" accept="application/json" hidden>
+    </div>
+  </section>
+</div>
+</main>
+
+<div id="tip" hidden role="dialog" aria-live="polite">
+  <div class="tar" id="tipAr"></div>
+  <div class="tde" id="tipDe"></div>
+  <div class="note" id="tipNote"></div>
+  <div class="sent" id="tipSent"><b>Ganzer Satz</b><span id="tipSentDe"></span></div>
+  <div class="saved-msg" id="tipSaved">✓ Auf Lernkarte gespeichert</div>
+  <div class="row">
+    <button class="small" id="tipSay">🔊 Wort</button>
+    <button class="small" id="tipSaySent">🔊 Satz</button>
+    <button class="small" id="tipRemove">Karte entfernen</button>
+  </div>
+</div>
+<div id="toast" hidden></div>
+
+<script>
+/* ===== EINSTELLUNG: Adresse, von der die Tagestexte geladen werden ===== */
+const DATA_BASE = "https://raw.githubusercontent.com/Lukas172349/arabisch-text/main/";
+
+const strip = s => s.replace(/[ً-ْـ]/g,'').replace(/[،.؛:!؟,«»"()]/g,'');
+const $ = id => document.getElementById(id);
+const status = $('status');
+let DATA = null, DICT = {}, blocks = [];
+
+/* ---------- Lernkarten-Speicher ---------- */
+const STORE = 'arabisch-lernkarten-v1';
+const INTERVAL_DAYS = [0, 0, 1, 3, 7, 14]; // Stufe 1–5
+let cards = {};
+try { cards = JSON.parse(localStorage.getItem(STORE) || '{}') || {}; } catch(e) { cards = {}; }
+function saveCards(){ try { localStorage.setItem(STORE, JSON.stringify(cards)); } catch(e) {} updateCount(); }
+function updateCount(){ $('cardCount').textContent = Object.keys(cards).length; }
+const today = () => { const d=new Date(); d.setHours(0,0,0,0); return d.getTime(); };
+
+function addCard(w){
+  const key = w.dataset.key;
+  const e = DICT[key];
+  const block = w.closest('.block');
+  const i = +block.dataset.i;
+  const arSent = sentenceOf(w);
+  const deSent = i < 0 ? (DATA.title_tr || '') : ((DATA.translations || [])[i] || '');
+  if(!cards[key]){
+    cards[key] = { key, ar: w.textContent, de: e ? e[0] : '', note: e && e[1] ? e[1] : '', ctxAr: arSent, ctxDe: deSent, date: DATA.date, box: 1, due: today(), added: Date.now() };
+    saveCards(); markSaved(); return true;
+  }
+  return false;
+}
+function sentenceOf(w){
+  const block = w.closest('.block').querySelector('.ar');
+  const full = block.textContent;
+  // Position des Wortes im Absatz ermitteln
+  let pos = 0;
+  for(const n of block.querySelectorAll('.w')){ if(n===w) break; pos = full.indexOf(n.textContent, pos) + n.textContent.length; }
+  pos = full.indexOf(w.textContent, pos);
+  const parts = full.split(/(?<=[.؟!])\s+/);
+  let acc = 0;
+  for(const s of parts){ if(pos < acc + s.length + 1) return s.trim(); acc += s.length + 1; }
+  return full.trim();
+}
+function markSaved(){ document.querySelectorAll('.w').forEach(s => s.classList.toggle('saved', !!cards[s.dataset.key])); }
+
+/* ---------- Tagestext laden ---------- */
+async function getJSON(name){
+  const r = await fetch(DATA_BASE + name + '?t=' + Date.now());
+  if(!r.ok) throw new Error(r.status);
+  return r.json();
+}
+function wordSpans(el, text){
+  text.split(/(\s+)/).forEach(t=>{
+    if(!t || /^\s+$/.test(t)){ el.appendChild(document.createTextNode(t)); return; }
+    const m = t.match(/^([«"(]*)(.*?)([،.؛:!؟,»")]*)$/);
+    if(m[1]) el.appendChild(document.createTextNode(m[1]));
+    const s=document.createElement('span'); s.className='w'; s.textContent=m[2]; s.tabIndex=0; s.dataset.key=strip(m[2]);
+    el.appendChild(s); if(m[3]) el.appendChild(document.createTextNode(m[3]));
+  });
+}
+function addBlock(i, tag, ar, de){
+  const b=document.createElement('div'); b.className='block'; b.dataset.i=i;
+  const a=document.createElement(tag); a.className='ar'; wordSpans(a, ar); b.appendChild(a);
+  if(de){ const d=document.createElement('p'); d.className='de'; d.textContent=de; b.appendChild(d); }
+  $('text').appendChild(b);
+}
+function render(d){
+  DATA = d; DICT = d.dict || {};
+  document.title = d.title_de ? d.title_de + ' · Arabischer Text' : 'Arabischer Text des Tages';
+  $('meta').textContent = new Date(d.date+'T12:00:00').toLocaleDateString('de-CH',{weekday:'long',day:'numeric',month:'long',year:'numeric'}) + ' · ' + d.topic;
+  $('text').innerHTML='';
+  addBlock(-1, 'h1', d.title, d.title_tr);
+  d.paragraphs.forEach((t,i)=> addBlock(i, 'p', t, (d.translations||[])[i]));
+  blocks = [...$('text').children];
+  $('toggleDe').hidden = !(d.translations && d.translations.length);
+  const sl=$('srcList'); sl.innerHTML='';
+  (d.sources||[]).forEach(s=>{ const li=document.createElement('li'); const a=document.createElement('a'); a.href=s.url; a.textContent=s.title||s.url; a.target='_blank'; a.rel='noopener'; li.appendChild(a); sl.appendChild(li); });
+  $('sources').hidden = !(d.sources && d.sources.length);
+  markSaved();
+  status.textContent = 'Tippe auf «Vorlesen». Die Stimme kommt von deinem Gerät.';
+}
+async function load(){
+  const wanted = new URLSearchParams(location.search).get('d');
+  let list = [];
+  try{ list = await getJSON('index.json'); }catch(e){}
+  const file = wanted ? wanted + '.json' : (list[0] ? list[0].date + '.json' : 'heute.json');
+  try{ render(await getJSON(file)); }
+  catch(e){ status.textContent = 'Der Text konnte nicht geladen werden. Bitte später nochmals versuchen.'; }
+  if(list.length){
+    const ul=$('archList'); ul.innerHTML='';
+    const current = wanted || list[0].date;
+    list.forEach(x=>{
+      const li=document.createElement('li'); const a=document.createElement('a');
+      a.href='?d='+x.date; a.textContent = x.date.split('-').reverse().join('.') + ' · ' + x.topic + (x.title_de ? ' – ' + x.title_de : '');
+      if(x.date===current) li.className='today';
+      li.appendChild(a); ul.appendChild(li);
+    });
+    $('archive').hidden=false;
+  }
+}
+
+/* ---------- Satzübersetzung ein/aus ---------- */
+let showDe = false;
+try { showDe = localStorage.getItem('arabisch-show-de') === '1'; } catch(e) {}
+function applyDe(){ document.body.classList.toggle('hide-de', !showDe); $('toggleDe').textContent = showDe ? 'Satzübersetzung ausblenden' : 'Satzübersetzung einblenden'; }
+$('toggleDe').onclick = () => { showDe = !showDe; try { localStorage.setItem('arabisch-show-de', showDe ? '1' : '0'); } catch(e) {} applyDe(); };
+applyDe();
+
+/* ---------- Übersetzungsfenster ---------- */
+const tip=$('tip');
+let selWord=null;
+function showTip(w, isNew){
+  if(selWord) selWord.classList.remove('sel');
+  selWord=w; w.classList.add('sel');
+  const e=DICT[w.dataset.key];
+  const i=+w.closest('.block').dataset.i;
+  const sent = i<0 ? DATA.title_tr : (DATA.translations||[])[i];
+  $('tipAr').textContent=w.textContent;
+  $('tipDe').textContent=e?e[0]:'(keine Übersetzung hinterlegt)';
+  $('tipNote').textContent=e&&e[1]?e[1]:''; $('tipNote').hidden=!(e&&e[1]);
+  $('tipSentDe').textContent=sent||''; $('tipSent').hidden=!sent;
+  $('tipSaved').textContent = isNew ? '✓ Neu auf Lernkarte gespeichert' : '✓ Schon auf deinen Lernkarten';
+  $('tipSaved').hidden = !cards[w.dataset.key]; $('tipRemove').hidden = !cards[w.dataset.key];
+  tip.hidden=false;
+  placeTip();
+}
+function placeTip(){
+  const w=selWord; if(!w) return;
+  const r=w.getBoundingClientRect(), tw=tip.offsetWidth, th=tip.offsetHeight;
+  const left=Math.min(Math.max(16, r.left + r.width/2 - tw/2), window.innerWidth - tw - 16);
+  let top=r.bottom+8; if(top+th>window.innerHeight-16) top=r.top-th-8;
+  tip.style.left=left+'px'; tip.style.top=Math.max(16,top)+'px';
+}
+function hideTip(){ tip.hidden=true; if(selWord){selWord.classList.remove('sel'); selWord=null;} }
+function pick(w){ const isNew = addCard(w); showTip(w, isNew); }
+$('text').addEventListener('click',e=>{ const w=e.target.closest('.w'); if(w){ e.stopPropagation(); pick(w);} });
+$('text').addEventListener('keydown',e=>{ const w=e.target.closest('.w'); if(w&&(e.key==='Enter'||e.key===' ')){ e.preventDefault(); pick(w);} });
+document.addEventListener('click',e=>{ if(!tip.contains(e.target)) hideTip(); });
+document.addEventListener('keydown',e=>{ if(e.key==='Escape') hideTip(); });
+window.addEventListener('scroll',()=>{ if(!tip.hidden) placeTip(); },{passive:true});
+$('tipRemove').onclick=e=>{ e.stopPropagation(); if(!selWord) return; delete cards[selWord.dataset.key]; saveCards(); markSaved(); toast('Karte entfernt'); hideTip(); };
+
+/* ---------- Vorlesen ---------- */
+const synth = window.speechSynthesis;
+const voiceSel=$('voice');
+let voices=[], idx=0, running=false;
+function loadVoices(){
+  if(!synth) return;
+  const all=synth.getVoices();
+  voices=all.filter(v=>v.lang && v.lang.toLowerCase().startsWith('ar'));
+  voiceSel.innerHTML='';
+  if(!voices.length){ voiceSel.innerHTML='<option>keine arabische Stimme</option>'; if(all.length) status.textContent='Auf diesem Gerät ist keine arabische Stimme installiert. Tipp: Seite in Microsoft Edge öffnen oder in Windows eine arabische Sprachausgabe hinzufügen.'; return; }
+  voices.forEach((v,i)=>{ const o=document.createElement('option'); o.value=i; o.textContent=v.name+' ('+v.lang+')'; voiceSel.appendChild(o); });
+}
+if(synth){ loadVoices(); synth.onvoiceschanged=loadVoices; }
+function utter(text){
+  const u=new SpeechSynthesisUtterance(text); u.lang='ar-SA';
+  const v=voices[voiceSel.value]; if(v){ u.voice=v; u.lang=v.lang; }
+  u.rate=parseFloat($('rate').value); return u;
+}
+function say(text){ if(!synth) return; running=false; synth.cancel(); synth.speak(utter(text)); }
+function mark(i){ blocks.forEach((p,j)=>p.classList.toggle('now', j===i)); if(blocks[i]) blocks[i].scrollIntoView({block:'center',behavior:'smooth'}); }
+function speakFrom(i){
+  if(i>=blocks.length){ running=false; mark(-1); status.textContent='Fertig vorgelesen.'; idx=0; return; }
+  idx=i; mark(i);
+  const u=utter(blocks[i].querySelector('.ar').textContent);
+  u.onend=()=>{ if(running) speakFrom(i+1); };
+  u.onerror=e=>{ if(e.error!=='interrupted'&&e.error!=='canceled'){ status.textContent='Sprachausgabe fehlgeschlagen ('+e.error+'). Evtl. fehlt eine arabische Stimme auf dem Gerät.'; running=false; } };
+  synth.speak(u);
+  status.textContent='Liest Abschnitt '+(i+1)+' von '+blocks.length+' …';
+}
+$('play').onclick=()=>{ if(!synth){ status.textContent='Dieser Browser unterstützt keine Sprachausgabe.'; return; } if(synth.paused){ synth.resume(); return; } synth.cancel(); running=true; speakFrom(idx); };
+$('pause').onclick=()=>{ if(synth&&synth.speaking){ synth.pause(); status.textContent='Pausiert.'; } };
+$('stop').onclick=()=>{ if(!synth) return; running=false; synth.cancel(); idx=0; mark(-1); status.textContent='Gestoppt.'; };
+$('tipSay').onclick=e=>{ e.stopPropagation(); if(selWord) say(selWord.textContent); };
+$('tipSaySent').onclick=e=>{ e.stopPropagation(); if(selWord) say(sentenceOf(selWord)); };
+
+/* ---------- Ansicht wechseln ---------- */
+function showView(v){
+  const cardsView = v==='cards';
+  $('viewText').hidden = cardsView; $('viewCards').hidden = !cardsView; $('player').hidden = cardsView;
+  $('tabText').setAttribute('aria-selected', !cardsView); $('tabCards').setAttribute('aria-selected', cardsView);
+  hideTip(); if(synth){ running=false; synth.cancel(); mark(-1); }
+  if(cardsView){ practiceAll=false; nextCard(); renderList(); }
+}
+$('tabText').onclick=()=>showView('text');
+$('tabCards').onclick=()=>showView('cards');
+
+/* ---------- Lernkarten üben ---------- */
+let current=null, flipped=false, practiceAll=false;
+function dueCards(){ return Object.values(cards).filter(c=>c.due<=today()).sort((a,b)=>a.box-b.box||a.due-b.due||a.added-b.added); }
+function stats(){
+  const all=Object.values(cards);
+  $('stTotal').textContent=all.length; $('stDue').textContent=dueCards().length; $('stDone').textContent=all.filter(c=>c.box>=5).length;
+}
+function esc(s){ return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function nextCard(){
+  stats();
+  let pool = dueCards();
+  if(!pool.length && practiceAll) pool = Object.values(cards).sort(()=>Math.random()-.5);
+  const f=$('flash');
+  if(!Object.keys(cards).length){
+    current=null;
+    f.innerHTML='<p class="empty">Noch keine Lernkarten.<br>Tippe im Text auf ein Wort, dann landet es hier.</p>';
+    return;
+  }
+  if(!pool.length){
+    current=null;
+    f.innerHTML='<p class="empty">Für heute ist alles gelernt. 🎉</p><button id="moreBtn">Trotzdem üben</button>';
+    $('moreBtn').onclick=()=>{ practiceAll=true; nextCard(); };
+    return;
+  }
+  current=pool[0]; flipped=false; drawCard();
+}
+function drawCard(){
+  const c=current, f=$('flash');
+  let h = '<div class="box">Stufe '+c.box+' von 5</div><div class="big">'+esc(c.ar)+'</div>';
+  if(!flipped){
+    h += '<div class="answer-row"><button class="small" id="fSay">🔊 Anhören</button><button class="primary" id="fFlip">Übersetzung zeigen</button></div>';
+  } else {
+    const ctx = esc(c.ctxAr||'').split(esc(c.ar)).join('<mark>'+esc(c.ar)+'</mark>');
+    h += '<div class="ans">'+esc(c.de||'–')+'</div>';
+    if(c.note) h += '<div class="note">'+esc(c.note)+'</div>';
+    if(c.ctxAr) h += '<div class="ctx"><div class="ar">'+ctx+'</div>'+(c.ctxDe?'<div class="de">'+esc(c.ctxDe)+'</div>':'')+'</div>';
+    h += '<div class="answer-row"><button class="small" id="fSay">🔊 Anhören</button><button class="again" id="fAgain">Nochmal</button><button class="good" id="fGood">Gewusst</button></div>';
+  }
+  f.innerHTML=h;
+  $('fSay').onclick=()=>say(c.ar);
+  if(!flipped){ $('fFlip').onclick=()=>{ flipped=true; drawCard(); }; }
+  else {
+    $('fAgain').onclick=()=>answer(false);
+    $('fGood').onclick=()=>answer(true);
+  }
+}
+function answer(ok){
+  const c=cards[current.key]; if(!c) return nextCard();
+  c.box = ok ? Math.min(5, c.box+1) : 1;
+  c.due = today() + INTERVAL_DAYS[c.box]*86400000;
+  if(!ok) c.due = today(); // bleibt heute fällig
+  saveCards(); renderList();
+  if(practiceAll){ const rest=Object.values(cards).filter(x=>x.key!==c.key); current = rest.length ? rest[Math.floor(Math.random()*rest.length)] : c; flipped=false; stats(); drawCard(); return; }
+  // eine falsch beantwortete Karte nicht sofort wieder zeigen
+  const pool=dueCards().filter(x=>x.key!==c.key);
+  if(!ok && pool.length){ current=pool[0]; flipped=false; stats(); drawCard(); } else nextCard();
+}
+function renderList(){
+  const ul=$('cardList'); ul.innerHTML='';
+  const all=Object.values(cards).sort((a,b)=>b.added-a.added);
+  if(!all.length){ ul.innerHTML='<li class="empty">Noch keine Wörter gespeichert.</li>'; return; }
+  all.forEach(c=>{
+    const li=document.createElement('li');
+    li.innerHTML='<span class="lar">'+esc(c.ar)+'</span><span class="lde">'+esc(c.de)+'</span><span class="lbox">Stufe '+c.box+'</span><button aria-label="Löschen">Löschen</button>';
+    li.querySelector('button').onclick=()=>{ delete cards[c.key]; saveCards(); markSaved(); renderList(); nextCard(); };
+    ul.appendChild(li);
+  });
+}
+
+/* ---------- Sichern / Laden ---------- */
+$('exportBtn').onclick=()=>{
+  const blob=new Blob([JSON.stringify(cards,null,1)],{type:'application/json'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob);
+  a.download='lernkarten-'+new Date().toISOString().slice(0,10)+'.json';
+  document.body.appendChild(a); a.click(); a.remove();
+};
+$('importBtn').onclick=()=>$('importFile').click();
+$('importFile').onchange=async e=>{
+  const f=e.target.files[0]; if(!f) return;
+  try{
+    const data=JSON.parse(await f.text()); let n=0;
+    for(const k in data){ if(data[k] && data[k].ar && !cards[k]){ cards[k]=data[k]; n++; } }
+    saveCards(); markSaved(); renderList(); nextCard(); toast(n+' Karten geladen');
+  }catch(err){ toast('Die Datei konnte nicht gelesen werden.'); }
+  e.target.value='';
+};
+
+let toastT;
+function toast(msg){ const t=$('toast'); t.textContent=msg; t.hidden=false; clearTimeout(toastT); toastT=setTimeout(()=>t.hidden=true,2200); }
+
+updateCount();
+load();
+</script>
+</body>
+</html>
