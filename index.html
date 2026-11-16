@@ -124,6 +124,7 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
 .list .lde{flex:1;min-width:0;font-size:14px}
 .list .lbox{font-size:12px;color:var(--muted);white-space:nowrap}
 .list button{padding:4px 10px;font-size:12px}
+.list{margin-top:10px}
 .backup{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:16px;font-size:13px;color:var(--muted)}
 #toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--fg);color:var(--bg);padding:8px 14px;border-radius:999px;font-size:14px;z-index:30}
 #toast[hidden]{display:none}
@@ -178,8 +179,8 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
   <div class="flash" id="flash"></div>
   </div>
   <section class="extra">
-    <h2>Alle Wörter</h2>
-    <ul class="list" id="cardList"></ul>
+    <button class="small" id="toggleList" aria-expanded="false">Alle Wörter einblenden ▾</button>
+    <ul class="list" id="cardList" hidden></ul>
     <div class="backup">
       <span>Die Karten werden in diesem Browser gespeichert.</span>
       <button class="small" id="exportBtn">Karten sichern</button>
@@ -559,7 +560,16 @@ function showResult(){
   $('qAgain').onclick=startQuiz;
 }
 
+let listOpen=false;
+try { listOpen = localStorage.getItem('arabisch-list-open')==='1'; } catch(e) {}
+function applyList(){
+  $('cardList').hidden=!listOpen;
+  $('toggleList').setAttribute('aria-expanded', listOpen);
+  $('toggleList').textContent=(listOpen?'Alle Wörter ausblenden ▴':'Alle Wörter einblenden ▾')+' ('+Object.keys(cards).length+')';
+}
+$('toggleList').onclick=()=>{ listOpen=!listOpen; try { localStorage.setItem('arabisch-list-open', listOpen?'1':'0'); } catch(e) {} applyList(); };
 function renderList(){
+  applyList();
   const ul=$('cardList'); ul.innerHTML='';
   const all=Object.values(cards).sort((a,b)=>b.added-a.added);
   if(!all.length){ ul.innerHTML='<li class="empty">Noch keine Wörter gespeichert.</li>'; return; }
