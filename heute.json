@@ -24,17 +24,36 @@
  ],
  "dict": {
   "وزير": [
-   "Minister"
+   "Minister",
+   "",
+   "و ز ر",
+   "Last tragen",
+   "",
+   ""
   ],
   "الخارجية": [
    "das Äussere",
-   "وزير الخارجية = Aussenminister"
+   "وزير الخارجية = Aussenminister",
+   "خ ر ج",
+   "hinausgehen",
+   "الداخلية",
+   "das Innere (Innenministerium)"
   ],
   "المصري": [
-   "ägyptisch"
+   "ägyptisch",
+   "",
+   "م ص ر",
+   "Ägypten (Herkunftsadjektiv)",
+   "",
+   ""
   ],
   "يبحث": [
-   "bespricht, erörtert"
+   "bespricht, erörtert",
+   "",
+   "ب ح ث",
+   "suchen, untersuchen",
+   "",
+   ""
   ],
   "في": [
    "in"
@@ -43,24 +62,52 @@
    "Kuwait"
   ],
   "تعزيز": [
-   "Stärkung, Ausbau"
+   "Stärkung, Ausbau",
+   "",
+   "ع ز ز",
+   "stark, geschätzt sein",
+   "إضعاف",
+   "Schwächung"
   ],
   "التعاون": [
-   "die Zusammenarbeit"
+   "die Zusammenarbeit",
+   "",
+   "ع و ن",
+   "helfen",
+   "التنافس",
+   "die Konkurrenz"
   ],
   "واحتواء": [
    "und Eindämmung",
-   "و = und + احتواء"
+   "و = und + احتواء",
+   "ح و ي",
+   "enthalten, umfassen",
+   "",
+   ""
   ],
   "التوتر": [
-   "die Spannung"
+   "die Spannung",
+   "",
+   "و ت ر",
+   "spannen (Saite)",
+   "الهدوء",
+   "die Ruhe"
   ],
   "الإقليمي": [
-   "regional"
+   "regional",
+   "",
+   "ق ل م",
+   "Gebiet (Lehnwort aus dem Griechischen)",
+   "المحلي",
+   "lokal"
   ],
   "أجرى": [
    "führte durch",
-   "أجرى زيارة = einen Besuch abstatten"
+   "أجرى زيارة = einen Besuch abstatten",
+   "ج ر ي",
+   "laufen, fliessen",
+   "",
+   ""
   ],
   "بدر": [
    "Badr",
@@ -75,108 +122,237 @@
    "Teil des Namens (Abdelatty)"
   ],
   "يوم": [
-   "Tag"
+   "Tag",
+   "",
+   "ي و م",
+   "Tag",
+   "ليلة",
+   "Nacht"
   ],
   "الأحد": [
-   "Sonntag"
+   "Sonntag",
+   "",
+   "أ ح د",
+   "eins",
+   "",
+   ""
   ],
   "زيارة": [
-   "Besuch"
+   "Besuch",
+   "",
+   "ز و ر",
+   "besuchen",
+   "",
+   ""
   ],
   "رسمية": [
-   "offiziell"
+   "offiziell",
+   "",
+   "ر س م",
+   "zeichnen, festlegen",
+   "غير رسمية",
+   "inoffiziell"
   ],
   "إلى": [
-   "nach, zu"
+   "nach, zu",
+   "",
+   "",
+   "",
+   "من",
+   "von"
   ],
   "ترأس": [
-   "leitete, hatte den Vorsitz"
+   "leitete, hatte den Vorsitz",
+   "",
+   "ر أ س",
+   "Kopf",
+   "",
+   ""
   ],
   "خلالها": [
    "während ihm (dem Besuch)",
-   "خلال + ـها"
+   "خلال + ـها",
+   "خ ل ل",
+   "Lücke, dazwischen",
+   "",
+   ""
   ],
   "أعمال": [
    "Arbeiten",
-   "أعمال الدورة = die Sitzung (wörtl. Arbeiten der Runde)"
+   "أعمال الدورة = die Sitzung (wörtl. Arbeiten der Runde)",
+   "ع م ل",
+   "arbeiten",
+   "",
+   ""
   ],
   "الدورة": [
-   "die Sitzung, die Runde"
+   "die Sitzung, die Runde",
+   "",
+   "د و ر",
+   "sich drehen",
+   "",
+   ""
   ],
   "الرابعة": [
-   "die vierte"
+   "die vierte",
+   "",
+   "ر ب ع",
+   "vier",
+   "",
+   ""
   ],
   "عشرة": [
    "-zehn",
-   "الرابعة عشرة = die vierzehnte"
+   "الرابعة عشرة = die vierzehnte",
+   "ع ش ر",
+   "zehn",
+   "",
+   ""
   ],
   "للجنة": [
    "der Kommission",
-   "لـ + اللجنة"
+   "لـ + اللجنة",
+   "ل ج ن",
+   "Ausschuss",
+   "",
+   ""
   ],
   "المشتركة": [
-   "gemeinsam"
+   "gemeinsam",
+   "",
+   "ش ر ك",
+   "teilhaben",
+   "المنفردة",
+   "einzeln, allein"
   ],
   "بين": [
-   "zwischen"
+   "zwischen",
+   "",
+   "ب ي ن",
+   "trennen, deutlich sein",
+   "",
+   ""
   ],
   "البلدين": [
    "den beiden Ländern",
-   "Dual von البلد"
+   "Dual von البلد",
+   "ب ل د",
+   "Land, Ort",
+   "",
+   ""
   ],
   "خطوة": [
-   "Schritt"
+   "Schritt",
+   "",
+   "خ ط و",
+   "schreiten",
+   "",
+   ""
   ],
   "تعكس": [
-   "widerspiegelt, zeigt"
+   "widerspiegelt, zeigt",
+   "",
+   "ع ك س",
+   "umkehren, spiegeln",
+   "",
+   ""
   ],
   "حرص": [
    "Bestreben, Wille",
-   "حرص على = Wert legen auf"
+   "حرص على = Wert legen auf",
+   "ح ر ص",
+   "eifrig bedacht sein",
+   "إهمال",
+   "Vernachlässigung"
   ],
   "القاهرة": [
-   "Kairo"
+   "Kairo",
+   "",
+   "ق ه ر",
+   "bezwingen (Kairo = die Siegreiche)",
+   "",
+   ""
   ],
   "على": [
    "auf, über"
   ],
   "توطيد": [
-   "Festigung"
+   "Festigung",
+   "",
+   "و ط د",
+   "fest, stabil sein",
+   "زعزعة",
+   "Erschütterung"
   ],
   "علاقاتها": [
    "ihre Beziehungen",
-   "ـها = ihr (Kairo, fem.)"
+   "ـها = ihr (Kairo, fem.)",
+   "ع ل ق",
+   "hängen",
+   "",
+   ""
   ],
   "مع": [
    "mit"
   ],
   "دول": [
    "Staaten",
-   "Plural von دولة"
+   "Plural von دولة",
+   "د و ل",
+   "wechseln, Staat",
+   "",
+   ""
   ],
   "الخليج": [
    "der Golf",
-   "دول الخليج = Golfstaaten"
+   "دول الخليج = Golfstaaten",
+   "خ ل ج",
+   "Bucht",
+   "",
+   ""
   ],
   "والتقى": [
    "und er traf",
-   "و + التقى"
+   "و + التقى",
+   "ل ق ي",
+   "begegnen",
+   "افترق",
+   "sich trennen"
   ],
   "الوزير": [
-   "der Minister"
+   "der Minister",
+   "",
+   "و ز ر",
+   "Last tragen",
+   "",
+   ""
   ],
   "ولي": [
    "Erbe",
-   "ولي العهد = Kronprinz"
+   "ولي العهد = Kronprinz",
+   "و ل ي",
+   "nahe sein, folgen",
+   "",
+   ""
   ],
   "العهد": [
-   "die Thronfolge"
+   "die Thronfolge",
+   "",
+   "ع ه د",
+   "Versprechen, Epoche",
+   "",
+   ""
   ],
   "الكويتي": [
    "kuwaitisch"
   ],
   "الشيخ": [
-   "Scheich"
+   "Scheich",
+   "",
+   "ش ي خ",
+   "alt werden",
+   "الشاب",
+   "der junge Mann"
   ],
   "صباح": [
    "Sabah",
@@ -198,184 +374,412 @@
    "wobei, wo"
   ],
   "أكد": [
-   "betonte"
+   "betonte",
+   "",
+   "أ ك د",
+   "bestätigen",
+   "نفى",
+   "verneinte"
   ],
   "اعتزاز": [
-   "Stolz, Wertschätzung"
+   "Stolz, Wertschätzung",
+   "",
+   "ع ز ز",
+   "stark, geschätzt sein",
+   "",
+   ""
   ],
   "بلاده": [
    "seines Landes",
-   "ـه = sein"
+   "ـه = sein",
+   "ب ل د",
+   "Land, Ort",
+   "",
+   ""
   ],
   "بالروابط": [
    "auf die Bande",
-   "بـ + الروابط"
+   "بـ + الروابط",
+   "ر ب ط",
+   "binden",
+   "",
+   ""
   ],
   "التاريخية": [
-   "historisch"
+   "historisch",
+   "",
+   "أ ر خ",
+   "datieren",
+   "",
+   ""
   ],
   "والأخوية": [
-   "und brüderlich"
+   "und brüderlich",
+   "",
+   "أ خ و",
+   "Bruder",
+   "العدائية",
+   "feindselig"
   ],
   "التي": [
    "die (Relativpronomen, fem.)"
   ],
   "تجمع": [
-   "vereinen, verbinden"
+   "vereinen, verbinden",
+   "",
+   "ج م ع",
+   "sammeln, vereinen",
+   "تفرق",
+   "trennen"
   ],
   "الشعبين": [
    "die beiden Völker",
-   "Dual von الشعب"
+   "Dual von الشعب",
+   "ش ع ب",
+   "Volk",
+   "",
+   ""
   ],
   "وتطلعها": [
    "und ihr Streben",
-   "و + تطلع + ـها"
+   "و + تطلع + ـها",
+   "ط ل ع",
+   "aufgehen, emporstreben",
+   "",
+   ""
   ],
   "توسيع": [
-   "Ausweitung"
+   "Ausweitung",
+   "",
+   "و س ع",
+   "weit sein",
+   "تضييق",
+   "Einengung"
   ],
   "مختلف": [
-   "verschiedene"
+   "verschiedene",
+   "",
+   "خ ل ف",
+   "anders sein, folgen",
+   "متشابه",
+   "ähnlich"
   ],
   "المجالات": [
-   "die Bereiche"
+   "die Bereiche",
+   "",
+   "ج و ل",
+   "umherziehen",
+   "",
+   ""
   ],
   "وتناول": [
    "und behandelte",
-   "و + تناول"
+   "و + تناول",
+   "ن و ل",
+   "erlangen, nehmen",
+   "",
+   ""
   ],
   "اللقاء": [
-   "das Treffen"
+   "das Treffen",
+   "",
+   "ل ق ي",
+   "begegnen",
+   "الفراق",
+   "die Trennung"
   ],
   "كذلك": [
    "ebenfalls, auch"
   ],
   "آخر": [
-   "letzte, jüngste"
+   "letzte, jüngste",
+   "",
+   "أ خ ر",
+   "hinten, später sein",
+   "أول",
+   "erster"
   ],
   "التطورات": [
-   "die Entwicklungen"
+   "die Entwicklungen",
+   "",
+   "ط و ر",
+   "Stadium, Phase",
+   "",
+   ""
   ],
   "المنطقة": [
-   "die Region"
+   "die Region",
+   "",
+   "ن ط ق",
+   "sprechen; Gürtel, Bereich",
+   "",
+   ""
   ],
   "إذ": [
    "denn, wobei"
   ],
   "شدد": [
-   "unterstrich, betonte"
+   "unterstrich, betonte",
+   "",
+   "ش د د",
+   "fest, stark sein",
+   "خفف",
+   "schwächte ab"
   ],
   "الجانبان": [
    "die beiden Seiten",
-   "Dual von الجانب"
+   "Dual von الجانب",
+   "ج ن ب",
+   "Seite",
+   "",
+   ""
   ],
   "أهمية": [
-   "Wichtigkeit"
+   "Wichtigkeit",
+   "",
+   "ه م م",
+   "sich kümmern, wichtig sein",
+   "",
+   ""
   ],
   "تغليب": [
-   "Vorrang geben"
+   "Vorrang geben",
+   "",
+   "غ ل ب",
+   "siegen, überwiegen",
+   "",
+   ""
   ],
   "الحلول": [
-   "die Lösungen"
+   "die Lösungen",
+   "",
+   "ح ل ل",
+   "lösen",
+   "المشكلات",
+   "die Probleme"
   ],
   "السياسية": [
-   "politisch"
+   "politisch",
+   "",
+   "س و س",
+   "lenken, verwalten",
+   "",
+   ""
   ],
   "والدبلوماسية": [
-   "und diplomatisch"
+   "und diplomatisch",
+   "",
+   "",
+   "Lehnwort (Diplomatie)",
+   "",
+   ""
   ],
   "والعمل": [
    "und das Arbeiten",
-   "العمل على = hinarbeiten auf"
+   "العمل على = hinarbeiten auf",
+   "ع م ل",
+   "arbeiten",
+   "",
+   ""
   ],
   "خفض": [
    "Senkung",
-   "خفض التصعيد = Deeskalation"
+   "خفض التصعيد = Deeskalation",
+   "خ ف ض",
+   "senken",
+   "رفع",
+   "Erhöhung"
   ],
   "التصعيد": [
-   "die Eskalation"
+   "die Eskalation",
+   "",
+   "ص ع د",
+   "aufsteigen",
+   "التهدئة",
+   "die Beruhigung"
   ],
   "تجنبا": [
    "um zu vermeiden",
-   "Akkusativ des Zwecks"
+   "Akkusativ des Zwecks",
+   "ج ن ب",
+   "Seite (meiden = zur Seite gehen)",
+   "",
+   ""
   ],
   "لاتساع": [
    "einer Ausweitung",
-   "لـ + اتساع"
+   "لـ + اتساع",
+   "و س ع",
+   "weit sein",
+   "انحسار",
+   "Rückgang"
   ],
   "رقعة": [
-   "Fläche, Ausmass"
+   "Fläche, Ausmass",
+   "",
+   "ر ق ع",
+   "flicken; Fläche",
+   "",
+   ""
   ],
   "واتفق": [
    "und vereinbarten",
-   "و + اتفق"
+   "و + اتفق",
+   "و ف ق",
+   "passen, übereinstimmen",
+   "اختلف",
+   "war uneinig"
   ],
   "الطرفان": [
    "die beiden Parteien",
-   "Dual von الطرف"
+   "Dual von الطرف",
+   "ط ر ف",
+   "Rand, Seite",
+   "",
+   ""
   ],
   "مواصلة": [
-   "Fortsetzung"
+   "Fortsetzung",
+   "",
+   "و ص ل",
+   "verbinden, ankommen",
+   "انقطاع",
+   "Unterbrechung"
   ],
   "التنسيق": [
-   "die Abstimmung, Koordination"
+   "die Abstimmung, Koordination",
+   "",
+   "ن س ق",
+   "ordnen",
+   "الفوضى",
+   "das Chaos"
   ],
   "والتشاور": [
-   "und die Beratung"
+   "und die Beratung",
+   "",
+   "ش و ر",
+   "beraten",
+   "",
+   ""
   ],
   "بصورة": [
    "in Form",
-   "بصورة منتظمة = regelmässig"
+   "بصورة منتظمة = regelmässig",
+   "ص و ر",
+   "formen, abbilden",
+   "",
+   ""
   ],
   "منتظمة": [
-   "regelmässig"
+   "regelmässig",
+   "",
+   "ن ظ م",
+   "ordnen",
+   "متقطعة",
+   "unregelmässig"
   ],
   "بما": [
    "womit, sodass",
    "بما يسهم في = was beiträgt zu"
   ],
   "يسهم": [
-   "trägt bei"
+   "trägt bei",
+   "",
+   "س ه م",
+   "Pfeil, Anteil",
+   "",
+   ""
   ],
   "الحفاظ": [
-   "die Wahrung"
+   "die Wahrung",
+   "",
+   "ح ف ظ",
+   "bewahren, behüten",
+   "التفريط",
+   "die Preisgabe"
   ],
   "الأمن": [
-   "die Sicherheit"
+   "die Sicherheit",
+   "",
+   "أ م ن",
+   "sicher sein, vertrauen",
+   "الخوف",
+   "die Angst"
   ],
   "والاستقرار": [
-   "und die Stabilität"
+   "und die Stabilität",
+   "",
+   "ق ر ر",
+   "fest sein, sich niederlassen",
+   "الاضطراب",
+   "die Unruhe"
   ],
   "الإقليميين": [
    "regional (Dual)",
-   "bezieht sich auf Sicherheit und Stabilität"
+   "bezieht sich auf Sicherheit und Stabilität",
+   "ق ل م",
+   "Gebiet (Lehnwort)",
+   "",
+   ""
   ],
   "وفق": [
    "gemäss",
-   "وفق ما = wie"
+   "وفق ما = wie",
+   "و ف ق",
+   "passen, übereinstimmen",
+   "",
+   ""
   ],
   "ما": [
    "was"
   ],
   "أعلنه": [
    "es verkündete",
-   "أعلن + ـه"
+   "أعلن + ـه",
+   "ع ل ن",
+   "öffentlich sein",
+   "أخفاه",
+   "verbarg es"
   ],
   "المتحدث": [
-   "der Sprecher"
+   "der Sprecher",
+   "",
+   "ح د ث",
+   "geschehen; erzählen",
+   "",
+   ""
   ],
   "الرسمي": [
-   "offiziell"
+   "offiziell",
+   "",
+   "ر س م",
+   "zeichnen, festlegen",
+   "غير الرسمي",
+   "inoffiziell"
   ],
   "باسم": [
    "im Namen von",
-   "بـ + اسم"
+   "بـ + اسم",
+   "س م و",
+   "hoch sein; Name",
+   "",
+   ""
   ],
   "وزارة": [
-   "Ministerium"
+   "Ministerium",
+   "",
+   "و ز ر",
+   "Last tragen",
+   "",
+   ""
   ],
   "المصرية": [
-   "ägyptisch (fem.)"
+   "ägyptisch (fem.)",
+   "",
+   "م ص ر",
+   "Ägypten (Herkunftsadjektiv)",
+   "",
+   ""
   ],
   "وفي": [
    "und in",
@@ -383,158 +787,347 @@
   ],
   "سياق": [
    "Kontext",
-   "في سياق متصل = in diesem Zusammenhang"
+   "في سياق متصل = in diesem Zusammenhang",
+   "س و ق",
+   "treiben, führen",
+   "",
+   ""
   ],
   "متصل": [
-   "verbunden"
+   "verbunden",
+   "",
+   "و ص ل",
+   "verbinden, ankommen",
+   "منفصل",
+   "getrennt"
   ],
   "اجتمع": [
-   "kam zusammen, traf"
+   "kam zusammen, traf",
+   "",
+   "ج م ع",
+   "sammeln, vereinen",
+   "تفرق",
+   "ging auseinander"
   ],
   "المدير": [
-   "der Direktor"
+   "der Direktor",
+   "",
+   "د و ر",
+   "sich drehen, leiten",
+   "",
+   ""
   ],
   "العام": [
    "allgemein",
-   "المدير العام = Generaldirektor"
+   "المدير العام = Generaldirektor",
+   "ع م م",
+   "allgemein sein",
+   "الخاص",
+   "speziell, privat"
   ],
   "بالوكالة": [
    "amtierend",
-   "wörtl. in Vertretung"
+   "wörtl. in Vertretung",
+   "و ك ل",
+   "anvertrauen, bevollmächtigen",
+   "بالأصالة",
+   "im eigenen Namen"
   ],
   "للصندوق": [
    "des Fonds",
-   "لـ + الصندوق"
+   "لـ + الصندوق",
+   "",
+   "Lehnwort (Kasten, Fonds)",
+   "",
+   ""
   ],
   "للتنمية": [
    "für Entwicklung",
-   "لـ + التنمية"
+   "لـ + التنمية",
+   "ن م و",
+   "wachsen",
+   "",
+   ""
   ],
   "الاقتصادية": [
-   "wirtschaftlich"
+   "wirtschaftlich",
+   "",
+   "ق ص د",
+   "anstreben; sparsam sein",
+   "",
+   ""
   ],
   "العربية": [
-   "arabisch"
+   "arabisch",
+   "",
+   "ع ر ب",
+   "Araber, arabisch",
+   "",
+   ""
   ],
   "وأشاد": [
    "und würdigte",
-   "أشاد بـ = loben"
+   "أشاد بـ = loben",
+   "ش ي د",
+   "errichten; loben",
+   "انتقد",
+   "kritisierte"
   ],
   "بالدور": [
    "die Rolle",
-   "بـ + الدور"
+   "بـ + الدور",
+   "د و ر",
+   "sich drehen",
+   "",
+   ""
   ],
   "الذي": [
    "der (Relativpronomen)"
   ],
   "يضطلع": [
    "übernimmt",
-   "يضطلع بـ = eine Rolle spielen"
+   "يضطلع بـ = eine Rolle spielen",
+   "ض ل ع",
+   "Rippe; stark, fähig sein",
+   "",
+   ""
   ],
   "به": [
    "damit, es",
    "بـ + ـه"
   ],
   "الصندوق": [
-   "der Fonds"
+   "der Fonds",
+   "",
+   "",
+   "Lehnwort (Kasten, Fonds)",
+   "",
+   ""
   ],
   "دعم": [
-   "Unterstützung"
+   "Unterstützung",
+   "",
+   "د ع م",
+   "stützen",
+   "",
+   ""
   ],
   "مشروعات": [
    "Projekte",
-   "Plural von مشروع"
+   "Plural von مشروع",
+   "ش ر ع",
+   "beginnen; Gesetz",
+   "",
+   ""
   ],
   "التنمية": [
-   "die Entwicklung"
+   "die Entwicklung",
+   "",
+   "ن م و",
+   "wachsen",
+   "",
+   ""
   ],
   "والاجتماعية": [
-   "und sozial"
+   "und sozial",
+   "",
+   "ج م ع",
+   "sammeln, vereinen",
+   "",
+   ""
   ],
   "مصر": [
    "Ägypten"
   ],
   "وبحث": [
    "und erörterte",
-   "و + بحث"
+   "و + بحث",
+   "ب ح ث",
+   "suchen, untersuchen",
+   "",
+   ""
   ],
   "سبل": [
    "Wege",
-   "Plural von سبيل"
+   "Plural von سبيل",
+   "س ب ل",
+   "Weg",
+   "",
+   ""
   ],
   "تطوير": [
-   "Entwicklung, Weiterentwicklung"
+   "Entwicklung, Weiterentwicklung",
+   "",
+   "ط و ر",
+   "Stadium, Phase",
+   "",
+   ""
   ],
   "الشراكة": [
-   "die Partnerschaft"
+   "die Partnerschaft",
+   "",
+   "ش ر ك",
+   "teilhaben",
+   "",
+   ""
   ],
   "مجالات": [
-   "Bereiche"
+   "Bereiche",
+   "",
+   "ج و ل",
+   "umherziehen",
+   "",
+   ""
   ],
   "جديدة": [
-   "neu"
+   "neu",
+   "",
+   "ج د د",
+   "neu sein",
+   "قديمة",
+   "alt"
   ],
   "من": [
    "von, aus"
   ],
   "بينها": [
    "unter ihnen",
-   "من بينها = darunter"
+   "من بينها = darunter",
+   "ب ي ن",
+   "trennen, deutlich sein",
+   "",
+   ""
   ],
   "الدعم": [
-   "die Unterstützung"
+   "die Unterstützung",
+   "",
+   "د ع م",
+   "stützen",
+   "",
+   ""
   ],
   "الفني": [
-   "technisch"
+   "technisch",
+   "",
+   "ف ن ن",
+   "Kunst, Technik",
+   "",
+   ""
   ],
   "وبناء": [
    "und Aufbau",
-   "بناء القدرات = Kapazitätsaufbau"
+   "بناء القدرات = Kapazitätsaufbau",
+   "ب ن ي",
+   "bauen",
+   "هدم",
+   "Abriss"
   ],
   "القدرات": [
-   "die Fähigkeiten"
+   "die Fähigkeiten",
+   "",
+   "ق د ر",
+   "können, vermögen",
+   "العجز",
+   "die Unfähigkeit"
   ],
   "وإعداد": [
-   "und Erstellung"
+   "und Erstellung",
+   "",
+   "ع د د",
+   "zählen; vorbereiten",
+   "",
+   ""
   ],
   "دراسات": [
-   "Studien"
+   "Studien",
+   "",
+   "د ر س",
+   "studieren, lernen",
+   "",
+   ""
   ],
   "الجدوى": [
    "die Machbarkeit",
-   "دراسات الجدوى = Machbarkeitsstudien"
+   "دراسات الجدوى = Machbarkeitsstudien",
+   "ج د و",
+   "Nutzen, Gabe",
+   "",
+   ""
   ],
   "فضلا": [
    "zusätzlich",
-   "فضلاً عن = sowie, ausserdem"
+   "فضلاً عن = sowie, ausserdem",
+   "ف ض ل",
+   "Vorzug, Überschuss",
+   "",
+   ""
   ],
   "عن": [
    "über, von"
   ],
   "تمويل": [
-   "Finanzierung"
+   "Finanzierung",
+   "",
+   "م و ل",
+   "Geld, Vermögen",
+   "",
+   ""
   ],
   "الشركات": [
-   "die Unternehmen"
+   "die Unternehmen",
+   "",
+   "ش ر ك",
+   "teilhaben",
+   "",
+   ""
   ],
   "الناشئة": [
    "aufstrebend",
-   "الشركات الناشئة = Start-ups"
+   "الشركات الناشئة = Start-ups",
+   "ن ش أ",
+   "entstehen, wachsen",
+   "العريقة",
+   "alteingesessen"
   ],
   "والمشروعات": [
-   "und die Projekte, Unternehmen"
+   "und die Projekte, Unternehmen",
+   "",
+   "ش ر ع",
+   "beginnen; Gesetz",
+   "",
+   ""
   ],
   "الصغيرة": [
-   "klein"
+   "klein",
+   "",
+   "ص غ ر",
+   "klein sein",
+   "الكبيرة",
+   "gross"
   ],
   "والمتوسطة": [
-   "und mittel"
+   "und mittel",
+   "",
+   "و س ط",
+   "Mitte",
+   "",
+   ""
   ],
   "ويرى": [
-   "und sehen, sind der Ansicht"
+   "und sehen, sind der Ansicht",
+   "",
+   "ر أ ي",
+   "sehen, meinen",
+   "",
+   ""
   ],
   "مراقبون": [
-   "Beobachter"
+   "Beobachter",
+   "",
+   "ر ق ب",
+   "beobachten",
+   "",
+   ""
   ],
   "أن": [
    "dass"
@@ -543,44 +1136,98 @@
    "diese"
   ],
   "تأتي": [
-   "kommt"
+   "kommt",
+   "",
+   "أ ت ي",
+   "kommen",
+   "تذهب",
+   "geht"
   ],
   "توقيت": [
-   "Zeitpunkt"
+   "Zeitpunkt",
+   "",
+   "و ق ت",
+   "Zeit",
+   "",
+   ""
   ],
   "حساس": [
-   "heikel, sensibel"
+   "heikel, sensibel",
+   "",
+   "ح س س",
+   "fühlen, empfinden",
+   "",
+   ""
   ],
   "تسعى": [
-   "strebt an, versucht"
+   "strebt an, versucht",
+   "",
+   "س ع ي",
+   "streben, eilen",
+   "",
+   ""
   ],
   "فيه": [
    "in ihm, an dem"
   ],
   "العواصم": [
-   "die Hauptstädte"
+   "die Hauptstädte",
+   "",
+   "ع ص م",
+   "schützen, festhalten",
+   "",
+   ""
   ],
   "تنسيق": [
-   "Abstimmung"
+   "Abstimmung",
+   "",
+   "ن س ق",
+   "ordnen",
+   "",
+   ""
   ],
   "مواقفها": [
    "ihre Positionen",
-   "ـها = ihr"
+   "ـها = ihr",
+   "و ق ف",
+   "stehen",
+   "",
+   ""
   ],
   "ومنع": [
-   "und Verhinderung"
+   "und Verhinderung",
+   "",
+   "م ن ع",
+   "verhindern",
+   "سماح",
+   "Erlaubnis"
   ],
   "انزلاق": [
-   "Abgleiten"
+   "Abgleiten",
+   "",
+   "ز ل ق",
+   "ausrutschen",
+   "",
+   ""
   ],
   "نحو": [
    "in Richtung"
   ],
   "مزيد": [
-   "mehr, weitere"
+   "mehr, weitere",
+   "",
+   "ز ي د",
+   "zunehmen",
+   "أقل",
+   "weniger"
   ],
   "الزيارة": [
-   "der Besuch"
+   "der Besuch",
+   "",
+   "ز و ر",
+   "besuchen",
+   "",
+   ""
   ]
  },
  "sources": [

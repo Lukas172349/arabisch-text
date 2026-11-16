@@ -9,11 +9,11 @@
 /* ===== DESIGN: hier kannst du Farben und Schriften anpassen ===== */
 :root{
   --bg:#f6f7f4; --surface:#ffffff; --fg:#1d2420; --muted:#5d6a62; --accent:#1f6f54; --hl:#e3f0e9; --line:#dde3de; --word:#cfe6da;
-  --good:#1f6f54; --again:#a4492f; --card:#fbfcfa;
+  --good:#1f6f54; --again:#a4492f; --card:#fbfcfa; --root:#8a5a12; --ant:#6a3fa0;
   --ar:"Noto Naskh Arabic","Geeza Pro","Arial",serif; --ui:"Inter",system-ui,sans-serif;
   --ar-size:1.3rem;
 }
-@media (prefers-color-scheme: dark){:root{--bg:#141916;--surface:#1c231f;--fg:#e6ece8;--muted:#9aa8a0;--accent:#6fc7a2;--hl:#24372d;--line:#2c3631;--word:#2f4a3d;--good:#6fc7a2;--again:#e58f74;--card:#202824;color-scheme:dark}}
+@media (prefers-color-scheme: dark){:root{--bg:#141916;--surface:#1c231f;--fg:#e6ece8;--muted:#9aa8a0;--accent:#6fc7a2;--hl:#24372d;--line:#2c3631;--word:#2f4a3d;--good:#6fc7a2;--again:#e58f74;--card:#202824;--root:#e2b56a;--ant:#c4a2f0;color-scheme:dark}}
 *{box-sizing:border-box}
 html,body{margin:0}
 body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--ui)}
@@ -77,6 +77,15 @@ a{color:var(--accent)}
 .today{font-weight:600}
 
 /* Lernkarten */
+.extra-info{display:flex;flex-direction:column;gap:4px;font-size:14px;margin-top:4px}
+.extra-info .root{color:var(--root)}
+.extra-info .ant{color:var(--ant)}
+.extra-info .arw{font-family:var(--ar);font-size:1.2rem;direction:rtl;unicode-bidi:isolate}
+.extra-info .lbl{font-size:11px;text-transform:uppercase;letter-spacing:.06em;margin-right:4px}
+.boxes{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.boxbtn{padding:8px 12px;font-size:14px}
+.boxbtn[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.boxbtn .n{font-variant-numeric:tabular-nums;opacity:.8;margin-left:4px}
 .stats{display:flex;flex-wrap:wrap;gap:16px;font-size:14px;color:var(--muted);margin:0 0 16px}
 .stats strong{color:var(--fg);font-variant-numeric:tabular-nums}
 .flash{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px 20px;min-height:240px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center}
@@ -141,11 +150,8 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
 </div>
 
 <div class="in" id="viewCards" hidden>
-  <div class="stats">
-    <span>Karten: <strong id="stTotal">0</strong></span>
-    <span>Heute fällig: <strong id="stDue">0</strong></span>
-    <span>Gelernt (Stufe 5): <strong id="stDone">0</strong></span>
-  </div>
+  <p class="hint">Wähle eine Liste. Die Wörter kommen in zufälliger Reihenfolge. Was du weisst, wandert eine Liste weiter, bis Liste 5.</p>
+  <div class="boxes" id="boxes" role="group" aria-label="Listen"></div>
   <div class="flash" id="flash"></div>
   <section class="extra">
     <h2>Alle Wörter</h2>
@@ -164,6 +170,7 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
   <div class="tar" id="tipAr"></div>
   <div class="tde" id="tipDe"></div>
   <div class="note" id="tipNote"></div>
+  <div class="extra-info" id="tipExtra"></div>
   <div class="saved-msg" id="tipSaved">✓ Auf Lernkarte gespeichert</div>
   <div class="row">
     <button class="small" id="tipSay">🔊 Wort</button>
@@ -185,12 +192,22 @@ let DATA = null, DICT = {}, blocks = [];
 
 /* ---------- Lernkarten-Speicher ---------- */
 const STORE = 'arabisch-lernkarten-v1';
-const INTERVAL_DAYS = [0, 0, 1, 3, 7, 14]; // Stufe 1–5
 let cards = {};
 try { cards = JSON.parse(localStorage.getItem(STORE) || '{}') || {}; } catch(e) { cards = {}; }
 function saveCards(){ try { localStorage.setItem(STORE, JSON.stringify(cards)); } catch(e) {} updateCount(); }
 function updateCount(){ $('cardCount').textContent = Object.keys(cards).length; }
 const today = () => { const d=new Date(); d.setHours(0,0,0,0); return d.getTime(); };
+// Wörterbuch-Eintrag: [Übersetzung, Hinweis, Wurzel, Bedeutung der Wurzel, Gegenteil, Gegenteil deutsch]
+function info(e){ e=e||[]; return { root:e[2]||'', rootDe:e[3]||'', ant:e[4]||'', antDe:e[5]||'' }; }
+function extraHTML(x){
+  let h='';
+  if(x.root||x.rootDe) h+='<div class="root"><span class="lbl">Wurzel</span>'+(x.root?'<span class="arw">'+esc(x.root)+'</span> ':'')+(x.rootDe?'– '+esc(x.rootDe):'')+'</div>';
+  if(x.ant) h+='<div class="ant"><span class="lbl">Gegenteil</span><span class="arw">'+esc(x.ant)+'</span>'+(x.antDe?' – '+esc(x.antDe):'')+'</div>';
+  return h;
+}
+function esc(s){ return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+// ältere Karten mit Wurzel/Gegenteil aus dem aktuellen Text ergänzen
+function enrichCards(){ let ch=false; for(const k in cards){ const c=cards[k]; if(!c.root && !c.ant && DICT[k]){ const x=info(DICT[k]); if(x.root||x.ant||x.rootDe){ Object.assign(c,x); ch=true; } } if(!c.box) { c.box=1; ch=true; } } if(ch) saveCards(); }
 
 function addCard(w){
   const key = w.dataset.key;
@@ -200,7 +217,7 @@ function addCard(w){
   const arSent = sentenceOf(w);
   const deSent = i < 0 ? (DATA.title_tr || '') : ((DATA.translations || [])[i] || '');
   if(!cards[key]){
-    cards[key] = { key, ar: w.textContent, de: e ? e[0] : '', note: e && e[1] ? e[1] : '', ctxAr: arSent, ctxDe: deSent, date: DATA.date, box: 1, due: today(), added: Date.now() };
+    cards[key] = Object.assign({ key, ar: w.textContent, de: e ? e[0] : '', note: e && e[1] ? e[1] : '', ctxAr: arSent, ctxDe: deSent, date: DATA.date, box: 1, added: Date.now() }, info(e));
     saveCards(); markSaved(); return true;
   }
   return false;
@@ -267,7 +284,7 @@ function render(d){
   const sl=$('srcList'); sl.innerHTML='';
   (d.sources||[]).forEach(s=>{ const li=document.createElement('li'); const a=document.createElement('a'); a.href=s.url; a.textContent=s.title||s.url; a.target='_blank'; a.rel='noopener'; li.appendChild(a); sl.appendChild(li); });
   $('sources').hidden = !(d.sources && d.sources.length);
-  markSaved();
+  markSaved(); enrichCards();
   status.textContent = 'Tippe auf «Vorlesen». Die Stimme kommt von deinem Gerät.';
 }
 async function load(){
@@ -307,6 +324,7 @@ function showTip(w, isNew){
   $('tipAr').textContent=w.textContent;
   $('tipDe').textContent=e?e[0]:'(keine Übersetzung hinterlegt)';
   $('tipNote').textContent=e&&e[1]?e[1]:''; $('tipNote').hidden=!(e&&e[1]);
+  $('tipExtra').innerHTML=extraHTML(info(e));
   $('tipSaved').textContent = isNew ? '✓ Neu auf Lernkarte gespeichert' : '✓ Schon auf deinen Lernkarten';
   $('tipSaved').hidden = !cards[w.dataset.key]; $('tipRemove').hidden = !cards[w.dataset.key];
   tip.hidden=false;
@@ -390,65 +408,54 @@ function showView(v){
   $('viewText').hidden = cardsView; $('viewCards').hidden = !cardsView; $('player').hidden = cardsView;
   $('tabText').setAttribute('aria-selected', !cardsView); $('tabCards').setAttribute('aria-selected', cardsView);
   hideTip(); if(synth){ running=false; synth.cancel(); mark(-1); }
-  if(cardsView){ practiceAll=false; nextCard(); renderList(); }
+  if(cardsView){ lastKey=null; nextCard(); renderList(); }
 }
 $('tabText').onclick=()=>showView('text');
 $('tabCards').onclick=()=>showView('cards');
 
-/* ---------- Lernkarten üben ---------- */
-let current=null, flipped=false, practiceAll=false;
-function dueCards(){ return Object.values(cards).filter(c=>c.due<=today()).sort((a,b)=>a.box-b.box||a.due-b.due||a.added-b.added); }
-function stats(){
-  const all=Object.values(cards);
-  $('stTotal').textContent=all.length; $('stDue').textContent=dueCards().length; $('stDone').textContent=all.filter(c=>c.box>=5).length;
+/* ---------- Lernkarten üben (5 Listen, zufällige Reihenfolge) ---------- */
+let current=null, flipped=false, activeBox=0, lastKey=null;
+function inBox(n){ return Object.values(cards).filter(c=>(c.box||1)===n); }
+function renderBoxes(){
+  const el=$('boxes'); el.innerHTML='';
+  if(!activeBox || !inBox(activeBox).length){ activeBox = [1,2,3,4,5].find(n=>inBox(n).length) || 1; }
+  [1,2,3,4,5].forEach(n=>{
+    const bt=document.createElement('button'); bt.className='boxbtn'; bt.type='button';
+    bt.setAttribute('aria-pressed', n===activeBox);
+    bt.innerHTML='Liste '+n+'<span class="n">('+inBox(n).length+')</span>';
+    bt.onclick=()=>{ activeBox=n; lastKey=null; renderBoxes(); nextCard(); };
+    el.appendChild(bt);
+  });
 }
-function esc(s){ return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 function nextCard(){
-  stats();
-  let pool = dueCards();
-  if(!pool.length && practiceAll) pool = Object.values(cards).sort(()=>Math.random()-.5);
+  renderBoxes();
   const f=$('flash');
-  if(!Object.keys(cards).length){
-    current=null;
-    f.innerHTML='<p class="empty">Noch keine Lernkarten.<br>Tippe im Text auf ein Wort, dann landet es hier.</p>';
-    return;
-  }
-  if(!pool.length){
-    current=null;
-    f.innerHTML='<p class="empty">Für heute ist alles gelernt. 🎉</p><button id="moreBtn">Trotzdem üben</button>';
-    $('moreBtn').onclick=()=>{ practiceAll=true; nextCard(); };
-    return;
-  }
-  current=pool[0]; flipped=false; drawCard();
+  if(!Object.keys(cards).length){ current=null; f.innerHTML='<p class="empty">Noch keine Lernkarten.<br>Tippe im Text auf ein Wort, dann landet es hier.</p>'; return; }
+  let pool=inBox(activeBox);
+  if(!pool.length){ current=null; f.innerHTML='<p class="empty">Liste '+activeBox+' ist leer.</p>'; return; }
+  if(pool.length>1) pool=pool.filter(c=>c.key!==lastKey);
+  current=pool[Math.floor(Math.random()*pool.length)]; flipped=false; drawCard();
 }
 function drawCard(){
   const c=current, f=$('flash');
-  let h = '<div class="box">Stufe '+c.box+' von 5</div><div class="big">'+esc(c.ar)+'</div>';
+  let h = '<div class="box">Liste '+(c.box||1)+' von 5</div><div class="big">'+esc(c.ar)+'</div>';
   if(!flipped){
     h += '<div class="answer-row"><button class="small" id="fSay">🔊 Anhören</button><button class="primary" id="fFlip">Übersetzung zeigen</button></div>';
   } else {
     h += '<div class="ans">'+esc(c.de||'–')+'</div>';
     if(c.note) h += '<div class="note">'+esc(c.note)+'</div>';
-    h += '<div class="answer-row"><button class="small" id="fSay">🔊 Anhören</button><button class="again" id="fAgain">Nochmal</button><button class="good" id="fGood">Gewusst</button></div>';
+    const x=extraHTML(c); if(x) h += '<div class="extra-info">'+x+'</div>';
+    h += '<div class="answer-row"><button class="small" id="fSay">🔊 Anhören</button><button class="again" id="fAgain">Nochmal</button><button class="good" id="fGood">'+((c.box||1)>=5?'Gewusst':'Gewusst → Liste '+((c.box||1)+1))+'</button></div>';
   }
   f.innerHTML=h;
   $('fSay').onclick=()=>say(c.ar);
   if(!flipped){ $('fFlip').onclick=()=>{ flipped=true; drawCard(); }; }
-  else {
-    $('fAgain').onclick=()=>answer(false);
-    $('fGood').onclick=()=>answer(true);
-  }
+  else { $('fAgain').onclick=()=>answer(false); $('fGood').onclick=()=>answer(true); }
 }
 function answer(ok){
   const c=cards[current.key]; if(!c) return nextCard();
-  c.box = ok ? Math.min(5, c.box+1) : 1;
-  c.due = today() + INTERVAL_DAYS[c.box]*86400000;
-  if(!ok) c.due = today(); // bleibt heute fällig
-  saveCards(); renderList();
-  if(practiceAll){ const rest=Object.values(cards).filter(x=>x.key!==c.key); current = rest.length ? rest[Math.floor(Math.random()*rest.length)] : c; flipped=false; stats(); drawCard(); return; }
-  // eine falsch beantwortete Karte nicht sofort wieder zeigen
-  const pool=dueCards().filter(x=>x.key!==c.key);
-  if(!ok && pool.length){ current=pool[0]; flipped=false; stats(); drawCard(); } else nextCard();
+  if(ok && (c.box||1)<5){ c.box=(c.box||1)+1; toast('Weiter auf Liste '+c.box); }
+  lastKey=c.key; saveCards(); renderList(); nextCard();
 }
 function renderList(){
   const ul=$('cardList'); ul.innerHTML='';
@@ -456,7 +463,7 @@ function renderList(){
   if(!all.length){ ul.innerHTML='<li class="empty">Noch keine Wörter gespeichert.</li>'; return; }
   all.forEach(c=>{
     const li=document.createElement('li');
-    li.innerHTML='<span class="lar">'+esc(c.ar)+'</span><span class="lde">'+esc(c.de)+'</span><span class="lbox">Stufe '+c.box+'</span><button aria-label="Löschen">Löschen</button>';
+    li.innerHTML='<span class="lar">'+esc(c.ar)+'</span><span class="lde">'+esc(c.de)+'<span class="extra-info">'+extraHTML(c)+'</span></span><span class="lbox">Liste '+(c.box||1)+'</span><button aria-label="Löschen">Löschen</button>';
     li.querySelector('button').onclick=()=>{ delete cards[c.key]; saveCards(); markSaved(); renderList(); nextCard(); };
     ul.appendChild(li);
   });
