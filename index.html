@@ -31,6 +31,12 @@ button:focus-visible,select:focus-visible,.w:focus-visible,a:focus-visible,.tab:
 label{font-size:13px;color:var(--muted);display:flex;gap:6px;align-items:center}
 select{font:14px var(--ui);padding:6px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--fg);max-width:220px}
 .status{font-size:13px;color:var(--muted);width:100%}
+.progress{display:flex;gap:3px;width:100%;direction:ltr}
+.seg{flex:1;height:10px;border:0;padding:0;border-radius:3px;background:var(--line);cursor:pointer;min-width:0}
+.seg.done{background:var(--word)}
+.seg.cur{background:var(--accent)}
+.seg:hover{outline:2px solid var(--accent);outline-offset:1px}
+.progress-label{display:flex;justify-content:space-between;width:100%;font-size:12px;color:var(--muted);margin-top:-4px}
 main .in{padding-block:24px 64px}
 .meta{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:0 0 4px}
 .hint{font-size:13px;color:var(--muted);margin:0 0 18px}
@@ -107,13 +113,17 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
     <button class="tab" id="tabCards" role="tab" aria-selected="false">Lernkarten<span class="count" id="cardCount">0</span></button>
   </div>
   <div class="controls" id="player">
+    <button id="prev" title="Vorheriger Absatz" aria-label="Vorheriger Absatz">⏮ Zurück</button>
     <button id="play" class="primary">▶ Vorlesen</button>
+    <button id="next" title="Nächster Absatz" aria-label="Nächster Absatz">Weiter ⏭</button>
     <button id="pause">Pause</button>
     <button id="stop">Stopp</button>
     <label for="rate">Tempo
       <select id="rate"><option value="0.7">langsam</option><option value="0.9" selected>normal</option><option value="1.1">schnell</option></select>
     </label>
     <label for="voice">Stimme <select id="voice"></select></label>
+    <div class="progress" id="progress" aria-label="Fortschritt – tippe auf ein Feld, um dorthin zu springen"></div>
+    <div class="progress-label"><span>Überschrift</span><span id="progText"></span><span>Ende</span></div>
     <div class="status" id="status">Text wird geladen …</div>
   </div>
 </div></div>
@@ -251,6 +261,7 @@ function render(d){
   addBlock(-1, 'h1', d.title, d.title_tr);
   d.paragraphs.forEach((t,i)=> addBlock(i, 'p', t, (d.translations||[])[i]));
   blocks = [...$('text').children];
+  buildProgress();
   $('toggleDe').hidden = !(d.translations && d.translations.length);
   applyDe();
   const sl=$('srcList'); sl.innerHTML='';
@@ -336,19 +347,40 @@ function utter(text){
   u.rate=parseFloat($('rate').value); return u;
 }
 function say(text){ if(!synth) return; running=false; synth.cancel(); synth.speak(utter(text)); }
-function mark(i){ blocks.forEach((p,j)=>p.classList.toggle('now', j===i)); if(blocks[i]) blocks[i].scrollIntoView({block:'center',behavior:'smooth'}); }
+let gen=0;
+function buildProgress(){
+  const pr=$('progress'); pr.innerHTML='';
+  blocks.forEach((b,i)=>{
+    const x=document.createElement('button'); x.className='seg'; x.type='button';
+    x.title = i===0 ? 'Überschrift' : 'Absatz '+i; x.setAttribute('aria-label', x.title);
+    x.onclick=()=>jump(i); pr.appendChild(x);
+  });
+  updateProgress(-1);
+}
+function updateProgress(i){
+  [...$('progress').children].forEach((x,j)=>{ x.classList.toggle('done', i>=0 && j<i); x.classList.toggle('cur', j===i); });
+  $('progText').textContent = i>=0 ? (i===0 ? 'Überschrift' : 'Absatz '+i+' von '+(blocks.length-1)) : '';
+}
+function mark(i){ blocks.forEach((p,j)=>p.classList.toggle('now', j===i)); updateProgress(i); if(blocks[i]) blocks[i].scrollIntoView({block:'center',behavior:'smooth'}); }
 function speakFrom(i){
   if(i>=blocks.length){ running=false; mark(-1); status.textContent='Fertig vorgelesen.'; idx=0; return; }
-  idx=i; mark(i);
+  const my=++gen; idx=i; mark(i);
   const u=utter(blocks[i].querySelector('.ar').textContent);
-  u.onend=()=>{ if(running) speakFrom(i+1); };
-  u.onerror=e=>{ if(e.error!=='interrupted'&&e.error!=='canceled'){ status.textContent='Sprachausgabe fehlgeschlagen ('+e.error+'). Evtl. fehlt eine arabische Stimme auf dem Gerät.'; running=false; } };
+  u.onend=()=>{ if(running && my===gen) speakFrom(i+1); };
+  u.onerror=e=>{ if(my===gen && e.error!=='interrupted'&&e.error!=='canceled'){ status.textContent='Sprachausgabe fehlgeschlagen ('+e.error+'). Evtl. fehlt eine arabische Stimme auf dem Gerät.'; running=false; } };
   synth.speak(u);
-  status.textContent='Liest Abschnitt '+(i+1)+' von '+blocks.length+' …';
+  status.textContent='Liest '+(i===0?'die Überschrift':'Absatz '+i+' von '+(blocks.length-1))+' …';
 }
-$('play').onclick=()=>{ if(!synth){ status.textContent='Dieser Browser unterstützt keine Sprachausgabe.'; return; } if(synth.paused){ synth.resume(); return; } synth.cancel(); running=true; speakFrom(idx); };
+function jump(i){
+  if(!synth){ status.textContent='Dieser Browser unterstützt keine Sprachausgabe.'; return; }
+  i=Math.max(0,Math.min(blocks.length-1,i));
+  gen++; synth.cancel(); running=true; speakFrom(i);
+}
+$('play').onclick=()=>{ if(!synth){ status.textContent='Dieser Browser unterstützt keine Sprachausgabe.'; return; } if(synth.paused){ synth.resume(); status.textContent='Weiter …'; return; } jump(idx); };
+$('prev').onclick=()=>jump(running ? idx-1 : Math.max(0,idx-1));
+$('next').onclick=()=>jump(idx+1);
 $('pause').onclick=()=>{ if(synth&&synth.speaking){ synth.pause(); status.textContent='Pausiert.'; } };
-$('stop').onclick=()=>{ if(!synth) return; running=false; synth.cancel(); idx=0; mark(-1); status.textContent='Gestoppt.'; };
+$('stop').onclick=()=>{ if(!synth) return; running=false; gen++; synth.cancel(); idx=0; mark(-1); status.textContent='Gestoppt.'; };
 $('tipSay').onclick=e=>{ e.stopPropagation(); if(selWord) say(selWord.textContent); };
 
 
