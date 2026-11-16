@@ -1,0 +1,596 @@
+{
+ "date": "2026-11-16",
+ "topic": "Politik",
+ "title_de": "Abdelatty in Kuwait",
+ "title": "وزير الخارجية المصري يبحث في الكويت تعزيز التعاون واحتواء التوتر الإقليمي",
+ "title_tr": "Der ägyptische Aussenminister bespricht in Kuwait den Ausbau der Zusammenarbeit und die Eindämmung der regionalen Spannungen",
+ "paragraphs": [
+  "أجرى وزير الخارجية المصري بدر عبد العاطي يوم الأحد زيارة رسمية إلى الكويت، ترأس خلالها أعمال الدورة الرابعة عشرة للجنة المشتركة بين البلدين، في خطوة تعكس حرص القاهرة على توطيد علاقاتها مع دول الخليج.",
+  "والتقى الوزير المصري ولي العهد الكويتي الشيخ صباح خالد الحمد الصباح، حيث أكد اعتزاز بلاده بالروابط التاريخية والأخوية التي تجمع الشعبين، وتطلعها إلى توسيع التعاون في مختلف المجالات.",
+  "وتناول اللقاء كذلك آخر التطورات في المنطقة، إذ شدد الجانبان على أهمية تغليب الحلول السياسية والدبلوماسية، والعمل على خفض التصعيد تجنبا لاتساع رقعة التوتر.",
+  "واتفق الطرفان على مواصلة التنسيق والتشاور بصورة منتظمة، بما يسهم في الحفاظ على الأمن والاستقرار الإقليميين، وفق ما أعلنه المتحدث الرسمي باسم وزارة الخارجية المصرية.",
+  "وفي سياق متصل، اجتمع عبد العاطي مع المدير العام بالوكالة للصندوق الكويتي للتنمية الاقتصادية العربية، وأشاد بالدور الذي يضطلع به الصندوق في دعم مشروعات التنمية الاقتصادية والاجتماعية في مصر.",
+  "وبحث الجانبان سبل تطوير الشراكة في مجالات جديدة، من بينها الدعم الفني وبناء القدرات وإعداد دراسات الجدوى، فضلا عن تمويل الشركات الناشئة والمشروعات الصغيرة والمتوسطة.",
+  "ويرى مراقبون أن هذه الزيارة تأتي في توقيت حساس، تسعى فيه العواصم العربية إلى تنسيق مواقفها ومنع انزلاق المنطقة نحو مزيد من التصعيد."
+ ],
+ "translations": [
+  "Der ägyptische Aussenminister Badr Abdelatty stattete am Sonntag Kuwait einen offiziellen Besuch ab und leitete dabei die 14. Sitzung der gemeinsamen Kommission der beiden Länder – ein Schritt, der zeigt, wie sehr Kairo daran liegt, seine Beziehungen zu den Golfstaaten zu festigen.",
+  "Der ägyptische Minister traf den kuwaitischen Kronprinzen Scheich Sabah Khaled Al-Hamad Al-Sabah. Er betonte, wie sehr sein Land die historischen und brüderlichen Bande zwischen den beiden Völkern schätzt und dass es die Zusammenarbeit in verschiedenen Bereichen ausbauen möchte.",
+  "Bei dem Treffen ging es auch um die jüngsten Entwicklungen in der Region: Beide Seiten unterstrichen, wie wichtig es sei, politischen und diplomatischen Lösungen den Vorrang zu geben und auf eine Deeskalation hinzuarbeiten, um eine Ausweitung der Spannungen zu verhindern.",
+  "Die beiden Seiten vereinbarten, sich weiterhin regelmässig abzustimmen und zu beraten, um zur Wahrung der regionalen Sicherheit und Stabilität beizutragen, wie der offizielle Sprecher des ägyptischen Aussenministeriums mitteilte.",
+  "In diesem Zusammenhang traf Abdelatty auch den amtierenden Generaldirektor des Kuwaitischen Fonds für arabische wirtschaftliche Entwicklung und würdigte die Rolle, die der Fonds bei der Unterstützung wirtschaftlicher und sozialer Entwicklungsprojekte in Ägypten spielt.",
+  "Die beiden Seiten erörterten Wege, die Partnerschaft auf neue Bereiche auszuweiten, darunter technische Unterstützung, Kapazitätsaufbau und die Erstellung von Machbarkeitsstudien sowie die Finanzierung von Start-ups und kleinen und mittleren Unternehmen.",
+  "Beobachter sind der Ansicht, dass der Besuch zu einem heiklen Zeitpunkt kommt, an dem die arabischen Hauptstädte versuchen, ihre Positionen abzustimmen und ein Abgleiten der Region in eine weitere Eskalation zu verhindern."
+ ],
+ "dict": {
+  "وزير": [
+   "Minister"
+  ],
+  "الخارجية": [
+   "das Äussere",
+   "وزير الخارجية = Aussenminister"
+  ],
+  "المصري": [
+   "ägyptisch"
+  ],
+  "يبحث": [
+   "bespricht, erörtert"
+  ],
+  "في": [
+   "in"
+  ],
+  "الكويت": [
+   "Kuwait"
+  ],
+  "تعزيز": [
+   "Stärkung, Ausbau"
+  ],
+  "التعاون": [
+   "die Zusammenarbeit"
+  ],
+  "واحتواء": [
+   "und Eindämmung",
+   "و = und + احتواء"
+  ],
+  "التوتر": [
+   "die Spannung"
+  ],
+  "الإقليمي": [
+   "regional"
+  ],
+  "أجرى": [
+   "führte durch",
+   "أجرى زيارة = einen Besuch abstatten"
+  ],
+  "بدر": [
+   "Badr",
+   "Eigenname"
+  ],
+  "عبد": [
+   "Abd",
+   "Teil des Namens عبد العاطي"
+  ],
+  "العاطي": [
+   "al-Ati",
+   "Teil des Namens (Abdelatty)"
+  ],
+  "يوم": [
+   "Tag"
+  ],
+  "الأحد": [
+   "Sonntag"
+  ],
+  "زيارة": [
+   "Besuch"
+  ],
+  "رسمية": [
+   "offiziell"
+  ],
+  "إلى": [
+   "nach, zu"
+  ],
+  "ترأس": [
+   "leitete, hatte den Vorsitz"
+  ],
+  "خلالها": [
+   "während ihm (dem Besuch)",
+   "خلال + ـها"
+  ],
+  "أعمال": [
+   "Arbeiten",
+   "أعمال الدورة = die Sitzung (wörtl. Arbeiten der Runde)"
+  ],
+  "الدورة": [
+   "die Sitzung, die Runde"
+  ],
+  "الرابعة": [
+   "die vierte"
+  ],
+  "عشرة": [
+   "-zehn",
+   "الرابعة عشرة = die vierzehnte"
+  ],
+  "للجنة": [
+   "der Kommission",
+   "لـ + اللجنة"
+  ],
+  "المشتركة": [
+   "gemeinsam"
+  ],
+  "بين": [
+   "zwischen"
+  ],
+  "البلدين": [
+   "den beiden Ländern",
+   "Dual von البلد"
+  ],
+  "خطوة": [
+   "Schritt"
+  ],
+  "تعكس": [
+   "widerspiegelt, zeigt"
+  ],
+  "حرص": [
+   "Bestreben, Wille",
+   "حرص على = Wert legen auf"
+  ],
+  "القاهرة": [
+   "Kairo"
+  ],
+  "على": [
+   "auf, über"
+  ],
+  "توطيد": [
+   "Festigung"
+  ],
+  "علاقاتها": [
+   "ihre Beziehungen",
+   "ـها = ihr (Kairo, fem.)"
+  ],
+  "مع": [
+   "mit"
+  ],
+  "دول": [
+   "Staaten",
+   "Plural von دولة"
+  ],
+  "الخليج": [
+   "der Golf",
+   "دول الخليج = Golfstaaten"
+  ],
+  "والتقى": [
+   "und er traf",
+   "و + التقى"
+  ],
+  "الوزير": [
+   "der Minister"
+  ],
+  "ولي": [
+   "Erbe",
+   "ولي العهد = Kronprinz"
+  ],
+  "العهد": [
+   "die Thronfolge"
+  ],
+  "الكويتي": [
+   "kuwaitisch"
+  ],
+  "الشيخ": [
+   "Scheich"
+  ],
+  "صباح": [
+   "Sabah",
+   "Eigenname; auch: Morgen"
+  ],
+  "خالد": [
+   "Khaled",
+   "Eigenname"
+  ],
+  "الحمد": [
+   "Al-Hamad",
+   "Teil des Namens"
+  ],
+  "الصباح": [
+   "Al-Sabah",
+   "Herrscherfamilie von Kuwait"
+  ],
+  "حيث": [
+   "wobei, wo"
+  ],
+  "أكد": [
+   "betonte"
+  ],
+  "اعتزاز": [
+   "Stolz, Wertschätzung"
+  ],
+  "بلاده": [
+   "seines Landes",
+   "ـه = sein"
+  ],
+  "بالروابط": [
+   "auf die Bande",
+   "بـ + الروابط"
+  ],
+  "التاريخية": [
+   "historisch"
+  ],
+  "والأخوية": [
+   "und brüderlich"
+  ],
+  "التي": [
+   "die (Relativpronomen, fem.)"
+  ],
+  "تجمع": [
+   "vereinen, verbinden"
+  ],
+  "الشعبين": [
+   "die beiden Völker",
+   "Dual von الشعب"
+  ],
+  "وتطلعها": [
+   "und ihr Streben",
+   "و + تطلع + ـها"
+  ],
+  "توسيع": [
+   "Ausweitung"
+  ],
+  "مختلف": [
+   "verschiedene"
+  ],
+  "المجالات": [
+   "die Bereiche"
+  ],
+  "وتناول": [
+   "und behandelte",
+   "و + تناول"
+  ],
+  "اللقاء": [
+   "das Treffen"
+  ],
+  "كذلك": [
+   "ebenfalls, auch"
+  ],
+  "آخر": [
+   "letzte, jüngste"
+  ],
+  "التطورات": [
+   "die Entwicklungen"
+  ],
+  "المنطقة": [
+   "die Region"
+  ],
+  "إذ": [
+   "denn, wobei"
+  ],
+  "شدد": [
+   "unterstrich, betonte"
+  ],
+  "الجانبان": [
+   "die beiden Seiten",
+   "Dual von الجانب"
+  ],
+  "أهمية": [
+   "Wichtigkeit"
+  ],
+  "تغليب": [
+   "Vorrang geben"
+  ],
+  "الحلول": [
+   "die Lösungen"
+  ],
+  "السياسية": [
+   "politisch"
+  ],
+  "والدبلوماسية": [
+   "und diplomatisch"
+  ],
+  "والعمل": [
+   "und das Arbeiten",
+   "العمل على = hinarbeiten auf"
+  ],
+  "خفض": [
+   "Senkung",
+   "خفض التصعيد = Deeskalation"
+  ],
+  "التصعيد": [
+   "die Eskalation"
+  ],
+  "تجنبا": [
+   "um zu vermeiden",
+   "Akkusativ des Zwecks"
+  ],
+  "لاتساع": [
+   "einer Ausweitung",
+   "لـ + اتساع"
+  ],
+  "رقعة": [
+   "Fläche, Ausmass"
+  ],
+  "واتفق": [
+   "und vereinbarten",
+   "و + اتفق"
+  ],
+  "الطرفان": [
+   "die beiden Parteien",
+   "Dual von الطرف"
+  ],
+  "مواصلة": [
+   "Fortsetzung"
+  ],
+  "التنسيق": [
+   "die Abstimmung, Koordination"
+  ],
+  "والتشاور": [
+   "und die Beratung"
+  ],
+  "بصورة": [
+   "in Form",
+   "بصورة منتظمة = regelmässig"
+  ],
+  "منتظمة": [
+   "regelmässig"
+  ],
+  "بما": [
+   "womit, sodass",
+   "بما يسهم في = was beiträgt zu"
+  ],
+  "يسهم": [
+   "trägt bei"
+  ],
+  "الحفاظ": [
+   "die Wahrung"
+  ],
+  "الأمن": [
+   "die Sicherheit"
+  ],
+  "والاستقرار": [
+   "und die Stabilität"
+  ],
+  "الإقليميين": [
+   "regional (Dual)",
+   "bezieht sich auf Sicherheit und Stabilität"
+  ],
+  "وفق": [
+   "gemäss",
+   "وفق ما = wie"
+  ],
+  "ما": [
+   "was"
+  ],
+  "أعلنه": [
+   "es verkündete",
+   "أعلن + ـه"
+  ],
+  "المتحدث": [
+   "der Sprecher"
+  ],
+  "الرسمي": [
+   "offiziell"
+  ],
+  "باسم": [
+   "im Namen von",
+   "بـ + اسم"
+  ],
+  "وزارة": [
+   "Ministerium"
+  ],
+  "المصرية": [
+   "ägyptisch (fem.)"
+  ],
+  "وفي": [
+   "und in",
+   "و + في"
+  ],
+  "سياق": [
+   "Kontext",
+   "في سياق متصل = in diesem Zusammenhang"
+  ],
+  "متصل": [
+   "verbunden"
+  ],
+  "اجتمع": [
+   "kam zusammen, traf"
+  ],
+  "المدير": [
+   "der Direktor"
+  ],
+  "العام": [
+   "allgemein",
+   "المدير العام = Generaldirektor"
+  ],
+  "بالوكالة": [
+   "amtierend",
+   "wörtl. in Vertretung"
+  ],
+  "للصندوق": [
+   "des Fonds",
+   "لـ + الصندوق"
+  ],
+  "للتنمية": [
+   "für Entwicklung",
+   "لـ + التنمية"
+  ],
+  "الاقتصادية": [
+   "wirtschaftlich"
+  ],
+  "العربية": [
+   "arabisch"
+  ],
+  "وأشاد": [
+   "und würdigte",
+   "أشاد بـ = loben"
+  ],
+  "بالدور": [
+   "die Rolle",
+   "بـ + الدور"
+  ],
+  "الذي": [
+   "der (Relativpronomen)"
+  ],
+  "يضطلع": [
+   "übernimmt",
+   "يضطلع بـ = eine Rolle spielen"
+  ],
+  "به": [
+   "damit, es",
+   "بـ + ـه"
+  ],
+  "الصندوق": [
+   "der Fonds"
+  ],
+  "دعم": [
+   "Unterstützung"
+  ],
+  "مشروعات": [
+   "Projekte",
+   "Plural von مشروع"
+  ],
+  "التنمية": [
+   "die Entwicklung"
+  ],
+  "والاجتماعية": [
+   "und sozial"
+  ],
+  "مصر": [
+   "Ägypten"
+  ],
+  "وبحث": [
+   "und erörterte",
+   "و + بحث"
+  ],
+  "سبل": [
+   "Wege",
+   "Plural von سبيل"
+  ],
+  "تطوير": [
+   "Entwicklung, Weiterentwicklung"
+  ],
+  "الشراكة": [
+   "die Partnerschaft"
+  ],
+  "مجالات": [
+   "Bereiche"
+  ],
+  "جديدة": [
+   "neu"
+  ],
+  "من": [
+   "von, aus"
+  ],
+  "بينها": [
+   "unter ihnen",
+   "من بينها = darunter"
+  ],
+  "الدعم": [
+   "die Unterstützung"
+  ],
+  "الفني": [
+   "technisch"
+  ],
+  "وبناء": [
+   "und Aufbau",
+   "بناء القدرات = Kapazitätsaufbau"
+  ],
+  "القدرات": [
+   "die Fähigkeiten"
+  ],
+  "وإعداد": [
+   "und Erstellung"
+  ],
+  "دراسات": [
+   "Studien"
+  ],
+  "الجدوى": [
+   "die Machbarkeit",
+   "دراسات الجدوى = Machbarkeitsstudien"
+  ],
+  "فضلا": [
+   "zusätzlich",
+   "فضلاً عن = sowie, ausserdem"
+  ],
+  "عن": [
+   "über, von"
+  ],
+  "تمويل": [
+   "Finanzierung"
+  ],
+  "الشركات": [
+   "die Unternehmen"
+  ],
+  "الناشئة": [
+   "aufstrebend",
+   "الشركات الناشئة = Start-ups"
+  ],
+  "والمشروعات": [
+   "und die Projekte, Unternehmen"
+  ],
+  "الصغيرة": [
+   "klein"
+  ],
+  "والمتوسطة": [
+   "und mittel"
+  ],
+  "ويرى": [
+   "und sehen, sind der Ansicht"
+  ],
+  "مراقبون": [
+   "Beobachter"
+  ],
+  "أن": [
+   "dass"
+  ],
+  "هذه": [
+   "diese"
+  ],
+  "تأتي": [
+   "kommt"
+  ],
+  "توقيت": [
+   "Zeitpunkt"
+  ],
+  "حساس": [
+   "heikel, sensibel"
+  ],
+  "تسعى": [
+   "strebt an, versucht"
+  ],
+  "فيه": [
+   "in ihm, an dem"
+  ],
+  "العواصم": [
+   "die Hauptstädte"
+  ],
+  "تنسيق": [
+   "Abstimmung"
+  ],
+  "مواقفها": [
+   "ihre Positionen",
+   "ـها = ihr"
+  ],
+  "ومنع": [
+   "und Verhinderung"
+  ],
+  "انزلاق": [
+   "Abgleiten"
+  ],
+  "نحو": [
+   "in Richtung"
+  ],
+  "مزيد": [
+   "mehr, weitere"
+  ],
+  "الزيارة": [
+   "der Besuch"
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://youm7.com/story/2026/11/15/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D9%8A%D8%A8%D8%AD%D8%AB-%D9%85%D8%B9-%D9%88%D9%84%D9%8A-%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%AB%D9%86%D8%A7%D8%A6%D9%8A%D8%A9-%D9%88%D9%85%D8%B3%D8%AA%D8%AC%D8%AF%D8%A7%D8%AA/7619417",
+   "title": "Youm7: Aussenminister trifft Kuwaits Kronprinzen (15.11.2026)"
+  },
+  {
+   "url": "https://www.sabaharabi.com/716005",
+   "title": "Sabah Arabi: Treffen mit dem Kuwaitischen Entwicklungsfonds (15.11.2026)"
+  }
+ ]
+}
