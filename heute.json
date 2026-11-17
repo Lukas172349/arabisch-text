@@ -1,157 +1,81 @@
 {
- "date": "2026-11-16",
- "topic": "Politik",
- "title_de": "Abdelatty in Kuwait",
- "title": "وزير الخارجية المصري يبحث في الكويت تعزيز التعاون واحتواء التوتر الإقليمي",
- "title_tr": "Der ägyptische Aussenminister bespricht in Kuwait den Ausbau der Zusammenarbeit und die Eindämmung der regionalen Spannungen",
+ "date": "2026-11-17",
+ "topic": "Naher Osten",
+ "title_de": "Dritter US-Flugzeugträger",
+ "title": "حاملة طائرات أمريكية ثالثة تصل إلى الشرق الأوسط وسط تصاعد التوتر في الخليج",
+ "title_tr": "Dritter amerikanischer Flugzeugträger trifft inmitten wachsender Spannungen am Golf im Nahen Osten ein",
  "paragraphs": [
-  "أجرى وزير الخارجية المصري بدر عبد العاطي يوم الأحد زيارة رسمية إلى الكويت، ترأس خلالها أعمال الدورة الرابعة عشرة للجنة المشتركة بين البلدين، في خطوة تعكس حرص القاهرة على توطيد علاقاتها مع دول الخليج.",
-  "والتقى الوزير المصري ولي العهد الكويتي الشيخ صباح خالد الحمد الصباح، حيث أكد اعتزاز بلاده بالروابط التاريخية والأخوية التي تجمع الشعبين، وتطلعها إلى توسيع التعاون في مختلف المجالات.",
-  "وتناول اللقاء كذلك آخر التطورات في المنطقة، إذ شدد الجانبان على أهمية تغليب الحلول السياسية والدبلوماسية، والعمل على خفض التصعيد تجنبا لاتساع رقعة التوتر.",
-  "واتفق الطرفان على مواصلة التنسيق والتشاور بصورة منتظمة، بما يسهم في الحفاظ على الأمن والاستقرار الإقليميين، وفق ما أعلنه المتحدث الرسمي باسم وزارة الخارجية المصرية.",
-  "وفي سياق متصل، اجتمع عبد العاطي مع المدير العام بالوكالة للصندوق الكويتي للتنمية الاقتصادية العربية، وأشاد بالدور الذي يضطلع به الصندوق في دعم مشروعات التنمية الاقتصادية والاجتماعية في مصر.",
-  "وبحث الجانبان سبل تطوير الشراكة في مجالات جديدة، من بينها الدعم الفني وبناء القدرات وإعداد دراسات الجدوى، فضلا عن تمويل الشركات الناشئة والمشروعات الصغيرة والمتوسطة.",
-  "ويرى مراقبون أن هذه الزيارة تأتي في توقيت حساس، تسعى فيه العواصم العربية إلى تنسيق مواقفها ومنع انزلاق المنطقة نحو مزيد من التصعيد."
+  "أفاد مسؤول أمريكي بأن حاملة الطائرات ثيودور روزفلت وصلت يوم الأحد إلى منطقة الشرق الأوسط، ليرتفع بذلك عدد مجموعات حاملات الطائرات الضاربة التابعة للولايات المتحدة في نطاق القيادة المركزية الأمريكية إلى ثلاث.",
+  "وكان من المقرر في الأصل أن تحل الحاملة الجديدة محل حاملة الطائرات جورج واشنطن، غير أن الأخيرة لا تزال موجودة في المنطقة في الوقت الراهن، وهو ما يوسع الوجود البحري الأمريكي هناك.",
+  "ويأتي هذا الانتشار بعد أن شنت إيران يوم الأحد هجوما على قاعدة في البحرين تضم أصولا عسكرية أمريكية، إذ أعلن الحرس الثوري الإيراني أنه أطلق طائرات مسيرة باتجاه الموقع، في أول ضربة تستهدف دولة خليجية منذ عدة أسابيع.",
+  "وكان الحرس الثوري قد أعلن يوم الجمعة أنه دمر رادار إنذار مبكر أمريكيا في البحرين، في حين أكدت القيادة المركزية الأمريكية أنها اعترضت الطائرتين المسيرتين اللتين أطلقتهما طهران.",
+  "وفي سياق متصل، حذرت السفارة الأمريكية في المنامة المواطنين الأمريكيين في البحرين من احتمال حدوث اضطرابات في حركة الطيران ووقوع هجمات جديدة.",
+  "وعلى صعيد الملاحة البحرية، ذكر التلفزيون الرسمي الإيراني أن خمس سفن اصطدمت بألغام واشتعلت فيها النيران خلال ثمان وأربعين ساعة، دون أن يكشف عن هويتها. كما أفادت هيئة عمليات التجارة البحرية البريطانية، نقلا عن السلطات البحرية الهندية، بتعرض ناقلة لهجوم في الخليج، مشيرة إلى أن طاقمها بخير، بينما لم يتضح بعد حجم الأضرار.",
+  "وفي المقابل، لم تسفر الجهود الدبلوماسية الرامية إلى إنهاء النزاع عن أي اختراق حتى الآن. ومن المنتظر أن يزور وزير الخارجية الإيراني عباس عراقجي العاصمة العمانية مسقط يوم الثلاثاء لإجراء محادثات مع نظيره العماني.",
+  "يذكر أن الحرب اندلعت في الثامن والعشرين من فبراير الماضي، عندما شنت الولايات المتحدة وإسرائيل هجوما مشتركا على إيران، قالت الدولتان إن هدفه التصدي لبرنامجها النووي.",
+  "ومن المتوقع أن يلتقي الرئيس الأمريكي دونالد ترامب خلال هذا الأسبوع في آسيا كلا من الرئيس الروسي فلاديمير بوتين والرئيس الصيني شي جين بينغ."
  ],
  "translations": [
-  "Der ägyptische Aussenminister Badr Abdelatty stattete am Sonntag Kuwait einen offiziellen Besuch ab und leitete dabei die 14. Sitzung der gemeinsamen Kommission der beiden Länder – ein Schritt, der zeigt, wie sehr Kairo daran liegt, seine Beziehungen zu den Golfstaaten zu festigen.",
-  "Der ägyptische Minister traf den kuwaitischen Kronprinzen Scheich Sabah Khaled Al-Hamad Al-Sabah. Er betonte, wie sehr sein Land die historischen und brüderlichen Bande zwischen den beiden Völkern schätzt und dass es die Zusammenarbeit in verschiedenen Bereichen ausbauen möchte.",
-  "Bei dem Treffen ging es auch um die jüngsten Entwicklungen in der Region: Beide Seiten unterstrichen, wie wichtig es sei, politischen und diplomatischen Lösungen den Vorrang zu geben und auf eine Deeskalation hinzuarbeiten, um eine Ausweitung der Spannungen zu verhindern.",
-  "Die beiden Seiten vereinbarten, sich weiterhin regelmässig abzustimmen und zu beraten, um zur Wahrung der regionalen Sicherheit und Stabilität beizutragen, wie der offizielle Sprecher des ägyptischen Aussenministeriums mitteilte.",
-  "In diesem Zusammenhang traf Abdelatty auch den amtierenden Generaldirektor des Kuwaitischen Fonds für arabische wirtschaftliche Entwicklung und würdigte die Rolle, die der Fonds bei der Unterstützung wirtschaftlicher und sozialer Entwicklungsprojekte in Ägypten spielt.",
-  "Die beiden Seiten erörterten Wege, die Partnerschaft auf neue Bereiche auszuweiten, darunter technische Unterstützung, Kapazitätsaufbau und die Erstellung von Machbarkeitsstudien sowie die Finanzierung von Start-ups und kleinen und mittleren Unternehmen.",
-  "Beobachter sind der Ansicht, dass der Besuch zu einem heiklen Zeitpunkt kommt, an dem die arabischen Hauptstädte versuchen, ihre Positionen abzustimmen und ein Abgleiten der Region in eine weitere Eskalation zu verhindern."
+  "Ein amerikanischer Regierungsvertreter teilte mit, dass der Flugzeugträger Theodore Roosevelt am Sonntag in der Region des Nahen Ostens eingetroffen ist. Damit steigt die Zahl der amerikanischen Flugzeugträger-Kampfgruppen im Zuständigkeitsbereich des US-Zentralkommandos auf drei.",
+  "Ursprünglich sollte der neue Träger den Flugzeugträger George Washington ablösen, doch dieser befindet sich vorerst weiterhin in der Region, was die amerikanische Marinepräsenz dort ausweitet.",
+  "Die Verlegung erfolgt, nachdem Iran am Sonntag einen Stützpunkt in Bahrain angegriffen hatte, auf dem amerikanisches Militärgerät stationiert ist. Die iranischen Revolutionsgarden erklärten, sie hätten Drohnen auf den Standort abgefeuert – es war der erste Angriff auf einen Golfstaat seit mehreren Wochen.",
+  "Bereits am Freitag hatten die Revolutionsgarden erklärt, sie hätten in Bahrain ein amerikanisches Frühwarnradar zerstört, während das US-Zentralkommando bestätigte, die beiden von Teheran gestarteten Drohnen abgefangen zu haben.",
+  "In diesem Zusammenhang warnte die amerikanische Botschaft in Manama die US-Bürger in Bahrain vor möglichen Störungen im Flugverkehr und vor weiteren Angriffen.",
+  "Was die Schifffahrt betrifft, meldete das iranische Staatsfernsehen, dass innerhalb von 48 Stunden fünf Schiffe auf Minen gelaufen und in Brand geraten seien, ohne ihre Identität bekanntzugeben. Zudem berichtete die britische Behörde für maritime Handelsoperationen (UKMTO) unter Berufung auf die indischen Schifffahrtsbehörden von einem Angriff auf einen Tanker im Golf; die Besatzung sei wohlauf, das Ausmass der Schäden jedoch noch unklar.",
+  "Die diplomatischen Bemühungen um ein Ende des Konflikts haben dagegen bisher keinen Durchbruch gebracht. Der iranische Aussenminister Abbas Araghchi wird am Dienstag in der omanischen Hauptstadt Maskat erwartet, wo er Gespräche mit seinem omanischen Amtskollegen führen soll.",
+  "Zur Erinnerung: Der Krieg brach am 28. Februar dieses Jahres aus, als die USA und Israel einen gemeinsamen Angriff auf Iran starteten, dessen Ziel nach Angaben beider Staaten die Bekämpfung des iranischen Atomprogramms war.",
+  "US-Präsident Donald Trump soll im Laufe dieser Woche in Asien sowohl den russischen Präsidenten Wladimir Putin als auch den chinesischen Präsidenten Xi Jinping treffen."
+ ],
+ "sources": [
+  {
+   "url": "https://www.thenationalnews.com/news/us/2026/11/16/uss-theodore-roosevelt-middle-east-centcom/",
+   "title": "The National: USS Theodore Roosevelt trifft im Nahen Osten ein"
+  },
+  {
+   "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-16-2026",
+   "title": "Khaleej Times: Liveticker Nahost vom 16. November 2026"
+  }
  ],
  "dict": {
-  "وزير": [
-   "Minister",
+  "حاملة": [
+   "Trägerin, Träger (Flugzeugträger)",
    "",
-   "و ز ر",
-   "Last tragen",
-   "",
-   ""
-  ],
-  "الخارجية": [
-   "das Äussere",
-   "وزير الخارجية = Aussenminister",
-   "خ ر ج",
-   "hinausgehen",
-   "الداخلية",
-   "das Innere (Innenministerium)"
-  ],
-  "المصري": [
-   "ägyptisch",
-   "",
-   "م ص ر",
-   "Ägypten (Herkunftsadjektiv)",
+   "ح م ل",
+   "tragen",
    "",
    ""
   ],
-  "يبحث": [
-   "bespricht, erörtert",
-   "",
-   "ب ح ث",
-   "suchen, untersuchen",
-   "",
-   ""
-  ],
-  "في": [
-   "in"
-  ],
-  "الكويت": [
-   "Kuwait"
-  ],
-  "تعزيز": [
-   "Stärkung, Ausbau",
-   "",
-   "ع ز ز",
-   "stark, geschätzt sein",
-   "إضعاف",
-   "Schwächung"
-  ],
-  "التعاون": [
-   "die Zusammenarbeit",
-   "",
-   "ع و ن",
-   "helfen",
-   "التنافس",
-   "die Konkurrenz"
-  ],
-  "واحتواء": [
-   "und Eindämmung",
-   "و = und + احتواء",
-   "ح و ي",
-   "enthalten, umfassen",
+  "طائرات": [
+   "Flugzeuge",
+   "Plural von طائرة",
+   "ط ي ر",
+   "fliegen",
    "",
    ""
   ],
-  "التوتر": [
-   "die Spannung",
+  "أمريكية": [
+   "amerikanisch (f.)",
    "",
-   "و ت ر",
-   "spannen (Saite)",
-   "الهدوء",
-   "die Ruhe"
-  ],
-  "الإقليمي": [
-   "regional",
    "",
-   "ق ل م",
-   "Gebiet (Lehnwort aus dem Griechischen)",
-   "المحلي",
-   "lokal"
-  ],
-  "أجرى": [
-   "führte durch",
-   "أجرى زيارة = einen Besuch abstatten",
-   "ج ر ي",
-   "laufen, fliessen",
+   "Lehnwort (Amerika)",
    "",
    ""
   ],
-  "بدر": [
-   "Badr",
-   "Eigenname"
-  ],
-  "عبد": [
-   "Abd",
-   "Teil des Namens عبد العاطي"
-  ],
-  "العاطي": [
-   "al-Ati",
-   "Teil des Namens (Abdelatty)"
-  ],
-  "يوم": [
-   "Tag",
+  "ثالثة": [
+   "dritte (f.)",
    "",
-   "ي و م",
-   "Tag",
-   "ليلة",
-   "Nacht"
-  ],
-  "الأحد": [
-   "Sonntag",
-   "",
-   "أ ح د",
-   "eins",
+   "ث ل ث",
+   "drei",
    "",
    ""
   ],
-  "زيارة": [
-   "Besuch",
+  "تصل": [
+   "sie trifft ein, erreicht",
    "",
-   "ز و ر",
-   "besuchen",
-   "",
-   ""
-  ],
-  "رسمية": [
-   "offiziell",
-   "",
-   "ر س م",
-   "zeichnen, festlegen",
-   "غير رسمية",
-   "inoffiziell"
+   "و ص ل",
+   "ankommen, verbinden",
+   "تغادر",
+   "sie verlässt"
   ],
   "إلى": [
    "nach, zu",
@@ -161,1083 +85,1797 @@
    "من",
    "von"
   ],
-  "ترأس": [
-   "leitete, hatte den Vorsitz",
-   "",
-   "ر أ س",
-   "Kopf",
-   "",
-   ""
-  ],
-  "خلالها": [
-   "während ihm (dem Besuch)",
-   "خلال + ـها",
-   "خ ل ل",
-   "Lücke, dazwischen",
-   "",
-   ""
-  ],
-  "أعمال": [
-   "Arbeiten",
-   "أعمال الدورة = die Sitzung (wörtl. Arbeiten der Runde)",
-   "ع م ل",
-   "arbeiten",
-   "",
-   ""
-  ],
-  "الدورة": [
-   "die Sitzung, die Runde",
-   "",
-   "د و ر",
-   "sich drehen",
-   "",
-   ""
-  ],
-  "الرابعة": [
-   "die vierte",
-   "",
-   "ر ب ع",
-   "vier",
-   "",
-   ""
-  ],
-  "عشرة": [
-   "-zehn",
-   "الرابعة عشرة = die vierzehnte",
-   "ع ش ر",
-   "zehn",
-   "",
-   ""
-  ],
-  "للجنة": [
-   "der Kommission",
-   "لـ + اللجنة",
-   "ل ج ن",
-   "Ausschuss",
-   "",
-   ""
-  ],
-  "المشتركة": [
-   "gemeinsam",
-   "",
-   "ش ر ك",
-   "teilhaben",
-   "المنفردة",
-   "einzeln, allein"
-  ],
-  "بين": [
-   "zwischen",
-   "",
-   "ب ي ن",
-   "trennen, deutlich sein",
-   "",
-   ""
-  ],
-  "البلدين": [
-   "den beiden Ländern",
-   "Dual von البلد",
-   "ب ل د",
-   "Land, Ort",
-   "",
-   ""
-  ],
-  "خطوة": [
-   "Schritt",
-   "",
-   "خ ط و",
-   "schreiten",
-   "",
-   ""
-  ],
-  "تعكس": [
-   "widerspiegelt, zeigt",
-   "",
-   "ع ك س",
-   "umkehren, spiegeln",
-   "",
-   ""
-  ],
-  "حرص": [
-   "Bestreben, Wille",
-   "حرص على = Wert legen auf",
-   "ح ر ص",
-   "eifrig bedacht sein",
-   "إهمال",
-   "Vernachlässigung"
-  ],
-  "القاهرة": [
-   "Kairo",
-   "",
-   "ق ه ر",
-   "bezwingen (Kairo = die Siegreiche)",
-   "",
-   ""
-  ],
-  "على": [
-   "auf, über"
-  ],
-  "توطيد": [
-   "Festigung",
-   "",
-   "و ط د",
-   "fest, stabil sein",
-   "زعزعة",
-   "Erschütterung"
-  ],
-  "علاقاتها": [
-   "ihre Beziehungen",
-   "ـها = ihr (Kairo, fem.)",
-   "ع ل ق",
-   "hängen",
-   "",
-   ""
-  ],
-  "مع": [
-   "mit"
-  ],
-  "دول": [
-   "Staaten",
-   "Plural von دولة",
-   "د و ل",
-   "wechseln, Staat",
-   "",
-   ""
-  ],
-  "الخليج": [
-   "der Golf",
-   "دول الخليج = Golfstaaten",
-   "خ ل ج",
-   "Bucht",
-   "",
-   ""
-  ],
-  "والتقى": [
-   "und er traf",
-   "و + التقى",
-   "ل ق ي",
-   "begegnen",
-   "افترق",
-   "sich trennen"
-  ],
-  "الوزير": [
-   "der Minister",
-   "",
-   "و ز ر",
-   "Last tragen",
-   "",
-   ""
-  ],
-  "ولي": [
-   "Erbe",
-   "ولي العهد = Kronprinz",
-   "و ل ي",
-   "nahe sein, folgen",
-   "",
-   ""
-  ],
-  "العهد": [
-   "die Thronfolge",
-   "",
-   "ع ه د",
-   "Versprechen, Epoche",
-   "",
-   ""
-  ],
-  "الكويتي": [
-   "kuwaitisch"
-  ],
-  "الشيخ": [
-   "Scheich",
-   "",
-   "ش ي خ",
-   "alt werden",
-   "الشاب",
-   "der junge Mann"
-  ],
-  "صباح": [
-   "Sabah",
-   "Eigenname; auch: Morgen"
-  ],
-  "خالد": [
-   "Khaled",
-   "Eigenname"
-  ],
-  "الحمد": [
-   "Al-Hamad",
-   "Teil des Namens"
-  ],
-  "الصباح": [
-   "Al-Sabah",
-   "Herrscherfamilie von Kuwait"
-  ],
-  "حيث": [
-   "wobei, wo"
-  ],
-  "أكد": [
-   "betonte",
-   "",
-   "أ ك د",
-   "bestätigen",
-   "نفى",
-   "verneinte"
-  ],
-  "اعتزاز": [
-   "Stolz, Wertschätzung",
-   "",
-   "ع ز ز",
-   "stark, geschätzt sein",
-   "",
-   ""
-  ],
-  "بلاده": [
-   "seines Landes",
-   "ـه = sein",
-   "ب ل د",
-   "Land, Ort",
-   "",
-   ""
-  ],
-  "بالروابط": [
-   "auf die Bande",
-   "بـ + الروابط",
-   "ر ب ط",
-   "binden",
-   "",
-   ""
-  ],
-  "التاريخية": [
-   "historisch",
-   "",
-   "أ ر خ",
-   "datieren",
-   "",
-   ""
-  ],
-  "والأخوية": [
-   "und brüderlich",
-   "",
-   "أ خ و",
-   "Bruder",
-   "العدائية",
-   "feindselig"
-  ],
-  "التي": [
-   "die (Relativpronomen, fem.)"
-  ],
-  "تجمع": [
-   "vereinen, verbinden",
-   "",
-   "ج م ع",
-   "sammeln, vereinen",
-   "تفرق",
-   "trennen"
-  ],
-  "الشعبين": [
-   "die beiden Völker",
-   "Dual von الشعب",
-   "ش ع ب",
-   "Volk",
-   "",
-   ""
-  ],
-  "وتطلعها": [
-   "und ihr Streben",
-   "و + تطلع + ـها",
-   "ط ل ع",
-   "aufgehen, emporstreben",
-   "",
-   ""
-  ],
-  "توسيع": [
-   "Ausweitung",
-   "",
-   "و س ع",
-   "weit sein",
-   "تضييق",
-   "Einengung"
-  ],
-  "مختلف": [
-   "verschiedene",
-   "",
-   "خ ل ف",
-   "anders sein, folgen",
-   "متشابه",
-   "ähnlich"
-  ],
-  "المجالات": [
-   "die Bereiche",
-   "",
-   "ج و ل",
-   "umherziehen",
-   "",
-   ""
-  ],
-  "وتناول": [
-   "und behandelte",
-   "و + تناول",
-   "ن و ل",
-   "erlangen, nehmen",
-   "",
-   ""
-  ],
-  "اللقاء": [
-   "das Treffen",
-   "",
-   "ل ق ي",
-   "begegnen",
-   "الفراق",
-   "die Trennung"
-  ],
-  "كذلك": [
-   "ebenfalls, auch"
-  ],
-  "آخر": [
-   "letzte, jüngste",
-   "",
-   "أ خ ر",
-   "hinten, später sein",
-   "أول",
-   "erster"
-  ],
-  "التطورات": [
-   "die Entwicklungen",
-   "",
-   "ط و ر",
-   "Stadium, Phase",
-   "",
-   ""
-  ],
-  "المنطقة": [
-   "die Region",
-   "",
-   "ن ط ق",
-   "sprechen; Gürtel, Bereich",
-   "",
-   ""
-  ],
-  "إذ": [
-   "denn, wobei"
-  ],
-  "شدد": [
-   "unterstrich, betonte",
-   "",
-   "ش د د",
-   "fest, stark sein",
-   "خفف",
-   "schwächte ab"
-  ],
-  "الجانبان": [
-   "die beiden Seiten",
-   "Dual von الجانب",
-   "ج ن ب",
-   "Seite",
-   "",
-   ""
-  ],
-  "أهمية": [
-   "Wichtigkeit",
-   "",
-   "ه م م",
-   "sich kümmern, wichtig sein",
-   "",
-   ""
-  ],
-  "تغليب": [
-   "Vorrang geben",
-   "",
-   "غ ل ب",
-   "siegen, überwiegen",
-   "",
-   ""
-  ],
-  "الحلول": [
-   "die Lösungen",
-   "",
-   "ح ل ل",
-   "lösen",
-   "المشكلات",
-   "die Probleme"
-  ],
-  "السياسية": [
-   "politisch",
-   "",
-   "س و س",
-   "lenken, verwalten",
-   "",
-   ""
-  ],
-  "والدبلوماسية": [
-   "und diplomatisch",
-   "",
-   "",
-   "Lehnwort (Diplomatie)",
-   "",
-   ""
-  ],
-  "والعمل": [
-   "und das Arbeiten",
-   "العمل على = hinarbeiten auf",
-   "ع م ل",
-   "arbeiten",
-   "",
-   ""
-  ],
-  "خفض": [
-   "Senkung",
-   "خفض التصعيد = Deeskalation",
-   "خ ف ض",
-   "senken",
-   "رفع",
-   "Erhöhung"
-  ],
-  "التصعيد": [
-   "die Eskalation",
-   "",
-   "ص ع د",
-   "aufsteigen",
-   "التهدئة",
-   "die Beruhigung"
-  ],
-  "تجنبا": [
-   "um zu vermeiden",
-   "Akkusativ des Zwecks",
-   "ج ن ب",
-   "Seite (meiden = zur Seite gehen)",
-   "",
-   ""
-  ],
-  "لاتساع": [
-   "einer Ausweitung",
-   "لـ + اتساع",
-   "و س ع",
-   "weit sein",
-   "انحسار",
-   "Rückgang"
-  ],
-  "رقعة": [
-   "Fläche, Ausmass",
-   "",
-   "ر ق ع",
-   "flicken; Fläche",
-   "",
-   ""
-  ],
-  "واتفق": [
-   "und vereinbarten",
-   "و + اتفق",
-   "و ف ق",
-   "passen, übereinstimmen",
-   "اختلف",
-   "war uneinig"
-  ],
-  "الطرفان": [
-   "die beiden Parteien",
-   "Dual von الطرف",
-   "ط ر ف",
-   "Rand, Seite",
-   "",
-   ""
-  ],
-  "مواصلة": [
-   "Fortsetzung",
-   "",
-   "و ص ل",
-   "verbinden, ankommen",
-   "انقطاع",
-   "Unterbrechung"
-  ],
-  "التنسيق": [
-   "die Abstimmung, Koordination",
-   "",
-   "ن س ق",
-   "ordnen",
-   "الفوضى",
-   "das Chaos"
-  ],
-  "والتشاور": [
-   "und die Beratung",
-   "",
-   "ش و ر",
-   "beraten",
-   "",
-   ""
-  ],
-  "بصورة": [
-   "in Form",
-   "بصورة منتظمة = regelmässig",
-   "ص و ر",
-   "formen, abbilden",
-   "",
-   ""
-  ],
-  "منتظمة": [
-   "regelmässig",
-   "",
-   "ن ظ م",
-   "ordnen",
-   "متقطعة",
-   "unregelmässig"
-  ],
-  "بما": [
-   "womit, sodass",
-   "بما يسهم في = was beiträgt zu"
-  ],
-  "يسهم": [
-   "trägt bei",
-   "",
-   "س ه م",
-   "Pfeil, Anteil",
-   "",
-   ""
-  ],
-  "الحفاظ": [
-   "die Wahrung",
-   "",
-   "ح ف ظ",
-   "bewahren, behüten",
-   "التفريط",
-   "die Preisgabe"
-  ],
-  "الأمن": [
-   "die Sicherheit",
-   "",
-   "أ م ن",
-   "sicher sein, vertrauen",
-   "الخوف",
-   "die Angst"
-  ],
-  "والاستقرار": [
-   "und die Stabilität",
-   "",
-   "ق ر ر",
-   "fest sein, sich niederlassen",
-   "الاضطراب",
-   "die Unruhe"
-  ],
-  "الإقليميين": [
-   "regional (Dual)",
-   "bezieht sich auf Sicherheit und Stabilität",
-   "ق ل م",
-   "Gebiet (Lehnwort)",
-   "",
-   ""
-  ],
-  "وفق": [
-   "gemäss",
-   "وفق ما = wie",
-   "و ف ق",
-   "passen, übereinstimmen",
-   "",
-   ""
-  ],
-  "ما": [
-   "was"
-  ],
-  "أعلنه": [
-   "es verkündete",
-   "أعلن + ـه",
-   "ع ل ن",
-   "öffentlich sein",
-   "أخفاه",
-   "verbarg es"
-  ],
-  "المتحدث": [
-   "der Sprecher",
-   "",
-   "ح د ث",
-   "geschehen; erzählen",
-   "",
-   ""
-  ],
-  "الرسمي": [
-   "offiziell",
-   "",
-   "ر س م",
-   "zeichnen, festlegen",
-   "غير الرسمي",
-   "inoffiziell"
-  ],
-  "باسم": [
-   "im Namen von",
-   "بـ + اسم",
-   "س م و",
-   "hoch sein; Name",
-   "",
-   ""
-  ],
-  "وزارة": [
-   "Ministerium",
-   "",
-   "و ز ر",
-   "Last tragen",
-   "",
-   ""
-  ],
-  "المصرية": [
-   "ägyptisch (fem.)",
-   "",
-   "م ص ر",
-   "Ägypten (Herkunftsadjektiv)",
-   "",
-   ""
-  ],
-  "وفي": [
-   "und in",
-   "و + في"
-  ],
-  "سياق": [
-   "Kontext",
-   "في سياق متصل = in diesem Zusammenhang",
-   "س و ق",
-   "treiben, führen",
-   "",
-   ""
-  ],
-  "متصل": [
-   "verbunden",
-   "",
-   "و ص ل",
-   "verbinden, ankommen",
-   "منفصل",
-   "getrennt"
-  ],
-  "اجتمع": [
-   "kam zusammen, traf",
-   "",
-   "ج م ع",
-   "sammeln, vereinen",
-   "تفرق",
-   "ging auseinander"
-  ],
-  "المدير": [
-   "der Direktor",
-   "",
-   "د و ر",
-   "sich drehen, leiten",
-   "",
-   ""
-  ],
-  "العام": [
-   "allgemein",
-   "المدير العام = Generaldirektor",
-   "ع م م",
-   "allgemein sein",
-   "الخاص",
-   "speziell, privat"
-  ],
-  "بالوكالة": [
-   "amtierend",
-   "wörtl. in Vertretung",
-   "و ك ل",
-   "anvertrauen, bevollmächtigen",
-   "بالأصالة",
-   "im eigenen Namen"
-  ],
-  "للصندوق": [
-   "des Fonds",
-   "لـ + الصندوق",
-   "",
-   "Lehnwort (Kasten, Fonds)",
-   "",
-   ""
-  ],
-  "للتنمية": [
-   "für Entwicklung",
-   "لـ + التنمية",
-   "ن م و",
-   "wachsen",
-   "",
-   ""
-  ],
-  "الاقتصادية": [
-   "wirtschaftlich",
-   "",
-   "ق ص د",
-   "anstreben; sparsam sein",
-   "",
-   ""
-  ],
-  "العربية": [
-   "arabisch",
-   "",
-   "ع ر ب",
-   "Araber, arabisch",
-   "",
-   ""
-  ],
-  "وأشاد": [
-   "und würdigte",
-   "أشاد بـ = loben",
-   "ش ي د",
-   "errichten; loben",
-   "انتقد",
-   "kritisierte"
-  ],
-  "بالدور": [
-   "die Rolle",
-   "بـ + الدور",
-   "د و ر",
-   "sich drehen",
-   "",
-   ""
-  ],
-  "الذي": [
-   "der (Relativpronomen)"
-  ],
-  "يضطلع": [
-   "übernimmt",
-   "يضطلع بـ = eine Rolle spielen",
-   "ض ل ع",
-   "Rippe; stark, fähig sein",
-   "",
-   ""
-  ],
-  "به": [
-   "damit, es",
-   "بـ + ـه"
-  ],
-  "الصندوق": [
-   "der Fonds",
-   "",
-   "",
-   "Lehnwort (Kasten, Fonds)",
-   "",
-   ""
-  ],
-  "دعم": [
-   "Unterstützung",
-   "",
-   "د ع م",
-   "stützen",
-   "",
-   ""
-  ],
-  "مشروعات": [
-   "Projekte",
-   "Plural von مشروع",
-   "ش ر ع",
-   "beginnen; Gesetz",
-   "",
-   ""
-  ],
-  "التنمية": [
-   "die Entwicklung",
-   "",
-   "ن م و",
-   "wachsen",
-   "",
-   ""
-  ],
-  "والاجتماعية": [
-   "und sozial",
-   "",
-   "ج م ع",
-   "sammeln, vereinen",
-   "",
-   ""
-  ],
-  "مصر": [
-   "Ägypten"
-  ],
-  "وبحث": [
-   "und erörterte",
-   "و + بحث",
-   "ب ح ث",
-   "suchen, untersuchen",
-   "",
-   ""
-  ],
-  "سبل": [
-   "Wege",
-   "Plural von سبيل",
-   "س ب ل",
-   "Weg",
-   "",
-   ""
-  ],
-  "تطوير": [
-   "Entwicklung, Weiterentwicklung",
-   "",
-   "ط و ر",
-   "Stadium, Phase",
-   "",
-   ""
-  ],
-  "الشراكة": [
-   "die Partnerschaft",
-   "",
-   "ش ر ك",
-   "teilhaben",
-   "",
-   ""
-  ],
-  "مجالات": [
-   "Bereiche",
-   "",
-   "ج و ل",
-   "umherziehen",
-   "",
-   ""
-  ],
-  "جديدة": [
-   "neu",
-   "",
-   "ج د د",
-   "neu sein",
-   "قديمة",
-   "alt"
-  ],
-  "من": [
-   "von, aus"
-  ],
-  "بينها": [
-   "unter ihnen",
-   "من بينها = darunter",
-   "ب ي ن",
-   "trennen, deutlich sein",
-   "",
-   ""
-  ],
-  "الدعم": [
-   "die Unterstützung",
-   "",
-   "د ع م",
-   "stützen",
-   "",
-   ""
-  ],
-  "الفني": [
-   "technisch",
-   "",
-   "ف ن ن",
-   "Kunst, Technik",
-   "",
-   ""
-  ],
-  "وبناء": [
-   "und Aufbau",
-   "بناء القدرات = Kapazitätsaufbau",
-   "ب ن ي",
-   "bauen",
-   "هدم",
-   "Abriss"
-  ],
-  "القدرات": [
-   "die Fähigkeiten",
-   "",
-   "ق د ر",
-   "können, vermögen",
-   "العجز",
-   "die Unfähigkeit"
-  ],
-  "وإعداد": [
-   "und Erstellung",
-   "",
-   "ع د د",
-   "zählen; vorbereiten",
-   "",
-   ""
-  ],
-  "دراسات": [
-   "Studien",
-   "",
-   "د ر س",
-   "studieren, lernen",
-   "",
-   ""
-  ],
-  "الجدوى": [
-   "die Machbarkeit",
-   "دراسات الجدوى = Machbarkeitsstudien",
-   "ج د و",
-   "Nutzen, Gabe",
-   "",
-   ""
-  ],
-  "فضلا": [
-   "zusätzlich",
-   "فضلاً عن = sowie, ausserdem",
-   "ف ض ل",
-   "Vorzug, Überschuss",
-   "",
-   ""
-  ],
-  "عن": [
-   "über, von"
-  ],
-  "تمويل": [
-   "Finanzierung",
-   "",
-   "م و ل",
-   "Geld, Vermögen",
-   "",
-   ""
-  ],
-  "الشركات": [
-   "die Unternehmen",
-   "",
-   "ش ر ك",
-   "teilhaben",
-   "",
-   ""
-  ],
-  "الناشئة": [
-   "aufstrebend",
-   "الشركات الناشئة = Start-ups",
-   "ن ش أ",
-   "entstehen, wachsen",
-   "العريقة",
-   "alteingesessen"
-  ],
-  "والمشروعات": [
-   "und die Projekte, Unternehmen",
-   "",
-   "ش ر ع",
-   "beginnen; Gesetz",
-   "",
-   ""
-  ],
-  "الصغيرة": [
-   "klein",
-   "",
-   "ص غ ر",
-   "klein sein",
-   "الكبيرة",
-   "gross"
-  ],
-  "والمتوسطة": [
-   "und mittel",
+  "الشرق": [
+   "der Osten",
+   "الـ = Artikel; الشرق الأوسط = der Nahe Osten",
+   "ش ر ق",
+   "aufgehen (Sonne)",
+   "الغرب",
+   "der Westen"
+  ],
+  "الأوسط": [
+   "der mittlere",
+   "in الشرق الأوسط = Naher Osten",
+   "و س ط",
+   "Mitte",
+   "الأقصى",
+   "der fernste"
+  ],
+  "وسط": [
+   "inmitten, mitten in",
    "",
    "و س ط",
    "Mitte",
    "",
    ""
   ],
-  "ويرى": [
-   "und sehen, sind der Ansicht",
+  "تصاعد": [
+   "Zunahme, Eskalation",
    "",
-   "ر أ ي",
-   "sehen, meinen",
+   "ص ع د",
+   "aufsteigen",
+   "تراجع",
+   "Rückgang"
+  ],
+  "التوتر": [
+   "die Spannung",
+   "الـ = Artikel",
+   "و ت ر",
+   "spannen, Sehne",
+   "الهدوء",
+   "die Ruhe"
+  ],
+  "في": [
+   "in",
+   "",
+   "",
+   "",
    "",
    ""
   ],
-  "مراقبون": [
-   "Beobachter",
-   "",
-   "ر ق ب",
-   "beobachten",
+  "الخليج": [
+   "der Golf",
+   "الـ = Artikel",
+   "خ ل ج",
+   "Bucht, zittern",
    "",
    ""
+  ],
+  "أفاد": [
+   "er teilte mit, berichtete",
+   "",
+   "ف ي د",
+   "nützen, mitteilen",
+   "",
+   ""
+  ],
+  "مسؤول": [
+   "Verantwortlicher, Regierungsvertreter",
+   "",
+   "س أ ل",
+   "fragen",
+   "",
+   ""
+  ],
+  "أمريكي": [
+   "amerikanisch, Amerikaner",
+   "",
+   "",
+   "Lehnwort (Amerika)",
+   "",
+   ""
+  ],
+  "بأن": [
+   "dass",
+   "بـ + أن",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "الطائرات": [
+   "die Flugzeuge",
+   "الـ = Artikel; حاملة الطائرات = Flugzeugträger",
+   "ط ي ر",
+   "fliegen",
+   "",
+   ""
+  ],
+  "ثيودور": [
+   "Theodore",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "روزفلت": [
+   "Roosevelt",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "وصلت": [
+   "sie traf ein",
+   "",
+   "و ص ل",
+   "ankommen, verbinden",
+   "غادرت",
+   "sie verliess"
+  ],
+  "يوم": [
+   "Tag, am (Wochentag)",
+   "يوم الأحد = am Sonntag",
+   "ي و م",
+   "Tag",
+   "",
+   ""
+  ],
+  "الأحد": [
+   "der Sonntag",
+   "الـ = Artikel",
+   "أ ح د",
+   "eins",
+   "",
+   ""
+  ],
+  "منطقة": [
+   "Region, Gebiet",
+   "",
+   "ن ط ق",
+   "sprechen; Gürtel",
+   "",
+   ""
+  ],
+  "ليرتفع": [
+   "sodass steigt",
+   "لـ = damit/sodass + يرتفع",
+   "ر ف ع",
+   "heben",
+   "لينخفض",
+   "sodass sinkt"
+  ],
+  "بذلك": [
+   "damit, dadurch",
+   "بـ + ذلك",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "عدد": [
+   "Anzahl, Zahl",
+   "",
+   "ع د د",
+   "zählen",
+   "",
+   ""
+  ],
+  "مجموعات": [
+   "Gruppen",
+   "Plural von مجموعة",
+   "ج م ع",
+   "sammeln",
+   "",
+   ""
+  ],
+  "حاملات": [
+   "Träger (Pl.)",
+   "Plural von حاملة",
+   "ح م ل",
+   "tragen",
+   "",
+   ""
+  ],
+  "الضاربة": [
+   "die schlagende (Kampf-)",
+   "الـ = Artikel; مجموعات ضاربة = Kampfgruppen",
+   "ض ر ب",
+   "schlagen",
+   "",
+   ""
+  ],
+  "التابعة": [
+   "zugehörig, unterstellt",
+   "الـ = Artikel; التابعة لـ = gehörend zu",
+   "ت ب ع",
+   "folgen",
+   "المستقلة",
+   "die unabhängige"
+  ],
+  "للولايات": [
+   "der Staaten",
+   "لـ + الـ + ولايات; الولايات المتحدة = USA",
+   "و ل ي",
+   "nahe sein, regieren",
+   "",
+   ""
+  ],
+  "المتحدة": [
+   "die vereinigten",
+   "الـ = Artikel",
+   "و ح د",
+   "eins sein",
+   "المنقسمة",
+   "die geteilten"
+  ],
+  "نطاق": [
+   "Bereich, Rahmen",
+   "",
+   "ن ط ق",
+   "sprechen; Gürtel",
+   "",
+   ""
+  ],
+  "القيادة": [
+   "das Kommando, die Führung",
+   "الـ = Artikel; القيادة المركزية = Zentralkommando (CENTCOM)",
+   "ق و د",
+   "führen",
+   "",
+   ""
+  ],
+  "المركزية": [
+   "zentral (f.)",
+   "الـ = Artikel",
+   "ر ك ز",
+   "festsetzen, Mittelpunkt",
+   "اللامركزية",
+   "dezentral"
+  ],
+  "الأمريكية": [
+   "die amerikanische",
+   "الـ = Artikel",
+   "",
+   "Lehnwort (Amerika)",
+   "",
+   ""
+  ],
+  "ثلاث": [
+   "drei",
+   "",
+   "ث ل ث",
+   "drei",
+   "",
+   ""
+  ],
+  "وكان": [
+   "und es war",
+   "و + كان; كان من المقرر = es war vorgesehen",
+   "ك و ن",
+   "sein",
+   "",
+   ""
+  ],
+  "من": [
+   "von, aus",
+   "",
+   "",
+   "",
+   "إلى",
+   "zu, nach"
+  ],
+  "المقرر": [
+   "das Beschlossene, vorgesehen",
+   "الـ = Artikel; من المقرر = es ist geplant",
+   "ق ر ر",
+   "festsetzen, sich niederlassen",
+   "",
+   ""
+  ],
+  "الأصل": [
+   "der Ursprung",
+   "الـ = Artikel; في الأصل = ursprünglich",
+   "أ ص ل",
+   "Wurzel, Ursprung",
+   "الفرع",
+   "der Zweig"
   ],
   "أن": [
-   "dass"
-  ],
-  "هذه": [
-   "diese"
-  ],
-  "تأتي": [
-   "kommt",
+   "dass",
    "",
-   "أ ت ي",
-   "kommen",
-   "تذهب",
-   "geht"
-  ],
-  "توقيت": [
-   "Zeitpunkt",
    "",
+   "",
+   "",
+   ""
+  ],
+  "تحل": [
+   "sie tritt (an die Stelle)",
+   "تحل محل = ersetzen",
+   "ح ل ل",
+   "lösen, sich niederlassen",
+   "",
+   ""
+  ],
+  "الحاملة": [
+   "der Träger",
+   "الـ = Artikel",
+   "ح م ل",
+   "tragen",
+   "",
+   ""
+  ],
+  "الجديدة": [
+   "die neue",
+   "الـ = Artikel",
+   "ج د د",
+   "neu sein",
+   "القديمة",
+   "die alte"
+  ],
+  "محل": [
+   "Stelle, Platz",
+   "حل محل = jemanden ersetzen",
+   "ح ل ل",
+   "lösen, sich niederlassen",
+   "",
+   ""
+  ],
+  "جورج": [
+   "George",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "واشنطن": [
+   "Washington",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "غير": [
+   "jedoch; nicht-",
+   "غير أن = jedoch",
+   "غ ي ر",
+   "ändern, anders sein",
+   "",
+   ""
+  ],
+  "الأخيرة": [
+   "die letztere, letzte",
+   "الـ = Artikel",
+   "أ خ ر",
+   "zurückbleiben, später",
+   "الأولى",
+   "die erste"
+  ],
+  "لا": [
+   "nicht",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "تزال": [
+   "sie hört auf",
+   "لا تزال = sie ist noch immer",
+   "ز و ل",
+   "aufhören, vergehen",
+   "",
+   ""
+  ],
+  "موجودة": [
+   "vorhanden, anwesend",
+   "",
+   "و ج د",
+   "finden",
+   "غائبة",
+   "abwesend"
+  ],
+  "المنطقة": [
+   "die Region",
+   "الـ = Artikel",
+   "ن ط ق",
+   "sprechen; Gürtel",
+   "",
+   ""
+  ],
+  "الوقت": [
+   "die Zeit",
+   "الـ = Artikel; في الوقت الراهن = derzeit",
    "و ق ت",
    "Zeit",
    "",
    ""
   ],
-  "حساس": [
-   "heikel, sensibel",
+  "الراهن": [
+   "gegenwärtig",
+   "الـ = Artikel",
+   "ر ه ن",
+   "verpfänden; andauern",
+   "الماضي",
+   "vergangen"
+  ],
+  "وهو": [
+   "und er/es",
+   "و + هو; وهو ما = was",
    "",
-   "ح س س",
-   "fühlen, empfinden",
+   "",
    "",
    ""
   ],
-  "تسعى": [
-   "strebt an, versucht",
+  "ما": [
+   "was",
    "",
-   "س ع ي",
-   "streben, eilen",
    "",
-   ""
-  ],
-  "فيه": [
-   "in ihm, an dem"
-  ],
-  "العواصم": [
-   "die Hauptstädte",
    "",
-   "ع ص م",
-   "schützen, festhalten",
    "",
    ""
   ],
-  "تنسيق": [
-   "Abstimmung",
+  "يوسع": [
+   "es erweitert",
    "",
-   "ن س ق",
-   "ordnen",
+   "و س ع",
+   "weit sein",
+   "يقلص",
+   "es verringert"
+  ],
+  "الوجود": [
+   "die Präsenz, das Vorhandensein",
+   "الـ = Artikel",
+   "و ج د",
+   "finden",
+   "الغياب",
+   "die Abwesenheit"
+  ],
+  "البحري": [
+   "maritim, See-",
+   "الـ = Artikel",
+   "ب ح ر",
+   "Meer",
+   "البري",
+   "Land-"
+  ],
+  "الأمريكي": [
+   "der amerikanische",
+   "الـ = Artikel",
+   "",
+   "Lehnwort (Amerika)",
    "",
    ""
   ],
-  "مواقفها": [
-   "ihre Positionen",
+  "هناك": [
+   "dort",
+   "",
+   "",
+   "",
+   "هنا",
+   "hier"
+  ],
+  "ويأتي": [
+   "und es kommt, erfolgt",
+   "و + يأتي",
+   "أ ت ي",
+   "kommen",
+   "ويذهب",
+   "und es geht"
+  ],
+  "هذا": [
+   "dieser",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "الانتشار": [
+   "die Verlegung, Stationierung",
+   "الـ = Artikel",
+   "ن ش ر",
+   "ausbreiten",
+   "الانسحاب",
+   "der Rückzug"
+  ],
+  "بعد": [
+   "nach",
+   "",
+   "ب ع د",
+   "fern sein",
+   "قبل",
+   "vor"
+  ],
+  "شنت": [
+   "sie führte durch (Angriff)",
+   "شن هجوما = einen Angriff starten",
+   "ش ن ن",
+   "ausschütten, starten",
+   "",
+   ""
+  ],
+  "إيران": [
+   "Iran",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "هجوما": [
+   "einen Angriff",
+   "Akkusativ",
+   "ه ج م",
+   "angreifen",
+   "دفاعا",
+   "eine Verteidigung"
+  ],
+  "على": [
+   "auf, gegen",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "قاعدة": [
+   "Stützpunkt, Basis",
+   "",
+   "ق ع د",
+   "sitzen",
+   "",
+   ""
+  ],
+  "البحرين": [
+   "Bahrain",
+   "Eigenname; wörtl. die zwei Meere",
+   "ب ح ر",
+   "Meer",
+   "",
+   ""
+  ],
+  "تضم": [
+   "sie umfasst, beherbergt",
+   "",
+   "ض م م",
+   "zusammenfügen",
+   "",
+   ""
+  ],
+  "أصولا": [
+   "Mittel, Ausrüstung (Akk. Pl.)",
+   "Plural von أصل",
+   "أ ص ل",
+   "Wurzel, Ursprung",
+   "",
+   ""
+  ],
+  "عسكرية": [
+   "militärisch (f.)",
+   "",
+   "ع س ك ر",
+   "Heer",
+   "مدنية",
+   "zivil"
+  ],
+  "إذ": [
+   "denn, indem",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "أعلن": [
+   "er erklärte, gab bekannt",
+   "",
+   "ع ل ن",
+   "öffentlich sein",
+   "أخفى",
+   "er verbarg"
+  ],
+  "الحرس": [
+   "die Garde",
+   "الـ = Artikel; الحرس الثوري = Revolutionsgarde",
+   "ح ر س",
+   "bewachen",
+   "",
+   ""
+  ],
+  "الثوري": [
+   "revolutionär",
+   "الـ = Artikel",
+   "ث و ر",
+   "sich erheben",
+   "",
+   ""
+  ],
+  "الإيراني": [
+   "der iranische",
+   "الـ = Artikel",
+   "",
+   "Eigenname (Iran)",
+   "",
+   ""
+  ],
+  "أنه": [
+   "dass er",
+   "أن + ـه",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "أطلق": [
+   "er feuerte ab, liess los",
+   "",
+   "ط ل ق",
+   "frei sein",
+   "أوقف",
+   "er stoppte"
+  ],
+  "مسيرة": [
+   "gesteuert; Drohne",
+   "طائرة مسيرة = Drohne",
+   "س ي ر",
+   "gehen, fahren",
+   "",
+   ""
+  ],
+  "باتجاه": [
+   "in Richtung",
+   "بـ + اتجاه",
+   "و ج ه",
+   "Gesicht, Richtung",
+   "",
+   ""
+  ],
+  "الموقع": [
+   "der Standort",
+   "الـ = Artikel",
+   "و ق ع",
+   "fallen, liegen",
+   "",
+   ""
+  ],
+  "أول": [
+   "erster",
+   "",
+   "أ و ل",
+   "zurückkehren, Anfang",
+   "آخر",
+   "letzter"
+  ],
+  "ضربة": [
+   "Schlag, Angriff",
+   "",
+   "ض ر ب",
+   "schlagen",
+   "",
+   ""
+  ],
+  "تستهدف": [
+   "sie zielt ab auf",
+   "",
+   "ه د ف",
+   "Ziel",
+   "",
+   ""
+  ],
+  "دولة": [
+   "Staat",
+   "",
+   "د و ل",
+   "wechseln, Staat",
+   "",
+   ""
+  ],
+  "خليجية": [
+   "Golf- (f.)",
+   "",
+   "خ ل ج",
+   "Bucht",
+   "",
+   ""
+  ],
+  "منذ": [
+   "seit",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "عدة": [
+   "mehrere",
+   "",
+   "ع د د",
+   "zählen",
+   "",
+   ""
+  ],
+  "أسابيع": [
+   "Wochen",
+   "Plural von أسبوع",
+   "س ب ع",
+   "sieben",
+   "",
+   ""
+  ],
+  "قد": [
+   "bereits (vor Perfekt)",
+   "كان قد + Perfekt = hatte bereits",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "الجمعة": [
+   "der Freitag",
+   "الـ = Artikel",
+   "ج م ع",
+   "sammeln",
+   "",
+   ""
+  ],
+  "دمر": [
+   "er zerstörte",
+   "",
+   "د م ر",
+   "zerstören",
+   "بنى",
+   "er baute"
+  ],
+  "رادار": [
+   "Radar",
+   "",
+   "",
+   "Lehnwort (Radar)",
+   "",
+   ""
+  ],
+  "إنذار": [
+   "Warnung, Alarm",
+   "رادار إنذار مبكر = Frühwarnradar",
+   "ن ذ ر",
+   "warnen, geloben",
+   "",
+   ""
+  ],
+  "مبكر": [
+   "früh",
+   "",
+   "ب ك ر",
+   "früh sein",
+   "متأخر",
+   "spät"
+  ],
+  "أمريكيا": [
+   "amerikanisch (Akk.)",
+   "",
+   "",
+   "Lehnwort (Amerika)",
+   "",
+   ""
+  ],
+  "حين": [
+   "während, als",
+   "في حين = während (Gegensatz)",
+   "ح ي ن",
+   "Zeit",
+   "",
+   ""
+  ],
+  "أكدت": [
+   "sie bestätigte",
+   "",
+   "أ ك د",
+   "bekräftigen",
+   "نفت",
+   "sie dementierte"
+  ],
+  "أنها": [
+   "dass sie",
+   "أن + ـها",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "اعترضت": [
+   "sie fing ab",
+   "",
+   "ع ر ض",
+   "breit sein, darbieten",
+   "",
+   ""
+  ],
+  "الطائرتين": [
+   "die beiden Flugzeuge",
+   "الـ = Artikel; Dual",
+   "ط ي ر",
+   "fliegen",
+   "",
+   ""
+  ],
+  "المسيرتين": [
+   "die beiden gesteuerten (Drohnen)",
+   "الـ = Artikel; Dual",
+   "س ي ر",
+   "gehen, fahren",
+   "",
+   ""
+  ],
+  "اللتين": [
+   "welche (Dual f.)",
+   "Relativpronomen",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "أطلقتهما": [
+   "sie hat sie (beide) abgefeuert",
+   "ـهما = sie beide",
+   "ط ل ق",
+   "frei sein",
+   "",
+   ""
+  ],
+  "طهران": [
+   "Teheran",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "وفي": [
+   "und in",
+   "و + في",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "سياق": [
+   "Zusammenhang, Kontext",
+   "في سياق متصل = in diesem Zusammenhang",
+   "س و ق",
+   "treiben",
+   "",
+   ""
+  ],
+  "متصل": [
+   "verbunden",
+   "في سياق متصل = in einem verwandten Zusammenhang",
+   "و ص ل",
+   "verbinden",
+   "منفصل",
+   "getrennt"
+  ],
+  "حذرت": [
+   "sie warnte",
+   "",
+   "ح ذ ر",
+   "sich hüten",
+   "طمأنت",
+   "sie beruhigte"
+  ],
+  "السفارة": [
+   "die Botschaft",
+   "الـ = Artikel",
+   "س ف ر",
+   "reisen",
+   "",
+   ""
+  ],
+  "المنامة": [
+   "Manama",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "المواطنين": [
+   "die Bürger",
+   "الـ = Artikel; Plural von مواطن",
+   "و ط ن",
+   "Heimat",
+   "",
+   ""
+  ],
+  "الأمريكيين": [
+   "die Amerikaner",
+   "الـ = Artikel",
+   "",
+   "Lehnwort (Amerika)",
+   "",
+   ""
+  ],
+  "احتمال": [
+   "Möglichkeit, Wahrscheinlichkeit",
+   "",
+   "ح م ل",
+   "tragen",
+   "استحالة",
+   "Unmöglichkeit"
+  ],
+  "حدوث": [
+   "Eintreten, Geschehen",
+   "",
+   "ح د ث",
+   "geschehen",
+   "",
+   ""
+  ],
+  "اضطرابات": [
+   "Störungen, Unruhen",
+   "Plural von اضطراب",
+   "ض ر ب",
+   "schlagen",
+   "استقرار",
+   "Stabilität"
+  ],
+  "حركة": [
+   "Bewegung, Verkehr",
+   "حركة الطيران = Flugverkehr",
+   "ح ر ك",
+   "bewegen",
+   "سكون",
+   "Stillstand"
+  ],
+  "الطيران": [
+   "die Luftfahrt, das Fliegen",
+   "الـ = Artikel",
+   "ط ي ر",
+   "fliegen",
+   "",
+   ""
+  ],
+  "ووقوع": [
+   "und das Eintreten",
+   "و + وقوع",
+   "و ق ع",
+   "fallen, geschehen",
+   "",
+   ""
+  ],
+  "هجمات": [
+   "Angriffe",
+   "Plural von هجمة",
+   "ه ج م",
+   "angreifen",
+   "",
+   ""
+  ],
+  "جديدة": [
+   "neu (f.)",
+   "",
+   "ج د د",
+   "neu sein",
+   "قديمة",
+   "alt"
+  ],
+  "وعلى": [
+   "und auf",
+   "و + على; على صعيد = auf der Ebene von",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "صعيد": [
+   "Ebene, Bereich",
+   "على صعيد = was ... betrifft",
+   "ص ع د",
+   "aufsteigen",
+   "",
+   ""
+  ],
+  "الملاحة": [
+   "die Schifffahrt",
+   "الـ = Artikel",
+   "م ل ح",
+   "Salz; Seefahrt",
+   "",
+   ""
+  ],
+  "البحرية": [
+   "die maritime, See-",
+   "الـ = Artikel",
+   "ب ح ر",
+   "Meer",
+   "البرية",
+   "Land-"
+  ],
+  "ذكر": [
+   "er erwähnte, berichtete",
+   "",
+   "ذ ك ر",
+   "erinnern, erwähnen",
+   "أغفل",
+   "er überging"
+  ],
+  "التلفزيون": [
+   "das Fernsehen",
+   "الـ = Artikel",
+   "",
+   "Lehnwort (Television)",
+   "",
+   ""
+  ],
+  "الرسمي": [
+   "offiziell, staatlich",
+   "الـ = Artikel",
+   "ر س م",
+   "zeichnen, festlegen",
+   "غير الرسمي",
+   "inoffiziell"
+  ],
+  "خمس": [
+   "fünf",
+   "",
+   "خ م س",
+   "fünf",
+   "",
+   ""
+  ],
+  "سفن": [
+   "Schiffe",
+   "Plural von سفينة",
+   "س ف ن",
+   "Schiff",
+   "",
+   ""
+  ],
+  "اصطدمت": [
+   "sie stiessen zusammen, prallten auf",
+   "اصطدم بـ = auf etwas prallen",
+   "ص د م",
+   "stossen",
+   "",
+   ""
+  ],
+  "بألغام": [
+   "auf Minen",
+   "بـ + ألغام (Pl. von لغم)",
+   "ل غ م",
+   "verminen",
+   "",
+   ""
+  ],
+  "واشتعلت": [
+   "und es entzündete sich",
+   "و + اشتعلت",
+   "ش ع ل",
+   "brennen",
+   "وانطفأت",
+   "und es erlosch"
+  ],
+  "فيها": [
+   "in ihnen",
+   "في + ـها",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "النيران": [
+   "die Feuer, Flammen",
+   "الـ = Artikel; Plural von نار",
+   "ن و ر",
+   "Licht, Feuer",
+   "",
+   ""
+  ],
+  "خلال": [
+   "innerhalb, während",
+   "",
+   "خ ل ل",
+   "Lücke, durchdringen",
+   "",
+   ""
+  ],
+  "ثمان": [
+   "acht",
+   "ثمان وأربعين = achtundvierzig",
+   "ث م ن",
+   "acht; Preis",
+   "",
+   ""
+  ],
+  "وأربعين": [
+   "und vierzig",
+   "و + أربعين",
+   "ر ب ع",
+   "vier",
+   "",
+   ""
+  ],
+  "ساعة": [
+   "Stunde(n)",
+   "",
+   "س و ع",
+   "Stunde",
+   "",
+   ""
+  ],
+  "دون": [
+   "ohne",
+   "دون أن = ohne dass",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "يكشف": [
+   "er enthüllt",
+   "كشف عن = etwas bekanntgeben",
+   "ك ش ف",
+   "aufdecken",
+   "يخفي",
+   "er verbirgt"
+  ],
+  "عن": [
+   "über, von",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "هويتها": [
+   "ihre Identität",
    "ـها = ihr",
-   "و ق ف",
-   "stehen",
+   "",
+   "",
    "",
    ""
   ],
-  "ومنع": [
-   "und Verhinderung",
+  "كما": [
+   "ebenso, ausserdem",
    "",
-   "م ن ع",
-   "verhindern",
-   "سماح",
-   "Erlaubnis"
-  ],
-  "انزلاق": [
-   "Abgleiten",
    "",
-   "ز ل ق",
-   "ausrutschen",
+   "",
    "",
    ""
   ],
-  "نحو": [
-   "in Richtung"
-  ],
-  "مزيد": [
-   "mehr, weitere",
+  "أفادت": [
+   "sie teilte mit",
    "",
-   "ز ي د",
-   "zunehmen",
-   "أقل",
-   "weniger"
+   "ف ي د",
+   "nützen, mitteilen",
+   "",
+   ""
   ],
-  "الزيارة": [
-   "der Besuch",
+  "هيئة": [
+   "Behörde",
+   "",
+   "ه ي أ",
+   "bereiten, Gestalt",
+   "",
+   ""
+  ],
+  "عمليات": [
+   "Operationen",
+   "Plural von عملية",
+   "ع م ل",
+   "arbeiten",
+   "",
+   ""
+  ],
+  "التجارة": [
+   "der Handel",
+   "الـ = Artikel",
+   "ت ج ر",
+   "handeln",
+   "",
+   ""
+  ],
+  "البريطانية": [
+   "die britische",
+   "الـ = Artikel",
+   "",
+   "Lehnwort (Britannien)",
+   "",
+   ""
+  ],
+  "نقلا": [
+   "übermittelnd",
+   "نقلا عن = unter Berufung auf",
+   "ن ق ل",
+   "transportieren",
+   "",
+   ""
+  ],
+  "السلطات": [
+   "die Behörden",
+   "الـ = Artikel; Plural von سلطة",
+   "س ل ط",
+   "Macht haben",
+   "",
+   ""
+  ],
+  "الهندية": [
+   "die indische",
+   "الـ = Artikel",
+   "",
+   "Eigenname (Indien)",
+   "",
+   ""
+  ],
+  "بتعرض": [
+   "vom Ausgesetztsein",
+   "بـ + تعرض; تعرض لـ = einer Sache ausgesetzt sein",
+   "ع ر ض",
+   "breit sein, darbieten",
+   "",
+   ""
+  ],
+  "ناقلة": [
+   "Tanker, Transporter",
+   "",
+   "ن ق ل",
+   "transportieren",
+   "",
+   ""
+  ],
+  "لهجوم": [
+   "einem Angriff",
+   "لـ + هجوم",
+   "ه ج م",
+   "angreifen",
+   "",
+   ""
+  ],
+  "مشيرة": [
+   "hinweisend (f.)",
+   "مشيرة إلى = mit dem Hinweis, dass",
+   "ش و ر",
+   "hinweisen, beraten",
+   "",
+   ""
+  ],
+  "طاقمها": [
+   "ihre Besatzung",
+   "ـها = ihr",
+   "",
+   "Lehnwort (persisch/türkisch)",
+   "",
+   ""
+  ],
+  "بخير": [
+   "wohlauf",
+   "بـ + خير",
+   "خ ي ر",
+   "gut sein",
+   "بسوء",
+   "schlecht"
+  ],
+  "بينما": [
+   "während, wohingegen",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "لم": [
+   "nicht (vor Jussiv, Vergangenheit)",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "يتضح": [
+   "es wird klar",
+   "",
+   "و ض ح",
+   "klar sein",
+   "يغمض",
+   "es bleibt unklar"
+  ],
+  "حجم": [
+   "Ausmass, Umfang",
+   "",
+   "ح ج م",
+   "Umfang",
+   "",
+   ""
+  ],
+  "الأضرار": [
+   "die Schäden",
+   "الـ = Artikel; Plural von ضرر",
+   "ض ر ر",
+   "schaden",
+   "المنافع",
+   "die Nutzen"
+  ],
+  "المقابل": [
+   "das Gegenüber",
+   "في المقابل = dagegen, andererseits",
+   "ق ب ل",
+   "empfangen, gegenüber",
+   "",
+   ""
+  ],
+  "تسفر": [
+   "sie ergibt",
+   "أسفر عن = zu etwas führen",
+   "س ف ر",
+   "reisen, enthüllen",
+   "",
+   ""
+  ],
+  "الجهود": [
+   "die Bemühungen",
+   "الـ = Artikel; Plural von جهد",
+   "ج ه د",
+   "sich anstrengen",
+   "",
+   ""
+  ],
+  "الدبلوماسية": [
+   "die diplomatischen",
+   "الـ = Artikel",
+   "",
+   "Lehnwort (Diplomatie)",
+   "",
+   ""
+  ],
+  "الرامية": [
+   "die abzielenden",
+   "الـ = Artikel; الرامية إلى = mit dem Ziel",
+   "ر م ي",
+   "werfen, zielen",
+   "",
+   ""
+  ],
+  "إنهاء": [
+   "Beendigung",
+   "",
+   "ن ه ي",
+   "enden",
+   "بدء",
+   "Beginn"
+  ],
+  "النزاع": [
+   "der Konflikt",
+   "الـ = Artikel",
+   "ن ز ع",
+   "entreissen, streiten",
+   "الوفاق",
+   "die Eintracht"
+  ],
+  "أي": [
+   "irgendein",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "اختراق": [
+   "Durchbruch",
+   "",
+   "خ ر ق",
+   "durchbrechen",
+   "",
+   ""
+  ],
+  "حتى": [
+   "bis",
+   "حتى الآن = bisher",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "الآن": [
+   "jetzt",
+   "الـ = Artikel",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "ومن": [
+   "und von",
+   "و + من; ومن المنتظر = und es wird erwartet",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "المنتظر": [
+   "das Erwartete",
+   "الـ = Artikel; من المنتظر = es wird erwartet",
+   "ن ظ ر",
+   "schauen",
+   "",
+   ""
+  ],
+  "يزور": [
+   "er besucht",
    "",
    "ز و ر",
    "besuchen",
    "",
    ""
+  ],
+  "وزير": [
+   "Minister",
+   "",
+   "و ز ر",
+   "Last tragen",
+   "",
+   ""
+  ],
+  "الخارجية": [
+   "das Äussere (Aussenministerium)",
+   "الـ = Artikel; وزير الخارجية = Aussenminister",
+   "خ ر ج",
+   "hinausgehen",
+   "الداخلية",
+   "das Innere"
+  ],
+  "عباس": [
+   "Abbas",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "عراقجي": [
+   "Araghchi",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "العاصمة": [
+   "die Hauptstadt",
+   "الـ = Artikel",
+   "ع ص م",
+   "schützen",
+   "",
+   ""
+  ],
+  "العمانية": [
+   "die omanische",
+   "الـ = Artikel",
+   "",
+   "Eigenname (Oman)",
+   "",
+   ""
+  ],
+  "مسقط": [
+   "Maskat",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "الثلاثاء": [
+   "der Dienstag",
+   "الـ = Artikel",
+   "ث ل ث",
+   "drei",
+   "",
+   ""
+  ],
+  "لإجراء": [
+   "zur Durchführung",
+   "لـ + إجراء",
+   "ج ر ي",
+   "laufen, fliessen",
+   "",
+   ""
+  ],
+  "محادثات": [
+   "Gespräche",
+   "Plural von محادثة",
+   "ح د ث",
+   "sprechen, geschehen",
+   "",
+   ""
+  ],
+  "مع": [
+   "mit",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "نظيره": [
+   "sein Amtskollege",
+   "ـه = sein",
+   "ن ظ ر",
+   "schauen",
+   "",
+   ""
+  ],
+  "العماني": [
+   "der omanische",
+   "الـ = Artikel",
+   "",
+   "Eigenname (Oman)",
+   "",
+   ""
+  ],
+  "يذكر": [
+   "es sei erwähnt",
+   "يذكر أن = zur Erinnerung (Passiv)",
+   "ذ ك ر",
+   "erinnern, erwähnen",
+   "",
+   ""
+  ],
+  "الحرب": [
+   "der Krieg",
+   "الـ = Artikel",
+   "ح ر ب",
+   "Krieg führen",
+   "السلم",
+   "der Frieden"
+  ],
+  "اندلعت": [
+   "sie brach aus",
+   "",
+   "د ل ع",
+   "herausstrecken; ausbrechen",
+   "انتهت",
+   "sie endete"
+  ],
+  "الثامن": [
+   "der achte",
+   "الـ = Artikel",
+   "ث م ن",
+   "acht",
+   "",
+   ""
+  ],
+  "والعشرين": [
+   "und zwanzigste",
+   "و + الـ + عشرين",
+   "ع ش ر",
+   "zehn",
+   "",
+   ""
+  ],
+  "فبراير": [
+   "Februar",
+   "",
+   "",
+   "Lehnwort (Februar)",
+   "",
+   ""
+  ],
+  "الماضي": [
+   "der vergangene",
+   "الـ = Artikel",
+   "م ض ي",
+   "vergehen",
+   "المقبل",
+   "der kommende"
+  ],
+  "عندما": [
+   "als, wenn",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "الولايات": [
+   "die Staaten",
+   "الـ = Artikel; الولايات المتحدة = USA",
+   "و ل ي",
+   "nahe sein, regieren",
+   "",
+   ""
+  ],
+  "وإسرائيل": [
+   "und Israel",
+   "و + Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "مشتركا": [
+   "gemeinsam (Akk.)",
+   "",
+   "ش ر ك",
+   "teilhaben",
+   "منفردا",
+   "allein"
+  ],
+  "قالت": [
+   "sie sagte",
+   "",
+   "ق و ل",
+   "sagen",
+   "",
+   ""
+  ],
+  "الدولتان": [
+   "die beiden Staaten",
+   "الـ = Artikel; Dual",
+   "د و ل",
+   "wechseln, Staat",
+   "",
+   ""
+  ],
+  "إن": [
+   "dass (nach قال)",
+   "",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "هدفه": [
+   "sein Ziel",
+   "ـه = sein",
+   "ه د ف",
+   "Ziel",
+   "",
+   ""
+  ],
+  "التصدي": [
+   "das Entgegentreten",
+   "الـ = Artikel; التصدي لـ = bekämpfen",
+   "ص د ي",
+   "entgegentreten",
+   "",
+   ""
+  ],
+  "لبرنامجها": [
+   "ihrem Programm",
+   "لـ + برنامج + ـها",
+   "",
+   "Lehnwort (persisch)",
+   "",
+   ""
+  ],
+  "النووي": [
+   "nuklear, Atom-",
+   "الـ = Artikel",
+   "ن و ي",
+   "Kern",
+   "",
+   ""
+  ],
+  "المتوقع": [
+   "das Erwartete",
+   "الـ = Artikel; من المتوقع = es wird erwartet",
+   "و ق ع",
+   "fallen, geschehen",
+   "المستبعد",
+   "das Unwahrscheinliche"
+  ],
+  "يلتقي": [
+   "er trifft",
+   "",
+   "ل ق ي",
+   "begegnen",
+   "يفترق",
+   "er trennt sich"
+  ],
+  "الرئيس": [
+   "der Präsident",
+   "الـ = Artikel",
+   "ر أ س",
+   "Kopf",
+   "المرؤوس",
+   "der Untergebene"
+  ],
+  "دونالد": [
+   "Donald",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "ترامب": [
+   "Trump",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "الأسبوع": [
+   "die Woche",
+   "الـ = Artikel",
+   "س ب ع",
+   "sieben",
+   "",
+   ""
+  ],
+  "آسيا": [
+   "Asien",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "كلا": [
+   "jeden (von beiden)",
+   "كلا من ... و = sowohl ... als auch",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "الروسي": [
+   "der russische",
+   "الـ = Artikel",
+   "",
+   "Eigenname (Russland)",
+   "",
+   ""
+  ],
+  "فلاديمير": [
+   "Wladimir",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "بوتين": [
+   "Putin",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "والرئيس": [
+   "und der Präsident",
+   "و + الـ + رئيس",
+   "ر أ س",
+   "Kopf",
+   "",
+   ""
+  ],
+  "الصيني": [
+   "der chinesische",
+   "الـ = Artikel",
+   "",
+   "Eigenname (China)",
+   "",
+   ""
+  ],
+  "شي": [
+   "Xi",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "جين": [
+   "Jin",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "بينغ": [
+   "ping",
+   "Eigenname",
+   "",
+   "",
+   "",
+   ""
   ]
- },
- "sources": [
-  {
-   "url": "https://youm7.com/story/2026/11/15/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D9%8A%D8%A8%D8%AD%D8%AB-%D9%85%D8%B9-%D9%88%D9%84%D9%8A-%D8%B9%D9%87%D8%AF-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA-%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%AB%D9%86%D8%A7%D8%A6%D9%8A%D8%A9-%D9%88%D9%85%D8%B3%D8%AA%D8%AC%D8%AF%D8%A7%D8%AA/7619417",
-   "title": "Youm7: Aussenminister trifft Kuwaits Kronprinzen (15.11.2026)"
-  },
-  {
-   "url": "https://www.sabaharabi.com/716005",
-   "title": "Sabah Arabi: Treffen mit dem Kuwaitischen Entwicklungsfonds (15.11.2026)"
-  }
- ]
+ }
 }
