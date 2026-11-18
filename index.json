@@ -1,32 +1,37 @@
 [
- {
-  "date": "2026-11-17",
-  "topic": "Naher Osten",
-  "title_de": "Dritter US-Flugzeugträger"
- },
- {
-  "date": "2026-11-16",
-  "topic": "Politik",
-  "title_de": "Abdelatty in Kuwait"
- },
- {
-  "date": "2026-11-15",
-  "topic": "Kultur",
-  "title_de": "Buchmesse Sharjah endet"
- },
- {
-  "date": "2026-11-12",
-  "topic": "Kultur",
-  "title_de": "Filmfestival Kairo eröffnet"
- },
- {
-  "date": "2026-11-11",
-  "topic": "Sport",
-  "title_de": "Salah und die Pharaonen"
- },
- {
-  "date": "2026-11-10",
-  "topic": "Kultur",
-  "title_de": "Neue Stadtbibliothek"
- }
+  {
+    "date": "2026-11-18",
+    "topic": "Sport",
+    "title_de": "Nations League: Bosnien jubelt"
+  },
+  {
+    "date": "2026-11-17",
+    "topic": "Naher Osten",
+    "title_de": "Dritter US-Flugzeugträger"
+  },
+  {
+    "date": "2026-11-16",
+    "topic": "Politik",
+    "title_de": "Abdelatty in Kuwait"
+  },
+  {
+    "date": "2026-11-15",
+    "topic": "Kultur",
+    "title_de": "Buchmesse Sharjah endet"
+  },
+  {
+    "date": "2026-11-12",
+    "topic": "Kultur",
+    "title_de": "Filmfestival Kairo eröffnet"
+  },
+  {
+    "date": "2026-11-11",
+    "topic": "Sport",
+    "title_de": "Salah und die Pharaonen"
+  },
+  {
+    "date": "2026-11-10",
+    "topic": "Kultur",
+    "title_de": "Neue Stadtbibliothek"
+  }
 ]
