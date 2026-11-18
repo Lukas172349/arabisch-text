@@ -2,7 +2,7 @@
 // Strategie: immer zuerst aus dem Internet laden (damit der Text des Tages aktuell ist).
 // Ohne Verbindung wird die zuletzt geladene Version angezeigt.
 // Nach Änderungen an dieser Datei die Versionsnummer erhöhen (v1 -> v2 ...).
-const CACHE = 'arabisch-v1';
+const CACHE = 'arabisch-v2';
 const CORE = ['./', 'index.html', 'manifest.json', 'icons/icon-192.png', 'icons/icon-512.png'];
 
 self.addEventListener('install', e => {
@@ -22,6 +22,7 @@ const key = url => { const u = new URL(url); u.search = ''; return u.href; };
 self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET' || !req.url.startsWith('http')) return;
+  if (new URL(req.url).hostname === 'api.github.com') return; // Lernkarten-Sync nie zwischenspeichern
   e.respondWith(
     fetch(req).then(res => {
       if (res.ok || res.type === 'opaque') {

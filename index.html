@@ -135,6 +135,8 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
 .list button{padding:4px 10px;font-size:12px}
 .list{margin-top:10px}
 .backup{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:16px;font-size:13px;color:var(--muted)}
+.sync{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:12px;font-size:13px;color:var(--muted)}
+.sync .ok{color:var(--good)} .sync .err{color:var(--again)}
 #toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--fg);color:var(--bg);padding:8px 14px;border-radius:999px;font-size:14px;z-index:30}
 #toast[hidden]{display:none}
 [hidden]{display:none!important}
@@ -191,10 +193,16 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
     <button class="small" id="toggleList" aria-expanded="false">Alle Wörter einblenden ▾</button>
     <ul class="list" id="cardList" hidden></ul>
     <div class="backup">
-      <span>Die Karten werden in diesem Browser gespeichert.</span>
+      <span id="storeNote">Die Karten werden in diesem Browser gespeichert.</span>
       <button class="small" id="exportBtn">Karten sichern</button>
       <button class="small" id="importBtn">Gesicherte Karten laden</button>
       <input type="file" id="importFile" accept="application/json" hidden>
+    </div>
+    <div class="sync" id="syncBox">
+      <span id="syncState">Geräte-Sync ist aus.</span>
+      <button class="small" id="syncSetup">Sync einrichten</button>
+      <button class="small" id="syncNowBtn" hidden>Jetzt synchronisieren</button>
+      <button class="small" id="syncOff" hidden>Sync ausschalten</button>
     </div>
   </section>
 </div>
@@ -228,7 +236,13 @@ let DATA = null, DICT = {}, blocks = [];
 const STORE = 'arabisch-lernkarten-v1';
 let cards = {};
 try { cards = JSON.parse(localStorage.getItem(STORE) || '{}') || {}; } catch(e) { cards = {}; }
-function saveCards(){ try { localStorage.setItem(STORE, JSON.stringify(cards)); } catch(e) {} updateCount(); }
+const TOMB = 'arabisch-lernkarten-geloescht';
+let deleted = {}; // gelöschte Karten mit Zeitpunkt, damit das Löschen auf alle Geräte übertragen wird
+try { deleted = JSON.parse(localStorage.getItem(TOMB) || '{}') || {}; } catch(e) { deleted = {}; }
+function storeLocal(){ try { localStorage.setItem(STORE, JSON.stringify(cards)); localStorage.setItem(TOMB, JSON.stringify(deleted)); } catch(e) {} updateCount(); }
+function saveCards(){ storeLocal(); scheduleSync(); }
+function touch(c){ if(c) c.upd = Date.now(); }
+function removeCard(key){ if(!cards[key]) return; delete cards[key]; deleted[key] = Date.now(); saveCards(); }
 function updateCount(){ $('cardCount').textContent = Object.keys(cards).length; }
 const today = () => { const d=new Date(); d.setHours(0,0,0,0); return d.getTime(); };
 // Wörterbuch-Eintrag: [Übersetzung, Hinweis, Wurzel, Bedeutung der Wurzel, Gegenteil, Gegenteil deutsch]
@@ -251,7 +265,8 @@ function addCard(w){
   const arSent = sentenceOf(w);
   const deSent = i < 0 ? (DATA.title_tr || '') : ((DATA.translations || [])[i] || '');
   if(!cards[key]){
-    cards[key] = Object.assign({ key, ar: w.textContent, de: e ? e[0] : '', note: e && e[1] ? e[1] : '', ctxAr: arSent, ctxDe: deSent, date: DATA.date, box: 1, added: Date.now() }, info(e));
+    cards[key] = Object.assign({ key, ar: w.textContent, de: e ? e[0] : '', note: e && e[1] ? e[1] : '', ctxAr: arSent, ctxDe: deSent, date: DATA.date, box: 1, added: Date.now(), upd: Date.now() }, info(e));
+    delete deleted[key];
     saveCards(); markSaved(); return true;
   }
   return false;
@@ -378,7 +393,7 @@ $('text').addEventListener('keydown',e=>{ const w=e.target.closest('.w'); if(w&&
 document.addEventListener('click',e=>{ if(!tip.contains(e.target)) hideTip(); });
 document.addEventListener('keydown',e=>{ if(e.key==='Escape') hideTip(); });
 window.addEventListener('scroll',()=>{ if(!tip.hidden) placeTip(); },{passive:true});
-$('tipRemove').onclick=e=>{ e.stopPropagation(); if(!selWord) return; delete cards[selWord.dataset.key]; saveCards(); markSaved(); toast('Karte entfernt'); hideTip(); };
+$('tipRemove').onclick=e=>{ e.stopPropagation(); if(!selWord) return; removeCard(selWord.dataset.key); markSaved(); toast('Karte entfernt'); hideTip(); };
 
 /* ---------- Vorlesen ---------- */
 const synth = window.speechSynthesis;
@@ -488,7 +503,7 @@ function drawCard(){
 }
 function answer(ok){
   const c=cards[current.key]; if(!c) return nextCard();
-  if(ok && (c.box||1)<5){ c.box=(c.box||1)+1; toast('Weiter auf Liste '+c.box); }
+  if(ok && (c.box||1)<5){ c.box=(c.box||1)+1; touch(c); toast('Weiter auf Liste '+c.box); }
   lastKey=c.key; saveCards(); renderList(); nextCard();
 }
 /* ---------- Quiz: 15 zufällige Wörter, 3 Antworten ---------- */
@@ -585,7 +600,7 @@ function renderList(){
   all.forEach(c=>{
     const li=document.createElement('li');
     li.innerHTML='<span class="lar">'+esc(c.ar)+'</span><span class="lde">'+esc(c.de)+'<span class="extra-info">'+extraHTML(c)+'</span></span><span class="lbox">Liste '+(c.box||1)+'</span><button aria-label="Löschen">Löschen</button>';
-    li.querySelector('button').onclick=()=>{ delete cards[c.key]; saveCards(); markSaved(); renderList(); nextCard(); };
+    li.querySelector('button').onclick=()=>{ removeCard(c.key); markSaved(); renderList(); nextCard(); };
     ul.appendChild(li);
   });
 }
@@ -602,7 +617,7 @@ $('importFile').onchange=async e=>{
   const f=e.target.files[0]; if(!f) return;
   try{
     const data=JSON.parse(await f.text()); let n=0;
-    for(const k in data){ if(data[k] && data[k].ar && !cards[k]){ cards[k]=data[k]; n++; } }
+    for(const k in data){ if(data[k] && data[k].ar && !cards[k]){ cards[k]=data[k]; touch(cards[k]); delete deleted[k]; n++; } }
     saveCards(); markSaved(); renderList(); nextCard(); toast(n+' Karten geladen');
   }catch(err){ toast('Die Datei konnte nicht gelesen werden.'); }
   e.target.value='';
@@ -611,8 +626,102 @@ $('importFile').onchange=async e=>{
 let toastT;
 function toast(msg){ const t=$('toast'); t.textContent=msg; t.hidden=false; clearTimeout(toastT); toastT=setTimeout(()=>t.hidden=true,2200); }
 
+
+/* ---------- Geräte-Sync über GitHub (Datei karten.json im Repository) ---------- */
+const SYNC_TOKEN = 'arabisch-sync-token';
+const SYNC_URL = 'https://api.github.com/repos/Lukas172349/arabisch-text/contents/karten.json';
+let syncTimer = null, syncing = false, syncAgain = false;
+function syncToken(){ try { return localStorage.getItem(SYNC_TOKEN) || ''; } catch(e) { return ''; } }
+function b64enc(str){ const b = new TextEncoder().encode(str); let s = ''; for(let i=0;i<b.length;i+=0x8000) s += String.fromCharCode.apply(null, b.subarray(i, i+0x8000)); return btoa(s); }
+function b64dec(str){ return new TextDecoder().decode(Uint8Array.from(atob(str.replace(/\s/g,'')), c => c.charCodeAt(0))); }
+function canon(o){ if(Array.isArray(o)) return '['+o.map(canon).join(',')+']'; if(o && typeof o==='object') return '{'+Object.keys(o).sort().map(k=>JSON.stringify(k)+':'+canon(o[k])).join(',')+'}'; return JSON.stringify(o); }
+const stamp = c => (c && (c.upd || c.added)) || 0;
+// Neuere Version jeder Karte gewinnt; Löschungen gelten, wenn sie neuer sind als die letzte Änderung der Karte
+function mergeRemote(remote){
+  const rc = (remote && remote.cards) || {}, rd = (remote && remote.deleted) || {};
+  for(const k in rd){ if(!deleted[k] || rd[k] > deleted[k]) deleted[k] = rd[k]; }
+  for(const k in rc){ if(rc[k] && rc[k].ar && (!cards[k] || stamp(rc[k]) > stamp(cards[k]))) cards[k] = rc[k]; }
+  for(const k in deleted){
+    if(cards[k] && stamp(cards[k]) > deleted[k]) delete deleted[k];
+    else if(cards[k]) delete cards[k];
+  }
+  const old = Date.now() - 180*864e5; // alte Löschvermerke aufräumen
+  for(const k in deleted){ if(deleted[k] < old) delete deleted[k]; }
+}
+function setSyncState(msg, cls){
+  const on = !!syncToken(), st = $('syncState');
+  st.textContent = msg || (on ? 'Geräte-Sync ist eingeschaltet.' : 'Geräte-Sync ist aus.');
+  st.className = cls || '';
+  $('syncSetup').textContent = on ? 'Schlüssel ändern' : 'Sync einrichten';
+  $('syncNowBtn').hidden = !on; $('syncOff').hidden = !on;
+  $('storeNote').textContent = on ? 'Die Karten werden in diesem Browser gespeichert und mit deinen anderen Geräten abgeglichen.' : 'Die Karten werden in diesem Browser gespeichert.';
+}
+function scheduleSync(){ if(!syncToken()) return; clearTimeout(syncTimer); syncTimer = setTimeout(syncNow, 4000); }
+function refreshAfterSync(){
+  markSaved();
+  if(!$('viewCards').hidden){ renderList(); renderBoxes(); if(!current || !cards[current.key]) nextCard(); }
+}
+async function syncNow(){
+  const tok = syncToken(); if(!tok) return;
+  if(syncing){ syncAgain = true; return; }
+  clearTimeout(syncTimer); syncTimer = null; syncing = true;
+  setSyncState('Synchronisiere …');
+  const h = { 'Authorization': 'Bearer ' + tok, 'Accept': 'application/vnd.github+json' };
+  try{
+    let done = false;
+    for(let attempt=0; attempt<4 && !done; attempt++){
+      const r = await fetch(SYNC_URL + '?ref=main&t=' + Date.now(), { headers: h, cache: 'no-store' });
+      let sha, remote = { cards:{}, deleted:{} };
+      if(r.ok){ const j = await r.json(); sha = j.sha; try { remote = JSON.parse(b64dec(j.content)); } catch(e) {} }
+      else if(r.status === 401) throw new Error('Der Schlüssel ist ungültig oder abgelaufen.');
+      else if(r.status !== 404) throw new Error('GitHub antwortet mit Fehler ' + r.status + '.');
+      const before = canon(cards);
+      mergeRemote(remote);
+      if(canon(cards) !== before){ storeLocal(); refreshAfterSync(); }
+      const mine = { cards, deleted };
+      if(sha && canon(mine) === canon({ cards: remote.cards||{}, deleted: remote.deleted||{} })){ done = true; break; }
+      const body = { message: 'Lernkarten synchronisiert', content: b64enc(JSON.stringify(mine)), branch: 'main' };
+      if(sha) body.sha = sha;
+      const p = await fetch(SYNC_URL, { method: 'PUT', headers: Object.assign({ 'Content-Type': 'application/json' }, h), body: JSON.stringify(body) });
+      if(p.ok){ done = true; break; }
+      if(p.status === 409 || p.status === 422){ await new Promise(res => setTimeout(res, 800 + attempt*700)); continue; } // anderes Gerät war schneller: neu laden und zusammenführen
+      if(p.status === 401) throw new Error('Der Schlüssel ist ungültig oder abgelaufen.');
+      if(p.status === 403 || p.status === 404) throw new Error('Der Schlüssel darf nicht in arabisch-text schreiben (Recht «Contents: Read and write» fehlt).');
+      throw new Error('GitHub antwortet mit Fehler ' + p.status + '.');
+    }
+    if(!done) throw new Error('Konflikt mit einem anderen Gerät – bitte gleich nochmals versuchen.');
+    setSyncState('Synchronisiert um ' + new Date().toLocaleTimeString('de-CH', { hour:'2-digit', minute:'2-digit' }) + '.', 'ok');
+  }catch(e){
+    setSyncState('Sync-Fehler: ' + (e.message === 'Failed to fetch' ? 'keine Verbindung zu GitHub.' : e.message), 'err');
+  }finally{
+    syncing = false;
+    if(syncAgain){ syncAgain = false; scheduleSync(); }
+  }
+}
+$('syncSetup').onclick = () => {
+  const t = prompt('GitHub-Zugangsschlüssel (beginnt mit github_pat_) hier einfügen. Er bleibt nur auf diesem Gerät gespeichert.', '');
+  if(t === null) return;
+  const v = t.trim(); if(!v) return;
+  try { localStorage.setItem(SYNC_TOKEN, v); } catch(e) { toast('Speichern nicht möglich.'); return; }
+  setSyncState(); syncNow();
+};
+$('syncNowBtn').onclick = () => syncNow();
+$('syncOff').onclick = () => {
+  if(!confirm('Sync auf diesem Gerät ausschalten? Die Karten bleiben hier erhalten.')) return;
+  try { localStorage.removeItem(SYNC_TOKEN); } catch(e) {}
+  clearTimeout(syncTimer); setSyncState();
+};
+document.addEventListener('visibilitychange', () => {
+  if(!syncToken()) return;
+  if(document.visibilityState === 'visible') syncNow();      // beim Öffnen: Änderungen der anderen Geräte holen
+  else if(syncTimer){ syncNow(); }                            // beim Verlassen: Ausstehendes sofort hochladen
+});
+window.addEventListener('online', () => { if(syncToken()) syncNow(); });
+setSyncState();
+
 updateCount();
 load();
+if(syncToken()) syncNow();
 
 /* ---------- Als App installierbar (PWA) ---------- */
 if('serviceWorker' in navigator){ navigator.serviceWorker.register('sw.js').catch(()=>{}); }
