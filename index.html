@@ -146,6 +146,8 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
 .ev-head{text-align:center;display:flex;flex-direction:column;gap:4px;padding-top:18px}
 .ev-day{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .ev-ref{margin:0;font-size:1.35rem;font-weight:600}
+.ev-days{display:flex;justify-content:center;padding-top:10px}
+.ev-days select{font:inherit;font-size:14px;padding:4px 8px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--fg)}
 .ev-langs{display:flex;gap:6px;overflow-x:auto;padding:12px 0 6px}
 .ev-langs button{flex:0 0 auto;padding:5px 13px;font-size:14px;white-space:nowrap}
 .ev-langs button[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
@@ -223,6 +225,7 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
     <div class="ev-day" id="evDay"></div>
     <h1 class="ev-ref" id="evRef">Evangelium wird geladen …</h1>
   </header>
+  <div class="ev-days" id="evDays" hidden><label for="evDay2">Tag <select id="evDay2"></select></label></div>
   <nav class="ev-langs" role="tablist" aria-label="Sprache" id="evLangs"></nav>
   <div class="ev-tools">
     <span id="evHint">Tippe auf ein Wort für die Bedeutung.</span>
@@ -526,10 +529,20 @@ let EV=null, evLang=null, evSel=null, evScale=1;
 try{ evLang=localStorage.getItem('ev-lang'); evScale=parseFloat(localStorage.getItem('ev-scale'))||1; $('evGloss').checked=localStorage.getItem('ev-gloss')==='1'; }catch(e){}
 const evStore=(k,v)=>{ try{ localStorage.setItem(k,v); }catch(e){} };
 const evKey=w=>w.normalize('NFC').replace(/[\u064B-\u0652\u0640\u0730-\u074A]/g,'').replace(/[«»“”„"'’,.:;·;?!¿¡؟،؛܂()\-–]/g,'').toLowerCase();
-async function loadEv(){
-  if(EV){ return; }
-  try{ EV = await getJSON('evangelium.json'); }
-  catch(e){ $('evRef').textContent='Das Evangelium konnte nicht geladen werden.'; return; }
+let EVLIST=null;
+async function loadEv(date){
+  if(EV && !date){ return; }
+  if(!EVLIST){
+    try{ EVLIST = await getJSON('ev-index.json'); }catch(e){ EVLIST = []; }
+    const sel=$('evDay2'); sel.innerHTML='';
+    EVLIST.forEach(x=>{ const o=document.createElement('option'); o.value=x.date; o.textContent=new Date(x.date+'T12:00:00').toLocaleDateString('de-CH',{weekday:'short',day:'numeric',month:'numeric'})+' · '+(x.ref||''); sel.appendChild(o); });
+    $('evDays').hidden = EVLIST.length < 2;
+    sel.onchange=()=>loadEv(sel.value);
+  }
+  const file = date ? 'ev-'+date+'.json' : (EVLIST[0] ? 'ev-'+EVLIST[0].date+'.json' : 'evangelium.json');
+  try{ EV = await getJSON(file); }
+  catch(e){ try{ EV = await getJSON('evangelium.json'); }catch(e2){ $('evRef').textContent='Das Evangelium konnte nicht geladen werden.'; return; } }
+  if(EV.date) $('evDay2').value = EV.date;
   if(!EV.langs[evLang]) evLang = EV.langs.syc ? 'syc' : EV.order[0];
   $('evDay').textContent = EV.day || '';
   const nt=$('evNotes'); nt.innerHTML='';
