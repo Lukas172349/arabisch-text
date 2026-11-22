@@ -13,7 +13,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Arabisch">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600&family=Inter:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600&family=Inter:wght@400;600&family=Noto+Sans+Syriac+Western&family=Vazirmatn:wght@400;600&display=swap">
 <style>
 /* ===== DESIGN: hier kannst du Farben und Schriften anpassen ===== */
 :root{
@@ -21,6 +21,7 @@
   --good:#1f6f54; --again:#a4492f; --card:#fbfcfa; --root:#8a5a12; --ant:#6a3fa0;
   --ar:"Noto Naskh Arabic","Geeza Pro","Arial",serif; --ui:"Inter",system-ui,sans-serif;
   --ar-size:1.3rem;
+  --syc:"Noto Sans Syriac Western","Serto Jerusalem",serif; --fa:"Vazirmatn","Noto Naskh Arabic",Tahoma,sans-serif;
 }
 @media (prefers-color-scheme: dark){:root{--bg:#141916;--surface:#1c231f;--fg:#e6ece8;--muted:#9aa8a0;--accent:#6fc7a2;--hl:#24372d;--line:#2c3631;--word:#2f4a3d;--good:#6fc7a2;--again:#e58f74;--card:#202824;--root:#e2b56a;--ant:#c4a2f0;color-scheme:dark}}
 *{box-sizing:border-box}
@@ -141,6 +142,44 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
 #toast[hidden]{display:none}
 [hidden]{display:none!important}
 @media (prefers-reduced-motion:reduce){.block{transition:none}}
+/* ===== Evangelium ===== */
+.ev-head{text-align:center;display:flex;flex-direction:column;gap:4px;padding-top:18px}
+.ev-day{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.ev-ref{margin:0;font-size:1.35rem;font-weight:600}
+.ev-langs{display:flex;gap:6px;overflow-x:auto;padding:12px 0 6px}
+.ev-langs button{flex:0 0 auto;padding:5px 13px;font-size:14px;white-space:nowrap}
+.ev-langs button[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.ev-tools{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;justify-content:center;font-size:13px;color:var(--muted);padding-bottom:8px}
+.ev-text{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:2px 18px}
+.ev-verse{display:flex;flex-direction:column;gap:4px;padding-block:12px;border-bottom:1px solid var(--line)}
+.ev-verse:last-child{border-bottom:0}
+.ev-v{margin:0;min-width:0}
+.ev-v .n{color:var(--accent);font-weight:600;font-size:.8em;margin-inline-end:.4em}
+.ev-v[dir="rtl"]{text-align:right}
+.ev-v.lat{font-size:calc(1.05rem * var(--evs,1))}
+.ev-v.syc{font-family:var(--syc);font-size:calc(1.55rem * var(--evs,1));line-height:2.2}
+.ev-v.ar{font-family:var(--ar);font-size:calc(1.3rem * var(--evs,1));line-height:2}
+.ev-v.fa{font-family:var(--fa);font-size:calc(1.2rem * var(--evs,1));line-height:2.1}
+.ev-v.gloss{font-size:14px;color:var(--muted);text-align:left;font-family:var(--ui);line-height:1.5}
+.ev-v .ew{cursor:pointer;border-radius:3px}
+.ev-v .ew:hover,.ev-v .ew.sel{background:var(--word)}
+.ev-v .ew:focus-visible{outline:2px solid var(--accent)}
+.ev-notes{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:6px;padding-block:14px 40px}
+.ev-notes p{margin:0}
+.ev-pop{position:absolute;z-index:30;max-width:min(340px,calc(100vw - 32px));background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:10px;box-shadow:0 6px 24px rgba(0,0,0,.18);padding:10px 14px;display:flex;flex-direction:column;gap:2px;font-size:15px;line-height:1.4}
+.ev-pop[hidden]{display:none}
+.ev-pop .pw{font-size:1.25em;color:var(--accent)}
+.ev-pop .pw.syc{font-family:var(--syc);font-size:1.5em}
+.ev-pop .pw.ar{font-family:var(--ar)} .ev-pop .pw.fa{font-family:var(--fa)}
+.ev-pop .pp{font-style:italic}
+.ev-pop .pg{font-weight:600}
+.ev-pop .ph{color:var(--muted);font-size:13px}
+.ev-pop .px{margin:6px 0 0;padding-top:6px;border-top:1px solid var(--line);display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:16px;align-items:baseline}
+.ev-pop .px dt{color:var(--muted);font-size:13px}
+.ev-pop .px dd{margin:0;min-width:0}
+.ev-pop .px dd.ar{font-family:var(--ar);font-size:20px}
+.ev-pop .px dd.fa{font-family:var(--fa);font-size:18px}
+.ev-pop .px dd[dir="rtl"]{text-align:right}
 </style>
 </head>
 <body>
@@ -149,6 +188,7 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
   <div class="tabs" role="tablist">
     <button class="tab" id="tabText" role="tab" aria-selected="true">Text</button>
     <button class="tab" id="tabCards" role="tab" aria-selected="false">Lernkarten<span class="count" id="cardCount">0</span></button>
+    <button class="tab" id="tabEv" role="tab" aria-selected="false">Evangelium</button>
   </div>
   <div class="controls" id="player">
     <button id="prev" title="Vorheriger Absatz" aria-label="Vorheriger Absatz">⏮ Zurück</button>
@@ -177,6 +217,23 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
   <section class="extra" id="sources" hidden><h2>Quellen</h2><ul id="srcList"></ul></section>
   <section class="extra" id="archive" hidden><h2>Archiv</h2><ul id="archList"></ul></section>
 </div>
+
+<div class="in" id="viewEv" hidden>
+  <header class="ev-head">
+    <div class="ev-day" id="evDay"></div>
+    <h1 class="ev-ref" id="evRef">Evangelium wird geladen …</h1>
+  </header>
+  <nav class="ev-langs" role="tablist" aria-label="Sprache" id="evLangs"></nav>
+  <div class="ev-tools">
+    <span id="evHint">Tippe auf ein Wort für die Bedeutung.</span>
+    <label id="evGlossWrap"><input type="checkbox" id="evGloss"> Deutsch mitlesen</label>
+    <button class="small" id="evSmaller" type="button">Schrift kleiner</button>
+    <button class="small" id="evLarger" type="button">Schrift grösser</button>
+  </div>
+  <section class="ev-text" id="evText" role="tabpanel"></section>
+  <footer class="ev-notes" id="evNotes"></footer>
+</div>
+<div class="ev-pop" id="evPop" hidden role="tooltip"></div>
 
 <div class="in" id="viewCards" hidden>
   <div class="modes" role="group" aria-label="Übungsart">
@@ -454,13 +511,92 @@ $('tipSay').onclick=e=>{ e.stopPropagation(); if(selWord) say(selWord.textConten
 /* ---------- Ansicht wechseln ---------- */
 function showView(v){
   const cardsView = v==='cards';
-  $('viewText').hidden = cardsView; $('viewCards').hidden = !cardsView; $('player').hidden = cardsView;
-  $('tabText').setAttribute('aria-selected', !cardsView); $('tabCards').setAttribute('aria-selected', cardsView);
-  hideTip(); if(synth){ running=false; synth.cancel(); mark(-1); }
+  $('viewText').hidden = v!=='text'; $('viewCards').hidden = !cardsView; $('viewEv').hidden = v!=='ev'; $('player').hidden = v!=='text';
+  $('tabText').setAttribute('aria-selected', v==='text'); $('tabCards').setAttribute('aria-selected', cardsView); $('tabEv').setAttribute('aria-selected', v==='ev');
+  hideTip(); evHide(); if(synth){ running=false; synth.cancel(); mark(-1); }
   if(cardsView){ lastKey=null; setMode('cards'); nextCard(); renderList(); }
+  if(v==='ev') loadEv();
 }
 $('tabText').onclick=()=>showView('text');
 $('tabCards').onclick=()=>showView('cards');
+$('tabEv').onclick=()=>showView('ev');
+
+/* ---------- Evangelium in mehreren Sprachen (Datei evangelium.json) ---------- */
+let EV=null, evLang=null, evSel=null, evScale=1;
+try{ evLang=localStorage.getItem('ev-lang'); evScale=parseFloat(localStorage.getItem('ev-scale'))||1; $('evGloss').checked=localStorage.getItem('ev-gloss')==='1'; }catch(e){}
+const evStore=(k,v)=>{ try{ localStorage.setItem(k,v); }catch(e){} };
+const evKey=w=>w.normalize('NFC').replace(/[\u064B-\u0652\u0640\u0730-\u074A]/g,'').replace(/[«»“”„"'’,.:;·;?!¿¡؟،؛܂()\-–]/g,'').toLowerCase();
+async function loadEv(){
+  if(EV){ return; }
+  try{ EV = await getJSON('evangelium.json'); }
+  catch(e){ $('evRef').textContent='Das Evangelium konnte nicht geladen werden.'; return; }
+  if(!EV.langs[evLang]) evLang = EV.langs.syc ? 'syc' : EV.order[0];
+  $('evDay').textContent = EV.day || '';
+  const nt=$('evNotes'); nt.innerHTML='';
+  (EV.notes||[]).forEach(t=>{ const p=document.createElement('p'); p.textContent=t; nt.appendChild(p); });
+  if(EV.sources && EV.sources.length){ const p=document.createElement('p'); p.append('Quellen: '); EV.sources.forEach((s,i)=>{ if(i) p.append(' · '); const a=document.createElement('a'); a.href=s.url; a.target='_blank'; a.rel='noopener'; a.textContent=s.title; p.append(a); }); nt.appendChild(p); }
+  evTabs(); evRender();
+}
+function evNum(x,i){ if(x.nums) return x.nums[i]; const s=String(EV.verses[i]); return x.digits ? s.replace(/\d/g,d=>x.digits[d]) : s; }
+function evTabs(){
+  const t=$('evLangs'); t.innerHTML='';
+  EV.order.forEach(k=>{ const b=document.createElement('button'); b.type='button'; b.className='small'; b.setAttribute('role','tab'); b.textContent=EV.langs[k].tab; b.lang=k; b.setAttribute('aria-selected', k===evLang);
+    b.onclick=()=>{ evLang=k; evStore('ev-lang',k); evTabs(); evRender(); }; t.appendChild(b); });
+}
+function evWords(el,text){
+  text.split(/(\s+)/).forEach(t=>{
+    if(!t) return;
+    if(/^\s+$/.test(t)){ el.append(t); return; }
+    const m=t.match(/^([«“„"(¿¡]*)(.*?)([»”“",.:;·;?!؟،؛܂)]*)$/);
+    if(m[1]) el.append(m[1]);
+    const sp=document.createElement('span'); sp.className='ew'; sp.textContent=m[2]; sp.tabIndex=0; sp.dataset.k=evKey(m[2]); el.append(sp);
+    if(m[3]) el.append(m[3]);
+  });
+}
+function evRender(){
+  const x=EV.langs[evLang], box=$('evText'), withDe=$('evGloss').checked && evLang!=='de', dict=(EV.dict||{})[evLang];
+  evHide(); box.innerHTML=''; box.style.setProperty('--evs',evScale);
+  const h=$('evRef'); h.textContent=x.ref; h.lang=evLang; h.dir=x.rtl?'rtl':'ltr';
+  h.style.fontFamily = evLang==='syc'?'var(--syc)':evLang==='ar'?'var(--ar)':evLang==='fa'?'var(--fa)':'';
+  x.v.forEach((t,i)=>{
+    const d=document.createElement('div'); d.className='ev-verse';
+    const p=document.createElement('p'); p.className='ev-v '+x.cls; p.lang=evLang; if(x.rtl) p.dir='rtl';
+    const n=document.createElement('span'); n.className='n'; n.textContent=evNum(x,i); p.append(n);
+    if(dict) evWords(p,t); else p.append(t);
+    d.appendChild(p);
+    if(withDe){ const g=document.createElement('p'); g.className='ev-v gloss'; g.lang='de'; const gn=document.createElement('span'); gn.className='n'; gn.textContent=EV.verses[i]; g.append(gn, EV.langs.de.v[i]); d.appendChild(g); }
+    box.appendChild(d);
+  });
+  $('evGlossWrap').hidden = evLang==='de'; $('evHint').hidden = !dict;
+}
+function evHide(){ $('evPop').hidden=true; if(evSel){ evSel.classList.remove('sel'); evSel=null; } }
+function evShow(w){
+  const e=((EV.dict||{})[evLang]||{})[w.dataset.k]; if(!e) return;
+  const [g,h,pr,xs]=e, x=EV.langs[evLang], pop=$('evPop');
+  if(evSel) evSel.classList.remove('sel'); evSel=w; w.classList.add('sel');
+  pop.innerHTML='';
+  const mk=(cls,txt)=>{ const d=document.createElement('div'); d.className=cls; d.textContent=txt; pop.append(d); return d; };
+  const a=mk('pw '+x.cls, w.textContent); a.lang=evLang; if(x.rtl) a.dir='rtl';
+  if(pr) mk('pp','Aussprache: '+pr);
+  mk('pg',g); if(h) mk('ph',h);
+  if(xs && xs.length){ const dl=document.createElement('dl'); dl.className='px';
+    xs.forEach(([lab,val,f])=>{ const dt=document.createElement('dt'); dt.textContent=lab; const dd=document.createElement('dd'); dd.textContent=val; if(f){ dd.className=x.cls; dd.lang=evLang; if(x.rtl) dd.dir='rtl'; } dl.append(dt,dd); });
+    pop.append(dl); }
+  pop.hidden=false;
+  const r=w.getBoundingClientRect(), pw=pop.offsetWidth, ph=pop.offsetHeight;
+  let left=r.left+window.scrollX+r.width/2-pw/2; left=Math.max(window.scrollX+16, Math.min(left, window.scrollX+document.documentElement.clientWidth-pw-16));
+  let top=r.bottom+window.scrollY+8; if(r.bottom+ph+16>window.innerHeight && r.top>ph+16) top=r.top+window.scrollY-ph-8;
+  pop.style.left=left+'px'; pop.style.top=top+'px';
+}
+$('evText').addEventListener('click',e=>{ const w=e.target.closest('.ew'); if(!w) return; e.stopPropagation(); if(w===evSel) evHide(); else evShow(w); });
+$('evText').addEventListener('keydown',e=>{ const w=e.target.closest('.ew'); if(w&&(e.key==='Enter'||e.key===' ')){ e.preventDefault(); evShow(w); } });
+$('evPop').addEventListener('click',e=>e.stopPropagation());
+document.addEventListener('click',()=>evHide());
+document.addEventListener('keydown',e=>{ if(e.key==='Escape') evHide(); });
+window.addEventListener('resize',()=>evHide());
+$('evGloss').onchange=()=>{ evStore('ev-gloss',$('evGloss').checked?'1':'0'); if(EV) evRender(); };
+$('evSmaller').onclick=()=>{ evScale=Math.max(.7,+(evScale-.15).toFixed(2)); evStore('ev-scale',evScale); if(EV) evRender(); };
+$('evLarger').onclick=()=>{ evScale=Math.min(2,+(evScale+.15).toFixed(2)); evStore('ev-scale',evScale); if(EV) evRender(); };
 
 /* ---------- Lernkarten üben (5 Listen, zufällige Reihenfolge) ---------- */
 let current=null, flipped=false, activeBox=0, lastKey=null;
