@@ -617,7 +617,7 @@
     },
     "ar": {
       "وتطلع": [
-        "und (er) blickte auf",
+        "(er) blickte auf",
         "و = und; Perfekt 3. m. Sg., Form V",
         "",
         [
@@ -625,6 +625,10 @@
             "Wurzel",
             "طلع",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "aufgehen, erscheinen"
           ]
         ]
       ],
@@ -637,6 +641,10 @@
             "Wurzel",
             "رأي",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "sehen"
           ]
         ]
       ],
@@ -649,6 +657,10 @@
             "Wurzel",
             "غني",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "reich sein"
           ],
           [
             "Singular",
@@ -666,6 +678,10 @@
             "Wurzel",
             "لقي",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "begegnen, werfen"
           ]
         ]
       ],
@@ -678,6 +694,10 @@
             "Wurzel",
             "قرب",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "nahe sein"
           ],
           [
             "Singular",
@@ -703,6 +723,10 @@
             1
           ],
           [
+            "Bedeutung der Wurzel",
+            "aufbewahren, speichern"
+          ],
+          [
             "Plural",
             "خزائن",
             1
@@ -710,7 +734,7 @@
         ]
       ],
       "ورأى": [
-        "und (er) sah",
+        "(er) sah",
         "و = und; Perfekt 3. m. Sg.",
         "",
         [
@@ -718,6 +742,10 @@
             "Wurzel",
             "رأي",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "sehen"
           ]
         ]
       ],
@@ -730,6 +758,10 @@
             "Wurzel",
             "أيض",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "zurückkehren"
           ]
         ]
       ],
@@ -742,6 +774,10 @@
             "Wurzel",
             "رمل",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "Sand; verwitwet sein"
           ],
           [
             "Plural",
@@ -761,6 +797,10 @@
             1
           ],
           [
+            "Bedeutung der Wurzel",
+            "wohnen, ruhig sein"
+          ],
+          [
             "Plural",
             "مساكين",
             1
@@ -776,6 +816,10 @@
             "Wurzel",
             "لقي",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "begegnen, werfen"
           ]
         ]
       ],
@@ -796,6 +840,10 @@
             1
           ],
           [
+            "Bedeutung der Wurzel",
+            "verarmen"
+          ],
+          [
             "Plural",
             "فلوس",
             1
@@ -811,6 +859,10 @@
             "Wurzel",
             "قول",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "sagen"
           ]
         ]
       ],
@@ -823,6 +875,10 @@
             "Wurzel",
             "حقق",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "wahr sein"
           ]
         ]
       ],
@@ -835,6 +891,10 @@
             "Wurzel",
             "قول",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "sagen"
           ]
         ]
       ],
@@ -867,6 +927,10 @@
             1
           ],
           [
+            "Bedeutung der Wurzel",
+            "Sand; verwitwet sein"
+          ],
+          [
             "Plural",
             "أرامل",
             1
@@ -884,6 +948,10 @@
             1
           ],
           [
+            "Bedeutung der Wurzel",
+            "arm sein"
+          ],
+          [
             "Plural",
             "فقراء",
             1
@@ -899,6 +967,10 @@
             "Wurzel",
             "كثر",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "viel sein"
           ]
         ]
       ],
@@ -917,6 +989,10 @@
             "Wurzel",
             "جمع",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "sammeln"
           ]
         ]
       ],
@@ -941,6 +1017,10 @@
             "Wurzel",
             "فضل",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "übrig bleiben"
           ]
         ]
       ],
@@ -953,6 +1033,10 @@
             "Wurzel",
             "لقي",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "begegnen, werfen"
           ]
         ]
       ],
@@ -965,6 +1049,10 @@
             "Wurzel",
             "قرب",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "nahe sein"
           ],
           [
             "Singular",
@@ -1000,6 +1088,10 @@
             "Wurzel",
             "عوز",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "bedürfen"
           ]
         ]
       ],
@@ -1012,6 +1104,10 @@
             "Wurzel",
             "كلل",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "ganz sein"
           ]
         ]
       ],
@@ -1024,6 +1120,10 @@
             "Wurzel",
             "عيش",
             1
+          ],
+          [
+            "Bedeutung der Wurzel",
+            "leben"
           ]
         ]
       ],
