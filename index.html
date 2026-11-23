@@ -166,6 +166,8 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
 .ev-v .ew{cursor:pointer;border-radius:3px}
 .ev-v .ew:hover,.ev-v .ew.sel{background:var(--word)}
 .ev-v .ew:focus-visible{outline:2px solid var(--accent)}
+.ev-link{margin:0;text-align:center;font-size:14px;padding-top:10px}
+.ev-link[hidden]{display:none}
 .ev-notes{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:6px;padding-block:14px 40px}
 .ev-notes p{margin:0}
 .ev-pop{position:absolute;z-index:30;max-width:min(340px,calc(100vw - 32px));background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:10px;box-shadow:0 6px 24px rgba(0,0,0,.18);padding:10px 14px;display:flex;flex-direction:column;gap:2px;font-size:15px;line-height:1.4}
@@ -234,6 +236,7 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
     <button class="small" id="evLarger" type="button">Schrift grösser</button>
   </div>
   <section class="ev-text" id="evText" role="tabpanel"></section>
+  <p class="ev-link" id="evLink" hidden></p>
   <footer class="ev-notes" id="evNotes"></footer>
 </div>
 <div class="ev-pop" id="evPop" hidden role="tooltip"></div>
@@ -581,6 +584,8 @@ function evRender(){
     box.appendChild(d);
   });
   $('evGlossWrap').hidden = evLang==='de'; $('evHint').hidden = !dict;
+  const lk=$('evLink'); lk.innerHTML=''; lk.hidden=!x.link;
+  if(x.link){ const a=document.createElement('a'); a.href=x.link.url; a.target='_blank'; a.rel='noopener'; a.textContent=x.link.title+' ↗'; a.lang=evLang; if(x.rtl) lk.dir='rtl'; else lk.removeAttribute('dir'); lk.append(a); }
 }
 function evHide(){ $('evPop').hidden=true; if(evSel){ evSel.classList.remove('sel'); evSel=null; } }
 function evShow(w){

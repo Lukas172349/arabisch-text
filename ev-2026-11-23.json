@@ -25,6 +25,10 @@
       "tab": "Deutsch",
       "ref": "Lukas 21,1–4 · Das Opfer der Witwe",
       "cls": "lat",
+      "link": {
+        "url": "https://www.bibleserver.com/EU/Lukas21%2C1-4",
+        "title": "Einheitsübersetzung lesen (bibleserver)"
+      },
       "v": [
         "Als Jesus aufschaute, sah er, wie reiche Leute ihre Spenden in den Opferstock warfen.",
         "Er sah auch eine bedürftige Witwe, die dort zwei winzige Münzen einwarf.",
@@ -36,6 +40,10 @@
       "tab": "Français",
       "ref": "Luc 21,1-4",
       "cls": "lat",
+      "link": {
+        "url": "https://www.aelf.org/2026-11-23/romain/messe",
+        "title": "Lire la traduction liturgique (AELF)"
+      },
       "v": [
         "Levant les yeux, Jésus vit des riches qui jetaient leurs dons dans le tronc du Temple.",
         "Il vit aussi une veuve indigente qui y jetait deux toutes petites pièces.",
@@ -47,6 +55,10 @@
       "tab": "English",
       "ref": "Luke 21:1–4",
       "cls": "lat",
+      "link": {
+        "url": "https://bible.usccb.org/bible/luke/21",
+        "title": "Read the NABRE (USCCB)"
+      },
       "v": [
         "Looking up, Jesus saw rich people dropping their gifts into the temple treasury.",
         "He also saw a needy widow putting in two tiny copper coins.",
@@ -69,6 +81,10 @@
       "tab": "Español",
       "ref": "Lucas 21,1-4",
       "cls": "lat",
+      "link": {
+        "url": "https://www.conferenciaepiscopal.es/biblia/",
+        "title": "Leer la Sagrada Biblia (CEE)"
+      },
       "v": [
         "Jesús levantó la vista y vio a unos ricos que echaban sus donativos en el arca de las ofrendas.",
         "Vio también a una viuda necesitada que echaba allí dos moneditas.",
@@ -80,6 +96,10 @@
       "tab": "Русский",
       "ref": "От Луки 21:1–4",
       "cls": "lat",
+      "link": {
+        "url": "https://azbyka.org/biblia/?Lk.21:1-4",
+        "title": "Синодальный перевод (azbyka)"
+      },
       "v": [
         "Взглянув же, Он увидел богатых, клавших дары свои в сокровищницу;",
         "увидел также и бедную вдову, положившую туда две лепты,",
@@ -93,6 +113,10 @@
       "cls": "ar",
       "rtl": 1,
       "digits": "٠١٢٣٤٥٦٧٨٩",
+      "link": {
+        "url": "https://www.bibleserver.com/NAV/Lukas21%2C1-4",
+        "title": "اقرأ في كتاب الحياة (bibleserver)"
+      },
       "v": [
         "ورفع يسوع نظره فرأى الأغنياء يلقون تقدماتهم في خزانة الهيكل.",
         "ورأى أيضا أرملة فقيرة تلقي هناك قطعتين صغيرتين من النقود.",
@@ -106,6 +130,10 @@
       "cls": "fa",
       "rtl": 1,
       "digits": "۰۱۲۳۴۵۶۷۸۹",
+      "link": {
+        "url": "https://www.bibleserver.com/PCB/Lukas21%2C1-4",
+        "title": "خواندن در ترجمهٔ معاصر (bibleserver)"
+      },
       "v": [
         "عیسی سَر بَرداشت و دید کِه ثَروَتمَندان هَدیِه‌هایِ خود را دَر صَندوقِ نَذرِ مَعبَد می‌اَندازَند.",
         "هَمچُنین بیوِه‌زَنی تَنگدَست را دید کِه دو سِکّهٔ کوچَک دَر آن اَنداخت.",
@@ -117,6 +145,10 @@
       "tab": "Latina",
       "ref": "Secundum Lucam 21,1-4",
       "cls": "lat",
+      "link": {
+        "url": "https://lueur.org/bible/luc21/KJV,LSG,TR1550,VULC",
+        "title": "Vulgata Clementina (lueur.org)"
+      },
       "v": [
         "Respiciens autem vidit eos qui mittebant munera sua in gazophylacium, divites.",
         "Vidit autem et quamdam viduam pauperculam mittentem æra minuta duo.",
@@ -128,6 +160,10 @@
       "tab": "Ἑλληνικά",
       "ref": "Κατὰ Λουκᾶν 21,1–4",
       "cls": "lat",
+      "link": {
+        "url": "https://lueur.org/bible/luc21/KJV,LSG,TR1550,VULC",
+        "title": "Textus Receptus 1550 (lueur.org)"
+      },
       "v": [
         "Ἀναβλέψας δὲ εἶδεν τοὺς βάλλοντας τὰ δῶρα αὐτῶν εἰς τὸ γαζοφυλάκιον πλουσίους.",
         "Εἶδεν δὲ καί τινα χήραν πενιχρὰν βάλλουσαν ἐκεῖ δύο λεπτά,",
@@ -146,6 +182,10 @@
         "ܓ",
         "ܕ"
       ],
+      "link": {
+        "url": "https://mail.biblehub.com/aramaic-english/pdf/Luke_21.pdf",
+        "title": "Peschitta (biblehub)"
+      },
       "v": [
         "ܚܰܪ ܕܶܝܢ ܝܶܫܽܘܥ ܒܥܰܬܺܝܪܶܐ ܐܰܝܠܶܝܢ ܕܪܳܡܶܝܢ ܗܘܰܘ ܒܶܝܬ ܓܰܙܳܐ ܩܽܘܪܒܳܢܰܝܗܽܘܢ܂",
         "ܘܰܚܙܳܐ ܐܳܦ ܐܰܪܡܰܠܬܳܐ ܚܕܳܐ ܡܶܣܟܶܢܬܳܐ ܕܐܰܪܡܝܰܬ ܫܡܽܘܢܶܐ ܬܪܶܝܢ܂",
@@ -2744,34 +2784,6 @@
     {
       "url": "https://lueur.org/bible/luc21/KJV,LSG,TR1550,VULC",
       "title": "Vulgata und Textus Receptus Lukas 21 (lueur.org)"
-    },
-    {
-      "url": "https://www.bibleserver.com/EU/Lukas21%2C1-4",
-      "title": "Einheitsübersetzung (bibleserver)"
-    },
-    {
-      "url": "https://www.aelf.org/2026-11-23/romain/messe",
-      "title": "Traduction liturgique (AELF)"
-    },
-    {
-      "url": "https://bible.usccb.org/bible/luke/21",
-      "title": "NABRE (USCCB)"
-    },
-    {
-      "url": "https://www.conferenciaepiscopal.es/biblia/",
-      "title": "Sagrada Biblia (CEE)"
-    },
-    {
-      "url": "https://www.bibleserver.com/NAV/Lukas21%2C1-4",
-      "title": "كتاب الحياة (bibleserver)"
-    },
-    {
-      "url": "https://www.bibleserver.com/PCB/Lukas21%2C1-4",
-      "title": "ترجمهٔ معاصر (bibleserver)"
-    },
-    {
-      "url": "https://azbyka.org/biblia/?Lk.21:1-4",
-      "title": "Синодальный перевод (azbyka)"
     },
     {
       "url": "https://catholicreadings.org/2311202-6/",
