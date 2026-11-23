@@ -29,8 +29,9 @@ html,body{margin:0}
 body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--ui)}
 .in{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 .bar{position:sticky;top:0;background:var(--surface);border-bottom:1px solid var(--line);z-index:5}
-.tabs{display:flex;gap:4px;padding-top:10px}
-.tab{border:0;border-bottom:3px solid transparent;border-radius:0;background:none;padding:8px 12px;font:600 15px var(--ui);color:var(--muted);cursor:pointer}
+.tabs{display:flex;gap:4px;padding-top:10px;overflow-x:auto;scrollbar-width:none}
+.tab{border:0;border-bottom:3px solid transparent;border-radius:0;background:none;padding:8px 12px;font:600 15px var(--ui);color:var(--muted);cursor:pointer;white-space:nowrap;flex:0 0 auto}
+@media (max-width:480px){.tabs{gap:0}.tab{padding:8px 6px;font-size:13.5px}.count{min-width:18px;padding:0 4px;margin-left:3px}}
 .tab[aria-selected="true"]{color:var(--fg);border-bottom-color:var(--accent)}
 .count{display:inline-block;min-width:22px;padding:0 6px;margin-left:4px;border-radius:999px;background:var(--hl);color:var(--accent);font-size:12px;line-height:20px;text-align:center}
 .controls{padding-block:10px 12px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
@@ -195,6 +196,27 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
 .ev-saymsg{flex-basis:100%;text-align:center}
 .ev-saymsg:empty{display:none}
 .ev-pop .px dd[dir="rtl"]{text-align:right}
+/* ===== Latein ===== */
+.lat-works{display:flex;gap:8px;justify-content:center;padding-top:16px}
+.lat-works button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.lat-head{text-align:center;display:flex;flex-direction:column;gap:2px;padding:14px 0 6px}
+.lat-author{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.lat-title{margin:0;font-size:1.35rem;font-weight:600;font-style:italic}
+.lat-ref{font-size:14px;color:var(--muted)}
+.lat-tools{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;justify-content:center;font-size:13px;color:var(--muted);padding-bottom:8px}
+.lat-text{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:4px 18px}
+.lat-s{padding-block:10px;border-bottom:1px solid var(--line)}
+.lat-s:last-child{border-bottom:0}
+.lat-la{margin:0;font-size:calc(1.12rem * var(--lats,1));line-height:1.7}
+.lat-text.verse .lat-la{white-space:pre-line}
+.lat-la .ew{cursor:pointer;border-radius:3px}
+.lat-la .ew:hover,.lat-la .ew.sel{background:var(--word)}
+.lat-s .trbtn{display:block;margin:4px 0 0}
+.lat-de{display:none;margin:6px 0 0;font-size:15px;line-height:1.5;color:var(--muted)}
+.lat-s.open .lat-de,.lat-text.all .lat-de{display:block}
+.lat-text.all .trbtn{display:none}
+.lat-notes{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:6px;padding-block:14px 40px}
+.lat-notes p{margin:0}
 </style>
 </head>
 <body>
@@ -204,6 +226,7 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
     <button class="tab" id="tabText" role="tab" aria-selected="true">Text</button>
     <button class="tab" id="tabCards" role="tab" aria-selected="false">Lernkarten<span class="count" id="cardCount">0</span></button>
     <button class="tab" id="tabEv" role="tab" aria-selected="false">Evangelium</button>
+    <button class="tab" id="tabLat" role="tab" aria-selected="false">Latein</button>
   </div>
   <div class="controls" id="player">
     <button id="prev" title="Vorheriger Absatz" aria-label="Vorheriger Absatz">⏮ Zurück</button>
@@ -251,6 +274,22 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
   <section class="ev-text" id="evText" role="tabpanel"></section>
   <p class="ev-link" id="evLink" hidden></p>
   <footer class="ev-notes" id="evNotes"></footer>
+</div>
+<div class="in" id="viewLat" hidden>
+  <div class="lat-works" id="latWorks" role="group" aria-label="Werk"></div>
+  <header class="lat-head">
+    <div class="lat-author" id="latAuthor"></div>
+    <h1 class="lat-title" id="latTitle">Latein wird geladen …</h1>
+    <div class="lat-ref" id="latRef"></div>
+  </header>
+  <div class="lat-tools">
+    <span>Tippe auf ein Wort für die Bedeutung.</span>
+    <button class="small" id="latAll" type="button">Alle Übersetzungen einblenden</button>
+    <button class="small" id="latSmaller" type="button">Schrift kleiner</button>
+    <button class="small" id="latLarger" type="button">Schrift grösser</button>
+  </div>
+  <section class="lat-text" id="latText"></section>
+  <footer class="lat-notes" id="latNotes"></footer>
 </div>
 <div class="ev-pop" id="evPop" hidden role="tooltip"></div>
 
@@ -568,15 +607,17 @@ $('tipSay').onclick=e=>{ e.stopPropagation(); if(selWord) say(wordView(selWord.t
 /* ---------- Ansicht wechseln ---------- */
 function showView(v){
   const cardsView = v==='cards';
-  $('viewText').hidden = v!=='text'; $('viewCards').hidden = !cardsView; $('viewEv').hidden = v!=='ev'; $('player').hidden = v!=='text';
-  $('tabText').setAttribute('aria-selected', v==='text'); $('tabCards').setAttribute('aria-selected', cardsView); $('tabEv').setAttribute('aria-selected', v==='ev');
+  $('viewText').hidden = v!=='text'; $('viewCards').hidden = !cardsView; $('viewEv').hidden = v!=='ev'; $('viewLat').hidden = v!=='lat'; $('player').hidden = v!=='text';
+  $('tabText').setAttribute('aria-selected', v==='text'); $('tabCards').setAttribute('aria-selected', cardsView); $('tabEv').setAttribute('aria-selected', v==='ev'); $('tabLat').setAttribute('aria-selected', v==='lat');
   hideTip(); evHide(); if(synth){ running=false; synth.cancel(); mark(-1); if(EV) evSayStop(); }
   if(cardsView){ lastKey=null; setMode('cards'); nextCard(); renderList(); }
   if(v==='ev') loadEv();
+  if(v==='lat') loadLat();
 }
 $('tabText').onclick=()=>showView('text');
 $('tabCards').onclick=()=>showView('cards');
 $('tabEv').onclick=()=>showView('ev');
+$('tabLat').onclick=()=>showView('lat');
 
 /* ---------- Evangelium in mehreren Sprachen (Datei evangelium.json) ---------- */
 let EV=null, evLang=null, evSel=null, evScale=1;
@@ -667,18 +708,19 @@ function evSayFrom(i,my){
 $('evSay').onclick=()=>{ if(!synth||!EV_TTS[evLang]) return; if($('evSay').textContent.startsWith('■')){ evSayStop(); return; } evSayStop(); const my=evGen; $('evSay').textContent='■ Stopp'; evSayFrom(0,my); };
 if(synth) synth.addEventListener('voiceschanged',()=>{ if(EV) evSayState(); });
 function evHide(){ $('evPop').hidden=true; if(evSel){ evSel.classList.remove('sel'); evSel=null; } }
-function evShow(w){
-  const e=((EV.dict||{})[evLang]||{})[w.dataset.k]; if(!e) return;
-  let [g,h,pr,xs]=e; const x=EV.langs[evLang], pop=$('evPop'); let shown=w.textContent;
-  if(evLang==='ar'){ const v=noWaw(shown,g,h); shown=v.ar; g=v.de; h=v.note; }
+function evShow(w, ctx){
+  const C = ctx || { dict:(EV.dict||{})[evLang], x:EV.langs[evLang], lang:evLang };
+  const e=(C.dict||{})[w.dataset.k]; if(!e) return;
+  let [g,h,pr,xs]=e; const x=C.x, pop=$('evPop'), L=C.lang; let shown=w.textContent;
+  if(L==='ar'){ const v=noWaw(shown,g,h); shown=v.ar; g=v.de; h=v.note; }
   if(evSel) evSel.classList.remove('sel'); evSel=w; w.classList.add('sel');
   pop.innerHTML='';
   const mk=(cls,txt)=>{ const d=document.createElement('div'); d.className=cls; d.textContent=txt; pop.append(d); return d; };
-  const a=mk('pw '+x.cls, shown); a.lang=evLang; if(x.rtl) a.dir='rtl';
+  const a=mk('pw '+x.cls, shown); a.lang=L; if(x.rtl) a.dir='rtl';
   if(pr) mk('pp','Aussprache: '+pr);
   mk('pg',g); if(h) mk('ph',h);
   if(xs && xs.length){ const dl=document.createElement('dl'); dl.className='px';
-    xs.forEach(([lab,val,f])=>{ const dt=document.createElement('dt'); dt.textContent=lab; const dd=document.createElement('dd'); dd.textContent=val; if(f){ dd.className=x.cls; dd.lang=evLang; if(x.rtl) dd.dir='rtl'; } dl.append(dt,dd); });
+    xs.forEach(([lab,val,f])=>{ const dt=document.createElement('dt'); dt.textContent=lab; const dd=document.createElement('dd'); dd.textContent=val; if(f){ dd.className=x.cls; dd.lang=L; if(x.rtl) dd.dir='rtl'; } dl.append(dt,dd); });
     pop.append(dl); }
   pop.hidden=false;
   const r=w.getBoundingClientRect(), pw=pop.offsetWidth, ph=pop.offsetHeight;
@@ -695,6 +737,44 @@ window.addEventListener('resize',()=>evHide());
 $('evGloss').onchange=()=>{ evStore('ev-gloss',$('evGloss').checked?'1':'0'); if(EV) evRender(); };
 $('evSmaller').onclick=()=>{ evScale=Math.max(.7,+(evScale-.15).toFixed(2)); evStore('ev-scale',evScale); if(EV) evRender(); };
 $('evLarger').onclick=()=>{ evScale=Math.min(2,+(evScale+.15).toFixed(2)); evStore('ev-scale',evScale); if(EV) evRender(); };
+
+/* ---------- Latein (Datei latein.json): ein Abschnitt je Werk ---------- */
+let LAT=null, latWork=null, latScale=1, latAllOn=false;
+try{ latWork=localStorage.getItem('lat-work'); latScale=parseFloat(localStorage.getItem('lat-scale'))||1; latAllOn=localStorage.getItem('lat-all')==='1'; }catch(e){}
+const LATCTX=()=>({ dict:LAT.dict||{}, x:{cls:'lat'}, lang:'la' });
+async function loadLat(){
+  if(LAT) return;
+  try{ LAT = await getJSON('latein.json'); }catch(e){ $('latTitle').textContent='Der lateinische Text konnte nicht geladen werden.'; return; }
+  if(!LAT.works.some(w=>w.id===latWork)) latWork=LAT.works[0].id;
+  latRender();
+}
+function latRender(){
+  evHide();
+  const wb=$('latWorks'); wb.innerHTML='';
+  LAT.works.forEach(w=>{ const b=document.createElement('button'); b.type='button'; b.className='small'; b.textContent=w.tab; b.setAttribute('aria-pressed', w.id===latWork);
+    b.onclick=()=>{ latWork=w.id; evStore('lat-work',w.id); latRender(); }; wb.appendChild(b); });
+  const W=LAT.works.find(w=>w.id===latWork);
+  $('latAuthor').textContent=W.author; $('latTitle').textContent=W.title; $('latRef').textContent=W.ref||'';
+  const box=$('latText'); box.innerHTML=''; box.style.setProperty('--lats',latScale);
+  box.classList.toggle('verse', !!W.verse); box.classList.toggle('all', latAllOn);
+  $('latAll').textContent = latAllOn ? 'Alle Übersetzungen ausblenden' : 'Alle Übersetzungen einblenden';
+  W.sentences.forEach(s=>{
+    const d=document.createElement('div'); d.className='lat-s';
+    const p=document.createElement('p'); p.className='lat-la'; p.lang='la'; evWords(p, s.la); d.appendChild(p);
+    const bt=document.createElement('button'); bt.type='button'; bt.className='trbtn'; bt.textContent='Satz übersetzen ▾';
+    bt.onclick=e=>{ e.stopPropagation(); const o=d.classList.toggle('open'); bt.textContent = o ? 'Übersetzung ausblenden ▴' : 'Satz übersetzen ▾'; };
+    const de=document.createElement('p'); de.className='lat-de'; de.lang='de'; de.textContent=s.de;
+    d.append(bt, de); box.appendChild(d);
+  });
+  const nt=$('latNotes'); nt.innerHTML='';
+  (LAT.notes||[]).forEach(t=>{ const q=document.createElement('p'); q.textContent=t; nt.appendChild(q); });
+  if(W.source){ const q=document.createElement('p'); q.append('Text: '); const a=document.createElement('a'); a.href=W.source.url; a.target='_blank'; a.rel='noopener'; a.textContent=W.source.title; q.append(a); nt.appendChild(q); }
+}
+$('latText').addEventListener('click',e=>{ const w=e.target.closest('.ew'); if(!w) return; e.stopPropagation(); if(w===evSel) evHide(); else evShow(w, LATCTX()); });
+$('latText').addEventListener('keydown',e=>{ const w=e.target.closest('.ew'); if(w&&(e.key==='Enter'||e.key===' ')){ e.preventDefault(); evShow(w, LATCTX()); } });
+$('latAll').onclick=()=>{ latAllOn=!latAllOn; evStore('lat-all',latAllOn?'1':'0'); if(LAT) latRender(); };
+$('latSmaller').onclick=()=>{ latScale=Math.max(.7,+(latScale-.15).toFixed(2)); evStore('lat-scale',latScale); if(LAT) latRender(); };
+$('latLarger').onclick=()=>{ latScale=Math.min(2,+(latScale+.15).toFixed(2)); evStore('lat-scale',latScale); if(LAT) latRender(); };
 
 /* ---------- Lernkarten üben (5 Listen, zufällige Reihenfolge) ---------- */
 let current=null, flipped=false, activeBox=0, lastKey=null;

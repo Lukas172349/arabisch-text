@@ -1,0 +1,1833 @@
+{
+ "date": "2026-11-23",
+ "works": [
+  {
+   "id": "bg",
+   "tab": "Caesar",
+   "author": "C. Iulius Caesar",
+   "title": "De bello Gallico",
+   "ref": "Liber I, 1 · Abschnitt 1 (Sätze 1–4)",
+   "part": 1,
+   "verse": false,
+   "sentences": [
+    {
+     "la": "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur.",
+     "de": "Gallien als Ganzes ist in drei Teile geteilt: Den einen bewohnen die Belger, den zweiten die Aquitaner, den dritten diejenigen, die in ihrer eigenen Sprache Kelten, in unserer Gallier heissen."
+    },
+    {
+     "la": "Hi omnes lingua, institutis, legibus inter se differunt.",
+     "de": "Sie alle unterscheiden sich voneinander in Sprache, Einrichtungen und Gesetzen."
+    },
+    {
+     "la": "Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit.",
+     "de": "Von den Aquitanern trennt die Gallier der Fluss Garonne, von den Belgern trennen sie Marne und Seine."
+    },
+    {
+     "la": "Horum omnium fortissimi sunt Belgae, propterea quod a cultu atque humanitate provinciae longissime absunt, minimeque ad eos mercatores saepe commeant atque ea quae ad effeminandos animos pertinent important, proximique sunt Germanis, qui trans Rhenum incolunt, quibuscum continenter bellum gerunt.",
+     "de": "Von allen diesen sind die Belger die tapfersten, weil sie von der Lebensart und Bildung der Provinz am weitesten entfernt sind, weil Kaufleute nur sehr selten zu ihnen kommen und das einführen, was die Gemüter verweichlicht, und weil sie den Germanen am nächsten wohnen, die jenseits des Rheins leben und mit denen sie ununterbrochen Krieg führen."
+    }
+   ],
+   "source": {
+    "url": "https://dcc.dickinson.edu/caesar/book-1/chapter-1-1",
+    "title": "Dickinson College Commentaries"
+   }
+  },
+  {
+   "id": "cons",
+   "tab": "Boethius",
+   "author": "Anicius Manlius Severinus Boethius",
+   "title": "De consolatione philosophiae",
+   "ref": "Liber I, Metrum 1 · Verse 1–12",
+   "part": 1,
+   "verse": true,
+   "sentences": [
+    {
+     "la": "Carmina qui quondam studio florente peregi,\nflebilis, heu, maestos cogor inire modos.",
+     "de": "Der ich einst in blühendem Eifer Lieder vollendet habe, muss nun – ach! – unter Tränen traurige Weisen anstimmen."
+    },
+    {
+     "la": "Ecce mihi lacerae dictant scribenda Camenae\net veris elegi fletibus ora rigant.",
+     "de": "Sieh, die zerzausten Musen sagen mir vor, was ich schreiben soll, und elegische Verse benetzen mein Gesicht mit echten Tränen."
+    },
+    {
+     "la": "Has saltem nullus potuit pervincere terror,\nne nostrum comites prosequerentur iter.",
+     "de": "Wenigstens sie konnte kein Schrecken davon abbringen, mich als Gefährtinnen auf meinem Weg zu begleiten."
+    },
+    {
+     "la": "Gloria felicis olim viridisque iuventae\nsolantur maesti nunc mea fata senis.",
+     "de": "Einst der Ruhm meiner glücklichen, blühenden Jugend, trösten sie nun mein Los als trauriger alter Mann."
+    },
+    {
+     "la": "Venit enim properata malis inopina senectus\net dolor aetatem iussit inesse suam.",
+     "de": "Denn unerwartet ist das Alter gekommen, vom Unglück beschleunigt, und der Schmerz hat mir sein eigenes Alter auferlegt."
+    },
+    {
+     "la": "Intempestivi funduntur vertice cani\net tremit effeto corpore laxa cutis.",
+     "de": "Zur Unzeit fallen mir graue Haare vom Scheitel, und schlaff zittert die Haut am erschöpften Körper."
+    }
+   ],
+   "source": {
+    "url": "https://atlas.perseus.tufts.edu/library/passage/urn:cts:latinLit:stoa0058.stoa001.opp-lat3:1.I.1-1.I.5",
+    "title": "Scaife Viewer (Perseus)"
+   }
+  }
+ ],
+ "dict": {
+  "gallia": [
+   "Gallien",
+   "Nom. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "Gallia, -ae f.",
+     1
+    ]
+   ]
+  ],
+  "est": [
+   "ist",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind., 3. Sg."
+    ],
+    [
+     "Infinitiv",
+     "esse",
+     1
+    ],
+    [
+     "Stammformen",
+     "sum, fui, –",
+     1
+    ]
+   ]
+  ],
+  "omnis": [
+   "ganz, als Ganzes",
+   "Nom. Sg. f.",
+   "",
+   [
+    [
+     "Grundform",
+     "omnis, omne",
+     1
+    ]
+   ]
+  ],
+  "divisa": [
+   "geteilt",
+   "Partizip Perfekt Passiv, Nom. Sg. f.; divisa est = ist geteilt",
+   "",
+   [
+    [
+     "Form",
+     "Partizip Perfekt Passiv"
+    ],
+    [
+     "Infinitiv",
+     "dividere",
+     1
+    ],
+    [
+     "Stammformen",
+     "divido, divisi, divisum",
+     1
+    ]
+   ]
+  ],
+  "in": [
+   "in",
+   "Präposition + Akk. (wohin) / Abl. (wo)",
+   "",
+   []
+  ],
+  "partes": [
+   "Teile",
+   "Akk. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "pars, partis f.",
+     1
+    ]
+   ]
+  ],
+  "tres": [
+   "drei",
+   "Akk. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "tres, tria",
+     1
+    ]
+   ]
+  ],
+  "quarum": [
+   "von denen",
+   "Relativpronomen, Gen. Pl. f.",
+   "",
+   [
+    [
+     "Grundform",
+     "qui, quae, quod",
+     1
+    ]
+   ]
+  ],
+  "unam": [
+   "den einen",
+   "Akk. Sg. f.",
+   "",
+   [
+    [
+     "Grundform",
+     "unus, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "incolunt": [
+   "(sie) bewohnen",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind. Aktiv, 3. Pl."
+    ],
+    [
+     "Infinitiv",
+     "incolere",
+     1
+    ],
+    [
+     "Stammformen",
+     "incolo, incolui, –",
+     1
+    ]
+   ]
+  ],
+  "belgae": [
+   "die Belger",
+   "Nom. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "Belgae, -arum m.",
+     1
+    ]
+   ]
+  ],
+  "aliam": [
+   "den zweiten, einen anderen",
+   "Akk. Sg. f.",
+   "",
+   [
+    [
+     "Grundform",
+     "alius, -a, -ud",
+     1
+    ]
+   ]
+  ],
+  "aquitani": [
+   "die Aquitaner",
+   "Nom. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "Aquitani, -orum m.",
+     1
+    ]
+   ]
+  ],
+  "tertiam": [
+   "den dritten",
+   "Akk. Sg. f.",
+   "",
+   [
+    [
+     "Grundform",
+     "tertius, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "qui": [
+   "die, welche; der",
+   "Relativpronomen, Nom.",
+   "",
+   [
+    [
+     "Grundform",
+     "qui, quae, quod",
+     1
+    ]
+   ]
+  ],
+  "ipsorum": [
+   "(ihrer) selbst",
+   "Gen. Pl.; ipsorum lingua = in ihrer eigenen Sprache",
+   "",
+   [
+    [
+     "Grundform",
+     "ipse, ipsa, ipsum",
+     1
+    ]
+   ]
+  ],
+  "lingua": [
+   "Sprache; in der Sprache",
+   "Abl. Sg. (Mittel bzw. Beziehung)",
+   "",
+   [
+    [
+     "Grundform",
+     "lingua, -ae f.",
+     1
+    ]
+   ]
+  ],
+  "celtae": [
+   "Kelten",
+   "Nom. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "Celtae, -arum m.",
+     1
+    ]
+   ]
+  ],
+  "nostra": [
+   "in unserer (Sprache)",
+   "Abl. Sg. f.; ergänze lingua",
+   "",
+   [
+    [
+     "Grundform",
+     "noster, nostra, nostrum",
+     1
+    ]
+   ]
+  ],
+  "galli": [
+   "Gallier",
+   "Nom. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "Galli, -orum m.",
+     1
+    ]
+   ]
+  ],
+  "appellantur": [
+   "(sie) werden genannt",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind. Passiv, 3. Pl."
+    ],
+    [
+     "Infinitiv",
+     "appellare",
+     1
+    ],
+    [
+     "Stammformen",
+     "appello, appellavi, appellatum",
+     1
+    ]
+   ]
+  ],
+  "hi": [
+   "diese",
+   "Nom. Pl. m.",
+   "",
+   [
+    [
+     "Grundform",
+     "hic, haec, hoc",
+     1
+    ]
+   ]
+  ],
+  "omnes": [
+   "alle",
+   "Nom. Pl. m.",
+   "",
+   [
+    [
+     "Grundform",
+     "omnis, omne",
+     1
+    ]
+   ]
+  ],
+  "institutis": [
+   "in den Einrichtungen, Sitten",
+   "Abl. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "institutum, -i n.",
+     1
+    ]
+   ]
+  ],
+  "legibus": [
+   "in den Gesetzen",
+   "Abl. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "lex, legis f.",
+     1
+    ]
+   ]
+  ],
+  "inter": [
+   "zwischen, unter",
+   "Präposition + Akk.; inter se = untereinander",
+   "",
+   []
+  ],
+  "se": [
+   "sich",
+   "Reflexivpronomen, Akk.",
+   "",
+   []
+  ],
+  "differunt": [
+   "(sie) unterscheiden sich",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind. Aktiv, 3. Pl."
+    ],
+    [
+     "Infinitiv",
+     "differre",
+     1
+    ],
+    [
+     "Stammformen",
+     "differo, distuli, dilatum",
+     1
+    ]
+   ]
+  ],
+  "gallos": [
+   "die Gallier",
+   "Akk. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "Galli, -orum m.",
+     1
+    ]
+   ]
+  ],
+  "ab": [
+   "von",
+   "Präposition + Abl.",
+   "",
+   []
+  ],
+  "aquitanis": [
+   "(von) den Aquitanern",
+   "Abl. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "Aquitani, -orum m.",
+     1
+    ]
+   ]
+  ],
+  "garumna": [
+   "die Garonne",
+   "Nom. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "Garumna, -ae m.",
+     1
+    ]
+   ]
+  ],
+  "flumen": [
+   "Fluss",
+   "Nom. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "flumen, fluminis n.",
+     1
+    ]
+   ]
+  ],
+  "a": [
+   "von",
+   "Präposition + Abl.",
+   "",
+   []
+  ],
+  "belgis": [
+   "(von) den Belgern",
+   "Abl. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "Belgae, -arum m.",
+     1
+    ]
+   ]
+  ],
+  "matrona": [
+   "die Marne",
+   "Nom. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "Matrona, -ae m.",
+     1
+    ]
+   ]
+  ],
+  "et": [
+   "und",
+   "",
+   "",
+   []
+  ],
+  "sequana": [
+   "die Seine",
+   "Nom. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "Sequana, -ae m.",
+     1
+    ]
+   ]
+  ],
+  "dividit": [
+   "(er) trennt",
+   "Singular, obwohl zwei Subjekte",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind. Aktiv, 3. Sg."
+    ],
+    [
+     "Infinitiv",
+     "dividere",
+     1
+    ],
+    [
+     "Stammformen",
+     "divido, divisi, divisum",
+     1
+    ]
+   ]
+  ],
+  "horum": [
+   "von diesen",
+   "Gen. Pl. m.",
+   "",
+   [
+    [
+     "Grundform",
+     "hic, haec, hoc",
+     1
+    ]
+   ]
+  ],
+  "omnium": [
+   "aller",
+   "Gen. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "omnis, omne",
+     1
+    ]
+   ]
+  ],
+  "fortissimi": [
+   "die tapfersten",
+   "Superlativ, Nom. Pl. m.",
+   "",
+   [
+    [
+     "Grundform",
+     "fortis, forte",
+     1
+    ]
+   ]
+  ],
+  "sunt": [
+   "(sie) sind",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind., 3. Pl."
+    ],
+    [
+     "Infinitiv",
+     "esse",
+     1
+    ],
+    [
+     "Stammformen",
+     "sum, fui, –",
+     1
+    ]
+   ]
+  ],
+  "propterea": [
+   "deshalb",
+   "propterea quod = weil",
+   "",
+   []
+  ],
+  "quod": [
+   "weil; was",
+   "Konjunktion bzw. Relativpronomen n.",
+   "",
+   []
+  ],
+  "cultu": [
+   "(von der) Lebensart, Kultur",
+   "Abl. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "cultus, -us m.",
+     1
+    ]
+   ]
+  ],
+  "atque": [
+   "und",
+   "",
+   "",
+   []
+  ],
+  "humanitate": [
+   "(von der) Bildung, Gesittung",
+   "Abl. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "humanitas, -atis f.",
+     1
+    ]
+   ]
+  ],
+  "provinciae": [
+   "der Provinz",
+   "Gen. Sg.; gemeint ist die römische Provinz in Südgallien",
+   "",
+   [
+    [
+     "Grundform",
+     "provincia, -ae f.",
+     1
+    ]
+   ]
+  ],
+  "longissime": [
+   "am weitesten",
+   "Superlativ von longe",
+   "",
+   []
+  ],
+  "absunt": [
+   "(sie) sind entfernt",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind., 3. Pl."
+    ],
+    [
+     "Infinitiv",
+     "abesse",
+     1
+    ],
+    [
+     "Stammformen",
+     "absum, afui, –",
+     1
+    ]
+   ]
+  ],
+  "minimeque": [
+   "und am wenigsten",
+   "minime + -que (= und)",
+   "",
+   []
+  ],
+  "ad": [
+   "zu; zu … hin",
+   "Präposition + Akk.; ad + Gerundivum = um zu",
+   "",
+   []
+  ],
+  "eos": [
+   "sie (Akk.)",
+   "Akk. Pl. m.",
+   "",
+   [
+    [
+     "Grundform",
+     "is, ea, id",
+     1
+    ]
+   ]
+  ],
+  "mercatores": [
+   "Kaufleute",
+   "Nom. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "mercator, -oris m.",
+     1
+    ]
+   ]
+  ],
+  "saepe": [
+   "oft",
+   "minime saepe = nur sehr selten",
+   "",
+   []
+  ],
+  "commeant": [
+   "(sie) kommen hin, verkehren",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind. Aktiv, 3. Pl."
+    ],
+    [
+     "Infinitiv",
+     "commeare",
+     1
+    ],
+    [
+     "Stammformen",
+     "commeo, commeavi, commeatum",
+     1
+    ]
+   ]
+  ],
+  "ea": [
+   "das, diese Dinge",
+   "Akk. Pl. n.",
+   "",
+   [
+    [
+     "Grundform",
+     "is, ea, id",
+     1
+    ]
+   ]
+  ],
+  "quae": [
+   "die, welche",
+   "Relativpronomen, Nom. Pl. n.",
+   "",
+   [
+    [
+     "Grundform",
+     "qui, quae, quod",
+     1
+    ]
+   ]
+  ],
+  "effeminandos": [
+   "(zum) Verweichlichen",
+   "Gerundivum, Akk. Pl. m.; ad effeminandos animos = um die Gemüter zu verweichlichen",
+   "",
+   [
+    [
+     "Form",
+     "Gerundivum"
+    ],
+    [
+     "Infinitiv",
+     "effeminare",
+     1
+    ],
+    [
+     "Stammformen",
+     "effemino, effeminavi, effeminatum",
+     1
+    ]
+   ]
+  ],
+  "animos": [
+   "die Gemüter, den Mut",
+   "Akk. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "animus, -i m.",
+     1
+    ]
+   ]
+  ],
+  "pertinent": [
+   "(sie) dienen zu, betreffen",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind. Aktiv, 3. Pl."
+    ],
+    [
+     "Infinitiv",
+     "pertinere",
+     1
+    ],
+    [
+     "Stammformen",
+     "pertineo, pertinui, –",
+     1
+    ]
+   ]
+  ],
+  "important": [
+   "(sie) führen ein",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind. Aktiv, 3. Pl."
+    ],
+    [
+     "Infinitiv",
+     "importare",
+     1
+    ],
+    [
+     "Stammformen",
+     "importo, importavi, importatum",
+     1
+    ]
+   ]
+  ],
+  "proximique": [
+   "und am nächsten",
+   "proximi + -que (= und); Superlativ",
+   "",
+   [
+    [
+     "Grundform",
+     "proximus, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "germanis": [
+   "den Germanen",
+   "Dat. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "Germani, -orum m.",
+     1
+    ]
+   ]
+  ],
+  "trans": [
+   "jenseits",
+   "Präposition + Akk.",
+   "",
+   []
+  ],
+  "rhenum": [
+   "den Rhein",
+   "Akk. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "Rhenus, -i m.",
+     1
+    ]
+   ]
+  ],
+  "quibuscum": [
+   "mit denen",
+   "quibus + cum (Präposition nachgestellt)",
+   "",
+   [
+    [
+     "Grundform",
+     "qui, quae, quod",
+     1
+    ]
+   ]
+  ],
+  "continenter": [
+   "ununterbrochen",
+   "Adverb",
+   "",
+   []
+  ],
+  "bellum": [
+   "Krieg",
+   "Akk. Sg.; bellum gerere = Krieg führen",
+   "",
+   [
+    [
+     "Grundform",
+     "bellum, -i n.",
+     1
+    ]
+   ]
+  ],
+  "gerunt": [
+   "(sie) führen",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind. Aktiv, 3. Pl."
+    ],
+    [
+     "Infinitiv",
+     "gerere",
+     1
+    ],
+    [
+     "Stammformen",
+     "gero, gessi, gestum",
+     1
+    ]
+   ]
+  ],
+  "carmina": [
+   "Lieder, Gedichte",
+   "Akk. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "carmen, carminis n.",
+     1
+    ]
+   ]
+  ],
+  "quondam": [
+   "einst",
+   "Adverb",
+   "",
+   []
+  ],
+  "studio": [
+   "(in) Eifer",
+   "Abl. Sg.; studio florente = Ablativus absolutus: als mein Eifer blühte",
+   "",
+   [
+    [
+     "Grundform",
+     "studium, -i n.",
+     1
+    ]
+   ]
+  ],
+  "florente": [
+   "blühend",
+   "Partizip Präsens, Abl. Sg.",
+   "",
+   [
+    [
+     "Form",
+     "Partizip Präsens Aktiv"
+    ],
+    [
+     "Infinitiv",
+     "florere",
+     1
+    ],
+    [
+     "Stammformen",
+     "floreo, florui, –",
+     1
+    ]
+   ]
+  ],
+  "peregi": [
+   "(ich) habe vollendet",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Perfekt Ind. Aktiv, 1. Sg."
+    ],
+    [
+     "Infinitiv",
+     "peragere",
+     1
+    ],
+    [
+     "Stammformen",
+     "perago, peregi, peractum",
+     1
+    ]
+   ]
+  ],
+  "flebilis": [
+   "weinend, unter Tränen",
+   "Nom. Sg. m., auf das Ich bezogen",
+   "",
+   [
+    [
+     "Grundform",
+     "flebilis, flebile",
+     1
+    ]
+   ]
+  ],
+  "heu": [
+   "ach!",
+   "Ausruf",
+   "",
+   []
+  ],
+  "maestos": [
+   "traurige",
+   "Akk. Pl. m.",
+   "",
+   [
+    [
+     "Grundform",
+     "maestus, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "cogor": [
+   "(ich) werde gezwungen, muss",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind. Passiv, 1. Sg."
+    ],
+    [
+     "Infinitiv",
+     "cogere",
+     1
+    ],
+    [
+     "Stammformen",
+     "cogo, coegi, coactum",
+     1
+    ]
+   ]
+  ],
+  "inire": [
+   "anstimmen, beginnen",
+   "Infinitiv",
+   "",
+   [
+    [
+     "Form",
+     "Infinitiv Präsens Aktiv"
+    ],
+    [
+     "Infinitiv",
+     "inire",
+     1
+    ],
+    [
+     "Stammformen",
+     "ineo, inii, initum",
+     1
+    ]
+   ]
+  ],
+  "modos": [
+   "Weisen, Melodien",
+   "Akk. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "modus, -i m.",
+     1
+    ]
+   ]
+  ],
+  "ecce": [
+   "sieh!",
+   "",
+   "",
+   []
+  ],
+  "mihi": [
+   "mir",
+   "Dat. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "ego",
+     1
+    ]
+   ]
+  ],
+  "lacerae": [
+   "zerzauste, zerrissene",
+   "Nom. Pl. f.",
+   "",
+   [
+    [
+     "Grundform",
+     "lacer, lacera, lacerum",
+     1
+    ]
+   ]
+  ],
+  "dictant": [
+   "(sie) sagen vor, diktieren",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind. Aktiv, 3. Pl."
+    ],
+    [
+     "Infinitiv",
+     "dictare",
+     1
+    ],
+    [
+     "Stammformen",
+     "dicto, dictavi, dictatum",
+     1
+    ]
+   ]
+  ],
+  "scribenda": [
+   "was zu schreiben ist",
+   "Gerundivum, Akk. Pl. n.",
+   "",
+   [
+    [
+     "Form",
+     "Gerundivum"
+    ],
+    [
+     "Infinitiv",
+     "scribere",
+     1
+    ],
+    [
+     "Stammformen",
+     "scribo, scripsi, scriptum",
+     1
+    ]
+   ]
+  ],
+  "camenae": [
+   "die Musen",
+   "Nom. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "Camena, -ae f.",
+     1
+    ]
+   ]
+  ],
+  "veris": [
+   "echten, wahren",
+   "Abl. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "verus, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "elegi": [
+   "elegische Verse",
+   "Nom. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "elegi, -orum m.",
+     1
+    ]
+   ]
+  ],
+  "fletibus": [
+   "mit Tränen",
+   "Abl. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "fletus, -us m.",
+     1
+    ]
+   ]
+  ],
+  "ora": [
+   "das Gesicht",
+   "Akk. Pl. (dichterisch für Sg.)",
+   "",
+   [
+    [
+     "Grundform",
+     "os, oris n.",
+     1
+    ]
+   ]
+  ],
+  "rigant": [
+   "(sie) benetzen",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind. Aktiv, 3. Pl."
+    ],
+    [
+     "Infinitiv",
+     "rigare",
+     1
+    ],
+    [
+     "Stammformen",
+     "rigo, rigavi, rigatum",
+     1
+    ]
+   ]
+  ],
+  "has": [
+   "diese",
+   "Akk. Pl. f.; gemeint sind die Musen",
+   "",
+   [
+    [
+     "Grundform",
+     "hic, haec, hoc",
+     1
+    ]
+   ]
+  ],
+  "saltem": [
+   "wenigstens",
+   "",
+   "",
+   []
+  ],
+  "nullus": [
+   "kein",
+   "Nom. Sg. m.",
+   "",
+   [
+    [
+     "Grundform",
+     "nullus, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "potuit": [
+   "(er) konnte",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Perfekt Ind., 3. Sg."
+    ],
+    [
+     "Infinitiv",
+     "posse",
+     1
+    ],
+    [
+     "Stammformen",
+     "possum, potui, –",
+     1
+    ]
+   ]
+  ],
+  "pervincere": [
+   "dazu bringen, überwinden",
+   "Infinitiv",
+   "",
+   [
+    [
+     "Form",
+     "Infinitiv Präsens Aktiv"
+    ],
+    [
+     "Infinitiv",
+     "pervincere",
+     1
+    ],
+    [
+     "Stammformen",
+     "pervinco, pervici, pervictum",
+     1
+    ]
+   ]
+  ],
+  "terror": [
+   "Schrecken",
+   "Nom. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "terror, -oris m.",
+     1
+    ]
+   ]
+  ],
+  "ne": [
+   "dass nicht",
+   "Konjunktion",
+   "",
+   []
+  ],
+  "nostrum": [
+   "unseren, meinen",
+   "Akk. Sg. n.",
+   "",
+   [
+    [
+     "Grundform",
+     "noster, nostra, nostrum",
+     1
+    ]
+   ]
+  ],
+  "comites": [
+   "als Gefährtinnen",
+   "Nom. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "comes, comitis m./f.",
+     1
+    ]
+   ]
+  ],
+  "prosequerentur": [
+   "(sie) würden begleiten",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Imperfekt Konj., 3. Pl. (Deponens)"
+    ],
+    [
+     "Infinitiv",
+     "prosequi",
+     1
+    ],
+    [
+     "Stammformen",
+     "prosequor, prosecutus sum",
+     1
+    ]
+   ]
+  ],
+  "iter": [
+   "Weg",
+   "Akk. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "iter, itineris n.",
+     1
+    ]
+   ]
+  ],
+  "gloria": [
+   "Ruhm",
+   "Nom. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "gloria, -ae f.",
+     1
+    ]
+   ]
+  ],
+  "felicis": [
+   "der glücklichen",
+   "Gen. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "felix, felicis",
+     1
+    ]
+   ]
+  ],
+  "olim": [
+   "einst",
+   "Adverb",
+   "",
+   []
+  ],
+  "viridisque": [
+   "und blühenden",
+   "viridis + -que (= und); Gen. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "viridis, viride",
+     1
+    ]
+   ]
+  ],
+  "iuventae": [
+   "Jugend",
+   "Gen. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "iuventa, -ae f.",
+     1
+    ]
+   ]
+  ],
+  "solantur": [
+   "(sie) trösten",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind., 3. Pl. (Deponens)"
+    ],
+    [
+     "Infinitiv",
+     "solari",
+     1
+    ],
+    [
+     "Stammformen",
+     "solor, solatus sum",
+     1
+    ]
+   ]
+  ],
+  "maesti": [
+   "des traurigen",
+   "Gen. Sg. m.",
+   "",
+   [
+    [
+     "Grundform",
+     "maestus, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "nunc": [
+   "jetzt",
+   "",
+   "",
+   []
+  ],
+  "mea": [
+   "mein",
+   "Akk. Pl. n.",
+   "",
+   [
+    [
+     "Grundform",
+     "meus, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "fata": [
+   "Schicksal",
+   "Akk. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "fatum, -i n.",
+     1
+    ]
+   ]
+  ],
+  "senis": [
+   "des alten Mannes",
+   "Gen. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "senex, senis m.",
+     1
+    ]
+   ]
+  ],
+  "venit": [
+   "(es) ist gekommen",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Perfekt Ind. Aktiv, 3. Sg."
+    ],
+    [
+     "Infinitiv",
+     "venire",
+     1
+    ],
+    [
+     "Stammformen",
+     "venio, veni, ventum",
+     1
+    ]
+   ]
+  ],
+  "enim": [
+   "denn",
+   "",
+   "",
+   []
+  ],
+  "properata": [
+   "beschleunigt",
+   "Partizip Perfekt Passiv, Nom. Sg. f.",
+   "",
+   [
+    [
+     "Form",
+     "Partizip Perfekt Passiv"
+    ],
+    [
+     "Infinitiv",
+     "properare",
+     1
+    ],
+    [
+     "Stammformen",
+     "propero, properavi, properatum",
+     1
+    ]
+   ]
+  ],
+  "malis": [
+   "durch Unglück",
+   "Abl. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "malum, -i n.",
+     1
+    ]
+   ]
+  ],
+  "inopina": [
+   "unerwartet",
+   "Nom. Sg. f.",
+   "",
+   [
+    [
+     "Grundform",
+     "inopinus, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "senectus": [
+   "Alter",
+   "Nom. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "senectus, -utis f.",
+     1
+    ]
+   ]
+  ],
+  "dolor": [
+   "Schmerz",
+   "Nom. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "dolor, -oris m.",
+     1
+    ]
+   ]
+  ],
+  "aetatem": [
+   "Alter, Lebenszeit",
+   "Akk. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "aetas, -atis f.",
+     1
+    ]
+   ]
+  ],
+  "iussit": [
+   "(er) hat befohlen",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Perfekt Ind. Aktiv, 3. Sg."
+    ],
+    [
+     "Infinitiv",
+     "iubere",
+     1
+    ],
+    [
+     "Stammformen",
+     "iubeo, iussi, iussum",
+     1
+    ]
+   ]
+  ],
+  "inesse": [
+   "darin sein, innewohnen",
+   "Infinitiv",
+   "",
+   [
+    [
+     "Form",
+     "Infinitiv Präsens"
+    ],
+    [
+     "Infinitiv",
+     "inesse",
+     1
+    ],
+    [
+     "Stammformen",
+     "insum, infui, –",
+     1
+    ]
+   ]
+  ],
+  "suam": [
+   "sein eigenes",
+   "Akk. Sg. f.",
+   "",
+   [
+    [
+     "Grundform",
+     "suus, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "intempestivi": [
+   "vorzeitige, zur Unzeit",
+   "Nom. Pl. m.",
+   "",
+   [
+    [
+     "Grundform",
+     "intempestivus, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "funduntur": [
+   "(sie) ergiessen sich, fallen",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind. Passiv, 3. Pl."
+    ],
+    [
+     "Infinitiv",
+     "fundere",
+     1
+    ],
+    [
+     "Stammformen",
+     "fundo, fudi, fusum",
+     1
+    ]
+   ]
+  ],
+  "vertice": [
+   "vom Scheitel",
+   "Abl. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "vertex, verticis m.",
+     1
+    ]
+   ]
+  ],
+  "cani": [
+   "graue Haare",
+   "Nom. Pl.",
+   "",
+   [
+    [
+     "Grundform",
+     "cani, -orum m.",
+     1
+    ]
+   ]
+  ],
+  "tremit": [
+   "(sie) zittert",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind. Aktiv, 3. Sg."
+    ],
+    [
+     "Infinitiv",
+     "tremere",
+     1
+    ],
+    [
+     "Stammformen",
+     "tremo, tremui, –",
+     1
+    ]
+   ]
+  ],
+  "effeto": [
+   "erschöpften",
+   "Abl. Sg. n.",
+   "",
+   [
+    [
+     "Grundform",
+     "effetus, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "corpore": [
+   "am Körper",
+   "Abl. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "corpus, corporis n.",
+     1
+    ]
+   ]
+  ],
+  "laxa": [
+   "schlaffe",
+   "Nom. Sg. f.",
+   "",
+   [
+    [
+     "Grundform",
+     "laxus, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "cutis": [
+   "Haut",
+   "Nom. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "cutis, cutis f.",
+     1
+    ]
+   ]
+  ]
+ },
+ "notes": [
+  "Lateinischer Text nach den gängigen Ausgaben (gemeinfrei), Schreibung mit u/v und i ohne Längenzeichen.",
+  "Die deutschen Satzübersetzungen sind eigene Übersetzungen."
+ ]
+}
