@@ -81,10 +81,10 @@
       "ref": "От Луки 21:1–4",
       "cls": "lat",
       "v": [
-        "Подняв глаза, Иисус увидел богатых, которые бросали свои дары в сокровищницу.",
-        "Увидел Он и одну бедную вдову, которая бросила туда две мелкие монеты.",
-        "И сказал: «Истинно говорю вам: эта бедная вдова положила больше всех.",
-        "Ведь все они от своего избытка положили в дар Богу, а она от своей скудости отдала всё, что имела на жизнь»."
+        "Взглянув же, Он увидел богатых, клавших дары свои в сокровищницу;",
+        "увидел также и бедную вдову, положившую туда две лепты,",
+        "и сказал: истинно говорю вам, что эта бедная вдова больше всех положила;",
+        "ибо все те от избытка своего положили в дар Богу, а она от скудости своей положила всё пропитание своё, какое имела."
       ]
     },
     "ar": {
@@ -156,42 +156,11 @@
   },
   "dict": {
     "ru": {
-      "подняв": [
-        "aufhebend, nachdem (er) erhoben hatte",
-        "Adverbialpartizip (vollendet) von поднять; поднять глаза = aufblicken",
+      "он": [
+        "er",
+        "Personalpronomen; in Bezug auf Jesus gross geschrieben",
         "",
-        [
-          [
-            "Infinitiv unvollendet",
-            "поднимать"
-          ],
-          [
-            "Infinitiv vollendet",
-            "поднять"
-          ]
-        ]
-      ],
-      "глаза": [
-        "die Augen",
-        "Akkusativ Plural von глаз",
-        "",
-        [
-          [
-            "Nominativ",
-            "глаз (Sg.), глаза (Pl.)"
-          ]
-        ]
-      ],
-      "иисус": [
-        "Jesus",
-        "Eigenname, Nominativ",
-        "",
-        [
-          [
-            "Nominativ",
-            "Иисус"
-          ]
-        ]
+        []
       ],
       "увидел": [
         "(er) sah",
@@ -219,33 +188,6 @@
           ]
         ]
       ],
-      "которые": [
-        "die, welche",
-        "Relativpronomen, Plural",
-        "",
-        []
-      ],
-      "бросали": [
-        "(sie) warfen",
-        "Präteritum Plural von бросать",
-        "",
-        [
-          [
-            "Infinitiv unvollendet",
-            "бросать"
-          ],
-          [
-            "Infinitiv vollendet",
-            "бросить"
-          ]
-        ]
-      ],
-      "свои": [
-        "ihre (eigenen)",
-        "Possessivpronomen свой, Akk. Pl.",
-        "",
-        []
-      ],
       "дары": [
         "Gaben",
         "Akkusativ Plural von дар",
@@ -256,6 +198,12 @@
             "дар (Sg.), дары (Pl.)"
           ]
         ]
+      ],
+      "свои": [
+        "ihre (eigenen)",
+        "Possessivpronomen свой, Akk. Pl.",
+        "",
+        []
       ],
       "в": [
         "in, hinein",
@@ -274,61 +222,11 @@
           ]
         ]
       ],
-      "он": [
-        "er",
-        "Personalpronomen; in Bezug auf Jesus gross geschrieben",
-        "",
-        []
-      ],
       "и": [
         "und; auch",
         "Konjunktion",
         "",
         []
-      ],
-      "одну": [
-        "eine",
-        "Akkusativ f. von один",
-        "",
-        []
-      ],
-      "бедную": [
-        "arme",
-        "Akkusativ f. von бедный",
-        "",
-        []
-      ],
-      "вдову": [
-        "Witwe",
-        "Akkusativ von вдова",
-        "",
-        [
-          [
-            "Nominativ",
-            "вдова"
-          ]
-        ]
-      ],
-      "которая": [
-        "die, welche",
-        "Relativpronomen, f. Sg.",
-        "",
-        []
-      ],
-      "бросила": [
-        "(sie) warf",
-        "Präteritum f. von бросить",
-        "",
-        [
-          [
-            "Infinitiv unvollendet",
-            "бросать"
-          ],
-          [
-            "Infinitiv vollendet",
-            "бросить"
-          ]
-        ]
       ],
       "туда": [
         "dorthin",
@@ -341,23 +239,6 @@
         "Zahlwort, f.",
         "",
         []
-      ],
-      "мелкие": [
-        "kleine",
-        "Plural von мелкий",
-        "",
-        []
-      ],
-      "монеты": [
-        "Münzen",
-        "Akkusativ Plural von монета",
-        "",
-        [
-          [
-            "Nominativ",
-            "монета (Sg.), монеты (Pl.)"
-          ]
-        ]
       ],
       "сказал": [
         "(er) sagte",
@@ -401,6 +282,12 @@
         "",
         []
       ],
+      "что": [
+        "was",
+        "Relativpronomen",
+        "",
+        []
+      ],
       "эта": [
         "diese",
         "Demonstrativpronomen f.",
@@ -424,21 +311,6 @@
           ]
         ]
       ],
-      "положила": [
-        "(sie) hat hineingelegt",
-        "Präteritum f. von положить",
-        "",
-        [
-          [
-            "Infinitiv unvollendet",
-            "класть"
-          ],
-          [
-            "Infinitiv vollendet",
-            "положить"
-          ]
-        ]
-      ],
       "больше": [
         "mehr",
         "Komparativ von много/большой",
@@ -448,24 +320,6 @@
       "всех": [
         "als alle",
         "Genitiv Plural von все (nach Komparativ)",
-        "",
-        []
-      ],
-      "ведь": [
-        "denn, ja doch",
-        "Partikel",
-        "",
-        []
-      ],
-      "все": [
-        "alle",
-        "Pronomen, Plural",
-        "",
-        []
-      ],
-      "они": [
-        "sie",
-        "Personalpronomen Pl.",
         "",
         []
       ],
@@ -558,33 +412,6 @@
           ]
         ]
       ],
-      "отдала": [
-        "(sie) hat hingegeben",
-        "Präteritum f. von отдать",
-        "",
-        [
-          [
-            "Infinitiv unvollendet",
-            "отдавать"
-          ],
-          [
-            "Infinitiv vollendet",
-            "отдать"
-          ]
-        ]
-      ],
-      "всё": [
-        "alles",
-        "Pronomen n.",
-        "",
-        []
-      ],
-      "что": [
-        "was",
-        "Relativpronomen",
-        "",
-        []
-      ],
       "имела": [
         "(sie) hatte",
         "Präteritum f. von иметь",
@@ -596,22 +423,152 @@
           ]
         ]
       ],
-      "на": [
-        "für, auf",
-        "Präposition + Akkusativ; на жизнь = zum Leben",
+      "взглянув": [
+        "aufblickend",
+        "Adverbialpartizip (vollendet) von взглянуть",
+        "",
+        [
+          [
+            "Infinitiv unvollendet",
+            "глядеть"
+          ],
+          [
+            "Infinitiv vollendet",
+            "взглянуть"
+          ]
+        ]
+      ],
+      "же": [
+        "aber, nun",
+        "Partikel",
         "",
         []
       ],
-      "жизнь": [
-        "Leben",
+      "клавших": [
+        "die legten",
+        "Partizip Präteritum Aktiv, Akk. Pl. (kirchensprachl.) von класть",
+        "",
+        [
+          [
+            "Infinitiv unvollendet",
+            "класть"
+          ],
+          [
+            "Infinitiv vollendet",
+            "положить"
+          ]
+        ]
+      ],
+      "также": [
+        "auch, ebenso",
+        "",
+        "",
+        []
+      ],
+      "бедную": [
+        "arme",
+        "Akkusativ f. von бедный",
+        "",
+        []
+      ],
+      "вдову": [
+        "Witwe",
+        "Akkusativ von вдова",
+        "",
+        [
+          [
+            "Nominativ",
+            "вдова"
+          ]
+        ]
+      ],
+      "положившую": [
+        "die gelegt hatte",
+        "Partizip Präteritum Aktiv, Akk. f. von положить",
+        "",
+        [
+          [
+            "Infinitiv unvollendet",
+            "класть"
+          ],
+          [
+            "Infinitiv vollendet",
+            "положить"
+          ]
+        ]
+      ],
+      "лепты": [
+        "Lepta (kleine Münzen)",
+        "Akkusativ Plural von лепта",
+        "",
+        [
+          [
+            "Nominativ",
+            "лепта (Sg.), лепты (Pl.)"
+          ]
+        ]
+      ],
+      "положила": [
+        "(sie) hat gelegt",
+        "Präteritum f. von положить",
+        "",
+        [
+          [
+            "Infinitiv unvollendet",
+            "класть"
+          ],
+          [
+            "Infinitiv vollendet",
+            "положить"
+          ]
+        ]
+      ],
+      "ибо": [
+        "denn",
+        "Konjunktion (gehoben)",
+        "",
+        []
+      ],
+      "все": [
+        "alle",
+        "Pronomen, Plural",
+        "",
+        []
+      ],
+      "те": [
+        "jene",
+        "Demonstrativpronomen Pl.",
+        "",
+        []
+      ],
+      "всё": [
+        "ganze, alles",
+        "hier: всё пропитание = den ganzen Unterhalt",
+        "",
+        []
+      ],
+      "пропитание": [
+        "Lebensunterhalt, Nahrung",
         "Akkusativ",
         "",
         [
           [
             "Nominativ",
-            "жизнь"
+            "пропитание"
           ]
         ]
+      ],
+      "своё": [
+        "ihr (eigenes)",
+        "Akkusativ n. von свой",
+        "",
+        []
+      ],
+      "какое": [
+        "welches, das",
+        "Relativpronomen n.",
+        "",
+        []
       ]
     },
     "ar": {
@@ -2777,7 +2734,7 @@
     "Leseordnung: römisch-katholischer Kalender, Montag der 34. Woche im Jahreskreis (Lesejahr A / Wochentagsreihe II; nichtgebotener Gedenktag hl. Kolumban bzw. hl. Clemens I.).",
     "Syrisch: Peschitta in westsyrischer Schrift (Serto), Buchstabe für Buchstabe aus einer Umschrift übertragen; Vokalzeichen (ohne Pluralpunkte und Härtezeichen) und Aussprache westsyrisch, selbst gesetzt.",
     "Latein: Vulgata (Clementina). Altgriechisch: Textus Receptus (Stephanus 1550); Vers 4 „Θεοῦ“ statt des Druckfehlers „φεοῦ“ der Vorlage, Akzente in Vers 2 („καί τινα“) normalisiert; Grossschreibung und Satzzeichen ergänzt.",
-    "Persisch mit selbst gesetzten Vokalzeichen. Deutsch, Französisch, Englisch, Italienisch, Spanisch, Russisch, Arabisch und Persisch sind eigene Übersetzungen nach dem griechischen Text, keine amtlichen Bibelausgaben."
+    "Russisch: Synodalübersetzung (1876, gemeinfrei). Persisch mit selbst gesetzten Vokalzeichen. Deutsch, Französisch, Englisch, Italienisch, Spanisch, Arabisch und Persisch sind eigene Übersetzungen nach dem griechischen Text, keine amtlichen Bibelausgaben."
   ],
   "sources": [
     {
@@ -2787,6 +2744,26 @@
     {
       "url": "https://lueur.org/bible/luc21/KJV,LSG,TR1550,VULC",
       "title": "Vulgata und Textus Receptus Lukas 21 (lueur.org)"
+    },
+    {
+      "url": "https://www.bibleserver.com/EU/Lukas21%2C1-4",
+      "title": "Einheitsübersetzung (bibleserver)"
+    },
+    {
+      "url": "https://www.aelf.org/2026-11-23/romain/messe",
+      "title": "Traduction liturgique (AELF)"
+    },
+    {
+      "url": "https://bible.usccb.org/bible/luke/21",
+      "title": "NABRE (USCCB)"
+    },
+    {
+      "url": "https://www.conferenciaepiscopal.es/biblia/",
+      "title": "Sagrada Biblia (CEE)"
+    },
+    {
+      "url": "https://azbyka.org/biblia/?Lk.21:1-4",
+      "title": "Синодальный перевод (azbyka)"
     },
     {
       "url": "https://catholicreadings.org/2311202-6/",
