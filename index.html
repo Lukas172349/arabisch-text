@@ -215,6 +215,10 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
 .lat-de{display:none;margin:6px 0 0;font-size:15px;line-height:1.5;color:var(--muted)}
 .lat-s.open .lat-de,.lat-text.all .lat-de{display:block}
 .lat-text.all .trbtn{display:none}
+.lat-nav{display:flex;gap:10px;justify-content:space-between;align-items:center;padding-top:14px;flex-wrap:wrap}
+.lat-nav .pos{font-size:13px;color:var(--muted);flex:1;text-align:center;white-space:nowrap}
+.lat-nav button{white-space:nowrap}
+.lat-nav .more{flex-basis:100%;text-align:center;font-size:13px;color:var(--muted)}
 .lat-notes{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:6px;padding-block:14px 40px}
 .lat-notes p{margin:0}
 </style>
@@ -289,6 +293,7 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
     <button class="small" id="latLarger" type="button">Schrift grösser</button>
   </div>
   <section class="lat-text" id="latText"></section>
+  <nav class="lat-nav" id="latNav" aria-label="Abschnitte"></nav>
   <footer class="lat-notes" id="latNotes"></footer>
 </div>
 <div class="ev-pop" id="evPop" hidden role="tooltip"></div>
@@ -754,11 +759,14 @@ function latRender(){
   LAT.works.forEach(w=>{ const b=document.createElement('button'); b.type='button'; b.className='small'; b.textContent=w.tab; b.setAttribute('aria-pressed', w.id===latWork);
     b.onclick=()=>{ latWork=w.id; evStore('lat-work',w.id); latRender(); }; wb.appendChild(b); });
   const W=LAT.works.find(w=>w.id===latWork);
-  $('latAuthor').textContent=W.author; $('latTitle').textContent=W.title; $('latRef').textContent=W.ref||'';
+  const secs=W.sections||[{ref:W.ref,verse:W.verse,sentences:W.sentences}];
+  let pos=0; try{ pos=parseInt(localStorage.getItem('lat-pos-'+W.id))||0; }catch(e){}
+  pos=Math.max(0,Math.min(secs.length-1,pos)); const S=secs[pos];
+  $('latAuthor').textContent=W.author; $('latTitle').textContent=W.title; $('latRef').textContent=S.ref||'';
   const box=$('latText'); box.innerHTML=''; box.style.setProperty('--lats',latScale);
-  box.classList.toggle('verse', !!W.verse); box.classList.toggle('all', latAllOn);
+  box.classList.toggle('verse', !!(S.verse ?? W.verse)); box.classList.toggle('all', latAllOn);
   $('latAll').textContent = latAllOn ? 'Alle Übersetzungen ausblenden' : 'Alle Übersetzungen einblenden';
-  W.sentences.forEach(s=>{
+  S.sentences.forEach(s=>{
     const d=document.createElement('div'); d.className='lat-s';
     const p=document.createElement('p'); p.className='lat-la'; p.lang='la'; evWords(p, s.la); d.appendChild(p);
     const bt=document.createElement('button'); bt.type='button'; bt.className='trbtn'; bt.textContent='Satz übersetzen ▾';
@@ -766,6 +774,13 @@ function latRender(){
     const de=document.createElement('p'); de.className='lat-de'; de.lang='de'; de.textContent=s.de;
     d.append(bt, de); box.appendChild(d);
   });
+  const nav=$('latNav'); nav.innerHTML='';
+  const go=n=>{ evStore('lat-pos-'+W.id, n); latRender(); $('latWorks').scrollIntoView({block:'start',behavior:'smooth'}); };
+  const back=document.createElement('button'); back.type='button'; back.className='small'; back.textContent='← Zurück'; back.disabled=pos===0; back.onclick=()=>go(pos-1);
+  const info=document.createElement('span'); info.className='pos'; info.textContent=(pos+1)+' / '+secs.length;
+  const next=document.createElement('button'); next.type='button'; next.className='primary'; next.textContent='Weiter →'; next.disabled=pos>=secs.length-1; next.onclick=()=>go(pos+1);
+  nav.append(back, info, next);
+  if(pos>=secs.length-1){ const m=document.createElement('div'); m.className='more'; m.textContent='Der nächste Abschnitt ist noch nicht vorbereitet.'; nav.appendChild(m); }
   const nt=$('latNotes'); nt.innerHTML='';
   (LAT.notes||[]).forEach(t=>{ const q=document.createElement('p'); q.textContent=t; nt.appendChild(q); });
   if(W.source){ const q=document.createElement('p'); q.append('Text: '); const a=document.createElement('a'); a.href=W.source.url; a.target='_blank'; a.rel='noopener'; a.textContent=W.source.title; q.append(a); nt.appendChild(q); }
