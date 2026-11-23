@@ -1,15 +1,14 @@
 {
- "date": "2026-11-23",
  "works": [
   {
    "id": "bg",
    "tab": "Caesar",
    "author": "C. Iulius Caesar",
    "title": "De bello Gallico",
-   "verse": false,
    "sections": [
     {
-     "ref": "Liber I, 1 · Sätze 1–4",
+     "ref": "Liber I, 1 · Teil 1/2",
+     "ready": true,
      "sentences": [
       {
        "la": "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur.",
@@ -30,7 +29,8 @@
      ]
     },
     {
-     "ref": "Liber I, 1 · Sätze 5–8",
+     "ref": "Liber I, 1 · Teil 2/2",
+     "ready": true,
      "sentences": [
       {
        "la": "Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt.",
@@ -51,7 +51,8 @@
      ]
     },
     {
-     "ref": "Liber I, 2 · Sätze 1–3",
+     "ref": "Liber I, 2 · Teil 1/2",
+     "ready": true,
      "sentences": [
       {
        "la": "Apud Helvetios longe nobilissimus fuit et ditissimus Orgetorix.",
@@ -66,95 +67,2629 @@
        "de": "Davon überzeugte er sie umso leichter, weil die Helvetier durch die Natur ihres Landes von allen Seiten eingeschlossen sind: auf der einen Seite durch den sehr breiten und tiefen Rhein, der das helvetische Gebiet von den Germanen trennt, auf der anderen durch den sehr hohen Jura, der zwischen Sequanern und Helvetiern liegt, auf der dritten durch den Genfersee und die Rhône, die unsere Provinz von den Helvetiern trennt."
       }
      ]
+    },
+    {
+     "ref": "Liber I, 2 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "His rebus fiebat ut et minus late vagarentur et minus facile finitimis bellum inferre possent; qua ex parte homines bellandi cupidi magno dolore adficiebantur."
+      },
+      {
+       "la": "Pro multitudine autem hominum et pro gloria belli atque fortitudinis angustos se fines habere arbitrabantur, qui in longitudinem milia passuum CCXL, in latitudinem CLXXX patebant."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 3 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "His rebus adducti et auctoritate Orgetorigis permoti constituerunt ea quae ad proficiscendum pertinerent comparare, iumentorum et carrorum quam maximum numerum coemere, sementes quam maximas facere, ut in itinere copia frumenti suppeteret, cum proximis civitatibus pacem et amicitiam confirmare."
+      },
+      {
+       "la": "Ad eas res conficiendas biennium sibi satis esse duxerunt; in tertium annum profectionem lege confirmant."
+      },
+      {
+       "la": "Ad eas res conficiendas Orgetorix deligitur."
+      },
+      {
+       "la": "Is sibi legationem ad civitates suscipit."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 3 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "In eo itinere persuadet Castico, Catamantaloedis filio, Sequano, cuius pater regnum in Sequanis multos annos obtinuerat et a senatu populi Romani amicus appellatus erat, ut regnum in civitate sua occuparet, quod pater ante habuerit; itemque Dumnorigi Haeduo, fratri Diviciaci, qui eo tempore principatum in civitate obtinebat ac maxime plebi acceptus erat, ut idem conaretur persuadet eique filiam suam in matrimonium dat."
+      },
+      {
+       "la": "Perfacile factu esse illis probat conata perficere, propterea quod ipse suae civitatis imperium obtenturus esset: non esse dubium quin totius Galliae plurimum Helvetii possent; se suis copiis suoque exercitu illis regna conciliaturum confirmat."
+      },
+      {
+       "la": "Hac oratione adducti inter se fidem et ius iurandum dant et regno occupato per tres potentissimos ac firmissimos populos totius Galliae sese potiri posse sperant."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 4",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Ea res est Helvetiis per indicium enuntiata."
+      },
+      {
+       "la": "Moribus suis Orgetoricem ex vinculis causam dicere coegerunt; damnatum poenam sequi oportebat, ut igni cremaretur."
+      },
+      {
+       "la": "Die constituta causae dictionis Orgetorix ad iudicium omnem suam familiam, ad hominum milia decem, undique coegit, et omnes clientes obaeratosque suos, quorum magnum numerum habebat, eodem conduxit; per eos ne causam diceret se eripuit."
+      },
+      {
+       "la": "Cum civitas ob eam rem incitata armis ius suum exequi conaretur multitudinemque hominum ex agris magistratus cogerent, Orgetorix mortuus est; neque abest suspicio, ut Helvetii arbitrantur, quin ipse sibi mortem consciverit."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 5",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Post eius mortem nihilo minus Helvetii id quod constituerant facere conantur, ut e finibus suis exeant."
+      },
+      {
+       "la": "Ubi iam se ad eam rem paratos esse arbitrati sunt, oppida sua omnia, numero ad duodecim, vicos ad quadringentos, reliqua privata aedificia incendunt; frumentum omne, praeter quod secum portaturi erant, comburunt, ut domum reditionis spe sublata paratiores ad omnia pericula subeunda essent; trium mensum molita cibaria sibi quemque domo efferre iubent."
+      },
+      {
+       "la": "Persuadent Rauracis et Tulingis et Latobrigis finitimis, uti eodem usi consilio oppidis suis vicisque exustis una cum iis proficiscantur, Boiosque, qui trans Rhenum incoluerant et in agrum Noricum transierant Noreiamque oppugnabant, receptos ad se socios sibi adsciscunt."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 6",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Erant omnino itinera duo, quibus itineribus domo exire possent: unum per Sequanos, angustum et difficile, inter montem Iuram et flumen Rhodanum, vix qua singuli carri ducerentur, mons autem altissimus impendebat, ut facile perpauci prohibere possent; alterum per provinciam nostram, multo facilius atque expeditius, propterea quod inter fines Helvetiorum et Allobrogum, qui nuper pacati erant, Rhodanus fluit isque non nullis locis vado transitur."
+      },
+      {
+       "la": "Extremum oppidum Allobrogum est proximumque Helvetiorum finibus Genava."
+      },
+      {
+       "la": "Ex eo oppido pons ad Helvetios pertinet."
+      },
+      {
+       "la": "Allobrogibus sese vel persuasuros, quod nondum bono animo in populum Romanum viderentur, existimabant vel vi coacturos ut per suos fines eos ire paterentur."
+      },
+      {
+       "la": "Omnibus rebus ad profectionem comparatis diem dicunt, qua die ad ripam Rhodani omnes conveniant."
+      },
+      {
+       "la": "Is dies erat a."
+      },
+      {
+       "la": "d."
+      },
+      {
+       "la": "V."
+      },
+      {
+       "la": "Kal."
+      },
+      {
+       "la": "Apr."
+      },
+      {
+       "la": "L. Pisone, A. Gabinio consulibus."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 7 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Caesari cum id nuntiatum esset, eos per provinciam nostram iter facere conari, maturat ab urbe proficisci et quam maximis potest itineribus in Galliam ulteriorem contendit et ad Genavam pervenit."
+      },
+      {
+       "la": "Provinciae toti quam maximum potest militum numerum imperat (erat omnino in Gallia ulteriore legio una), pontem, qui erat ad Genavam, iubet rescindi."
+      },
+      {
+       "la": "Ubi de eius adventu Helvetii certiores facti sunt, legatos ad eum mittunt nobilissimos civitatis, cuius legationis Nammeius et Verucloetius principem locum obtinebant, qui dicerent sibi esse in animo sine ullo maleficio iter per provinciam facere, propterea quod aliud iter haberent nullum: rogare ut eius voluntate id sibi facere liceat."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 7 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Caesar, quod memoria tenebat L. Cassium consulem occisum exercitumque eius ab Helvetiis pulsum et sub iugum missum, concedendum non putabat; neque homines inimico animo, data facultate per provinciam itineris faciundi, temperaturos ab iniuria et maleficio existimabat."
+      },
+      {
+       "la": "Tamen, ut spatium intercedere posset dum milites quos imperaverat convenirent, legatis respondit diem se ad deliberandum sumpturum: si quid vellent, ad Id."
+      },
+      {
+       "la": "April."
+      },
+      {
+       "la": "reverterentur."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 8",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Interea ea legione quam secum habebat militibusque, qui ex provincia convenerant, a lacu Lemanno, qui in flumen Rhodanum influit, ad montem Iuram, qui fines Sequanorum ab Helvetiis dividit, milia passuum XVIIII murum in altitudinem pedum sedecim fossamque perducit."
+      },
+      {
+       "la": "Eo opere perfecto praesidia disponit, castella communit, quo facilius, si se invito transire conentur, prohibere possit."
+      },
+      {
+       "la": "Ubi ea dies quam constituerat cum legatis venit et legati ad eum reverterunt, negat se more et exemplo populi Romani posse iter ulli per provinciam dare et, si vim facere conentur, prohibiturum ostendit."
+      },
+      {
+       "la": "Helvetii ea spe deiecti navibus iunctis ratibusque compluribus factis, alii vadis Rhodani, qua minima altitudo fluminis erat, non numquam interdiu, saepius noctu si perrumpere possent conati, operis munitione et militum concursu et telis repulsi, hoc conatu destiterunt."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 9",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Relinquebatur una per Sequanos via, qua Sequanis invitis propter angustias ire non poterant."
+      },
+      {
+       "la": "His cum sua sponte persuadere non possent, legatos ad Dumnorigem Haeduum mittunt, ut eo deprecatore a Sequanis impetrarent."
+      },
+      {
+       "la": "Dumnorix gratia et largitione apud Sequanos plurimum poterat et Helvetiis erat amicus, quod ex ea civitate Orgetorigis filiam in matrimonium duxerat, et cupiditate regni adductus novis rebus studebat et quam plurimas civitates suo beneficio habere obstrictas volebat."
+      },
+      {
+       "la": "Itaque rem suscipit et a Sequanis impetrat ut per fines suos Helvetios ire patiantur, obsidesque uti inter sese dent perficit: Sequani, ne itinere Helvetios prohibeant, Helvetii, ut sine maleficio et iniuria transeant."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 10 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Caesari renuntiatur Helvetiis esse in animo per agrum Sequanorum et Haeduorum iter in Santonum fines facere, qui non longe a Tolosatium finibus absunt, quae civitas est in provincia."
+      },
+      {
+       "la": "Id si fieret, intellegebat magno cum periculo provinciae futurum ut homines bellicosos, populi Romani inimicos, locis patentibus maximeque frumentariis finitimos haberet."
+      },
+      {
+       "la": "Ob eas causas ei munitioni quam fecerat T. Labienum legatum praeficit; ipse in Italiam magnis itineribus contendit duasque ibi legiones conscribit et tres, quae circum Aquileiam hiemabant, ex hibernis educit et, qua proximum iter in ulteriorem Galliam per Alpes erat, cum his quinque legionibus ire contendit."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 10 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Ibi Ceutrones et Graioceli et Caturiges locis superioribus occupatis itinere exercitum prohibere conantur."
+      },
+      {
+       "la": "Compluribus his proeliis pulsis ab Ocelo, quod est oppidum citerioris provinciae extremum, in fines Vocontiorum ulterioris provinciae die septimo pervenit; inde in Allobrogum fines, ab Allobrogibus in Segusiavos exercitum ducit."
+      },
+      {
+       "la": "Hi sunt extra provinciam trans Rhodanum primi."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 11",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Helvetii iam per angustias et fines Sequanorum suas copias traduxerant et in Haeduorum fines pervenerant eorumque agros populabantur."
+      },
+      {
+       "la": "Haedui, cum se suaque ab iis defendere non possent, legatos ad Caesarem mittunt rogatum auxilium: ita se omni tempore de populo Romano meritos esse ut paene in conspectu exercitus nostri agri vastari, liberi [eorum] in servitutem abduci, oppida expugnari non debuerint."
+      },
+      {
+       "la": "Eodem tempore quo Haedui Ambarri, necessarii et consanguinei Haeduorum, Caesarem certiorem faciunt sese depopulatis agris non facile ab oppidis vim hostium prohibere."
+      },
+      {
+       "la": "Item Allobroges, qui trans Rhodanum vicos possessionesque habebant, fuga se ad Caesarem recipiunt et demonstrant sibi praeter agri solum nihil esse reliqui."
+      },
+      {
+       "la": "Quibus rebus adductus Caesar non expectandum sibi statuit dum, omnibus, fortunis sociorum consumptis, in Santonos Helvetii pervenirent."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 12 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Flumen est Arar, quod per fines Haeduorum et Sequanorum in Rhodanum influit, incredibili lenitate, ita ut oculis in utram partem fluat iudicari non possit."
+      },
+      {
+       "la": "Id Helvetii ratibus ac lintribus iunctis transibant."
+      },
+      {
+       "la": "Ubi per exploratores Caesar certior factus est tres iam partes copiarum Helvetios id flumen traduxisse, quartam vero partem citra flumen Ararim reliquam esse, de tertia vigilia cum legionibus tribus e castris profectus ad eam partem pervenit quae nondum flumen transierat."
+      },
+      {
+       "la": "Eos impeditos et inopinantes adgressus magnam partem eorum concidit; reliqui sese fugae mandarunt atque in proximas silvas abdiderunt."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 12 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Is pagus appellabatur Tigurinus; nam omnis civitas Helvetia in quattuor pagos divisa est."
+      },
+      {
+       "la": "Hic pagus unus, cum domo exisset, patrum nostrorum memoria L. Cassium consulem interfecerat et eius exercitum sub iugum miserat."
+      },
+      {
+       "la": "Ita sive casu sive consilio deorum immortalium quae pars civitatis Helvetiae insignem calamitatem populo Romano intulerat, ea princeps poenam persolvit."
+      },
+      {
+       "la": "Qua in re Caesar non solum publicas, sed etiam privatas iniurias ultus est, quod eius soceri L. Pisonis avum, L. Pisonem legatum, Tigurini eodem proelio quo Cassium interfecerant."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 13 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Hoc proelio facto, reliquas copias Helvetiorum ut consequi posset, pontem in Arari faciendum curat atque ita exercitum traducit."
+      },
+      {
+       "la": "Helvetii repentino eius adventu commoti cum id quod ipsi diebus XX aegerrime confecerant, ut flumen transirent, illum uno die fecisse intellegerent, legatos ad eum mittunt; cuius legationis Divico princeps fuit, qui bello Cassiano dux Helvetiorum fuerat."
+      },
+      {
+       "la": "Is ita cum Caesare egit: si pacem populus Romanus cum Helvetiis faceret, in eam partem ituros atque ibi futuros Helvetios ubi eos Caesar constituisset atque esse voluisset; sin bello persequi perseveraret, reminisceretur et veteris incommodi populi Romani et pristinae virtutis Helvetiorum."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 13 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Quod improviso unum pagum adortus esset, cum ii qui flumen transissent suis auxilium ferre non possent, ne ob eam rem aut suae magnopere virtuti tribueret aut ipsos despiceret."
+      },
+      {
+       "la": "Se ita a patribus maioribusque suis didicisse, ut magis virtute contenderent quam dolo aut insidiis niterentur."
+      },
+      {
+       "la": "Quare ne committeret ut is locus ubi constitissent ex calamitate populi Romani et internecione exercitus nomen caperet aut memoriam proderet."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 14 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "His Caesar ita respondit: eo sibi minus dubitationis dari, quod eas res quas legati Helvetii commemorassent memoria teneret, atque eo gravius ferre quo minus merito populi Romani accidissent; qui si alicuius iniuriae sibi conscius fuisset, non fuisse difficile cavere; sed eo deceptum, quod neque commissum a se intellegeret quare timeret neque sine causa timendum putaret."
+      },
+      {
+       "la": "Quod si veteris contumeliae oblivisci vellet, num etiam recentium iniuriarum, quod eo invito iter per provinciam per vim temptassent, quod Haeduos, quod Ambarros, quod Allobrogas vexassent, memoriam deponere posse?"
+      },
+      {
+       "la": "Quod sua victoria tam insolenter gloriarentur quodque tam diu se impune iniurias tulisse admirarentur, eodem pertinere."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 14 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Consuesse enim deos immortales, quo gravius homines ex commutatione rerum doleant, quos pro scelere eorum ulcisci velint, his secundiores interdum res et diuturniorem impunitatem concedere."
+      },
+      {
+       "la": "Cum ea ita sint, tamen, si obsides ab iis sibi dentur, uti ea quae polliceantur facturos intellegat, et si Haeduis de iniuriis quas ipsis sociisque eorum intulerint, item si Allobrogibus satis faciunt, sese cum iis pacem esse facturum."
+      },
+      {
+       "la": "Divico respondit: ita Helvetios a maioribus suis institutos esse uti obsides accipere, non dare, consuerint; eius rem populum Romanum esse testem."
+      },
+      {
+       "la": "Hoc responso dato discessit."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 15",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Postero die castra ex eo loco movent."
+      },
+      {
+       "la": "Idem facit Caesar equitatumque omnem, ad numerum quattuor milium, quem ex omni provincia et Haeduis atque eorum sociis coactum habebat, praemittit, qui videant quas in partes hostes iter faciant."
+      },
+      {
+       "la": "Qui cupidius novissimum agmen insecuti alieno loco cum equitatu Helvetiorum proelium committunt; et pauci de nostris cadunt."
+      },
+      {
+       "la": "Quo proelio sublati Helvetii, quod quingentis equitibus tantam multitudinem equitum propulerant, audacius subsistere non numquam et novissimo agmine proelio nostros lacessere coeperunt."
+      },
+      {
+       "la": "Caesar suos a proelio continebat, ac satis habebat in praesentia hostem rapinis, pabulationibus populationibusque prohibere."
+      },
+      {
+       "la": "Ita dies circiter XV iter fecerunt uti inter novissimum hostium agmen et nostrum primum non amplius quinis aut senis milibus passuum interesset."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 16 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Interim cotidie Caesar Haeduos frumentum, quod essent publice polliciti, flagitare."
+      },
+      {
+       "la": "Nam propter frigora [quod Gallia sub septentrionibus, ut ante dictum est, posita est,] non modo frumenta in agris matura non erant, sed ne pabuli quidem satis magna copia suppetebat; eo autem frumento quod flumine Arari navibus subvexerat propterea uti minus poterat quod iter ab Arari Helvetii averterant, a quibus discedere nolebat."
+      },
+      {
+       "la": "Diem ex die ducere Haedui: conferri, comportari, adesse dicere."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 16 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Ubi se diutius duci intellexit et diem instare quo die frumentum militibus metiri oporteret, convocatis eorum principibus, quorum magnam copiam in castris habebat, in his Diviciaco et Lisco, qui summo magistratui praeerat, quem vergobretum appellant Haedui, qui creatur annuus et vitae necisque in suos habet potestatem, graviter eos accusat, quod, cum neque emi neque ex agris sumi possit, tam necessario tempore, tam propinquis hostibus ab iis non sublevetur, praesertim cum magna ex parte eorum precibus adductus bellum susceperit; multo etiam gravius quod sit destitutus queritur."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 17",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Tum demum Liscus oratione Caesaris adductus quod antea tacuerat proponit: esse non nullos, quorum auctoritas apud plebem plurimum valeat, qui privatim plus possint quam ipsi magistratus."
+      },
+      {
+       "la": "Hos seditiosa atque improba oratione multitudinem deterrere, ne frumentum conferant quod debeant: praestare, si iam principatum Galliae obtinere non possint, Gallorum quam Romanorum imperia perferre, neque dubitare [debeant] quin, si Helvetios superaverint Romani, una cum reliqua Gallia Haeduis libertatem sint erepturi."
+      },
+      {
+       "la": "Ab isdem nostra consilia quaeque in castris gerantur hostibus enuntiari; hos a se coerceri non posse."
+      },
+      {
+       "la": "Quin etiam, quod necessariam rem coactus Caesari enuntiarit, intellegere sese quanto id cum periculo fecerit, et ob eam causam quam diu potuerit tacuisse."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 18 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Caesar hac oratione Lisci Dumnorigem, Diviciaci fratrem, designari sentiebat, sed, quod pluribus praesentibus eas res iactari nolebat, celeriter concilium dimittit, Liscum retinet."
+      },
+      {
+       "la": "Quaerit ex solo ea quae in conventu dixerat."
+      },
+      {
+       "la": "Dicit liberius atque audacius."
+      },
+      {
+       "la": "Eadem secreto ab aliis quaerit; reperit esse vera: ipsum esse Dumnorigem, summa audacia, magna apud plebem propter liberalitatem gratia, cupidum rerum novarum."
+      },
+      {
+       "la": "Complures annos portoria reliquaque omnia Haeduorum vectigalia parvo pretio redempta habere, propterea quod illo licente contra liceri audeat nemo."
+      },
+      {
+       "la": "His rebus et suam rem familiarem auxisse et facultates ad largiendum magnas comparasse; magnum numerum equitatus suo sumptu semper alere et circum se habere, neque solum domi, sed etiam apud finitimas civitates largiter posse, atque huius potentiae causa matrem in Biturigibus homini illic nobilissimo ac potentissimo conlocasse; ipsum ex Helvetiis uxorem habere, sororum ex matre et propinquas suas nuptum in alias civitates conlocasse."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 18 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Favere et cupere Helvetiis propter eam adfinitatem, odisse etiam suo nomine Caesarem et Romanos, quod eorum adventu potentia eius deminuta et Diviciacus frater in antiquum locum gratiae atque honoris sit restitutus."
+      },
+      {
+       "la": "Si quid accidat Romanis, summam in spem per Helvetios regni obtinendi venire; imperio populi Romani non modo de regno, sed etiam de ea quam habeat gratia desperare."
+      },
+      {
+       "la": "Reperiebat etiam in quaerendo Caesar, quod proelium equestre adversum paucis ante diebus esset factum, initium eius fugae factum a Dumnorige atque eius equitibus (nam equitatui, quem auxilio Caesari Haedui miserant, Dumnorix praeerat): eorum fuga reliquum esse equitatum perterritum."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 19 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Quibus rebus cognitis, cum ad has suspiciones certissimae res accederent, quod per fines Sequanorum Helvetios traduxisset, quod obsides inter eos dandos curasset, quod ea omnia non modo iniussu suo et civitatis sed etiam inscientibus ipsis fecisset, quod a magistratu Haeduorum accusaretur, satis esse causae arbitrabatur quare in eum aut ipse animadverteret aut civitatem animadvertere iuberet."
+      },
+      {
+       "la": "His omnibus rebus unum repugnabat, quod Diviciaci fratris summum in populum Romanum studium, summum in se voluntatem, egregiam fidem, iustitiam, temperantiam cognoverat; nam ne eius supplicio Diviciaci animum offenderet verebatur."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 19 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Itaque prius quam quicquam conaretur, Diviciacum ad se vocari iubet et, cotidianis interpretibus remotis, per C. Valerium Troucillum, principem Galliae provinciae, familiarem suum, cui summam omnium rerum fidem habebat, cum eo conloquitur; simul commonefacit quae ipso praesente in concilio [Gallorum] de Dumnorige sint dicta, et ostendit quae separatim quisque de eo apud se dixerit."
+      },
+      {
+       "la": "Petit atque hortatur ut sine eius offensione animi vel ipse de eo causa cognita statuat vel civitatem statuere iubeat."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 20 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Diviciacus multis cum lacrimis Caesarem complexus obsecrare coepit ne quid gravius in fratrem statueret: scire se illa esse vera, nec quemquam ex eo plus quam se doloris capere, propterea quod, cum ipse gratia plurimum domi atque in reliqua Gallia, ille minimum propter adulescentiam posset, per se crevisset; quibus opibus ac nervis non solum ad minuendam gratiam, sed paene ad perniciem suam uteretur."
+      },
+      {
+       "la": "Sese tamen et amore fraterno et existimatione vulgi commoveri."
+      },
+      {
+       "la": "Quod si quid ei a Caesare gravius accidisset, cum ipse eum locum amicitiae apud eum teneret, neminem existimaturum non sua voluntate factum; qua ex re futurum uti totius Galliae animi a se averterentur."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 20 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Haec cum pluribus verbis flens a Caesare peteret, Caesar eius dextram prendit; consolatus rogat finem orandi faciat; tanti eius apud se gratiam esse ostendit uti et rei publicae iniuriam et suum dolorem eius voluntati ac precibus condonet."
+      },
+      {
+       "la": "Dumnorigem ad se vocat, fratrem adhibet; quae in eo reprehendat ostendit; quae ipse intellegat, quae civitas queratur proponit; monet ut in reliquum tempus omnes suspiciones vitet; praeterita se Diviciaco fratri condonare dicit."
+      },
+      {
+       "la": "Dumnorigi custodes ponit, ut quae agat, quibuscum loquatur scire possit."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 21",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Eodem die ab exploratoribus certior factus hostes sub monte consedisse milia passuum ab ipsius castris octo, qualis esset natura montis et qualis in circuitu ascensus qui cognoscerent misit."
+      },
+      {
+       "la": "Renuntiatum est facilem esse."
+      },
+      {
+       "la": "De tertia vigilia T. Labienum, legatum pro praetore, cum duabus legionibus et iis ducibus qui iter cognoverant summum iugum montis ascendere iubet; quid sui consilii sit ostendit."
+      },
+      {
+       "la": "Ipse de quarta vigilia eodem itinere quo hostes ierant ad eos contendit equitatumque omnem ante se mittit."
+      },
+      {
+       "la": "P. Considius, qui rei militaris peritissimus habebatur et in exercitu L. Sullae et postea in M. Crassi fuerat, cum exploratoribus praemittitur."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 22 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Prima luce, cum summus mons a [Lucio] Labieno teneretur, ipse ab hostium castris non longius mille et quingentis passibus abesset neque, ut postea ex captivis comperit, aut ipsius adventus aut Labieni cognitus esset, Considius equo admisso ad eum accurrit, dicit montem, quem a Labieno occupari voluerit, ab hostibus teneri: id se a Gallicis armis atque insignibus cognovisse."
+      },
+      {
+       "la": "Caesar suas copias in proximum collem subducit, aciem instruit."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 22 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Labienus, ut erat ei praeceptum a Caesare ne proelium committeret, nisi ipsius copiae prope hostium castra visae essent, ut undique uno tempore in hostes impetus fieret, monte occupato nostros expectabat proelioque abstinebat."
+      },
+      {
+       "la": "Multo denique die per exploratores Caesar cognovit et montem a suis teneri et Helvetios castra, movisse et Considium timore perterritum quod non vidisset pro viso sibi renuntiavisse."
+      },
+      {
+       "la": "Eo die quo consuerat intervallo hostes sequitur et milia passuum tria ab eorum castris castra ponit."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 23",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Postridie eius diei, quod omnino biduum supererat, cum exercitui frumentum metiri oporteret, et quod a Bibracte, oppido Haeduorum longe maximo et copiosissimo, non amplius milibus passuum XVIII aberat, rei frumentariae prospiciendum existimavit; itaque iter ab Helvetiis avertit ac Bibracte ire contendit."
+      },
+      {
+       "la": "Ea res per fugitivos L. Aemilii, decurionis equitum Gallorum, hostibus nuntiatur."
+      },
+      {
+       "la": "Helvetii, seu quod timore perterritos Romanos discedere a se existimarent, eo magis quod pridie superioribus locis occupatis proelium non commisissent, sive eo quod re frumentaria intercludi posse confiderent, commutato consilio atque itinere converso nostros a novissimo agmine insequi ac lacessere coeperunt."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 24",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Postquam id animum advertit, copias suas Caesar in proximum collem subduxit equitatumque, qui sustineret hostium impetum, misit."
+      },
+      {
+       "la": "Ipse interim in colle medio triplicem aciem instruxit legionum quattuor veteranarum; in summo iugo duas legiones quas in Gallia citeriore proxime conscripserat et omnia auxilia conlocavit, ita ut supra se totum montem hominibus compleret; impedimenta sarcinasque in unum locum conferri et eum ab iis qui in superiore acie constiterant muniri iussit."
+      },
+      {
+       "la": "Helvetii cum omnibus suis carris secuti impedimenta in unum locum contulerunt; ipsi confertissima acie, reiecto nostro equitatu, phalange facta sub primam nostram aciem successerunt."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 25 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Caesar primum suo, deinde omnium ex conspectu remotis equis, ut aequato omnium periculo spem fugae tolleret, cohortatus suos proelium commisit."
+      },
+      {
+       "la": "Milites loco superiore pilis missis facile hostium phalangem perfregerunt."
+      },
+      {
+       "la": "Ea disiecta gladiis destrictis in eos impetum fecerunt."
+      },
+      {
+       "la": "Gallis magno ad pugnam erat impedimento quod pluribus eorum scutis uno ictu pilorum transfixis et conligatis, cum ferrum se inflexisset, neque evellere neque sinistra impedita satis commode pugnare poterant, multi ut diu iactato bracchio praeoptarent scutum manu emittere et nudo corpore pugnare."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 25 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Tandem vulneribus defessi et pedem referre et, quod mons suberit circiter mille passuum spatio, eo se recipere coeperunt."
+      },
+      {
+       "la": "Capto monte et succedentibus nostris, Boi et Tulingi, qui hominum milibus circiter XV agmen hostium claudebant et novissimis praesidio erant, ex itinere nostros ab latere aperto adgressi circumvenire, et id conspicati Helvetii, qui in montem sese receperant, rursus instare et proelium redintegrare coeperunt."
+      },
+      {
+       "la": "Romani conversa signa bipertito intulerunt: prima et secunda acies, ut victis ac submotis resisteret, tertia, ut venientes sustineret."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 26 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Ita ancipiti proelio diu atque acriter pugnatum est."
+      },
+      {
+       "la": "Diutius cum sustinere nostrorum impetus non possent, alteri se, ut coeperant, in montem receperunt, alteri ad impedimenta et carros suos se contulerunt."
+      },
+      {
+       "la": "Nam hoc toto proelio, cum ab hora septima ad vesperum pugnatum sit, aversum hostem videre nemo potuit."
+      },
+      {
+       "la": "Ad multam noctem etiam ad impedimenta pugnatum est, propterea quod pro vallo carros obiecerunt et e loco superiore in nostros venientes tela coiciebant et non nulli inter carros rotasque mataras ac tragulas subiciebant nostrosque vulnerabant."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 26 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Diu cum esset pugnatum, impedimentis castrisque nostri potiti sunt."
+      },
+      {
+       "la": "Ibi Orgetorigis filia atque unus e filiis captus est."
+      },
+      {
+       "la": "Ex eo proelio circiter hominum milia CXXX superfuerunt eaque tota nocte continenter ierunt [nullam partem noctis itinere intermisso]; in fines Lingonum die quarto pervenerunt, cum et propter vulnera militum et propter sepulturam occisorum nostri [triduum morati] eos sequi non potuissent."
+      },
+      {
+       "la": "Caesar ad Lingonas litteras nuntiosque misit, ne eos frumento neve alia re iuvarent: qui si iuvissent, se eodem loco quo Helvetios habiturum."
+      },
+      {
+       "la": "Ipse triduo intermisso cum omnibus copiis eos sequi coepit."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 27",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Helvetii omnium rerum inopia adducti legatos de deditione ad eum miserunt."
+      },
+      {
+       "la": "Qui cum eum in itinere convenissent seque ad pedes proiecissent suppliciterque locuti flentes pacem petissent, atque eos in eo loco quo tum essent suum adventum expectare iussisset, paruerunt."
+      },
+      {
+       "la": "Eo postquam Caesar pervenit, obsides, arma, servos qui ad eos perfugissent, poposcit."
+      },
+      {
+       "la": "Dum ea conquiruntur et conferuntur, [nocte intermissa] circiter hominum milia VI eius pagi qui Verbigenus appellatur, sive timore perterriti, ne armis traditis supplicio adficerentur, sive spe salutis inducti, quod in tanta multitudine dediticiorum suam fugam aut occultari aut omnino ignorari posse existimarent, prima nocte e castris Helvetiorum egressi ad Rhenum finesque Germanorum contenderunt."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 28 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Quod ubi Caesar resciit, quorum per fines ierant his uti conquirerent et reducerent, si sibi purgati esse vellent, imperavit; reductos in hostium numero habuit; reliquos omnes obsidibus, armis, perfugis traditis in deditionem accepit."
+      },
+      {
+       "la": "Helvetios, Tulingos, Latobrigos in fines suos, unde erant profecti, reverti iussit, et, quod omnibus frugibus amissis domi nihil erat quo famem tolerarent, Allobrogibus imperavit ut iis frumenti copiam facerent; ipsos oppida vicosque, quos incenderant, restituere iussit."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 28 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Id ea maxime ratione fecit, quod noluit eum locum unde Helvetii discesserant vacare, ne propter bonitatem agrorum Germani, qui trans Rhenum incolunt, ex suis finibus in Helvetiorum fines transirent et finitimi Galliae provinciae Allobrogibusque essent."
+      },
+      {
+       "la": "Boios petentibus Haeduis, quod egregia virtute erant cogniti, ut in finibus suis conlocarent, concessit; quibus illi agros dederunt quosque postea in parem iuris libertatisque condicionem atque ipsi erant receperunt."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 29",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "In castris Helvetiorum tabulae repertae sunt litteris Graecis confectae et ad Caesarem relatae, quibus in tabulis nominatim ratio confecta erat, qui numerus domo exisset eorum qui arma ferre possent, et item separatim, quot pueri, senes mulieresque."
+      },
+      {
+       "la": "[Quarum omnium rerum] summa erat capitum Helvetiorum milium CCLXIII, Tulingorum milium XXXVI, Latobrigorum XIIII, Rauracorum XXIII, Boiorum XXXII; ex his qui arma ferre possent ad milia nonaginta duo."
+      },
+      {
+       "la": "Summa omnium fuerunt ad milia CCCLXVIII."
+      },
+      {
+       "la": "Eorum qui domum redierunt censu habito, ut Caesar imperaverat, repertus est numerus milium C et X."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 30",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Bello Helvetiorum confecto totius fere Galliae legati, principes civitatum, ad Caesarem gratulatum convenerunt: intellegere sese, tametsi pro veteribus Helvetiorum iniuriis populi Romani ab his poenas bello repetisset, tamen eam rem non minus ex usu [terrae] Galliae quam populi Romani accidisse, propterea quod eo consilio florentissimis rebus domos suas Helvetii reliquissent uti toti Galliae bellum inferrent imperioque potirentur, locumque domicilio ex magna copia deligerent quem ex omni Gallia oportunissimum ac fructuosissimum iudicassent, reliquasque civitates stipendiarias haberent."
+      },
+      {
+       "la": "Petierunt uti sibi concilium totius Galliae in diem certam indicere idque Caesaris facere voluntate liceret: sese habere quasdam res quas ex communi consensu ab eo petere vellent."
+      },
+      {
+       "la": "Ea re permissa diem concilio constituerunt et iure iurando ne quis enuntiaret, nisi quibus communi consilio mandatum esset, inter se sanxerunt."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 31 · Teil 1/4",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Eo concilio dimisso, idem princeps civitatum qui ante fuerant ad Caesarem reverterunt petieruntque uti sibi secreto in occulto de sua omniumque salute cum eo agere liceret."
+      },
+      {
+       "la": "Ea re impetrata sese omnes flentes Caesari ad pedes proiecerunt: non minus se id contendere et laborare ne ea quae dixissent enuntiarentur quam uti ea quae vellent impetrarent, propterea quod, si enuntiatum esset, summum in cruciatum se venturos viderent."
+      },
+      {
+       "la": "Locutus est pro his Diviciacus Haeduus: Galliae totius factiones esse duas; harum alterius principatum tenere Haeduos, alterius Arvernos."
+      },
+      {
+       "la": "Hi cum tantopere de potentatu inter se multos annos contenderent, factum esse uti ab Arvernis Sequanisque Germani mercede arcesserentur."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 31 · Teil 2/4",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Horum primo circiter milia XV Rhenum transisse; postea quam agros et cultum et copias Gallorum homines feri ac barbari adamassent, traductos plures; nunc esse in Gallia ad C et XX milium numerum."
+      },
+      {
+       "la": "Cum his Haeduos eorumque clientes semel atque iterum armis contendisse; magnam calamitatem pulsos accepisse, omnem nobilitatem, omnem senatum, omnem equitatum amisisse."
+      },
+      {
+       "la": "Quibus proeliis calamitatibusque fractos, qui et sua virtute et populi Romani hospitio atque amicitia plurimum ante in Gallia potuissent, coactos esse Sequanis obsides dare nobilissimos civitatis et iure iurando civitatem obstringere sese neque obsides repetituros neque auxilium a populo Romano imploraturos neque recusaturos quo minus perpetuo sub illorum dicione atque imperio essent."
+      },
+      {
+       "la": "Unum se esse ex omni civitate Haeduorum qui adduci non potuerit ut iuraret aut liberos suos obsides daret."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 31 · Teil 3/4",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Ob eam rem se ex civitate profugisse et Romam ad senatum venisse auxilium postulatum, quod solus neque iure iurando neque obsidibus teneretur."
+      },
+      {
+       "la": "Sed peius victoribus Sequanis quam Haeduis victis accidisse, propterea quod Ariovistus, rex Germanorum, in eorum finibus consedisset tertiamque partem agri Sequani, qui esset optimus totius Galliae, occupavisset et nunc de altera parte tertia Sequanos decedere iuberet, propterea quod paucis mensibus ante Harudum milia hominum XXIIII ad eum venissent, quibus locus ac sedes pararentur."
+      },
+      {
+       "la": "Futurum esse paucis annis uti omnes ex Galliae finibus pellerentur atque omnes Germani Rhenum transirent; neque enim conferendum esse Gallicum cum Germanorum agro neque hanc consuetudinem victus cum illa comparandam."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 31 · Teil 4/4",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Ariovistum autem, ut semel Gallorum copias proelio vicerit, quod proelium factum sit ad Magetobrigam, superbe et crudeliter imperare, obsides nobilissimi cuiusque liberos poscere et in eos omnia exempla cruciatusque edere, si qua res non ad nutum aut ad voluntatem eius facta sit."
+      },
+      {
+       "la": "Hominem esse barbarum, iracundum, temerarium: non posse eius imperia, diutius sustineri."
+      },
+      {
+       "la": "Nisi quid in Caesare populoque Romano sit auxilii, omnibus Gallis idem esse faciendum quod Helvetii fecerint, ut domo emigrent, aliud domicilium, alias sedes, remotas a Germanis, petant fortunamque, quaecumque accidat, experiantur."
+      },
+      {
+       "la": "Haec si enuntiata Ariovisto sint, non dubitare quin de omnibus obsidibus qui apud eum sint gravissimum supplicium sumat."
+      },
+      {
+       "la": "Caesarem vel auctoritate sua atque exercitus vel recenti victoria vel nomine populi Romani deterrere posse ne maior multitudo Germanorum Rhenum traducatur, Galliamque omnem ab Ariovisti iniuria posse defendere."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 32",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Hac oratione ab Diviciaco habita omnes qui aderant magno fletu auxilium a Caesare petere coeperunt."
+      },
+      {
+       "la": "Animadvertit Caesar unos ex omnibus Sequanos nihil earum rerum facere quas ceteri facerent sed tristes capite demisso terram intueri."
+      },
+      {
+       "la": "Eius rei quae causa esset miratus ex ipsis quaesiit."
+      },
+      {
+       "la": "Nihil Sequani respondere, sed in eadem tristitia taciti permanere."
+      },
+      {
+       "la": "Cum ab his saepius quaereret neque ullam omnino vocem exprimere posset, idem Diviacus Haeduus respondit: hoc esse miseriorem et graviorem fortunam Sequanorum quam reliquorum, quod soli ne in occulto quidem queri neque auxilium implorare auderent absentisque Ariovisti crudelitatem, velut si cora adesset, horrerent, propterea quod reliquis tamen fugae facultas daretur, Sequanis vero, qui intra fines suos Ariovistum recepissent, quorum oppida omnia in potestate eius essent, omnes cruciatus essent perferendi."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 33 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "His rebus cognitis Caesar Gallorum animos verbis confirmavit pollicitusque est sibi eam rem curae futuram; magnam se habere spem et beneficio suo et auctoritate adductum Ariovistum finem iniuriis facturum."
+      },
+      {
+       "la": "Hac oratione habita, concilium dimisit."
+      },
+      {
+       "la": "Et secundum ea multae res eum hortabantur quare sibi eam rem cogitandam et suscipiendam putaret, in primis quod Haeduos, fratres consanguineosque saepe numero a senatu appellatos, in servitute atque [in] dicione videbat Germanorum teneri eorumque obsides esse apud Ariovistum ac Sequanos intellegebat; quod in tanto imperio populi Romani turpissimum sibi et rei publicae esse arbitrabatur."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 33 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Paulatim autem Germanos consuescere Rhenum transire et in Galliam magnam eorum multitudinem venire populo Romano periculosum videbat, neque sibi homines feros ac barbaros temperaturos existimabat quin, cum omnem Galliam occupavissent, ut ante Cimbri Teutonique fecissent, in provinciam exirent atque inde in Italiam contenderent [, praesertim cum Sequanos a provincia nostra Rhodanus divideret]; quibus rebus quam maturrime occurrendum putabat."
+      },
+      {
+       "la": "Ipse autem Ariovistus tantos sibi spiritus, tantam arrogantiam sumpserat, ut ferendus non videretur."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 34",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Quam ob rem placuit ei ut ad Ariovistum legatos mitteret, qui ab eo postularent uti aliquem locum medium utrisque conloquio deligeret: velle sese de re publica et summis utriusque rebus cum eo agere."
+      },
+      {
+       "la": "Ei legationi Ariovistus respondit: si quid ipsi a Caesare opus esset, sese ad eum venturum fuisse; si quid ille se velit, illum ad se venire oportere."
+      },
+      {
+       "la": "Praeterea se neque sine exercitu in eas partes Galliae venire audere quas Caesar possideret, neque exercitum sine magno commeatu atque molimento in unum locum contrahere posse."
+      },
+      {
+       "la": "Sibi autem mirum videri quid in sua Gallia, quam bello vicisset, aut Caesari aut omnino populo Romano negotii esset."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 35 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "His responsis ad Caesarem relatis, iterum ad eum Caesar legatos cum his mandatis mittit: quoniam tanto suo populique Romani beneficio adtectus, cum in consulatu suo rex atque amicus a senatu appellatus esset, hanc sibi populoque Romano gratiam referret ut in conloquium venire invitatus gravaretur neque de communi re dicendum sibi et cognoscendum putaret, haec esse quae ab eo postularet: primum ne quam multitudinem hominum amplius trans Rhenum in Galliam traduceret; deinde obsides quos haberet ab Haeduis redderet Sequanisque permitteret ut quos illi haberent voluntate eius reddere illis liceret; neve Haeduos iniuria lacesseret neve his sociisque eorum bellum inferret."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 35 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Si [id] ita fecisset, sibi populoque Romano perpetuam gratiam atque amicitiam cum eo futuram; si non impetraret, sese, quoniam M. Messala, M. Pisone consulibus senatus censuisset uti quicumque Galliam provinciam obtineret, quod commodo rei publicae lacere posset, Haeduos ceterosque amicos populi Romani defenderet, se Haeduorum iniurias non neglecturum."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 36 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Ad haec Ariovistus respondit: ius esse belli ut qui vicissent iis quos vicissent quem ad modum vellent imperarent."
+      },
+      {
+       "la": "Item populum Romanum victis non ad alterius praescriptum, sed ad suum arbitrium imperare consuesse."
+      },
+      {
+       "la": "Si ipse populo Romano non praescriberet quem ad modum suo iure uteretur, non oportere se a populo Romano in suo iure impediri."
+      },
+      {
+       "la": "Haeduos sibi, quoniam belli fortunam temptassent et armis congressi ac superati essent, stipendiarios esse factos."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 36 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Magnam Caesarem iniuriam facere, qui suo adventu vectigalia sibi deteriora faceret."
+      },
+      {
+       "la": "Haeduis se obsides redditurum non esse neque his neque eorum sociis iniuria bellum inlaturum, si in eo manerent quod convenisset stipendiumque quotannis penderent; si id non fecissent, longe iis fraternum nomen populi Romani afuturum."
+      },
+      {
+       "la": "Quod sibi Caesar denuntiaret se Haeduorum iniurias non neglecturum, neminem secum sine sua pernicie contendisse."
+      },
+      {
+       "la": "Cum vellet, congrederetur: intellecturum quid invicti Germani, exercitatissimi in armis, qui inter annos XIIII tectum non subissent, virtute possent."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 37",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Haec eodem tempore Caesari mandata referebantur et legati ab Haeduis et a Treveris veniebant: Haedui questum quod Harudes, qui nuper in Galliam transportati essent, fines eorum popularentur: sese ne obsidibus quidem datis pacem Ariovisti redimere potuisse; Treveri autem, pagos centum Sueborum ad ripas Rheni consedisse, qui Rhemum transire conarentur; his praeesse Nasuam et Cimberium fratres."
+      },
+      {
+       "la": "Quibus rebus Caesar vehementer commotus maturandum sibi existimavit, ne, si nova manus Sueborum cum veteribus copiis Ariovisti sese coniunxisset, minus facile resisti posset."
+      },
+      {
+       "la": "Itaque re frumentaria quam celerrime potuit comparata magnis itineribus ad Ariovistum contendit."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 38",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Cum tridui viam processisset, nuntiatum est ei Ariovistum cum suis omnibus copiis ad occupandum Vesontionem, quod est oppidum maximum Sequanorum, contendere [triduique viam a suis finibus processisse]."
+      },
+      {
+       "la": "Id ne accideret, magnopere sibi praecavendum Caesar existimabat."
+      },
+      {
+       "la": "Namque omnium rerum quae ad bellum usui erant summa erat in eo oppido facultas, idque natura loci sic muniebatur ut magnam ad ducendum bellum daret facultatem, propterea quod flumen [alduas] Dubis ut circino circumductum paene totum oppidum cingit, reliquum spatium, quod est non amplius pedum MDC, qua flumen intermittit, mons continet magna altitudine, ita ut radices eius montis ex utraque parte ripae fluminis contingant, hunc murus circumdatus arcem efficit et cum oppido coniungit."
+      },
+      {
+       "la": "Huc Caesar magnis nocturnis diurnisque itineribus contendit occupatoque oppido ibi praesidium conlocat."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 39 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Dum paucos dies ad Vesontionem rei frumentariae commeatusque causa moratur, ex percontatione nostrorum vocibusque Gallorum ac mercatorum, qui ingenti magnitudine corporum Germanos, incredibili virtute atque exercitatione in armis esse praedicabant (saepe numero sese cum his congressos ne vultum quidem atque aciem oculorum dicebant ferre potuisse), tantus subito timor omnem exercitum occupavit ut non mediocriter omnium mentes animosque perturbaret."
+      },
+      {
+       "la": "Hic primum ortus est a tribunis militum, praefectis, reliquisque qui ex urbe amicitiae causa Caesarem secuti non magnum in re militari usum habebant: quorum alius alia causa inlata, quam sibi ad proficiscendum necessariam esse diceret, petebat ut eius voluntate discedere liceret; non nulli pudore adducti, ut timoris suspicionem vitarent, remanebant."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 39 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Hi neque vultum fingere neque interdum lacrimas tenere poterant: abditi in tabernaculis aut suum fatum querebantur aut cum familiaribus suis commune periculum miserabantur."
+      },
+      {
+       "la": "Vulgo totis castris testamenta obsignabantur."
+      },
+      {
+       "la": "Horum vocibus ac timore paulatim etiam ii qui magnum in castris usum habebant, milites centurionesque quique equitatui praeerant, perturbabantur."
+      },
+      {
+       "la": "Qui se ex his minus timidos existimari volebant, non se hostem vereri, sed angustias itineris et magnitudinem silvarum quae intercederent inter ipsos atque Ariovistum, aut rem frumentariam, ut satis commode supportari posset, timere dicebant."
+      },
+      {
+       "la": "Non nulli etiam Caesari nuntiabant, cum castra moveri ac signa ferri iussisset, non fore dicto audientes milites neque propter timorem signa laturos."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 40 · Teil 1/4",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Haec cum animadvertisset, convocato consilio omniumque ordinum ad id consilium adhibitis centurionibus, vehementer eos incusavit: primum, quod aut quam in partem aut quo consilio ducerentur sibi quaerendum aut cogitandum putarent."
+      },
+      {
+       "la": "Ariovistum se consule cupidissime populi Romani amicitiam adpetisse; cur hunc tam temere quisquam ab officio discessurum iudicaret?"
+      },
+      {
+       "la": "Sibi quidem persuaderi cognitis suis poslulatis atque aequitate condicionum perspecta eum neque suam neque populi Romani gratiam repudiaturum."
+      },
+      {
+       "la": "Quod si furore atque amentia impulsum bellum intulisset, quid tandem vererentur?"
+      },
+      {
+       "la": "Aut cur de sua virtute aut de ipsius diligentia desperarent?"
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 40 · Teil 2/4",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Factum eius hostis periculum patrum nostrorum memoria Cimbris et Teutonis a C. Mario pulsis [cum non minorem laudem exercitus quam ipse imperator meritus videbatur]; factum etiam nuper in Italia servili tumultu, quos tamen aliquid usus ac disciplina, quam a nobis accepissent, sublevarint."
+      },
+      {
+       "la": "Ex quo iudicari posse quantum haberet in se boni constantia, propterea quod quos aliquam diu inermes sine causa timuissent hos postea armatos ac victores superassent."
+      },
+      {
+       "la": "Denique hos esse eosdem Germanos quibuscum saepe numero Helvetii congressi non solum in suis sed etiam in illorum finibus plerumque superarint, qui tamen pares esse nostro exercitui non potuerint."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 40 · Teil 3/4",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Si quos adversum proelium et fuga Gallorum commoveret, hos, si quaererent, reperire posse diuturnitate belli defatigatis Gallis Ariovistum, cum multos menses castris se ac paludibus tenuisset neque sui potestatem fecisset, desperantes iam de pugna et dispersos subito adortum magis ratione et consilio quam virtute vicisse."
+      },
+      {
+       "la": "Cui rationi contra homines barbaros atque imperitos locus fuisset, hac ne ipsum quidem sperare nostros exercitus capi posse."
+      },
+      {
+       "la": "Qui suum timorem in rei frumentariae simulationem angustiasque itineris conferrent, facere arroganter, cum aut de officio imperatoris desperare aut praescribere viderentur."
+      },
+      {
+       "la": "Haec sibi esse curae; frumentum Sequanos, Leucos, Lingones subministrare, iamque esse in agris frumenta matura; de itinere ipsos brevi tempore iudicaturos."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 40 · Teil 4/4",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Quod non fore dicto audientes neque signa laturi dicantur, nihil se ea re commoveri: scire enim, quibuscumque exercitus dicto audiens non fuerit, aut male re gesta fortunam defuisse aut aliquo facinore comperto avaritiam esse convictam."
+      },
+      {
+       "la": "Suam innocentiam perpetua vita, felicitatem Helvetiorum bello esse perspectam."
+      },
+      {
+       "la": "Itaque se quod in longiorem diem conlaturus fuisset repraesentaturum et proxima nocte de quarta, vigilia castra moturum, ut quam primum intellegere posset utrum apud eos pudor atque officium an timor plus valeret."
+      },
+      {
+       "la": "Quod si praeterea nemo sequatur, tamen se cum sola decima legione iturum, de qua non dubitet, sibique eam praetoriam cohortem futuram."
+      },
+      {
+       "la": "Huic legioni Caesar et indulserat praecipue et propter virtutem confidebat maxime."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 41",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Hac oratione habita mirum in modum conversae sunt omnium mentes summaque alacritas et cupiditas belli gerendi innata est, princepsque X."
+      },
+      {
+       "la": "legio per tribunos militum ei gratias egit quod de se optimum iudicium fecisset, seque esse ad bellum gerendum paratissimam confirmavit."
+      },
+      {
+       "la": "Deinde reliquae legiones cum tribunis militum et primorum ordinum centurionibus egerunt uti Caesari satis facerent: se neque umquam dubitasse neque timuisse neque de summa belli suum iudicium sed imperatoris esse existimavisse."
+      },
+      {
+       "la": "Eorum satisfactione accepta et itinere exquisito per Diviciacum, quod ex Gallis ei maximam fidem habebat, ut milium amplius quinquaginta circuitu locis apertis exercitum duceret, de quarta vigilia, ut dixerat, profectus est."
+      },
+      {
+       "la": "Septimo die, cum iter non intermitteret, ab exploratoribus certior factus est Ariovisti copias a nostris milia passuum IIII et XX abesse."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 42 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Cognito Caesaris adventu Ariovistus legatos ad eum mittit: quod antea de conloquio postulasset, id per se fieri licere, quoniam propius accessisset seque id sine periculo facere posse existimaret."
+      },
+      {
+       "la": "Non respuit condicionem Caesar iamque eum ad sanitatem reverti arbitrabatur, cum id quod antea petenti denegasset ultro polliceretur, magnamque in spem veniebat pro suis tantis populique Romani in eum beneficiis cognitis suis postulatis fore uti pertinacia desisteret."
+      },
+      {
+       "la": "Dies conloquio dictus est ex eo die quintus."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 42 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Interim saepe cum legati ultro citroque inter eos mitterentur, Ariovistus postulavit ne quem peditem ad conloquium Caesar adduceret: vereri se ne per insidias ab eo circumveniretur; uterque cum equitatu veniret: alia ratione sese non esse venturum."
+      },
+      {
+       "la": "Caesar, quod neque conloquium interposita causa tolli volebat neque salutem suam Gallorum equitatui committere audebat, commodissimum esse statuit omnibus equis Gallis equitibus detractis eo legionarios milites legionis X., cui quam maxime confidebat, imponere, ut praesidium quam amicissimum, si quid opus facto esset, haberet."
+      },
+      {
+       "la": "Quod cum fieret, non inridicule quidam ex militibus X."
+      },
+      {
+       "la": "legionis dixit: plus quam pollicitus esset Caesarem facere; pollicitum se in cohortis praetoriae loco X."
+      },
+      {
+       "la": "legionem habiturum ad equum rescribere."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 43 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Planities erat magna et in ea tumulus terrenus satis grandis."
+      },
+      {
+       "la": "Hic locus aequum fere spatium a castris Ariovisti et Caesaris aberat."
+      },
+      {
+       "la": "Eo, ut erat dictum, ad conloquium venerunt."
+      },
+      {
+       "la": "Legionem Caesar, quam equis devexerat, passibus CC ab eo tumulo constituit."
+      },
+      {
+       "la": "Item equites Ariovisti pari intervallo constiterunt."
+      },
+      {
+       "la": "Ariovistus ex equis ut conloquerentur et praeter se denos ad conloquium adducerent postulavit."
+      },
+      {
+       "la": "Ubi eo ventum est, Caesar initio orationis sua senatusque in eum beneficia commemoravit, quod rex appellatus esset a senatu, quod amicus, quod munera amplissime missa; quam rem et paucis contigisse et pro magnis hominum officiis consuesse tribui docebat; illum, cum neque aditum neque causam postulandi iustam haberet, beneficio ac liberalitate sua ac senatus ea praemia consecutum."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 43 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Docebat etiam quam veteres quamque iustae causae necessitudinis ipsis cum Haeduis intercederent, quae senatus consulta quotiens quamque honorifica in eos facta essent, ut omni tempore totius Galliae principatum Haedui tenuissent, prius etiam quam nostram amicitiam adpetissent."
+      },
+      {
+       "la": "Populi Romani hanc esse consuetudinem, ut socios atque amicos non modo sui nihil deperdere, sed gratia, dignitate, honore auctiores velit esse; quod vero ad amicitiam populi Romani attulissent, id iis eripi quis pati posset?"
+      },
+      {
+       "la": "Postulavit deinde eadem quae legatis in mandatis dederat: ne aut Haeduis aut eorum sociis bellum inferret, obsides redderet, si nullam partem Germanorum domum remittere posset, at ne quos amplius Rhenum transire pateretur."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 44 · Teil 1/3",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Ariovistus ad postulata Caesaris pauca respondit, de suis virtutibus multa praedicavit: transisse Rhenum sese non sua sponte, sed rogatum et arcessitum a Gallis; non sine magna spe magnisque praemiis domum propinquosque reliquisse; sedes habere in Gallia ab ipsis concessas, obsides ipsorum voluntate datos; stipendium capere iure belli, quod victores victis imponere consuerint."
+      },
+      {
+       "la": "Non sese Gallis sed Gallos sibi bellum intulisse: omnes Galliae civitates ad se oppugnandum venisse ac contra se castra habuisse; eas omnes copias a se uno proelio pulsas ac superatas esse."
+      },
+      {
+       "la": "Si iterum experiri velint, se iterum paratum esse decertare; si pace uti velint, iniquum esse de stipendio recusare, quod sua voluntate ad id tempus pependerint."
+      },
+      {
+       "la": "Amicitiam populi Romani sibi ornamento et praesidio, non detrimento esse oportere, atque se hac spe petisse."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 44 · Teil 2/3",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Si per populum Romanum stipendium remittatur et dediticii subtrahantur, non minus libenter sese recusaturum populi Romani amicitiam quam adpetierit."
+      },
+      {
+       "la": "Quod multitudinem Germanorum in Galliam traducat, id se sui muniendi, non Galliae oppugnandae causa facere; eius rei testimonium esse quod nisi rogatus non venerit et quod bellum non intulerit sed defenderit."
+      },
+      {
+       "la": "Se prius in Galliam venisse quam populum Romanum."
+      },
+      {
+       "la": "Numquam ante hoc tempus exercitum populi Romani Galliae provinciae finibus egressum."
+      },
+      {
+       "la": "Quid sibi vellet?"
+      },
+      {
+       "la": "Cur in suas possessiones veniret?"
+      },
+      {
+       "la": "Provinciam suam hanc esse Galliam, sicut illam nostram."
+      },
+      {
+       "la": "Ut ipsi concedi non oporteret, si in nostros fines impetum faceret, sic item nos esse iniquos, quod in suo iure se interpellaremus."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 44 · Teil 3/3",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Quod fratres a senatu Haeduos appellatos diceret, non se tam barbarum neque tam imperitum esse rerum ut non sciret neque bello Allobrogum proximo Haeduos Romanis auxilium tulisse neque ipsos in iis contentionibus quas Haedui secum et cum Sequanis habuissent auxilio populi Romani usos esse."
+      },
+      {
+       "la": "Debere se suspicari simulata Caesarem amicitia, quod exercitum in Gallia habeat, sui opprimendi causa habere."
+      },
+      {
+       "la": "Qui nisi decedat atque exercitum deducat ex his regionibus, sese illum non pro amico sed pro hoste habiturum."
+      },
+      {
+       "la": "Quod si eum interfecerit, multis sese nobilibus principibusque populi Romani gratum esse facturum (id se ab ipsis per eorum nuntios compertum habere), quorum omnium gratiam atque amicitiam eius morte redimere posset."
+      },
+      {
+       "la": "Quod si decessisset et liberam possessionem Galliae sibi tradidisset, magno se illum praemio remuneraturum et quaecumque bella geri vellet sine ullo eius labore et periculo confecturum."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 45",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Multa a Caesare in eam sententiam dicta sunt quare negotio desistere non posset: neque suam neque populi Romani consuetudinem pati ut optime meritos socios desereret, neque se iudicare Galliam potius esse Ariovisti quam populi Romani."
+      },
+      {
+       "la": "Bello superatos esse Arvernos et Rutenos a Q. Fabio Maximo, quibus populus Romanus ignovisset neque in provinciam redegisset neque stipendium posuisset."
+      },
+      {
+       "la": "Quod si antiquissimum quodque tempus spectari oporteret, populi Romani iustissimum esse in Gallia imperium; si iudicium senatus observari oporteret, liberam debere esse Galliam, quam bello victam suis legibus uti voluisset."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 46",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Dum haec in conloquio geruntur, Caesari nuntiatum est equites Ariovisti propius tumulum accedere et ad nostros adequitare, lapides telaque in nostros coicere."
+      },
+      {
+       "la": "Caesar loquendi finem fecit seque ad suos recepit suisque imperavit ne quod omnino telum in hostes reicerent."
+      },
+      {
+       "la": "Nam etsi sine ullo periculo legionis delectae cum equitatu proelium fore videbat, tamen committendum non putabat ut, pulsis hostibus, dici posset eos ab se per fidem in conloquio circumventos."
+      },
+      {
+       "la": "Postea quam in vulgus militum elatum est qua arrogantia in conloquio Ariovistus usus omni Gallia Romanis interdixisset, impetumque in nostros eius equites fecissent, eaque res conloquium ut diremisset, multo maior alacritas studiumque pugnandi maius exercitui iniectum est."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 47 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Biduo post Ariovistus ad Caesarem legatos misit: velle se de iis rebus quae inter eos egi coeptae neque perfectae essent agere cum eo: uti aut iterum conloquio diem constitueret aut, si id minus vellet, ex suis legatis aliquem ad se mitteret."
+      },
+      {
+       "la": "Conloquendi Caesari causa visa non est, et eo magis quod pridie eius diei Germani retineri non potuerant quin tela in nostros coicerent."
+      },
+      {
+       "la": "Legatum ex suis sese magno cum periculo ad eum missurum et hominibus feris obiecturum existimabat."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 47 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Commodissimum visum est C. Valerium Procillum, C. Valerii Caburi filium, summa virtute et humanitate adulescentem, cuius pater a C. Valerio Flacco civitate donatus erat, et propter fidem et propter linguae Gallicae scientiam, qua multa iam Ariovistus longinqua consuetudine utebatur, et quod in eo peccandi Germanis causa non esset, ad eum mittere, et una M. Metium, qui hospitio Ariovisti utebatur."
+      },
+      {
+       "la": "His mandavit quae diceret Ariovistus cognoscerent et ad se referrent."
+      },
+      {
+       "la": "Quos cum apud se in castris Ariovistus conspexisset, exercitu suo praesente conclamavit: quid ad se venirent?"
+      },
+      {
+       "la": "an speculandi causa?"
+      },
+      {
+       "la": "Conantes dicere prohibuit et in catenas coniecit."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 48 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Eodem die castra promovit et milibus passuum VI a Caesaris castris sub monte consedit."
+      },
+      {
+       "la": "Postridie eius diei praeter castra Caesaris suas copias traduxit et milibus passuum duobus ultra eum castra fecit eo consilio uti frumento commeatuque qui ex Sequanis et Haeduis supportaretur Caesarem intercluderet."
+      },
+      {
+       "la": "Ex eo die dies continuos V Caesar pro castris suas copias produxit et aciem instructam habuit, ut, si vellet Ariovistus proelio contendere, ei potestas non deesset."
+      },
+      {
+       "la": "Ariovistus his omnibus diebus exercitum castris continuit, equestri proelio cotidie contendit."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 48 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Genus hoc erat pugnae, quo se Germani exercuerant: equitum milia erant VI, totidem numero pedites velocissimi ac fortissimi, quos ex omni copia singuli singulos suae salutis causa delegerant: cum his in proeliis versabantur, ad eos se equites recipiebant; hi, si quid erat durius, concurrebant, si qui graviore vulnere accepto equo deciderat, circumsistebant; si quo erat longius prodeundum aut celerius recipiendum, tanta erat horum exercitatione celeritas ut iubis sublevati equorum cursum adaequarent."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 49",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Ubi eum castris se tenere Caesar intellexit, ne diutius commeatu prohiberetur, ultra eum locum, quo in loco Germani consederant, circiter passus DC ab his, castris idoneum locum delegit acieque triplici instructa ad eum locum venit."
+      },
+      {
+       "la": "Primam et secundam aciem in armis esse, tertiam castra munire iussit."
+      },
+      {
+       "la": "[Hic locus ab hoste circiter passus DC, uti dictum est, aberat.] Eo circiter hominum XVI milia expedita cum omni equitatu Ariovistus misit, quae copiae nostros terrerent et munitione prohiberent."
+      },
+      {
+       "la": "Nihilo setius Caesar, ut ante constituerat, duas acies hostem propulsare, tertiam opus perficere iussit."
+      },
+      {
+       "la": "Munitis castris duas ibi legiones reliquit et partem auxiliorum, quattuor reliquas legiones in castra maiora reduxit."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 50",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Proximo die instituto suo Caesar ex castris utrisque copias suas eduxit paulumque a maioribus castris progressus aciem instruxit hostibusque pugnandi potestatem fecit."
+      },
+      {
+       "la": "Ubi ne tum quidem eos prodire intellexit, circiter meridiem exercitum in castra reduxit."
+      },
+      {
+       "la": "Tum demum Ariovistus partem suarum copiarum, quae castra minora oppugnaret, misit."
+      },
+      {
+       "la": "Acriter utrimque usque ad vesperum pugnatum est."
+      },
+      {
+       "la": "Solis occasu suas copias Ariovistus multis et inlatis et acceptis vulneribus in castra reduxit."
+      },
+      {
+       "la": "Cum ex captivis quaereret Caesar quam ob rem Ariovistus proelio non decertaret, hanc reperiebat causam, quod apud Germanos ea consuetudo esset ut matres familiae eorum sortibus et vaticinationibus declararent utrum proelium committi ex usu esset necne; eas ita dicere: non esse fas Germanos superare, si ante novam lunam proelio contendissent."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 51",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Postridie eius diei Caesar praesidio utrisque castris quod satis esse visum est reliquit, alarios omnes in conspectu hostium pro castris minoribus constituit, quod minus multitudine militum legionariorum pro hostium numero valebat, ut ad speciem alariis uteretur; ipse triplici instructa acie usque ad castra hostium accessit."
+      },
+      {
+       "la": "Tum demum necessario Germani suas copias castris eduxerunt generatimque constituerunt paribus intervallis, Harudes, Marcomanos, Tribocos, Vangiones, Nemetes, Sedusios, Suebos, omnemque aciem suam raedis et carris circumdederunt, ne qua spes in fuga relinqueretur."
+      },
+      {
+       "la": "Eo mulieres imposuerunt, quae ad proelium proficiscentes milites passis manibus flentes implorabant ne se in servitutem Romanis traderent."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 52",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Caesar singulis legionibus singulos legatos et quaestorem praefecit, uti eos testes suae quisque virtutis haberet; ipse a dextro cornu, quod eam partem minime firmam hostium esse animadverterat, proelium commisit."
+      },
+      {
+       "la": "Ita nostri acriter in hostes signo dato impetum fecerunt itaque hostes repente celeriterque procurrerunt, ut spatium pila in hostes coiciendi non daretur."
+      },
+      {
+       "la": "Relictis pilis comminus gladiis pugnatum est."
+      },
+      {
+       "la": "At Germani celeriter ex consuetudine sua phalange facta impetus gladiorum exceperunt."
+      },
+      {
+       "la": "Reperti sunt complures nostri qui in phalanga insilirent et scuta manibus revellerent et desuper vulnerarent."
+      },
+      {
+       "la": "Cum hostium acies a sinistro cornu pulsa atque in fugam coniecta esset, a dextro cornu vehementer multitudine suorum nostram aciem premebant."
+      },
+      {
+       "la": "Id cum animadvertisset P. Crassus adulescens, qui equitatui praeerat, quod expeditior erat quam ii qui inter aciem versabantur, tertiam aciem laborantibus nostris subsidio misit."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 53 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Ita proelium restitutum est, atque omnes hostes terga verterunt nec prius fugere destiterunt quam ad flumen Rhenum milia passuum ex eo loco circiter L pervenerunt."
+      },
+      {
+       "la": "Ibi perpauci aut viribus confisi tranare contenderunt aut lintribus inventis sibi salutem reppererunt."
+      },
+      {
+       "la": "In his fuit Ariovistus, qui naviculam deligatam ad ripam nactus ea profugit; reliquos omnes consecuti equites nostri interfecerunt."
+      },
+      {
+       "la": "Duae fuerunt Ariovisti uxores, una Sueba natione, quam domo secum eduxerat, altera Norica, regis Voccionis soror, quam in Gallia duxerat a fratre missam: utraque in ea fuga periit; duae filiae: harum altera occisa, altera capta est."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 53 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "C. Valerius Procillus, cum a custodibus in fuga trinis catenis vinctus traheretur, in ipsum Caesarem hostes equitatu insequentem incidit."
+      },
+      {
+       "la": "Quae quidem res Caesari non minorem quam ipsa victoria voluptatem attulit, quod hominem honestissimum provinciae Galliae, suum familiarem et hospitem, ereptum ex manibus hostium sibi restitutum videbat neque eius calamitate de tanta voluptate et gratulatione quicquam fortuna deminuerat."
+      },
+      {
+       "la": "Is se praesente de se ter sortibus consultum dicebat, utrum igni statim necaretur an in aliud tempus reservaretur: sortium beneficio se esse incolumem."
+      },
+      {
+       "la": "Item M. Metius repertus et ad eum reductus est."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 54",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "Hoc proelio trans Rhenum nuntiato, Suebi, qui ad ripas Rheni venerant, domum reverti coeperunt; quos ubi qui proximi Rhenum incolunt perterritos senserunt, insecuti magnum ex iis numerum occiderunt."
+      },
+      {
+       "la": "Caesar una aestate duobus maximis bellis confectis maturius paulo quam tempus anni postulabat in hiberna in Sequanos exercitum deduxit; hibernis Labienum praeposuit; ipse in citeriorem Galliam ad conventus agendos profectus est."
+      }
+     ]
     }
    ],
    "source": {
-    "url": "https://dcc.dickinson.edu/caesar/book-1/chapter-1-1",
-    "title": "Dickinson College Commentaries"
+    "url": "https://www.thelatinlibrary.com/caesar.html",
+    "title": "The Latin Library"
    }
   },
   {
-   "id": "cons",
-   "tab": "Boethius",
-   "author": "Anicius Manlius Severinus Boethius",
-   "title": "De consolatione philosophiae",
+   "id": "aug",
+   "tab": "Augustinus",
+   "author": "Aurelius Augustinus",
+   "title": "Confessiones",
    "sections": [
     {
-     "ref": "Liber I, Metrum 1 · Verse 1–12",
-     "verse": true,
+     "ref": "Liber I, 1.1.1 · Teil 1/2",
+     "ready": true,
      "sentences": [
       {
-       "la": "Carmina qui quondam studio florente peregi,\nflebilis, heu, maestos cogor inire modos.",
-       "de": "Der ich einst in blühendem Eifer Lieder vollendet habe, muss nun – ach! – unter Tränen traurige Weisen anstimmen."
+       "la": "magnus es, domine, et laudabilis valde.",
+       "de": "Gross bist du, Herr, und sehr zu loben."
       },
       {
-       "la": "Ecce mihi lacerae dictant scribenda Camenae\net veris elegi fletibus ora rigant.",
-       "de": "Sieh, die zerzausten Musen sagen mir vor, was ich schreiben soll, und elegische Verse benetzen mein Gesicht mit echten Tränen."
+       "la": "magna virtus tua et sapientiae tuae non est numerus.",
+       "de": "Gross ist deine Macht, und deine Weisheit ist ohne Mass."
       },
       {
-       "la": "Has saltem nullus potuit pervincere terror,\nne nostrum comites prosequerentur iter.",
-       "de": "Wenigstens sie konnte kein Schrecken davon abbringen, mich als Gefährtinnen auf meinem Weg zu begleiten."
+       "la": "et laudare te vult homo, aliqua portio creaturae tuae, et homo circumferens mortalitatem suam, circumferens testimonium peccati sui et testimonium quia superbis resistis; et tamen laudare te vult homo, aliqua portio creaturae tuae.",
+       "de": "Und dich loben will der Mensch, ein Teilchen deiner Schöpfung, und zwar ein Mensch, der seine Sterblichkeit mit sich herumträgt, das Zeugnis seiner Sünde mit sich herumträgt und das Zeugnis, dass du den Hochmütigen widerstehst; und dennoch will dich loben der Mensch, ein Teilchen deiner Schöpfung."
       },
       {
-       "la": "Gloria felicis olim viridisque iuventae\nsolantur maesti nunc mea fata senis.",
-       "de": "Einst der Ruhm meiner glücklichen, blühenden Jugend, trösten sie nun mein Los als trauriger alter Mann."
+       "la": "tu excitas ut laudare te delectet, quia fecisti nos ad te et inquietum est cor nostrum donec requiescat in te.",
+       "de": "Du regst ihn an, sodass es ihn freut, dich zu loben, denn du hast uns auf dich hin geschaffen, und unruhig ist unser Herz, bis es ruht in dir."
       },
       {
-       "la": "Venit enim properata malis inopina senectus\net dolor aetatem iussit inesse suam.",
-       "de": "Denn unerwartet ist das Alter gekommen, vom Unglück beschleunigt, und der Schmerz hat mir sein eigenes Alter auferlegt."
-      },
-      {
-       "la": "Intempestivi funduntur vertice cani\net tremit effeto corpore laxa cutis.",
-       "de": "Zur Unzeit fallen mir graue Haare vom Scheitel, und schlaff zittert die Haut am erschöpften Körper."
+       "la": "da mihi, domine, scire et intellegere utrum sit prius invocare te an laudare te, et scire te prius sit an invocare te.",
+       "de": "Lass mich, Herr, wissen und verstehen, ob man dich zuerst anrufen oder zuerst loben soll und ob man dich zuerst kennen oder zuerst anrufen muss."
       }
      ]
     },
     {
-     "ref": "Liber I, Metrum 1 · Verse 13–22",
-     "verse": true,
+     "ref": "Liber I, 1.1.1 · Teil 2/2",
+     "ready": false,
      "sentences": [
       {
-       "la": "Mors hominum felix quae se nec dulcibus annis\ninserit et maestis saepe vocata venit.",
-       "de": "Glücklich ist der Tod für die Menschen, der sich nicht in die süssen Jahre drängt und zu den Traurigen kommt, wenn sie ihn oft rufen."
+       "la": "sed quis te invocat nesciens te?"
       },
       {
-       "la": "Eheu, quam surda miseros avertitur aure\net flentes oculos claudere saeva negat.",
-       "de": "Ach, wie taub wendet er sich mit seinem Ohr von den Elenden ab und weigert sich grausam, die weinenden Augen zu schliessen!"
+       "la": "aliud enim pro alio potest invocare nesciens."
       },
       {
-       "la": "Dum levibus male fida bonis fortuna faveret,\npaene caput tristis merserat hora meum.",
-       "de": "Solange mir das treulose Glück mit flüchtigen Gütern gewogen war, hätte mich eine traurige Stunde beinahe untergehen lassen."
+       "la": "an potius invocaris ut sciaris?"
       },
       {
-       "la": "Nunc quia fallacem mutavit nubila vultum,\nprotrahit ingratas impia vita moras.",
-       "de": "Jetzt, da es, umwölkt, sein trügerisches Gesicht verändert hat, zieht das ruchlose Leben den unwillkommenen Aufschub in die Länge."
+       "la": "quomodo autem invocabunt, in quem non crediderunt?"
       },
       {
-       "la": "Quid me felicem totiens iactastis, amici?\nQui cecidit, stabili non erat ille gradu.",
-       "de": "Warum, Freunde, habt ihr mich so oft glücklich gepriesen? Wer gefallen ist, stand nicht auf festem Grund."
+       "la": "aut quomodo credent sine praedicante?"
+      },
+      {
+       "la": "et laudabunt dominum qui requirunt eum: quaerentes enim inveniunt eum et invenientes laudabunt eum."
+      },
+      {
+       "la": "quaeram te, domine, invocans te et invocem te credens in te: praedicatus enim es nobis."
+      },
+      {
+       "la": "invocat te, domine, fides mea, quam dedisti mihi, quam inspirasti mihi per humanitatem filii tui, per ministerium praedicatoris tui."
       }
      ]
     },
     {
-     "ref": "Liber I, Prosa 1 · Sätze 1–2",
-     "verse": false,
+     "ref": "Liber I, 1.2.2 · Teil 1/2",
+     "ready": false,
      "sentences": [
       {
-       "la": "Haec dum mecum tacitus ipse reputarem querimoniamque lacrimabilem stili officio signarem, adstitisse mihi supra verticem visa est mulier reverendi admodum vultus, oculis ardentibus et ultra communem hominum valentiam perspicacibus, colore vivido atque inexhausti vigoris, quamvis ita aevi plena foret ut nullo modo nostrae crederetur aetatis, statura discretionis ambiguae.",
-       "de": "Während ich dies schweigend bei mir selbst überdachte und meine tränenreiche Klage mit dem Griffel aufzeichnete, schien mir eine Frau über meinem Haupt zu stehen, von höchst ehrwürdigem Aussehen, mit glühenden Augen, die schärfer blickten, als es Menschen gewöhnlich vermögen, von frischer Farbe und unerschöpflicher Kraft, obwohl sie so reich an Jahren war, dass man sie keinesfalls für eine aus unserer Zeit halten konnte, von schwer bestimmbarer Grösse."
+       "la": "et quomodo invocabo deum meum, deum et dominum meum, quoniam utique in me ipsum eum vocabo, cum invocabo eum?"
       },
       {
-       "la": "Nam nunc quidem ad communem sese hominum mensuram cohibebat, nunc vero pulsare caelum summi verticis cacumine videbatur; quae cum altius caput extulisset, ipsum etiam caelum penetrabat respicientiumque hominum frustrabatur intuitum.",
-       "de": "Denn bald hielt sie sich auf dem gewöhnlichen Mass der Menschen, bald aber schien sie mit dem Scheitel den Himmel zu berühren; und wenn sie das Haupt noch höher erhob, drang sie sogar in den Himmel selbst ein und entzog sich dem Blick der Menschen, die zu ihr aufschauten."
+       "la": "et quis locus est in me quo veniat in me deus meus, quo deus veniat in me, deus qui fecit caelum et terram?"
+      },
+      {
+       "la": "itane, domine deus meus?"
+      },
+      {
+       "la": "est quicquam in me quod capiat te?"
+      },
+      {
+       "la": "an vero caelum et terra, quae fecisti et in quibus me fecisti, capiunt te?"
+      },
+      {
+       "la": "an quia sine te non esset quidquid est, fit ut quidquid est capiat te?"
+      },
+      {
+       "la": "quoniam itaque et ego sum, quid peto ut venias in me, qui non essem nisi esses in me?"
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.2.2 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "non enim ego iam inferi, et tamen etiam ibi es, nam etsi descendero in infernum, ades."
+      },
+      {
+       "la": "non ergo essem, deus meus, non omnino essem, nisi esses in me."
+      },
+      {
+       "la": "an potius non essem nisi essem in te, ex quo omnia, per quem omnia, in quo omnia?"
+      },
+      {
+       "la": "etiam sic, domine, etiam sic."
+      },
+      {
+       "la": "quo te invoco, cum in te sim?"
+      },
+      {
+       "la": "aut unde venias in me?"
+      },
+      {
+       "la": "quo enim recedam extra caelum et terram, ut inde in me veniat deus meus, qui dixit, 'caelum et terram ego impleo'?"
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.3.3",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "capiunt ergone te caelum et terra, quoniam tu imples ea?"
+      },
+      {
+       "la": "an imples et restat, quoniam non te capiunt?"
+      },
+      {
+       "la": "et quo refundis quidquid impleto caelo et terra restat ex te?"
+      },
+      {
+       "la": "an non opus habes ut quoquam continearis, qui contines omnia, quoniam quae imples continendo imples?"
+      },
+      {
+       "la": "non enim vasa quae te plena sunt stabilem te faciunt, quia etsi frangantur non effunderis."
+      },
+      {
+       "la": "et cum effunderis super nos, non tu iaces sed erigis nos, nec tu dissiparis sed conligis nos."
+      },
+      {
+       "la": "sed quae imples omnia, te toto imples omnia."
+      },
+      {
+       "la": "an quia non possunt te totum capere omnia, partem tui capiunt et eandem partem simul omnia capiunt?"
+      },
+      {
+       "la": "an singulas singula et maiores maiora, minores minora capiunt?"
+      },
+      {
+       "la": "ergo est aliqua pars tua maior, aliqua minor?"
+      },
+      {
+       "la": "an ubique totus es et res nulla te totum capit?"
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.4.4 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "quid es ergo, deus meus?"
+      },
+      {
+       "la": "quid, rogo, nisi dominus deus?"
+      },
+      {
+       "la": "quis enim dominus praeter dominum?"
+      },
+      {
+       "la": "aut quis deus praeter deum nostrum?"
+      },
+      {
+       "la": "summe, optime, potentissime, omnipotentissime, misericordissime et iustissime, secretissime et praesentissime, pulcherrime et fortissime, stabilis et incomprehensibilis, immutabilis mutans omnia, numquam novus numquam vetus, innovans omnia et in vetustatem perducens superbos et nesciunt."
+      },
+      {
+       "la": "semper agens semper quietus, conligens et non egens, portans et implens et protegens, creans et nutriens et perficiens, quaerens cum nihil desit tibi."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.4.4 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "amas nec aestuas, zelas et securus es, paenitet te et non doles, irasceris et tranquillus es, opera mutas nec mutas consilium, recipis quod invenis et numquam amisisti."
+      },
+      {
+       "la": "numquam inops et gaudes lucris, numquam avarus et usuras exigis, supererogatur tibi ut debeas: et quis habet quicquam non tuum?"
+      },
+      {
+       "la": "reddis debita nulli debens, donas debita nihil perdens."
+      },
+      {
+       "la": "et quid diximus, deus meus, vita mea, dulcedo mea sancta, aut quid dicit aliquis cum de te dicit?"
+      },
+      {
+       "la": "et vae tacentibus de te, quoniam loquaces muti sunt."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.5.5",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "quis mihi dabit adquiescere in te?"
+      },
+      {
+       "la": "quis dabit mihi ut venias in cor meum et inebries illud, ut obliviscar mala mea et unum bonum meum amplectar, te?"
+      },
+      {
+       "la": "quid mihi es?"
+      },
+      {
+       "la": "miserere ut loquar."
+      },
+      {
+       "la": "quid tibi sum ipse, ut amari te iubeas a me et, nisi faciam, irascaris mihi et mineris ingentes miserias?"
+      },
+      {
+       "la": "parvane ipsa est si non amem te?"
+      },
+      {
+       "la": "ei mihi!"
+      },
+      {
+       "la": "dic mihi per miserationes tuas, domine deus meus, quid sis mihi."
+      },
+      {
+       "la": "dic animae meae, 'salus tua ego sum': sic dic ut audiam."
+      },
+      {
+       "la": "ecce aures cordis mei ante te, domine."
+      },
+      {
+       "la": "aperi eas et dic animae meae, 'salus tua ego sum.'"
+      },
+      {
+       "la": "curram post vocem hanc et apprehendam te."
+      },
+      {
+       "la": "noli abscondere a me faciem tuam: moriar, ne moriar, ut eam videam."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.5.6",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "angusta est domus animae meae quo venias ad eam: dilatetur abs te."
+      },
+      {
+       "la": "ruinosa est: refice eam."
+      },
+      {
+       "la": "habet quae offendant oculos tuos: fateor et scio."
+      },
+      {
+       "la": "sed quis mundabit eam?"
+      },
+      {
+       "la": "aut cui alteri praeter te clamabo, 'ab occultis meis munda me, domine, et ab alienis parce servo tuo?'"
+      },
+      {
+       "la": "credo, propter quod et loquor, domine: tu scis."
+      },
+      {
+       "la": "nonne tibi prolocutus sum adversum me delicta mea, deus meus, et tu dimisisti impietatem cordis mei?"
+      },
+      {
+       "la": "non iudicio contendo tecum, qui veritas es, et ego nolo fallere me ipsum, ne mentiatur iniquitas mea sibi."
+      },
+      {
+       "la": "non ergo iudicio contendo tecum, quia, si iniquitates observaveris, domine, domine, quis sustinebit?"
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.6.7 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "sed tamen sine me loqui apud misericordiam tuam, me terram et cinerem sine tamen loqui."
+      },
+      {
+       "la": "quoniam ecce misericordia tua est, non homo, inrisor meus, cui loquor."
+      },
+      {
+       "la": "et tu fortasse inrides me, sed conversus misereberis mei."
+      },
+      {
+       "la": "quid enim est quod volo dicere, domine, nisi quia nescio unde venerim huc, in istam dico vitam mortalem an mortem vitalem?"
+      },
+      {
+       "la": "nescio."
+      },
+      {
+       "la": "et susceperunt me consolationes miserationum tuarum, sicut audivi a parentibus carnis meae, ex quo et in qua me formasti in tempore: non enim ego memini."
+      },
+      {
+       "la": "exceperunt ergo me consolationes lactis humani, nec mater mea vel nutrices meae sibi ubera implebant, sed tu mihi per eas dabas alimentum infantiae secundum institutionem tuam et divitias usque ad fundum rerum dispositas."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.6.7 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "tu etiam mihi dabas nolle amplius quam dabas, et nutrientibus me dare mihi velle quod eis dabas: dare enim mihi per ordinatum affectum volebant quo abundabant ex te."
+      },
+      {
+       "la": "nam bonum erat eis bonum meum ex eis, quod ex eis non sed per eas erat."
+      },
+      {
+       "la": "ex te quippe bona omnia, deus, et ex deo meo salus mihi universa."
+      },
+      {
+       "la": "quod animadverti postmodum, clamante te mihi per haec ipsa quae tribuis intus et foris."
+      },
+      {
+       "la": "nam tunc sugere noram et adquiescere delectationibus, flere autem offensiones carnis meae, nihil amplius."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.6.8",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "post et ridere coepi, dormiens primo, deinde vigilans."
+      },
+      {
+       "la": "hoc enim de me mihi indicatum est et credidi, quoniam sic videmus alios infantes: nam ista mea non memini."
+      },
+      {
+       "la": "et ecce paulatim sentiebam ubi essem, et voluntates meas volebam ostendere eis per quos implerentur, et non poteram, quia illae intus erant, foris autem illi, nec ullo suo sensu valebant introire in animam meam."
+      },
+      {
+       "la": "itaque iactabam membra et voces, signa similia voluntatibus meis, pauca quae poteram, qualia poteram: non enim erant vere similia."
+      },
+      {
+       "la": "et cum mihi non obtemperabatur, vel non intellecto vel ne obesset, indignabar non subditis maioribus et liberis non servientibus, et me de illis flendo vindicabam."
+      },
+      {
+       "la": "tales esse infantes didici quos discere potui, et me talem fuisse magis mihi ipsi indicaverunt nescientes quam scientes nutritores mei."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.6.9 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "et ecce infantia mea olim mortua est et ego vivo."
+      },
+      {
+       "la": "tu autem, domine, qui et semper vivis et nihil moritur in te, quoniam ante primordia saeculorum, et ante omne quod vel ante dici potest, tu es, et deus es dominusque omnium quae creasti, et apud te rerum omnium instabilium stant causae, et rerum omnium mutabilium immutabiles manent origines, et omnium inrationalium et temporalium sempiternae vivunt rationes, dic mihi supplici tuo, deus, et misericors misero tuo dic mihi, utrum alicui iam aetati meae mortuae successerit infantia mea."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.6.9 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "an illa est quam egi intra viscera matris meae?"
+      },
+      {
+       "la": "nam et de illa mihi nonnihil indicatum est et praegnantes ipse vidi feminas."
+      },
+      {
+       "la": "quid ante hanc etiam, dulcedo mea, deus meus?"
+      },
+      {
+       "la": "fuine alicubi aut aliquis?"
+      },
+      {
+       "la": "nam quis mihi dicat ista, non habeo; nec pater nec mater potuerunt, nec aliorum experimentum nec memoria mea."
+      },
+      {
+       "la": "an inrides me ista quaerentem teque de hoc quod novi laudari a me iubes et confiteri me tibi?"
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.6.10 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "confiteor tibi, domine caeli et terrae, laudem dicens tibi de primordiis et infantia mea, quae non memini."
+      },
+      {
+       "la": "et dedisti ea homini ex aliis de se conicere et auctoritatibus etiam muliercularum multa de se credere."
+      },
+      {
+       "la": "eram enim et vivebam etiam tunc, et signa quibus sensa mea nota aliis facerem iam in fine infantiae quaerebam."
+      },
+      {
+       "la": "unde hoc tale animal nisi abs te, domine?"
+      },
+      {
+       "la": "an quisquam se faciendi erit artifex?"
+      },
+      {
+       "la": "aut ulla vena trahitur aliunde qua esse et vivere currat in nos, praeterquam quod tu facis nos, domine, cui esse et vivere non aliud atque aliud, quia summe esse ac summe vivere idipsum est?"
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.6.10 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "summus enim es et non mutaris, neque peragitur in te hodiernus dies, et tamen in te peragitur, quia in te sunt et ista omnia: non enim haberent vias transeundi, nisi contineres eas."
+      },
+      {
+       "la": "et quoniam anni tui non deficiunt, anni tui hodiernus dies."
+      },
+      {
+       "la": "et quam multi iam dies nostri et patrum nostrorum per hodiernum tuum transierunt et ex illo acceperunt modos et utcumque extiterunt, et transibunt adhuc alii et accipient et utcumque existent."
+      },
+      {
+       "la": "tu autem idem ipse es et omnia crastina atque ultra omniaque hesterna et retro hodie facies, hodie fecisti."
+      },
+      {
+       "la": "quid ad me, si quis non intellegat?"
+      },
+      {
+       "la": "gaudeat et ipse dicens, 'quid est hoc?'"
+      },
+      {
+       "la": "gaudeat etiam sic, et amet non inveniendo invenire potius quam inveniendo non invenire te."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.7.11 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "exaudi, deus."
+      },
+      {
+       "la": "vae peccatis hominum!"
+      },
+      {
+       "la": "et homo dicit haec, et misereris eius, quoniam tu fecisti eum et peccatum non fecisti in eo."
+      },
+      {
+       "la": "quis me commemorat peccatum infantiae meae, quoniam nemo mundus a peccato coram te, nec infans cuius est unius diei vita super terram?"
+      },
+      {
+       "la": "quis me commemorat?"
+      },
+      {
+       "la": "an quilibet tantillus nunc parvulus, in quo video quod non memini de me?"
+      },
+      {
+       "la": "quid ergo tunc peccabam?"
+      },
+      {
+       "la": "an quia uberibus inhiabam plorans?"
+      },
+      {
+       "la": "nam si nunc faciam, non quidem uberibus sed escae congruenti annis meis ita inhians, deridebor atque reprehendar iustissime."
+      },
+      {
+       "la": "tunc ergo reprehendenda faciebam, sed quia reprehendentem intellegere non poteram, nec mos reprehendi me nec ratio sinebat: nam extirpamus et eicimus ista crescentes."
+      },
+      {
+       "la": "nec vidi quemquam scientem, cum aliquid purgat, bona proicere."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.7.11 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "an pro tempore etiam illa bona erant, flendo petere etiam quod noxie daretur, indignari acriter non subiectis hominibus liberis et maioribus hisque, a quibus genitus est, multisque praeterea prudentioribus non ad nutum voluntatis obtemperantibus feriendo nocere niti quantum potest, quia non oboeditur imperiis quibus perniciose oboediretur?"
+      },
+      {
+       "la": "ita inbecillitas membrorum infantilium innocens est, non animus infantium."
+      },
+      {
+       "la": "vidi ego et expertus sum zelantem parvulum: nondum loquebatur et intuebatur pallidus amaro aspectu conlactaneum suum."
+      },
+      {
+       "la": "quis hoc ignorat?"
+      },
+      {
+       "la": "expiare se dicunt ista matres atque nutrices nescio quibus remediis."
+      },
+      {
+       "la": "nisi vero et ista innocentia est, in fonte lactis ubertim manante atque abundante opis egentissimum et illo adhuc uno alimento vitam ducentem consortem non pati."
+      },
+      {
+       "la": "sed blande tolerantur haec, non quia nulla vel parva, sed quia aetatis accessu peritura sunt."
+      },
+      {
+       "la": "quod licet probes, cum ferri aequo animo eadem ipsa non possunt quando in aliquo annosiore deprehenduntur."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.7.12 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "tu itaque, domine deus meus, qui dedisti vitam infanti et corpus, quod ita, ut videmus, instruxisti sensibus, compegisti membris, figura decorasti proque eius universitate atque incolumitate omnes conatus animantis insinuasti, iubes me laudare te in istis et confiteri tibi et psallere nomini tuo, altissime, quia deus es omnipotens et bonus, etiamsi sola ista fecisses, quae nemo alius potest facere nisi tu, une, a quo est omnis modus, formosissime, qui formas omnia et lege tua ordinas omnia."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.7.12 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "hanc ergo aetatem, domine, quam me vixisse non memini, de qua aliis credidi et quam me egisse ex aliis infantibus conieci, quamquam ista multum fida coniectura sit, piget me adnumerare huic vitae meae quam vivo in hoc saeculo."
+      },
+      {
+       "la": "quantum enim attinet ad oblivionis meae tenebras, par illi est quam vixi in matris utero."
+      },
+      {
+       "la": "quod si et in iniquitate conceptus sum et in peccatis mater mea me in utero aluit, ubi, oro te, deus meus, ubi, domine, ego, servus tuus, ubi aut quando innocens fui?"
+      },
+      {
+       "la": "sed ecce omitto illud tempus: et quid mihi iam cum eo est, cuius nulla vestigia recolo?"
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.8.13 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "nonne ab infantia huc pergens veni in pueritiam?"
+      },
+      {
+       "la": "vel potius ipsa in me venit et successit infantiae?"
+      },
+      {
+       "la": "nec discessit illa: quo enim abiit?"
+      },
+      {
+       "la": "et tamen iam non erat."
+      },
+      {
+       "la": "non enim eram infans qui non farer, sed iam puer loquens eram."
+      },
+      {
+       "la": "et memini hoc, et unde loqui didiceram post adverti."
+      },
+      {
+       "la": "non enim docebant me maiores homines, praebentes mihi verba certo aliquo ordine doctrinae sicut paulo post litteras, sed ego ipse mente quam dedisti mihi, deus meus, cum gemitibus et vocibus variis et variis membrorum motibus edere vellem sensa cordis mei, ut voluntati pareretur, nec valerem quae volebam omnia nec quibus volebam omnibus, prensabam memoria."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.8.13 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "cum ipsi appellabant rem aliquam et cum secundum eam vocem corpus ad aliquid movebant, videbam et tenebam hoc ab eis vocari rem illam quod sonabant cum eam vellent ostendere."
+      },
+      {
+       "la": "hoc autem eos velle ex motu corporis aperiebatur tamquam verbis naturalibus omnium gentium, quae fiunt vultu et nutu oculorum ceterorumque membrorum actu et sonitu vocis indicante affectionem animi in petendis, habendis, reiciendis fugiendisve rebus."
+      },
+      {
+       "la": "ita verba in variis sententiis locis suis posita et crebro audita quarum rerum signa essent paulatim conligebam measque iam voluntates edomito in eis signis ore per haec enuntiabam."
+      },
+      {
+       "la": "sic cum his inter quos eram voluntatum enuntiandarum signa communicavi, et vitae humanae procellosam societatem altius ingressus sum, pendens ex parentum auctoritate nutuque maiorum hominum."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.9.14 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "deus, deus meus, quas ibi miserias expertus sum et ludificationes, quandoquidem recte mihi vivere puero id proponebatur, obtemperare monentibus, ut in hoc saeculo florerem et excellerem linguosis artibus ad honorem hominum et falsas divitias famulantibus."
+      },
+      {
+       "la": "inde in scholam datus sum ut discerem litteras, in quibus quid utilitatis esset ignorabam miser."
+      },
+      {
+       "la": "et tamen, si segnis in discendo essem, vapulabam."
+      },
+      {
+       "la": "laudabatur enim hoc a maioribus, et multi ante nos vitam istam agentes praestruxerant aerumnosas vias, per quas transire cogebamur multiplicato labore et dolore filiis Adam."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.9.14 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "invenimus autem, domine, homines rogantes te et didicimus ab eis, sentientes te, ut poteramus, esse magnum aliquem qui posses etiam non apparens sensibus nostris exaudire nos et subvenire nobis."
+      },
+      {
+       "la": "nam puer coepi rogare te, auxilium et refugium meum, et in tuam invocationem rumpebam nodos linguae meae et rogabam te parvus non parvo affectu, ne in schola vapularem."
+      },
+      {
+       "la": "et cum me non exaudiebas, quod non erat ad insipientiam mihi, ridebantur a maioribus hominibus usque ab ipsis parentibus, qui mihi accidere mali nihil volebant, plagae meae, magnum tunc et grave malum meum."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.9.15 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "estne quisquam, domine, tam magnus animus, praegrandi affectu tibi cohaerens, estne, inquam, quisquam (facit enim hoc quaedam etiam stoliditas: est ergo), qui tibi pie cohaerendo ita sit affectus granditer, ut eculeos et ungulas atque huiuscemodi varia tormenta (pro quibus effugiendis tibi per universas terras cum timore magno supplicatur) ita parvi aestimet, diligens eos qui haec acerbissime formidant, quemadmodum parentes nostri ridebant tormenta quibus pueri a magistris affligebamur?"
+      },
+      {
+       "la": "non enim aut minus ea metuebamus aut minus te de his evadendis deprecabamur, et peccabamus tamen minus scribendo aut legendo aut cogitando de litteris quam exigebatur a nobis."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.9.15 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "non enim deerat, domine, memoria vel ingenium, quae nos habere voluisti pro illa aetate satis, sed delectabat ludere et vindicabatur in nos ab eis qui talia utique agebant."
+      },
+      {
+       "la": "sed maiorum nugae negotia vocantur, puerorum autem talia cum sint, puniuntur a maioribus, et nemo miseratur pueros vel illos vel utrosque."
+      },
+      {
+       "la": "nisi vero approbat quisquam bonus rerum arbiter vapulasse me, quia ludebam pila puer et eo ludo impediebar quominus celeriter discerem litteras, quibus maior deformius luderem."
+      },
+      {
+       "la": "aut aliud faciebat idem ipse a quo vapulabam, qui si in aliqua quaestiuncula a condoctore suo victus esset, magis bile atque invidia torqueretur quam ego, cum in certamine pilae a conlusore meo superabar?"
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.10.16 · Teil 1/3",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "et tamen peccabam, domine deus, ordinator et creator rerum omnium naturalium, peccatorum autem tantum ordinator, domine deus meus, peccabam faciendo contra praecepta parentum et magistrorum illorum."
+      },
+      {
+       "la": "poteram enim postea bene uti litteris, quas volebant ut discerem quocumque animo illi mei."
+      },
+      {
+       "la": "non enim meliora eligens inoboediens eram, sed amore ludendi, amans in certaminibus superbas victorias et scalpi aures meas falsis fabellis, quo prurirent ardentius, eadem curiositate magis magisque per oculos emicante in spectacula, ludos maiorum -- quos tamen qui edunt, ea dignitate praediti excellunt, ut hoc paene omnes optent parvulis suis, quos tamen caedi libenter patiuntur, si spectaculis talibus impediantur ab studio quo eos ad talia edenda cupiunt pervenire."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.10.16 · Teil 2/3",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "vide ista, domine, misericorditer, et libera nos iam invocantes te, libera etiam eos qui nondum te invocant, ut invocent te et liberes eos."
+      },
+      {
+       "la": "1.11.17 commentary on 1.11.17 audieram enim ego adhuc puer de vita aeterna promissa nobis per humilitatem domini dei nostri descendentis ad superbiam nostram, et signabar iam signo crucis eius, et condiebar eius sale iam inde ab utero matris meae, quae multum speravit in te."
+      },
+      {
+       "la": "vidisti, domine, cum adhuc puer essem et quodam die pressu stomachi repente aestuarem paene moriturus, vidisti, deus meus, quoniam custos meus iam eras, quo motu animi et qua fide baptismum Christi tui, dei et domini mei, flagitavi a pietate matris meae et matris omnium nostrum, ecclesiae tuae."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.10.16 · Teil 3/3",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "et conturbata mater carnis meae, quoniam et sempiternam salutem meam carius parturiebat corde casto in fide tua, iam curaret festinabunda ut sacramentis salutaribus initiarer et abluerer, te, domine Iesu, confitens in remissionem peccatorum, nisi statim recreatus essem."
+      },
+      {
+       "la": "dilata est itaque mundatio mea, quasi necesse esset ut adhuc sordidarer si viverem, quia videlicet post lavacrum illud maior et periculosior in sordibus delictorum reatus foret."
+      },
+      {
+       "la": "ita iam credebam et illa et omnis domus, nisi pater solus, qui tamen non evicit in me ius maternae pietatis, quominus in Christum crederem, sicut ille nondum crediderat."
+      },
+      {
+       "la": "nam illa satagebat ut tu mihi pater esses, deus meus, potius quam ille, et in hoc adiuvabas eam, ut superaret virum, cui melior serviebat, quia et in hoc tibi utique id iubenti serviebat."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.11.18",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "rogo te, deus meus: vellem scire, si tu etiam velles, quo consilio dilatus sum ne tunc baptizarer, utrum bono meo mihi quasi laxata sint lora peccandi."
+      },
+      {
+       "la": "an non laxata sunt?"
+      },
+      {
+       "la": "unde ergo etiam nunc de aliis atque aliis sonat undique in auribus nostris: 'sine illum, faciat: nondum enim baptizatus est'?"
+      },
+      {
+       "la": "et tamen in salute corporis non dicimus: 'sine vulneretur amplius: nondum enim sanatus est.'"
+      },
+      {
+       "la": "quanto ergo melius et cito sanarer et id ageretur mecum meorum meaque diligentia, ut recepta salus animae meae tuta esset tutela tua, qui dedisses eam."
+      },
+      {
+       "la": "melius vero."
+      },
+      {
+       "la": "sed quot et quanti fluctus impendere temptationum post pueritiam videbantur, noverat eos iam illa mater et terram per eos, unde postea formarer, quam ipsam iam effigiem committere volebat."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.12.19 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "in ipsa tamen pueritia, de qua mihi minus quam de adulescentia metuebatur, non amabam litteras et me in eas urgeri oderam, et urgebar tamen et bene mihi fiebat."
+      },
+      {
+       "la": "nec faciebam ego bene (non enim discerem nisi cogerer; nemo autem invitus bene facit, etiamsi bonum est quod facit), nec qui me urgebant bene faciebant, sed bene mihi fiebat abs te, deus meus."
+      },
+      {
+       "la": "illi enim non intuebantur quo referrem quod me discere cogebant, praeterquam ad satiandas insatiabiles cupiditates copiosae inopiae et ignominiosae gloriae."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.12.19 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "tu vero, cui numerati sunt capilli nostri, errore omnium qui mihi instabant ut discerem utebaris ad utilitatem meam, meo autem, qui discere nolebam, utebaris ad poenam meam, qua plecti non eram indignus, tantillus puer et tantus peccator."
+      },
+      {
+       "la": "ita de non bene facientibus tu bene faciebas mihi et de peccante me ipso iuste retribuebas mihi."
+      },
+      {
+       "la": "iussisti enim et sic est, ut poena sua sibi sit omnis inordinatus animus."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.13.20 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "quid autem erat causae cur graecas litteras oderam, quibus puerulus imbuebar?"
+      },
+      {
+       "la": "ne nunc quidem mihi satis exploratum est."
+      },
+      {
+       "la": "adamaveram enim latinas, non quas primi magistri sed quas docent qui grammatici vocantur."
+      },
+      {
+       "la": "nam illas primas, ubi legere et scribere et numerare discitur, non minus onerosas poenalesque habebam quam omnes graecas."
+      },
+      {
+       "la": "unde tamen et hoc nisi de peccato et vanitate vitae, qua caro eram et spiritus ambulans et non revertens?"
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.13.20 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "nam utique meliores, quia certiores, erant primae illae litterae quibus fiebat in me et factum est et habeo illud ut et legam, si quid scriptum invenio, et scribam ipse, si quid volo, quam illae quibus tenere cogebar Aeneae nescio cuius errores, oblitus errorum meorum, et plorare Didonem mortuam, quia se occidit ab amore, cum interea me ipsum in his a te morientem, deus, vita mea, siccis oculis ferrem miserrimus."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.13.21",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "quid enim miserius misero non miserante se ipsum et flente Didonis mortem, quae fiebat amando Aenean, non flente autem mortem suam, quae fiebat non amando te, deus, lumen cordis mei et panis oris intus animae meae et virtus maritans mentem meam et sinum cogitationis meae?"
+      },
+      {
+       "la": "non te amabam, et fornicabar abs te, et fornicanti sonabat undique: 'euge!"
+      },
+      {
+       "la": "euge!'"
+      },
+      {
+       "la": "amicitia enim mundi huius fornicatio est abs te et 'euge!"
+      },
+      {
+       "la": "euge!'"
+      },
+      {
+       "la": "dicitur ut pudeat, si non ita homo sit."
+      },
+      {
+       "la": "et haec non flebam, et flebam Didonem extinctam ferroque extrema secutam, sequens ipse extrema condita tua relicto te et terra iens in terram."
+      },
+      {
+       "la": "et si prohiberer ea legere, dolerem, quia non legerem quod dolerem."
+      },
+      {
+       "la": "tali dementia honestiores et uberiores litterae putantur quam illae quibus legere et scribere didici."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.13.22 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "sed nunc in anima mea clamet deus meus, et veritas tua dicat mihi, 'non est ita, non est ita.'"
+      },
+      {
+       "la": "melior est prorsus doctrina illa prior."
+      },
+      {
+       "la": "nam ecce paratior sum oblivisci errores Aeneae atque omnia eius modi quam scribere et legere."
+      },
+      {
+       "la": "at enim vela pendent liminibus grammaticarum scholarum, sed non illa magis honorem secreti quam tegimentum erroris significant."
+      },
+      {
+       "la": "non clament adversus me quos iam non timeo, dum confiteor tibi quae vult anima mea, deus meus, et adquiesco in reprehensione malarum viarum mearum, ut diligam bonas vias tuas, non clament adversus me venditores grammaticae vel emptores, quia, si proponam eis interrogans, utrum verum sit quod Aenean aliquando Carthaginem venisse poeta dicit, indoctiores nescire se respondebunt, doctiores autem etiam negabunt verum esse."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.13.22 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "at si quaeram quibus litteris scribatur Aeneae nomen, omnes mihi qui haec didicerunt verum respondent secundum id pactum et placitum quo inter se homines ista signa firmarunt."
+      },
+      {
+       "la": "item si quaeram quid horum maiore vitae huius incommodo quisque obliviscatur, legere et scribere an poetica illa figmenta, quis non videat quid responsurus sit, qui non est penitus oblitus sui?"
+      },
+      {
+       "la": "peccabam ergo puer cum illa inania istis utilioribus amore praeponebam, vel potius ista oderam, illa amabam."
+      },
+      {
+       "la": "iam vero unum et unum duo, duo et duo quattuor, odiosa cantio mihi erat, et dulcissimum spectaculum vanitatis, equus ligneus plenus armatis et Troiae incendium atque ipsius umbra Creusae."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.14.23 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "cur ergo graecam etiam grammaticam oderam talia cantantem?"
+      },
+      {
+       "la": "nam et Homerus peritus texere tales fabellas et dulcissime vanus est, mihi tamen amarus erat puero."
+      },
+      {
+       "la": "credo etiam graecis pueris Vergilius ita sit, cum eum sic discere coguntur ut ego illum."
+      },
+      {
+       "la": "videlicet difficultas, difficultas omnino ediscendae linguae peregrinae, quasi felle aspergebat omnes suavitates graecas fabulosarum narrationum."
+      },
+      {
+       "la": "nulla enim verba illa noveram, et saevis terroribus ac poenis ut nossem instabatur mihi vehementer."
+      },
+      {
+       "la": "nam et latina aliquando infans utique nulla noveram, et tamen advertendo didici sine ullo metu atque cruciatu, inter etiam blandimenta nutricum et ioca adridentium et laetitias adludentium."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.14.23 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "didici vero illa sine poenali onere urgentium, cum me urgeret cor meum ad parienda concepta sua, † et qua † non esset, nisi aliqua verba didicissem non a docentibus sed a loquentibus, in quorum et ego auribus parturiebam quidquid sentiebam."
+      },
+      {
+       "la": "hinc satis elucet maiorem habere vim ad discenda ista liberam curiositatem quam meticulosam necessitatem."
+      },
+      {
+       "la": "sed illius fluxum haec restringit legibus tuis, deus, legibus tuis a magistrorum ferulis usque ad temptationes martyrum, valentibus legibus tuis miscere salubres amaritudines revocantes nos ad te a iucunditate pestifera qua recessimus a te."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.15.24",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "exaudi, domine, deprecationem meam, ne deficiat anima mea sub disciplina tua neque deficiam in confitendo tibi miserationes tuas, quibus eruisti me ab omnibus viis meis pessimis, ut dulcescas mihi super omnes seductiones quas sequebar, et amem te validissime, et amplexer manum tuam totis praecordiis meis, et eruas me ab omni temptatione usque in finem."
+      },
+      {
+       "la": "ecce enim tu, domine, rex meus et deus meus, tibi serviat quidquid utile puer didici, tibi serviat quod loquor et scribo et lego et numero, quoniam cum vana discerem tu disciplinam dabas mihi, et in eis vanis peccata delectationum mearum dimisisti mihi."
+      },
+      {
+       "la": "didici enim in eis multa verba utilia, sed et in rebus non vanis disci possunt, et ea via tuta est in qua pueri ambularent."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.16.25",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "sed vae tibi, flumen moris humani!"
+      },
+      {
+       "la": "quis resistet tibi?"
+      },
+      {
+       "la": "quamdiu non siccaberis?"
+      },
+      {
+       "la": "quousque volves Evae filios in mare magnum et formidulosum, quod vix transeunt qui lignum conscenderint?"
+      },
+      {
+       "la": "nonne ego in te legi et tonantem Iovem et adulterantem?"
+      },
+      {
+       "la": "et utique non posset haec duo, sed actum est ut haberet auctoritatem ad imitandum verum adulterium lenocinante falso tonitru."
+      },
+      {
+       "la": "quis autem paenulatorum magistrorum audit aure sobria ex eodem pulvere hominem clamantem et dicentem: 'fingebat haec Homerus et humana ad deos transferebat: divina mallem ad nos'?"
+      },
+      {
+       "la": "sed verius dicitur quod fingebat haec quidem ille, sed hominibus flagitiosis divina tribuendo, ne flagitia flagitia putarentur et ut, quisquis ea fecisset, non homines perditos sed caelestes deos videretur imitatus."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.16.26 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "et tamen, o flumen tartareum, iactantur in te filii hominum cum mercedibus, ut haec discant, et magna res agitur cum hoc agitur publice in foro, in conspectu legum supra mercedem salaria decernentium, et saxa tua percutis et sonas dicens: 'hinc verba discuntur, hinc adquiritur eloquentia, rebus persuadendis sententiisque explicandis maxime necessaria.'"
+      },
+      {
+       "la": "ita vero non cognosceremus verba haec, 'imbrem aureum' et 'gremium' et 'fucum' et 'templa caeli' et alia verba quae in eo loco scripta sunt, nisi Terentius induceret nequam adulescentem proponentem sibi Iovem ad exemplum stupri, dum spectat tabulam quandam pictam in pariete ubi inerat pictura haec, Iovem quo pacto Danae misisse aiunt in gremium quondam imbrem aureum, fucum factum mulieri?"
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.16.26 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "et vide quemadmodum se concitat ad libidinem quasi caelesti magisterio: 'at quem deum!"
+      },
+      {
+       "la": "inquit qui templa caeli summo sonitu concutit."
+      },
+      {
+       "la": "ego homuncio id non facerem?"
+      },
+      {
+       "la": "ego vero illud feci ac libens.'"
+      },
+      {
+       "la": "non omnino per hanc turpitudinem verba ista commodius discuntur, sed per haec verba turpitudo ista confidentius perpetratur."
+      },
+      {
+       "la": "non accuso verba quasi vasa electa atque pretiosa, sed vinum erroris quod in eis nobis propinabatur ab ebriis doctoribus, et nisi biberemus caedebamur, nec appellare ad aliquem iudicem sobrium licebat."
+      },
+      {
+       "la": "et tamen ego, deus meus, in cuius conspectu iam secura est recordatio mea, libenter haec didici, et eis delectabar miser, et ob hoc bonae spei puer appellabar."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.17.27 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "sine me, deus meus, dicere aliquid et de ingenio meo, munere tuo, in quibus a me deliramentis atterebatur."
+      },
+      {
+       "la": "proponebatur enim mihi negotium, animae meae satis inquietum praemio laudis et dedecoris vel plagarum metu, ut dicerem verba Iunonis irascentis et dolentis quod non posset Italia Teucrorum avertere regem, quae numquam Iunonem dixisse audieram."
+      },
+      {
+       "la": "sed figmentorum poeticorum vestigia errantes sequi cogebamur, et tale aliquid dicere solutis verbis quale poeta dixisset versibus."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.17.27 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "et ille dicebat laudabilius in quo pro dignitate adumbratae personae irae ac doloris similior affectus eminebat, verbis sententias congruenter vestientibus."
+      },
+      {
+       "la": "ut quid mihi illud, o vera vita, deus meus, quod mihi recitanti adclamabatur prae multis coaetaneis et conlectoribus meis?"
+      },
+      {
+       "la": "nonne ecce illa omnia fumus et ventus?"
+      },
+      {
+       "la": "itane aliud non erat ubi exerceretur ingenium et lingua mea?"
+      },
+      {
+       "la": "laudes tuae, domine, laudes tuae per scripturas tuas suspenderent palmitem cordis mei, et non raperetur per inania nugarum turpis praeda volatilibus."
+      },
+      {
+       "la": "non enim uno modo sacrificatur transgressoribus angelis."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.18.28 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "quid autem mirum, quod in vanitates ita ferebar et a te, deus meus, ibam foras, quando mihi imitandi proponebantur homines qui aliqua facta sua non mala, si cum barbarismo aut soloecismo enuntiarent, reprehensi confundebantur, si autem libidines suas integris et rite consequentibus verbis copiose ornateque narrarent, laudati gloriabantur?"
+      },
+      {
+       "la": "vides haec, domine, et taces, longanimis et multum misericors et verax."
+      },
+      {
+       "la": "numquid semper tacebis?"
+      },
+      {
+       "la": "et nunc eruis de hoc immanissimo profundo quarerentem te animam et sitientem delectationes tuas, et cuius cor dicit tibi, 'quaesivi vultum tuum.'"
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.18.28 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "vultum tuum, domine, requiram: nam longe a vultu tuo in affectu tenebroso."
+      },
+      {
+       "la": "non enim pedibus aut a spatiis locorum itur abs te aut reditur ad te, aut vero filius ille tuus minor equos vel currus vel naves quaesivit, aut avolavit pinna visibili, aut moto poplite iter egit, ut in longinqua regione vivens prodige dissiparet quod dederas proficiscenti, dulcis pater quia dederas, et egeno redeunti dulcior: in affectu ergo libidinoso, id enim est tenebroso, atque id est longe a vultu tuo."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.18.29 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "vide, domine deus, et patienter, ut vides, vide quomodo diligenter observent filii hominum pacta litterarum et syllabarum accepta a prioribus locutoribus, et a te accepta aeterna pacta perpetuae salutis neglegant, ut qui illa sonorum vetera placita teneat aut doceat, si contra disciplinam grammaticam sine adspiratione primae syllabae hominem dixerit, magis displiceat hominibus quam si contra tua praecepta hominem oderit, cum sit homo."
+      },
+      {
+       "la": "quasi vero quemlibet inimicum hominem perniciosius sentiat quam ipsum odium quo in eum inritatur, aut vastet quisquam persequendo alium gravius quam cor suum vastat inimicando."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.18.29 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "et certe non est interior litterarum scientia quam scripta conscientia, id se alteri facere quod nolit pati."
+      },
+      {
+       "la": "quam tu secretus es, habitans in excelsis in silentio, deus solus magnus, lege infatigabili spargens poenales caecitates supra inlicitas cupiditates, cum homo eloquentiae famam quaeritans ante hominem iudicem circumstante hominum multitudine inimicum suum odio immanissimo insectans vigilantissime cavet, ne per linguae errorem dicat, 'inter hominibus', et ne per mentis furorem hominem auferat ex hominibus, non cavet."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.19.30 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "horum ego puer morum in limine iacebam miser, et huius harenae palaestra erat illa, ubi magis timebam barbarismum facere quam cavebam, si facerem, non facientibus invidere."
+      },
+      {
+       "la": "dico haec et confiteor tibi, deus meus, in quibus laudabar ab eis quibus placere tunc mihi erat honeste vivere."
+      },
+      {
+       "la": "non enim videbam voraginem turpitudinis in quam proiectus eram ab oculis tuis."
+      },
+      {
+       "la": "nam in illis iam quid me foedius fuit, ubi etiam talibus displicebam fallendo innumerabilibus mendaciis et paedagogum et magistros et parentes amore ludendi, studio spectandi nugatoria et imitandi ludicra inquietudine?"
+      },
+      {
+       "la": "furta etiam faciebam de cellario parentum et de mensa, vel gula imperitante vel ut haberem quod darem pueris ludum suum mihi quo pariter utique delectabantur tamen vendentibus."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.19.30 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "in quo etiam ludo fraudulentas victorias ipse vana excellentiae cupiditate victus saepe aucupabar."
+      },
+      {
+       "la": "quid autem tam nolebam pati atque atrociter, si deprehenderem, arguebam, quam id quod aliis faciebam?"
+      },
+      {
+       "la": "et, si deprehensus arguerer, saevire magis quam cedere libebat."
+      },
+      {
+       "la": "istane est innocentia puerilis?"
+      },
+      {
+       "la": "non est, domine, non est."
+      },
+      {
+       "la": "oro te, deus meus: nam haec ipsa sunt quae a paedagogis et magistris, a nucibus et pilulis et passeribus, ad praefectos et reges, aurum, praedia, mancipia, haec ipsa omnino succedentibus maioribus aetatibus transeunt, sicuti ferulis maiora supplicia succedunt."
+      },
+      {
+       "la": "humilitatis ergo signum in statura pueritiae, rex noster, probasti, cum aisti, 'talium est regnum caelorum.'"
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.20.31 · Teil 1/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "sed tamen, domine, tibi excellentissimo atque optimo conditori et rectori universitatis, deo nostro gratias, etiamsi me puerum tantum esse voluisses."
+      },
+      {
+       "la": "eram enim etiam tunc, vivebam atque sentiebam meamque incolumitatem, vestigium secretissimae unitatis ex qua eram, curae habebam, custodiebam interiore sensu integritatem sensuum meorum inque ipsis parvis parvarumque rerum cogitationibus veritate delectabar."
+      },
+      {
+       "la": "falli nolebam, memoria vigebam, locutione instruebar, amicitia mulcebar, fugiebam dolorem, abiectionem, ignorantiam."
+      },
+      {
+       "la": "quid in tali animante non mirabile atque laudabile?"
+      },
+      {
+       "la": "at ista omnia dei mei dona sunt."
+      },
+      {
+       "la": "non mihi ego dedi haec, et bona sunt, et haec omnia ego."
+      }
+     ]
+    },
+    {
+     "ref": "Liber I, 1.20.31 · Teil 2/2",
+     "ready": false,
+     "sentences": [
+      {
+       "la": "bonus ergo est qui fecit me, et ipse est bonum meum, et illi exulto bonis omnibus quibus etiam puer eram."
+      },
+      {
+       "la": "hoc enim peccabam, quod non in ipso sed in creaturis eius me atque ceteris voluptates, sublimitates, veritates quaerebam, atque ita inruebam in dolores, confusiones, errores."
+      },
+      {
+       "la": "gratias tibi, dulcedo mea et honor meus et fiducia mea, deus meus, gratias tibi de donis tuis: sed tu mihi ea serva."
+      },
+      {
+       "la": "ita enim servabis me, et augebuntur et perficientur quae dedisti mihi, et ero ipse tecum, quia et ut sim tu dedisti mihi."
       }
      ]
     }
    ],
    "source": {
-    "url": "https://atlas.perseus.tufts.edu/library/passage/urn:cts:latinLit:stoa0058.stoa001.opp-lat3:1.I.1-1.I.5",
-    "title": "Scaife Viewer (Perseus)"
+    "url": "https://www.thelatinlibrary.com/augustine.html",
+    "title": "The Latin Library (Text: James J. O'Donnell)"
    }
   }
+ ],
+ "notes": [
+  "Lateinischer Text nach The Latin Library (Caesar; Augustinus in der Ausgabe von James J. O'Donnell, mit Kleinschreibung am Satzanfang).",
+  "Die deutschen Satzübersetzungen sind eigene Übersetzungen. Wörterbuch und Übersetzung werden Abschnitt für Abschnitt ergänzt."
  ],
  "dict": {
   "gallia": [
@@ -1036,168 +3571,6 @@
     ]
    ]
   ],
-  "carmina": [
-   "Lieder, Gedichte",
-   "Akk. Pl.",
-   "",
-   [
-    [
-     "Grundform",
-     "carmen, carminis n.",
-     1
-    ]
-   ]
-  ],
-  "quondam": [
-   "einst",
-   "Adverb",
-   "",
-   []
-  ],
-  "studio": [
-   "(in) Eifer",
-   "Abl. Sg.; studio florente = Ablativus absolutus: als mein Eifer blühte",
-   "",
-   [
-    [
-     "Grundform",
-     "studium, -i n.",
-     1
-    ]
-   ]
-  ],
-  "florente": [
-   "blühend",
-   "Partizip Präsens, Abl. Sg.",
-   "",
-   [
-    [
-     "Form",
-     "Partizip Präsens Aktiv"
-    ],
-    [
-     "Infinitiv",
-     "florere",
-     1
-    ],
-    [
-     "Stammformen",
-     "floreo, florui, –",
-     1
-    ]
-   ]
-  ],
-  "peregi": [
-   "(ich) habe vollendet",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Perfekt Ind. Aktiv, 1. Sg."
-    ],
-    [
-     "Infinitiv",
-     "peragere",
-     1
-    ],
-    [
-     "Stammformen",
-     "perago, peregi, peractum",
-     1
-    ]
-   ]
-  ],
-  "flebilis": [
-   "weinend, unter Tränen",
-   "Nom. Sg. m., auf das Ich bezogen",
-   "",
-   [
-    [
-     "Grundform",
-     "flebilis, flebile",
-     1
-    ]
-   ]
-  ],
-  "heu": [
-   "ach!",
-   "Ausruf",
-   "",
-   []
-  ],
-  "maestos": [
-   "traurige",
-   "Akk. Pl. m.",
-   "",
-   [
-    [
-     "Grundform",
-     "maestus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "cogor": [
-   "(ich) werde gezwungen, muss",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Präsens Ind. Passiv, 1. Sg."
-    ],
-    [
-     "Infinitiv",
-     "cogere",
-     1
-    ],
-    [
-     "Stammformen",
-     "cogo, coegi, coactum",
-     1
-    ]
-   ]
-  ],
-  "inire": [
-   "anstimmen, beginnen",
-   "Infinitiv",
-   "",
-   [
-    [
-     "Form",
-     "Infinitiv Präsens Aktiv"
-    ],
-    [
-     "Infinitiv",
-     "inire",
-     1
-    ],
-    [
-     "Stammformen",
-     "ineo, inii, initum",
-     1
-    ]
-   ]
-  ],
-  "modos": [
-   "Weisen, Melodien",
-   "Akk. Pl.",
-   "",
-   [
-    [
-     "Grundform",
-     "modus, -i m.",
-     1
-    ]
-   ]
-  ],
-  "ecce": [
-   "sieh!",
-   "",
-   "",
-   []
-  ],
   "mihi": [
    "mir",
    "Dat. Sg.",
@@ -1210,234 +3583,9 @@
     ]
    ]
   ],
-  "lacerae": [
-   "zerzauste, zerrissene",
-   "Nom. Pl. f.",
-   "",
-   [
-    [
-     "Grundform",
-     "lacer, lacera, lacerum",
-     1
-    ]
-   ]
-  ],
-  "dictant": [
-   "(sie) sagen vor, diktieren",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Präsens Ind. Aktiv, 3. Pl."
-    ],
-    [
-     "Infinitiv",
-     "dictare",
-     1
-    ],
-    [
-     "Stammformen",
-     "dicto, dictavi, dictatum",
-     1
-    ]
-   ]
-  ],
-  "scribenda": [
-   "was zu schreiben ist",
-   "Gerundivum, Akk. Pl. n.",
-   "",
-   [
-    [
-     "Form",
-     "Gerundivum"
-    ],
-    [
-     "Infinitiv",
-     "scribere",
-     1
-    ],
-    [
-     "Stammformen",
-     "scribo, scripsi, scriptum",
-     1
-    ]
-   ]
-  ],
-  "camenae": [
-   "die Musen",
-   "Nom. Pl.",
-   "",
-   [
-    [
-     "Grundform",
-     "Camena, -ae f.",
-     1
-    ]
-   ]
-  ],
-  "veris": [
-   "echten, wahren",
-   "Abl. Pl.",
-   "",
-   [
-    [
-     "Grundform",
-     "verus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "elegi": [
-   "elegische Verse",
-   "Nom. Pl.",
-   "",
-   [
-    [
-     "Grundform",
-     "elegi, -orum m.",
-     1
-    ]
-   ]
-  ],
-  "fletibus": [
-   "mit Tränen",
-   "Abl. Pl.",
-   "",
-   [
-    [
-     "Grundform",
-     "fletus, -us m.",
-     1
-    ]
-   ]
-  ],
-  "ora": [
-   "das Gesicht",
-   "Akk. Pl. (dichterisch für Sg.)",
-   "",
-   [
-    [
-     "Grundform",
-     "os, oris n.",
-     1
-    ]
-   ]
-  ],
-  "rigant": [
-   "(sie) benetzen",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Präsens Ind. Aktiv, 3. Pl."
-    ],
-    [
-     "Infinitiv",
-     "rigare",
-     1
-    ],
-    [
-     "Stammformen",
-     "rigo, rigavi, rigatum",
-     1
-    ]
-   ]
-  ],
-  "has": [
-   "diese",
-   "Akk. Pl. f.; gemeint sind die Musen",
-   "",
-   [
-    [
-     "Grundform",
-     "hic, haec, hoc",
-     1
-    ]
-   ]
-  ],
-  "saltem": [
-   "wenigstens",
-   "",
-   "",
-   []
-  ],
-  "nullus": [
-   "kein",
-   "Nom. Sg. m.",
-   "",
-   [
-    [
-     "Grundform",
-     "nullus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "potuit": [
-   "(er) konnte",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Perfekt Ind., 3. Sg."
-    ],
-    [
-     "Infinitiv",
-     "posse",
-     1
-    ],
-    [
-     "Stammformen",
-     "possum, potui, –",
-     1
-    ]
-   ]
-  ],
-  "pervincere": [
-   "dazu bringen, überwinden",
-   "Infinitiv",
-   "",
-   [
-    [
-     "Form",
-     "Infinitiv Präsens Aktiv"
-    ],
-    [
-     "Infinitiv",
-     "pervincere",
-     1
-    ],
-    [
-     "Stammformen",
-     "pervinco, pervici, pervictum",
-     1
-    ]
-   ]
-  ],
-  "terror": [
-   "Schrecken",
-   "Nom. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "terror, -oris m.",
-     1
-    ]
-   ]
-  ],
-  "ne": [
-   "dass nicht",
-   "Konjunktion",
-   "",
-   []
-  ],
   "nostrum": [
-   "unseren, meinen",
-   "Akk. Sg. n.",
+   "unser",
+   "Nom. Sg. n.",
    "",
    [
     [
@@ -1447,464 +3595,14 @@
     ]
    ]
   ],
-  "comites": [
-   "als Gefährtinnen",
-   "Nom. Pl.",
-   "",
-   [
-    [
-     "Grundform",
-     "comes, comitis m./f.",
-     1
-    ]
-   ]
-  ],
-  "prosequerentur": [
-   "(sie) würden begleiten",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Imperfekt Konj., 3. Pl. (Deponens)"
-    ],
-    [
-     "Infinitiv",
-     "prosequi",
-     1
-    ],
-    [
-     "Stammformen",
-     "prosequor, prosecutus sum",
-     1
-    ]
-   ]
-  ],
-  "iter": [
-   "Weg",
-   "Akk. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "iter, itineris n.",
-     1
-    ]
-   ]
-  ],
-  "gloria": [
-   "Ruhm",
-   "Nom. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "gloria, -ae f.",
-     1
-    ]
-   ]
-  ],
-  "felicis": [
-   "der glücklichen",
-   "Gen. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "felix, felicis",
-     1
-    ]
-   ]
-  ],
-  "olim": [
-   "einst",
-   "Adverb",
-   "",
-   []
-  ],
-  "viridisque": [
-   "und blühenden",
-   "viridis + -que (= und); Gen. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "viridis, viride",
-     1
-    ]
-   ]
-  ],
-  "iuventae": [
-   "Jugend",
-   "Gen. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "iuventa, -ae f.",
-     1
-    ]
-   ]
-  ],
-  "solantur": [
-   "(sie) trösten",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Präsens Ind., 3. Pl. (Deponens)"
-    ],
-    [
-     "Infinitiv",
-     "solari",
-     1
-    ],
-    [
-     "Stammformen",
-     "solor, solatus sum",
-     1
-    ]
-   ]
-  ],
-  "maesti": [
-   "des traurigen",
-   "Gen. Sg. m.",
-   "",
-   [
-    [
-     "Grundform",
-     "maestus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "nunc": [
-   "jetzt",
-   "",
-   "",
-   []
-  ],
-  "mea": [
-   "mein",
-   "Akk. Pl. n.",
-   "",
-   [
-    [
-     "Grundform",
-     "meus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "fata": [
-   "Schicksal",
-   "Akk. Pl.",
-   "",
-   [
-    [
-     "Grundform",
-     "fatum, -i n.",
-     1
-    ]
-   ]
-  ],
-  "senis": [
-   "des alten Mannes",
-   "Gen. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "senex, senis m.",
-     1
-    ]
-   ]
-  ],
-  "venit": [
-   "(er/sie/es) ist gekommen; kommt",
-   "v. 9 Perfekt (vēnit), v. 14 Präsens (venit)",
-   "",
-   [
-    [
-     "Form",
-     "Perfekt bzw. Präsens Ind. Aktiv, 3. Sg."
-    ],
-    [
-     "Infinitiv",
-     "venire",
-     1
-    ],
-    [
-     "Stammformen",
-     "venio, veni, ventum",
-     1
-    ]
-   ]
-  ],
-  "enim": [
-   "denn",
-   "",
-   "",
-   []
-  ],
-  "properata": [
-   "beschleunigt",
-   "Partizip Perfekt Passiv, Nom. Sg. f.",
-   "",
-   [
-    [
-     "Form",
-     "Partizip Perfekt Passiv"
-    ],
-    [
-     "Infinitiv",
-     "properare",
-     1
-    ],
-    [
-     "Stammformen",
-     "propero, properavi, properatum",
-     1
-    ]
-   ]
-  ],
-  "malis": [
-   "durch Unglück",
-   "Abl. Pl.",
-   "",
-   [
-    [
-     "Grundform",
-     "malum, -i n.",
-     1
-    ]
-   ]
-  ],
-  "inopina": [
-   "unerwartet",
-   "Nom. Sg. f.",
-   "",
-   [
-    [
-     "Grundform",
-     "inopinus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "senectus": [
-   "Alter",
-   "Nom. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "senectus, -utis f.",
-     1
-    ]
-   ]
-  ],
-  "dolor": [
-   "Schmerz",
-   "Nom. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "dolor, -oris m.",
-     1
-    ]
-   ]
-  ],
-  "aetatem": [
-   "Alter, Lebenszeit",
-   "Akk. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "aetas, -atis f.",
-     1
-    ]
-   ]
-  ],
-  "iussit": [
-   "(er) hat befohlen",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Perfekt Ind. Aktiv, 3. Sg."
-    ],
-    [
-     "Infinitiv",
-     "iubere",
-     1
-    ],
-    [
-     "Stammformen",
-     "iubeo, iussi, iussum",
-     1
-    ]
-   ]
-  ],
-  "inesse": [
-   "darin sein, innewohnen",
-   "Infinitiv",
-   "",
-   [
-    [
-     "Form",
-     "Infinitiv Präsens"
-    ],
-    [
-     "Infinitiv",
-     "inesse",
-     1
-    ],
-    [
-     "Stammformen",
-     "insum, infui, –",
-     1
-    ]
-   ]
-  ],
   "suam": [
-   "sein eigenes",
+   "seine (eigene)",
    "Akk. Sg. f.",
    "",
    [
     [
      "Grundform",
      "suus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "intempestivi": [
-   "vorzeitige, zur Unzeit",
-   "Nom. Pl. m.",
-   "",
-   [
-    [
-     "Grundform",
-     "intempestivus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "funduntur": [
-   "(sie) ergiessen sich, fallen",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Präsens Ind. Passiv, 3. Pl."
-    ],
-    [
-     "Infinitiv",
-     "fundere",
-     1
-    ],
-    [
-     "Stammformen",
-     "fundo, fudi, fusum",
-     1
-    ]
-   ]
-  ],
-  "vertice": [
-   "vom Scheitel",
-   "Abl. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "vertex, verticis m.",
-     1
-    ]
-   ]
-  ],
-  "cani": [
-   "graue Haare",
-   "Nom. Pl.",
-   "",
-   [
-    [
-     "Grundform",
-     "cani, -orum m.",
-     1
-    ]
-   ]
-  ],
-  "tremit": [
-   "(sie) zittert",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Präsens Ind. Aktiv, 3. Sg."
-    ],
-    [
-     "Infinitiv",
-     "tremere",
-     1
-    ],
-    [
-     "Stammformen",
-     "tremo, tremui, –",
-     1
-    ]
-   ]
-  ],
-  "effeto": [
-   "erschöpften",
-   "Abl. Sg. n.",
-   "",
-   [
-    [
-     "Grundform",
-     "effetus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "corpore": [
-   "am Körper",
-   "Abl. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "corpus, corporis n.",
-     1
-    ]
-   ]
-  ],
-  "laxa": [
-   "schlaffe",
-   "Nom. Sg. f.",
-   "",
-   [
-    [
-     "Grundform",
-     "laxus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "cutis": [
-   "Haut",
-   "Nom. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "cutis, cutis f.",
      1
     ]
    ]
@@ -3376,21 +5074,210 @@
     ]
    ]
   ],
-  "mors": [
-   "Tod",
+  "quia": [
+   "weil; dass",
+   "",
+   "",
+   []
+  ],
+  "non": [
+   "nicht",
+   "",
+   "",
+   []
+  ],
+  "magnus": [
+   "gross",
+   "Nom. Sg. m.",
+   "",
+   [
+    [
+     "Grundform",
+     "magnus, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "es": [
+   "(du) bist",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind., 2. Sg."
+    ],
+    [
+     "Infinitiv",
+     "esse",
+     1
+    ],
+    [
+     "Stammformen",
+     "sum, fui, –",
+     1
+    ]
+   ]
+  ],
+  "domine": [
+   "Herr!",
+   "Vokativ Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "dominus, -i m.",
+     1
+    ]
+   ]
+  ],
+  "laudabilis": [
+   "lobenswert, zu loben",
    "Nom. Sg.",
    "",
    [
     [
      "Grundform",
-     "mors, mortis f.",
+     "laudabilis, laudabile",
      1
     ]
    ]
   ],
-  "hominum": [
-   "der Menschen",
-   "Gen. Pl.",
+  "valde": [
+   "sehr",
+   "Adverb",
+   "",
+   []
+  ],
+  "magna": [
+   "gross",
+   "Nom. Sg. f.",
+   "",
+   [
+    [
+     "Grundform",
+     "magnus, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "virtus": [
+   "Kraft, Macht",
+   "Nom. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "virtus, -utis f.",
+     1
+    ]
+   ]
+  ],
+  "tua": [
+   "dein(e)",
+   "Nom. Sg. f.",
+   "",
+   [
+    [
+     "Grundform",
+     "tuus, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "sapientiae": [
+   "der Weisheit",
+   "Gen. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "sapientia, -ae f.",
+     1
+    ]
+   ]
+  ],
+  "tuae": [
+   "deiner",
+   "Gen. Sg. f.",
+   "",
+   [
+    [
+     "Grundform",
+     "tuus, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "numerus": [
+   "Zahl, Mass",
+   "Nom. Sg.; non est numerus = ist unermesslich (Ps 147,5)",
+   "",
+   [
+    [
+     "Grundform",
+     "numerus, -i m.",
+     1
+    ]
+   ]
+  ],
+  "laudare": [
+   "loben",
+   "Infinitiv",
+   "",
+   [
+    [
+     "Form",
+     "Infinitiv Präsens Aktiv"
+    ],
+    [
+     "Infinitiv",
+     "laudare",
+     1
+    ],
+    [
+     "Stammformen",
+     "laudo, laudavi, laudatum",
+     1
+    ]
+   ]
+  ],
+  "te": [
+   "dich; dir (nach in)",
+   "Akk./Abl. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "tu",
+     1
+    ]
+   ]
+  ],
+  "vult": [
+   "(er) will",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Präsens Ind., 3. Sg."
+    ],
+    [
+     "Infinitiv",
+     "velle",
+     1
+    ],
+    [
+     "Stammformen",
+     "volo, volui, –",
+     1
+    ]
+   ]
+  ],
+  "homo": [
+   "der Mensch",
+   "Nom. Sg.",
    "",
    [
     [
@@ -3400,1280 +5287,305 @@
     ]
    ]
   ],
-  "felix": [
-   "glücklich",
+  "aliqua": [
+   "ein (gewisses)",
+   "Nom. Sg. f.",
+   "",
+   [
+    [
+     "Grundform",
+     "aliqui, aliqua, aliquod",
+     1
+    ]
+   ]
+  ],
+  "portio": [
+   "Teil, Teilchen",
    "Nom. Sg.",
    "",
    [
     [
      "Grundform",
-     "felix, felicis",
+     "portio, -onis f.",
      1
     ]
    ]
   ],
-  "nec": [
-   "und nicht, nicht",
-   "",
-   "",
-   []
-  ],
-  "dulcibus": [
-   "süssen",
-   "Dat./Abl. Pl.",
+  "creaturae": [
+   "der Schöpfung",
+   "Gen. Sg.",
    "",
    [
     [
      "Grundform",
-     "dulcis, dulce",
+     "creatura, -ae f.",
      1
     ]
    ]
   ],
-  "annis": [
-   "Jahren",
-   "Dat./Abl. Pl.",
-   "",
-   [
-    [
-     "Grundform",
-     "annus, -i m.",
-     1
-    ]
-   ]
-  ],
-  "inserit": [
-   "(er) drängt sich hinein",
-   "",
+  "circumferens": [
+   "herumtragend",
+   "Partizip Präsens, Nom. Sg.",
    "",
    [
     [
      "Form",
-     "Präsens Ind. Aktiv, 3. Sg."
+     "Partizip Präsens Aktiv"
     ],
     [
      "Infinitiv",
-     "inserere",
+     "circumferre",
      1
     ],
     [
      "Stammformen",
-     "insero, inserui, insertum",
+     "circumfero, circumtuli, circumlatum",
      1
     ]
    ]
   ],
-  "maestis": [
-   "den Traurigen",
+  "mortalitatem": [
+   "Sterblichkeit",
+   "Akk. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "mortalitas, -atis f.",
+     1
+    ]
+   ]
+  ],
+  "testimonium": [
+   "Zeugnis",
+   "Akk. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "testimonium, -i n.",
+     1
+    ]
+   ]
+  ],
+  "peccati": [
+   "der Sünde",
+   "Gen. Sg.",
+   "",
+   [
+    [
+     "Grundform",
+     "peccatum, -i n.",
+     1
+    ]
+   ]
+  ],
+  "sui": [
+   "seiner (eigenen)",
+   "Gen. Sg. n.",
+   "",
+   [
+    [
+     "Grundform",
+     "suus, -a, -um",
+     1
+    ]
+   ]
+  ],
+  "superbis": [
+   "den Hochmütigen",
    "Dat. Pl.",
    "",
    [
     [
      "Grundform",
-     "maestus, -a, -um",
+     "superbus, -a, -um",
      1
     ]
    ]
   ],
-  "vocata": [
-   "gerufen",
-   "",
+  "resistis": [
+   "(du) widerstehst",
+   "+ Dativ (vgl. 1 Petr 5,5)",
    "",
    [
     [
      "Form",
-     "Partizip Perfekt Passiv, Nom. Sg. f."
+     "Präsens Ind. Aktiv, 2. Sg."
     ],
     [
      "Infinitiv",
-     "vocare",
+     "resistere",
      1
     ],
     [
      "Stammformen",
-     "voco, vocavi, vocatum",
+     "resisto, restiti, –",
      1
     ]
    ]
   ],
-  "eheu": [
-   "ach!",
-   "Ausruf",
+  "tamen": [
+   "dennoch",
+   "",
    "",
    []
   ],
-  "surda": [
-   "tauben",
-   "Abl. Sg. f.",
+  "tu": [
+   "du",
+   "Nom. Sg.",
    "",
-   [
-    [
-     "Grundform",
-     "surdus, -a, -um",
-     1
-    ]
-   ]
+   []
   ],
-  "miseros": [
-   "(von den) Elenden",
-   "Akk. Pl. m.",
-   "",
-   [
-    [
-     "Grundform",
-     "miser, misera, miserum",
-     1
-    ]
-   ]
-  ],
-  "avertitur": [
-   "(er) wendet sich ab",
+  "excitas": [
+   "(du) weckst, regst an",
    "",
    "",
    [
     [
      "Form",
-     "Präsens Ind. Passiv (medial), 3. Sg."
+     "Präsens Ind. Aktiv, 2. Sg."
     ],
     [
      "Infinitiv",
-     "avertere",
+     "excitare",
      1
     ],
     [
      "Stammformen",
-     "averto, averti, aversum",
+     "excito, excitavi, excitatum",
      1
     ]
    ]
   ],
-  "aure": [
-   "mit dem Ohr",
-   "Abl. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "auris, auris f.",
-     1
-    ]
-   ]
-  ],
-  "flentes": [
-   "weinenden",
-   "Partizip Präsens, Akk. Pl.",
+  "delectet": [
+   "(es) erfreue",
+   "unpersönlich: me delectat = es freut mich",
    "",
    [
     [
      "Form",
-     "Partizip Präsens Aktiv"
+     "Präsens Konj. Aktiv, 3. Sg."
     ],
     [
      "Infinitiv",
-     "flere",
+     "delectare",
      1
     ],
     [
      "Stammformen",
-     "fleo, flevi, fletum",
+     "delecto, delectavi, delectatum",
      1
     ]
    ]
   ],
-  "oculos": [
-   "Augen",
+  "fecisti": [
+   "(du) hast gemacht, geschaffen",
+   "",
+   "",
+   [
+    [
+     "Form",
+     "Perfekt Ind. Aktiv, 2. Sg."
+    ],
+    [
+     "Infinitiv",
+     "facere",
+     1
+    ],
+    [
+     "Stammformen",
+     "facio, feci, factum",
+     1
+    ]
+   ]
+  ],
+  "nos": [
+   "uns",
    "Akk. Pl.",
    "",
    [
     [
      "Grundform",
-     "oculus, -i m.",
+     "nos",
      1
     ]
    ]
   ],
-  "claudere": [
-   "schliessen",
-   "Infinitiv",
-   "",
-   [
-    [
-     "Form",
-     "Infinitiv Präsens Aktiv"
-    ],
-    [
-     "Infinitiv",
-     "claudere",
-     1
-    ],
-    [
-     "Stammformen",
-     "claudo, clausi, clausum",
-     1
-    ]
-   ]
-  ],
-  "saeva": [
-   "grausam",
-   "Nom. Sg. f.",
+  "inquietum": [
+   "unruhig",
+   "Nom. Sg. n.",
    "",
    [
     [
      "Grundform",
-     "saevus, -a, -um",
+     "inquietus, -a, -um",
      1
     ]
    ]
   ],
-  "negat": [
-   "(er) verweigert",
-   "",
+  "cor": [
+   "Herz",
+   "Nom. Sg.",
    "",
    [
     [
-     "Form",
-     "Präsens Ind. Aktiv, 3. Sg."
-    ],
-    [
-     "Infinitiv",
-     "negare",
-     1
-    ],
-    [
-     "Stammformen",
-     "nego, negavi, negatum",
+     "Grundform",
+     "cor, cordis n.",
      1
     ]
    ]
   ],
-  "dum": [
-   "während, solange",
+  "donec": [
+   "bis",
    "Konjunktion",
    "",
    []
   ],
-  "levibus": [
-   "flüchtigen, leichten",
-   "Abl. Pl.",
-   "",
-   [
-    [
-     "Grundform",
-     "levis, leve",
-     1
-    ]
-   ]
-  ],
-  "male": [
-   "schlecht, kaum",
-   "male fida = treulos",
-   "",
-   []
-  ],
-  "fida": [
-   "treu",
-   "Nom. Sg. f.",
-   "",
-   [
-    [
-     "Grundform",
-     "fidus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "bonis": [
-   "mit Gütern",
-   "Abl. Pl.",
-   "",
-   [
-    [
-     "Grundform",
-     "bonum, -i n.",
-     1
-    ]
-   ]
-  ],
-  "fortuna": [
-   "Glück, Schicksal",
-   "Nom. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "fortuna, -ae f.",
-     1
-    ]
-   ]
-  ],
-  "faveret": [
-   "(sie) gewogen war",
-   "",
+  "requiescat": [
+   "(es) ruht",
+   "Konjunktiv nach donec",
    "",
    [
     [
      "Form",
-     "Imperfekt Konj. Aktiv, 3. Sg."
+     "Präsens Konj. Aktiv, 3. Sg."
     ],
     [
      "Infinitiv",
-     "favere",
+     "requiescere",
      1
     ],
     [
      "Stammformen",
-     "faveo, favi, fautum",
+     "requiesco, requievi, requietum",
      1
     ]
    ]
   ],
-  "paene": [
-   "beinahe",
-   "",
-   "",
-   []
-  ],
-  "caput": [
-   "Haupt, Kopf",
-   "Akk. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "caput, capitis n.",
-     1
-    ]
-   ]
-  ],
-  "tristis": [
-   "traurige",
-   "Nom. Sg. f.",
-   "",
-   [
-    [
-     "Grundform",
-     "tristis, triste",
-     1
-    ]
-   ]
-  ],
-  "merserat": [
-   "(sie) hätte untergehen lassen",
-   "",
+  "da": [
+   "gib! lass!",
+   "Imperativ Sg.",
    "",
    [
     [
      "Form",
-     "Plusquamperfekt Ind. Aktiv, 3. Sg."
+     "Imperativ Präsens, 2. Sg."
     ],
     [
      "Infinitiv",
-     "mergere",
+     "dare",
      1
     ],
     [
      "Stammformen",
-     "mergo, mersi, mersum",
+     "do, dedi, datum",
      1
     ]
    ]
   ],
-  "hora": [
-   "Stunde",
-   "Nom. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "hora, -ae f.",
-     1
-    ]
-   ]
-  ],
-  "meum": [
-   "mein",
-   "Akk. Sg. n.",
-   "",
-   [
-    [
-     "Grundform",
-     "meus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "quia": [
-   "weil",
-   "",
-   "",
-   []
-  ],
-  "fallacem": [
-   "trügerisches",
-   "Akk. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "fallax, fallacis",
-     1
-    ]
-   ]
-  ],
-  "mutavit": [
-   "(sie) hat verändert",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Perfekt Ind. Aktiv, 3. Sg."
-    ],
-    [
-     "Infinitiv",
-     "mutare",
-     1
-    ],
-    [
-     "Stammformen",
-     "muto, mutavi, mutatum",
-     1
-    ]
-   ]
-  ],
-  "nubila": [
-   "umwölkt, finster",
-   "Nom. Sg. f.",
-   "",
-   [
-    [
-     "Grundform",
-     "nubilus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "vultum": [
-   "Gesicht",
-   "Akk. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "vultus, -us m.",
-     1
-    ]
-   ]
-  ],
-  "protrahit": [
-   "(es) zieht in die Länge",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Präsens Ind. Aktiv, 3. Sg."
-    ],
-    [
-     "Infinitiv",
-     "protrahere",
-     1
-    ],
-    [
-     "Stammformen",
-     "protraho, protraxi, protractum",
-     1
-    ]
-   ]
-  ],
-  "ingratas": [
-   "unwillkommene",
-   "Akk. Pl. f.",
-   "",
-   [
-    [
-     "Grundform",
-     "ingratus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "impia": [
-   "ruchlose",
-   "Nom. Sg. f.",
-   "",
-   [
-    [
-     "Grundform",
-     "impius, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "vita": [
-   "Leben",
-   "Nom. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "vita, -ae f.",
-     1
-    ]
-   ]
-  ],
-  "moras": [
-   "Aufschub, Verzögerung",
-   "Akk. Pl.",
-   "",
-   [
-    [
-     "Grundform",
-     "mora, -ae f.",
-     1
-    ]
-   ]
-  ],
-  "quid": [
-   "warum; was",
-   "",
-   "",
-   []
-  ],
-  "me": [
-   "mich",
-   "Akk. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "ego",
-     1
-    ]
-   ]
-  ],
-  "felicem": [
-   "glücklich",
-   "Akk. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "felix, felicis",
-     1
-    ]
-   ]
-  ],
-  "totiens": [
-   "so oft",
-   "",
-   "",
-   []
-  ],
-  "iactastis": [
-   "(ihr) habt gerühmt",
-   "Kurzform von iactavistis",
-   "",
-   [
-    [
-     "Form",
-     "Perfekt Ind. Aktiv, 2. Pl."
-    ],
-    [
-     "Infinitiv",
-     "iactare",
-     1
-    ],
-    [
-     "Stammformen",
-     "iacto, iactavi, iactatum",
-     1
-    ]
-   ]
-  ],
-  "amici": [
-   "Freunde",
-   "Vokativ Pl.",
-   "",
-   [
-    [
-     "Grundform",
-     "amicus, -i m.",
-     1
-    ]
-   ]
-  ],
-  "cecidit": [
-   "(er) ist gefallen",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Perfekt Ind. Aktiv, 3. Sg."
-    ],
-    [
-     "Infinitiv",
-     "cadere",
-     1
-    ],
-    [
-     "Stammformen",
-     "cado, cecidi, casum",
-     1
-    ]
-   ]
-  ],
-  "stabili": [
-   "festem",
-   "Abl. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "stabilis, stabile",
-     1
-    ]
-   ]
-  ],
-  "non": [
-   "nicht",
-   "",
-   "",
-   []
-  ],
-  "erat": [
-   "(er) war",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Imperfekt Ind., 3. Sg."
-    ],
-    [
-     "Infinitiv",
-     "esse",
-     1
-    ],
-    [
-     "Stammformen",
-     "sum, fui, –",
-     1
-    ]
-   ]
-  ],
-  "ille": [
-   "jener, er",
-   "Nom. Sg. m.",
-   "",
-   [
-    [
-     "Grundform",
-     "ille, illa, illud",
-     1
-    ]
-   ]
-  ],
-  "gradu": [
-   "Schritt, Stand",
-   "Abl. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "gradus, -us m.",
-     1
-    ]
-   ]
-  ],
-  "haec": [
-   "dies",
-   "Akk. Pl. n.",
-   "",
-   [
-    [
-     "Grundform",
-     "hic, haec, hoc",
-     1
-    ]
-   ]
-  ],
-  "mecum": [
-   "mit mir, bei mir",
-   "me + cum",
-   "",
-   []
-  ],
-  "tacitus": [
-   "schweigend",
-   "Nom. Sg. m.",
-   "",
-   [
-    [
-     "Grundform",
-     "tacitus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "ipse": [
-   "selbst",
-   "Nom. Sg. m.",
-   "",
-   [
-    [
-     "Grundform",
-     "ipse, ipsa, ipsum",
-     1
-    ]
-   ]
-  ],
-  "reputarem": [
-   "(ich) überdachte",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Imperfekt Konj. Aktiv, 1. Sg."
-    ],
-    [
-     "Infinitiv",
-     "reputare",
-     1
-    ],
-    [
-     "Stammformen",
-     "reputo, reputavi, reputatum",
-     1
-    ]
-   ]
-  ],
-  "querimoniamque": [
-   "und die Klage",
-   "querimoniam + -que (= und); Akk. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "querimonia, -ae f.",
-     1
-    ]
-   ]
-  ],
-  "lacrimabilem": [
-   "tränenreiche",
-   "Akk. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "lacrimabilis, lacrimabile",
-     1
-    ]
-   ]
-  ],
-  "stili": [
-   "des Griffels",
-   "Gen. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "stilus, -i m.",
-     1
-    ]
-   ]
-  ],
-  "officio": [
-   "durch den Dienst",
-   "Abl. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "officium, -i n.",
-     1
-    ]
-   ]
-  ],
-  "signarem": [
-   "(ich) aufzeichnete",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Imperfekt Konj. Aktiv, 1. Sg."
-    ],
-    [
-     "Infinitiv",
-     "signare",
-     1
-    ],
-    [
-     "Stammformen",
-     "signo, signavi, signatum",
-     1
-    ]
-   ]
-  ],
-  "adstitisse": [
-   "gestanden zu haben",
-   "Infinitiv Perfekt",
-   "",
-   [
-    [
-     "Form",
-     "Infinitiv Perfekt Aktiv"
-    ],
-    [
-     "Infinitiv",
-     "adsistere",
-     1
-    ],
-    [
-     "Stammformen",
-     "adsisto, adstiti, –",
-     1
-    ]
-   ]
-  ],
-  "supra": [
-   "über",
-   "Präposition + Akk.",
-   "",
-   []
-  ],
-  "verticem": [
-   "Scheitel, Haupt",
-   "Akk. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "vertex, verticis m.",
-     1
-    ]
-   ]
-  ],
-  "visa": [
-   "(sie) schien",
-   "visa est = sie schien",
-   "",
-   [
-    [
-     "Form",
-     "Perfekt Ind. Passiv, 3. Sg. f."
-    ],
-    [
-     "Infinitiv",
-     "videri",
-     1
-    ],
-    [
-     "Stammformen",
-     "videor, visus sum",
-     1
-    ]
-   ]
-  ],
-  "mulier": [
-   "eine Frau",
-   "Nom. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "mulier, mulieris f.",
-     1
-    ]
-   ]
-  ],
-  "reverendi": [
-   "ehrwürdigen",
-   "Gerundivum, Gen. Sg.",
-   "",
-   [
-    [
-     "Form",
-     "Gerundivum"
-    ],
-    [
-     "Infinitiv",
-     "revereri",
-     1
-    ],
-    [
-     "Stammformen",
-     "revereor, reveritus sum",
-     1
-    ]
-   ]
-  ],
-  "admodum": [
-   "sehr, höchst",
-   "",
-   "",
-   []
-  ],
-  "vultus": [
-   "Aussehens",
-   "Gen. Sg. (Genitiv der Eigenschaft)",
-   "",
-   [
-    [
-     "Grundform",
-     "vultus, -us m.",
-     1
-    ]
-   ]
-  ],
-  "oculis": [
-   "mit Augen",
-   "Abl. Pl.",
-   "",
-   [
-    [
-     "Grundform",
-     "oculus, -i m.",
-     1
-    ]
-   ]
-  ],
-  "ardentibus": [
-   "glühenden",
-   "Partizip Präsens, Abl. Pl.",
-   "",
-   [
-    [
-     "Form",
-     "Partizip Präsens Aktiv"
-    ],
-    [
-     "Infinitiv",
-     "ardere",
-     1
-    ],
-    [
-     "Stammformen",
-     "ardeo, arsi, arsum",
-     1
-    ]
-   ]
-  ],
-  "ultra": [
-   "über … hinaus",
-   "Präposition + Akk.",
-   "",
-   []
-  ],
-  "communem": [
-   "gewöhnliche, gemeinsame",
-   "Akk. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "communis, commune",
-     1
-    ]
-   ]
-  ],
-  "valentiam": [
-   "Kraft",
-   "Akk. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "valentia, -ae f.",
-     1
-    ]
-   ]
-  ],
-  "perspicacibus": [
-   "scharfsichtigen",
-   "Abl. Pl.",
-   "",
-   [
-    [
-     "Grundform",
-     "perspicax, perspicacis",
-     1
-    ]
-   ]
-  ],
-  "colore": [
-   "von Farbe",
-   "Abl. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "color, coloris m.",
-     1
-    ]
-   ]
-  ],
-  "vivido": [
-   "lebhafter, frischer",
-   "Abl. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "vividus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "inexhausti": [
-   "unerschöpflicher",
-   "Gen. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "inexhaustus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "vigoris": [
-   "Kraft",
-   "Gen. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "vigor, vigoris m.",
-     1
-    ]
-   ]
-  ],
-  "quamvis": [
-   "obwohl",
-   "+ Konjunktiv",
-   "",
-   []
-  ],
-  "ita": [
-   "so",
-   "",
-   "",
-   []
-  ],
-  "aevi": [
-   "an Lebenszeit, an Jahren",
-   "Gen. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "aevum, -i n.",
-     1
-    ]
-   ]
-  ],
-  "plena": [
-   "voll",
-   "Nom. Sg. f.",
-   "",
-   [
-    [
-     "Grundform",
-     "plenus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "foret": [
-   "(sie) wäre",
-   "= esset",
-   "",
-   [
-    [
-     "Form",
-     "Imperfekt Konj., 3. Sg."
-    ],
-    [
-     "Infinitiv",
-     "esse",
-     1
-    ],
-    [
-     "Stammformen",
-     "sum, fui, –",
-     1
-    ]
-   ]
-  ],
-  "nullo": [
-   "keinem",
-   "Abl. Sg. m.; nullo modo = keinesfalls",
-   "",
-   [
-    [
-     "Grundform",
-     "nullus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "modo": [
-   "Weise; bald",
-   "Abl. Sg. von modus",
-   "",
-   [
-    [
-     "Grundform",
-     "modus, -i m.",
-     1
-    ]
-   ]
-  ],
-  "nostrae": [
-   "unserer",
-   "Gen. Sg. f.",
-   "",
-   [
-    [
-     "Grundform",
-     "noster, nostra, nostrum",
-     1
-    ]
-   ]
-  ],
-  "crederetur": [
-   "(sie) würde gehalten",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Imperfekt Konj. Passiv, 3. Sg."
-    ],
-    [
-     "Infinitiv",
-     "credere",
-     1
-    ],
-    [
-     "Stammformen",
-     "credo, credidi, creditum",
-     1
-    ]
-   ]
-  ],
-  "aetatis": [
-   "Zeit, Zeitalter",
-   "Gen. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "aetas, -atis f.",
-     1
-    ]
-   ]
-  ],
-  "statura": [
-   "von Gestalt, Grösse",
-   "Abl. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "statura, -ae f.",
-     1
-    ]
-   ]
-  ],
-  "discretionis": [
-   "der Unterscheidung",
-   "Gen. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "discretio, -onis f.",
-     1
-    ]
-   ]
-  ],
-  "ambiguae": [
-   "zweifelhaften",
-   "Gen. Sg. f.",
-   "",
-   [
-    [
-     "Grundform",
-     "ambiguus, -a, -um",
-     1
-    ]
-   ]
-  ],
-  "nam": [
-   "denn",
-   "",
-   "",
-   []
-  ],
-  "quidem": [
-   "zwar",
-   "nunc quidem … nunc vero = bald … bald",
-   "",
-   []
-  ],
-  "sese": [
-   "sich",
-   "= se",
-   "",
-   []
-  ],
-  "mensuram": [
-   "Mass",
-   "Akk. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "mensura, -ae f.",
-     1
-    ]
-   ]
-  ],
-  "cohibebat": [
-   "(sie) hielt (sich)",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Imperfekt Ind. Aktiv, 3. Sg."
-    ],
-    [
-     "Infinitiv",
-     "cohibere",
-     1
-    ],
-    [
-     "Stammformen",
-     "cohibeo, cohibui, cohibitum",
-     1
-    ]
-   ]
-  ],
-  "vero": [
-   "aber",
-   "",
-   "",
-   []
-  ],
-  "pulsare": [
-   "berühren, stossen an",
+  "scire": [
+   "wissen, kennen",
    "Infinitiv",
    "",
    [
@@ -4683,202 +5595,96 @@
     ],
     [
      "Infinitiv",
-     "pulsare",
+     "scire",
      1
     ],
     [
      "Stammformen",
-     "pulso, pulsavi, pulsatum",
+     "scio, scivi, scitum",
      1
     ]
    ]
   ],
-  "caelum": [
-   "Himmel",
-   "Akk. Sg.",
+  "intellegere": [
+   "verstehen",
+   "Infinitiv",
    "",
    [
     [
-     "Grundform",
-     "caelum, -i n.",
-     1
-    ]
-   ]
-  ],
-  "summi": [
-   "des höchsten",
-   "Gen. Sg.",
-   "",
-   [
+     "Form",
+     "Infinitiv Präsens Aktiv"
+    ],
     [
-     "Grundform",
-     "summus, -a, -um",
+     "Infinitiv",
+     "intellegere",
      1
-    ]
-   ]
-  ],
-  "verticis": [
-   "des Scheitels",
-   "Gen. Sg.",
-   "",
-   [
+    ],
     [
-     "Grundform",
-     "vertex, verticis m.",
+     "Stammformen",
+     "intellego, intellexi, intellectum",
      1
     ]
    ]
   ],
-  "cacumine": [
-   "mit der Spitze",
-   "Abl. Sg.",
+  "utrum": [
+   "ob",
+   "utrum … an = ob … oder",
    "",
-   [
-    [
-     "Grundform",
-     "cacumen, cacuminis n.",
-     1
-    ]
-   ]
+   []
   ],
-  "videbatur": [
-   "(sie) schien",
+  "sit": [
+   "(es) sei",
    "",
    "",
    [
     [
      "Form",
-     "Imperfekt Ind. Passiv, 3. Sg."
+     "Präsens Konj., 3. Sg."
     ],
     [
      "Infinitiv",
-     "videri",
+     "esse",
      1
     ],
     [
      "Stammformen",
-     "videor, visus sum",
+     "sum, fui, –",
      1
     ]
    ]
   ],
-  "altius": [
-   "höher",
+  "prius": [
+   "früher, zuerst",
    "Komparativ (Adverb)",
    "",
    []
   ],
-  "extulisset": [
-   "(sie) erhoben hatte",
-   "",
-   "",
-   [
-    [
-     "Form",
-     "Plusquamperfekt Konj. Aktiv, 3. Sg."
-    ],
-    [
-     "Infinitiv",
-     "efferre",
-     1
-    ],
-    [
-     "Stammformen",
-     "effero, extuli, elatum",
-     1
-    ]
-   ]
-  ],
-  "ipsum": [
-   "selbst",
-   "Akk. Sg. n.",
-   "",
-   [
-    [
-     "Grundform",
-     "ipse, ipsa, ipsum",
-     1
-    ]
-   ]
-  ],
-  "penetrabat": [
-   "(sie) drang ein",
-   "",
+  "invocare": [
+   "anrufen",
+   "Infinitiv",
    "",
    [
     [
      "Form",
-     "Imperfekt Ind. Aktiv, 3. Sg."
+     "Infinitiv Präsens Aktiv"
     ],
     [
      "Infinitiv",
-     "penetrare",
+     "invocare",
      1
     ],
     [
      "Stammformen",
-     "penetro, penetravi, penetratum",
+     "invoco, invocavi, invocatum",
      1
     ]
    ]
   ],
-  "respicientiumque": [
-   "und der Aufschauenden",
-   "respicientium + -que; Partizip Präsens, Gen. Pl.",
-   "",
-   [
-    [
-     "Form",
-     "Partizip Präsens Aktiv"
-    ],
-    [
-     "Infinitiv",
-     "respicere",
-     1
-    ],
-    [
-     "Stammformen",
-     "respicio, respexi, respectum",
-     1
-    ]
-   ]
-  ],
-  "frustrabatur": [
-   "(sie) täuschte, entzog sich",
+  "an": [
+   "oder (in der Doppelfrage)",
    "",
    "",
-   [
-    [
-     "Form",
-     "Imperfekt Ind., 3. Sg. (Deponens)"
-    ],
-    [
-     "Infinitiv",
-     "frustrari",
-     1
-    ],
-    [
-     "Stammformen",
-     "frustror, frustratus sum",
-     1
-    ]
-   ]
-  ],
-  "intuitum": [
-   "den Blick",
-   "Akk. Sg.",
-   "",
-   [
-    [
-     "Grundform",
-     "intuitus, -us m.",
-     1
-    ]
-   ]
+   []
   ]
- },
- "notes": [
-  "Lateinischer Text nach den gängigen Ausgaben (gemeinfrei), Schreibung mit u/v und i ohne Längenzeichen.",
-  "Die deutschen Satzübersetzungen sind eigene Übersetzungen."
- ]
+ }
 }

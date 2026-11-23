@@ -218,6 +218,8 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
 .lat-nav{display:flex;gap:10px;justify-content:space-between;align-items:center;padding-top:14px;flex-wrap:wrap}
 .lat-nav .pos{font-size:13px;color:var(--muted);flex:1;text-align:center;white-space:nowrap}
 .lat-nav button{white-space:nowrap}
+.lat-jump{flex-basis:100%;font:inherit;font-size:14px;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--fg)}
+.lat-wait{font-size:13px;color:var(--muted);font-style:italic}
 .lat-nav .more{flex-basis:100%;text-align:center;font-size:13px;color:var(--muted)}
 .lat-notes{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:6px;padding-block:14px 40px}
 .lat-notes p{margin:0}
@@ -768,19 +770,24 @@ function latRender(){
   $('latAll').textContent = latAllOn ? 'Alle Übersetzungen ausblenden' : 'Alle Übersetzungen einblenden';
   S.sentences.forEach(s=>{
     const d=document.createElement('div'); d.className='lat-s';
-    const p=document.createElement('p'); p.className='lat-la'; p.lang='la'; evWords(p, s.la); d.appendChild(p);
+    const p=document.createElement('p'); p.className='lat-la'; p.lang='la'; if(S.ready!==false) evWords(p, s.la); else p.textContent=s.la; d.appendChild(p);
+    if(!s.de){ box.appendChild(d); return; }
     const bt=document.createElement('button'); bt.type='button'; bt.className='trbtn'; bt.textContent='Satz übersetzen ▾';
     bt.onclick=e=>{ e.stopPropagation(); const o=d.classList.toggle('open'); bt.textContent = o ? 'Übersetzung ausblenden ▴' : 'Satz übersetzen ▾'; };
     const de=document.createElement('p'); de.className='lat-de'; de.lang='de'; de.textContent=s.de;
     d.append(bt, de); box.appendChild(d);
   });
+  if(S.ready===false){ const m=document.createElement('div'); m.className='lat-s lat-wait'; m.textContent='Wörterbuch und Übersetzung für diesen Abschnitt folgen.'; box.prepend(m); }
   const nav=$('latNav'); nav.innerHTML='';
   const go=n=>{ evStore('lat-pos-'+W.id, n); latRender(); $('latWorks').scrollIntoView({block:'start',behavior:'smooth'}); };
   const back=document.createElement('button'); back.type='button'; back.className='small'; back.textContent='← Zurück'; back.disabled=pos===0; back.onclick=()=>go(pos-1);
   const info=document.createElement('span'); info.className='pos'; info.textContent=(pos+1)+' / '+secs.length;
   const next=document.createElement('button'); next.type='button'; next.className='primary'; next.textContent='Weiter →'; next.disabled=pos>=secs.length-1; next.onclick=()=>go(pos+1);
-  nav.append(back, info, next);
-  if(pos>=secs.length-1){ const m=document.createElement('div'); m.className='more'; m.textContent='Der nächste Abschnitt ist noch nicht vorbereitet.'; nav.appendChild(m); }
+  const sel=document.createElement('select'); sel.className='lat-jump'; sel.setAttribute('aria-label','Abschnitt wählen');
+  secs.forEach((x,i)=>{ const o=document.createElement('option'); o.value=i; o.textContent=(x.ready===false?'':'✓ ')+x.ref; if(i===pos) o.selected=true; sel.appendChild(o); });
+  sel.onchange=()=>go(+sel.value);
+  nav.append(back, info, next, sel);
+  if(pos>=secs.length-1){ const m=document.createElement('div'); m.className='more'; m.textContent='Ende des Buches.'; nav.appendChild(m); }
   const nt=$('latNotes'); nt.innerHTML='';
   (LAT.notes||[]).forEach(t=>{ const q=document.createElement('p'); q.textContent=t; nt.appendChild(q); });
   if(W.source){ const q=document.createElement('p'); q.append('Text: '); const a=document.createElement('a'); a.href=W.source.url; a.target='_blank'; a.rel='noopener'; a.textContent=W.source.title; q.append(a); nt.appendChild(q); }
