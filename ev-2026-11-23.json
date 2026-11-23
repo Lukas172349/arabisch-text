@@ -122,10 +122,10 @@
         "title": "اقرأ في كتاب الحياة (bibleserver)"
       },
       "v": [
-        "ورفع يسوع نظره فرأى الأغنياء يلقون تقدماتهم في خزانة الهيكل.",
-        "ورأى أيضا أرملة فقيرة تلقي هناك قطعتين صغيرتين من النقود.",
-        "فقال: «الحق أقول لكم: إن هذه الأرملة الفقيرة ألقت أكثر من الجميع.",
-        "لأن هؤلاء جميعا ألقوا في التقدمات لله مما يفضل عنهم، أما هي فمن عوزها ألقت كل ما كانت تملكه لمعيشتها»."
+        "وتطلع فرأى الأغنياء يلقون قرابينهم في الخزانة.",
+        "ورأى أيضا أرملة مسكينة ألقت هناك فلسين.",
+        "فقال: بالحق أقول لكم: إن هذه الأرملة الفقيرة ألقت أكثر من الجميع.",
+        "لأن هؤلاء من فضلتهم ألقوا في قرابين الله، وأما هذه فمن إعوازها ألقت كل المعيشة التي لها."
       ]
     },
     "fa": {
@@ -616,32 +616,14 @@
       ]
     },
     "ar": {
-      "ورفع": [
-        "und (er) hob",
-        "و = und; Perfekt 3. m. Sg.",
+      "وتطلع": [
+        "und (er) blickte auf",
+        "و = und; Perfekt 3. m. Sg., Form V",
         "",
         [
           [
             "Wurzel",
-            "رفع",
-            1
-          ]
-        ]
-      ],
-      "يسوع": [
-        "Jesus",
-        "Eigenname",
-        "",
-        []
-      ],
-      "نظره": [
-        "seinen Blick",
-        "ـه = sein",
-        "",
-        [
-          [
-            "Wurzel",
-            "نظر",
+            "طلع",
             1
           ]
         ]
@@ -660,7 +642,7 @@
       ],
       "الأغنياء": [
         "die Reichen",
-        "Plural mit الـ",
+        "mit الـ; gebrochener Plural",
         "",
         [
           [
@@ -687,14 +669,19 @@
           ]
         ]
       ],
-      "تقدماتهم": [
+      "قرابينهم": [
         "ihre Opfergaben",
-        "Plural von تقدمة; ـهم = ihr",
+        "ـهم = ihr; gebrochener Plural",
         "",
         [
           [
             "Wurzel",
-            "قدم",
+            "قرب",
+            1
+          ],
+          [
+            "Singular",
+            "قربان",
             1
           ]
         ]
@@ -705,9 +692,9 @@
         "",
         []
       ],
-      "خزانة": [
-        "Schatzkammer",
-        "im Status constructus",
+      "الخزانة": [
+        "die Schatzkammer, der Opferkasten",
+        "mit الـ",
         "",
         [
           [
@@ -718,23 +705,6 @@
           [
             "Plural",
             "خزائن",
-            1
-          ]
-        ]
-      ],
-      "الهيكل": [
-        "des Tempels",
-        "mit الـ",
-        "",
-        [
-          [
-            "Wurzel",
-            "هكل",
-            1
-          ],
-          [
-            "Plural",
-            "هياكل",
             1
           ]
         ]
@@ -780,26 +750,26 @@
           ]
         ]
       ],
-      "فقيرة": [
+      "مسكينة": [
         "arme",
         "Adjektiv f.",
         "",
         [
           [
             "Wurzel",
-            "فقر",
+            "سكن",
             1
           ],
           [
             "Plural",
-            "فقراء",
+            "مساكين",
             1
           ]
         ]
       ],
-      "تلقي": [
-        "(sie) wirft",
-        "Imperfekt 3. f. Sg., Form IV",
+      "ألقت": [
+        "(sie) warf",
+        "Perfekt 3. f. Sg., Form IV",
         "",
         [
           [
@@ -815,59 +785,19 @@
         "",
         []
       ],
-      "قطعتين": [
-        "zwei Stücke",
-        "Dual (Akk./Gen.) von قطعة",
+      "فلسين": [
+        "zwei Kupfermünzen",
+        "Dual (Akk./Gen.) von فلس",
         "",
         [
           [
             "Wurzel",
-            "قطع",
+            "فلس",
             1
           ],
           [
             "Plural",
-            "قطع",
-            1
-          ]
-        ]
-      ],
-      "صغيرتين": [
-        "kleine (zwei)",
-        "Dual f. von صغير",
-        "",
-        [
-          [
-            "Wurzel",
-            "صغر",
-            1
-          ],
-          [
-            "Plural",
-            "صغار",
-            1
-          ]
-        ]
-      ],
-      "من": [
-        "von, aus",
-        "Präposition",
-        "",
-        []
-      ],
-      "النقود": [
-        "des Geldes, der Münzen",
-        "mit الـ; gebrochener Plural",
-        "",
-        [
-          [
-            "Wurzel",
-            "نقد",
-            1
-          ],
-          [
-            "Singular",
-            "نقد",
+            "فلوس",
             1
           ]
         ]
@@ -884,9 +814,9 @@
           ]
         ]
       ],
-      "الحق": [
-        "die Wahrheit",
-        "mit الـ; الحق أقول لكم = wahrlich, ich sage euch",
+      "بالحق": [
+        "in Wahrheit, wahrlich",
+        "بـ = mit, in + الحق",
         "",
         [
           [
@@ -960,18 +890,6 @@
           ]
         ]
       ],
-      "ألقت": [
-        "(sie) warf",
-        "Perfekt 3. f. Sg., Form IV",
-        "",
-        [
-          [
-            "Wurzel",
-            "لقي",
-            1
-          ]
-        ]
-      ],
       "أكثر": [
         "mehr",
         "Elativ",
@@ -983,6 +901,12 @@
             1
           ]
         ]
+      ],
+      "من": [
+        "von, aus; als",
+        "Präposition",
+        "",
+        []
       ],
       "الجميع": [
         "alle",
@@ -1008,14 +932,14 @@
         "",
         []
       ],
-      "جميعا": [
-        "alle, allesamt",
-        "Akkusativ als Adverb",
+      "فضلتهم": [
+        "ihrem Überfluss",
+        "ـهم = ihr",
         "",
         [
           [
             "Wurzel",
-            "جمع",
+            "فضل",
             1
           ]
         ]
@@ -1032,63 +956,32 @@
           ]
         ]
       ],
-      "التقدمات": [
-        "die Opfergaben",
-        "Plural mit الـ",
+      "قرابين": [
+        "Opfergaben",
+        "gebrochener Plural, im Status constructus",
         "",
         [
           [
             "Wurzel",
-            "قدم",
+            "قرب",
             1
-          ]
-        ]
-      ],
-      "لله": [
-        "für Gott",
-        "لـ = für + الله",
-        "",
-        [
+          ],
           [
-            "Wurzel",
-            "أله",
+            "Singular",
+            "قربان",
             1
           ]
         ]
       ],
-      "مما": [
-        "von dem, was",
-        "من + ما",
+      "الله": [
+        "Gottes, Gott",
+        "Eigenname",
         "",
         []
       ],
-      "يفضل": [
-        "übrig bleibt",
-        "Imperfekt 3. m. Sg.",
-        "",
-        [
-          [
-            "Wurzel",
-            "فضل",
-            1
-          ]
-        ]
-      ],
-      "عنهم": [
-        "von ihnen",
-        "عن = von; هم = sie",
-        "",
-        []
-      ],
-      "أما": [
+      "وأما": [
         "was aber … betrifft",
-        "أما … فـ = doch, sie aber",
-        "",
-        []
-      ],
-      "هي": [
-        "sie",
-        "Personalpronomen f.",
+        "و + أما; أما … فـ = sie aber",
         "",
         []
       ],
@@ -1098,9 +991,9 @@
         "",
         []
       ],
-      "عوزها": [
+      "إعوازها": [
         "ihrer Bedürftigkeit",
-        "ـها = ihr",
+        "Verbalnomen Form IV; ـها = ihr",
         "",
         [
           [
@@ -1122,39 +1015,9 @@
           ]
         ]
       ],
-      "ما": [
-        "was",
-        "Relativpronomen",
-        "",
-        []
-      ],
-      "كانت": [
-        "(sie) war",
-        "Perfekt 3. f. Sg.; كانت تملك = sie besass",
-        "",
-        [
-          [
-            "Wurzel",
-            "كون",
-            1
-          ]
-        ]
-      ],
-      "تملكه": [
-        "(sie) besitzt es",
-        "Imperfekt 3. f. Sg.; ـه = es",
-        "",
-        [
-          [
-            "Wurzel",
-            "ملك",
-            1
-          ]
-        ]
-      ],
-      "لمعيشتها": [
-        "für ihren Lebensunterhalt",
-        "لـ = für; ـها = ihr",
+      "المعيشة": [
+        "den Lebensunterhalt",
+        "mit الـ",
         "",
         [
           [
@@ -1163,6 +1026,18 @@
             1
           ]
         ]
+      ],
+      "التي": [
+        "die, welche",
+        "Relativpronomen f.",
+        "",
+        []
+      ],
+      "لها": [
+        "ihr (gehörte)",
+        "لـ = für; ـها = sie",
+        "",
+        []
       ]
     },
     "fa": {
@@ -2778,7 +2653,7 @@
     "Leseordnung: römisch-katholischer Kalender, Montag der 34. Woche im Jahreskreis (Lesejahr A / Wochentagsreihe II; nichtgebotener Gedenktag hl. Kolumban bzw. hl. Clemens I.).",
     "Syrisch: Peschitta in westsyrischer Schrift (Serto), Buchstabe für Buchstabe aus einer Umschrift übertragen; Vokalzeichen (ohne Pluralpunkte und Härtezeichen) und Aussprache westsyrisch, selbst gesetzt.",
     "Latein: Vulgata (Clementina). Altgriechisch: Textus Receptus (Stephanus 1550); Vers 4 „Θεοῦ“ statt des Druckfehlers „φεοῦ“ der Vorlage, Akzente in Vers 2 („καί τινα“) normalisiert; Grossschreibung und Satzzeichen ergänzt.",
-    "Russisch: Synodalübersetzung (1876, gemeinfrei). Englisch: Douay-Rheims (Challoner-Revision, gemeinfrei). Persisch mit selbst gesetzten Vokalzeichen. Deutsch, Französisch, Italienisch, Spanisch, Arabisch und Persisch sind eigene Übersetzungen nach dem griechischen Text, keine amtlichen Bibelausgaben."
+    "Russisch: Synodalübersetzung (1876, gemeinfrei). Englisch: Douay-Rheims (Challoner-Revision, gemeinfrei). Arabisch: Smith-Van-Dyck-Bibel (1865, gemeinfrei), Hamza-Schreibung und Satzzeichen vereinheitlicht. Persisch mit selbst gesetzten Vokalzeichen. Deutsch, Französisch, Italienisch, Spanisch und Persisch sind eigene Übersetzungen nach dem griechischen Text, keine amtlichen Bibelausgaben."
   ],
   "sources": [
     {
@@ -2788,6 +2663,10 @@
     {
       "url": "https://lueur.org/bible/luc21/KJV,LSG,TR1550,VULC",
       "title": "Vulgata und Textus Receptus Lukas 21 (lueur.org)"
+    },
+    {
+      "url": "https://studybible.info/compare/Luke%2021:1",
+      "title": "Smith-Van Dyck Lukas 21 (studybible.info)"
     },
     {
       "url": "https://catholicreadings.org/2311202-6/",
