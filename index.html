@@ -107,6 +107,13 @@ a{color:var(--accent)}
 .extra-info{display:flex;flex-direction:column;gap:4px;font-size:14px;margin-top:4px}
 .extra-info .root{color:var(--root)}
 .extra-info .ant{color:var(--ant)}
+.extra-info .num{color:var(--fg)}
+.quiz .opt.picked-wrong{background:var(--again);border-color:var(--again);color:var(--surface);text-decoration:none}
+.quiz .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;width:100%;max-width:420px}
+.quiz .stats div{border:1px solid var(--line);border-radius:10px;padding:8px 4px}
+.quiz .stats b{display:block;font-size:1.4rem;font-variant-numeric:tabular-nums}
+.quiz .stats span{font-size:12px;color:var(--muted)}
+.quiz .misses .yours{color:var(--again);font-size:13px;display:block}
 .extra-info .arw{font-family:var(--ar);font-size:1.2rem;direction:rtl;unicode-bidi:isolate}
 .extra-info .lbl{font-size:11px;text-transform:uppercase;letter-spacing:.06em;margin-right:4px}
 .boxes{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
@@ -250,11 +257,11 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
 <div class="in" id="viewCards" hidden>
   <div class="modes" role="group" aria-label="Übungsart">
     <button class="small" id="modeCards" aria-pressed="true">Karten üben</button>
-    <button class="small" id="modeQuiz" aria-pressed="false">Quiz mit 15 Wörtern</button>
+    <button class="small" id="modeQuiz" aria-pressed="false">Quiz (Liste 5)</button>
   </div>
   <div class="quiz" id="quiz" hidden></div>
   <div id="cardsArea">
-  <p class="hint">Wähle eine Liste. Die Wörter kommen in zufälliger Reihenfolge. Was du weisst, wandert eine Liste weiter, bis Liste 5.</p>
+  <p class="hint">Wähle eine Liste. Die Wörter kommen in zufälliger Reihenfolge. Was du weisst, wandert eine Liste weiter, bis Liste 5. Wörter auf Liste 5 kommen ins Quiz.</p>
   <div class="boxes" id="boxes" role="group" aria-label="Listen"></div>
   <div class="flash" id="flash"></div>
   </div>
@@ -315,26 +322,64 @@ function removeCard(key){ if(!cards[key]) return; delete cards[key]; deleted[key
 function updateCount(){ $('cardCount').textContent = Object.keys(cards).length; }
 const today = () => { const d=new Date(); d.setHours(0,0,0,0); return d.getTime(); };
 // Wörterbuch-Eintrag: [Übersetzung, Hinweis, Wurzel, Bedeutung der Wurzel, Gegenteil, Gegenteil deutsch]
-function info(e){ e=e||[]; return { root:e[2]||'', rootDe:e[3]||'', ant:e[4]||'', antDe:e[5]||'' }; }
-function extraHTML(x){
+// [7] gebrochener Plural, [8] Singular (wenn das Wort selbst ein gebrochener Plural ist)
+function info(e){ e=e||[]; return { root:e[2]||'', rootDe:e[3]||'', ant:e[4]||'', antDe:e[5]||'', pl:e[6]||'', sg:e[7]||'' }; }
+const rootJoin = r => String(r||'').replace(/\s+/g,'');
+const twoMeanings = t => String(t||'').split(/\s*[,;]\s*/).filter(Boolean).slice(0,2).join(', ');
+function extraHTML(x, withAnt){
   let h='';
-  if(x.root||x.rootDe) h+='<div class="root"><span class="lbl">Wurzel</span>'+(x.root?'<span class="arw">'+esc(x.root)+'</span> ':'')+(x.rootDe?'– '+esc(x.rootDe):'')+'</div>';
-  if(x.ant) h+='<div class="ant"><span class="lbl">Gegenteil</span><span class="arw">'+esc(x.ant)+'</span>'+(x.antDe?' – '+esc(x.antDe):'')+'</div>';
+  if(x.root||x.rootDe){
+    h+='<div class="root"><span class="lbl">'+(x.root?'Wurzel':'Herkunft')+'</span>'+(x.root?'<span class="arw">'+esc(rootJoin(x.root))+'</span>':'')+(x.rootDe?(x.root?' – ':'')+esc(x.root?twoMeanings(x.rootDe):x.rootDe):'')+'</div>';
+  }
+  if(x.pl) h+='<div class="num"><span class="lbl">Plural</span><span class="arw">'+esc(x.pl)+'</span></div>';
+  if(x.sg) h+='<div class="num"><span class="lbl">Singular</span><span class="arw">'+esc(x.sg)+'</span></div>';
+  if(withAnt!==false && x.ant) h+='<div class="ant"><span class="lbl">Gegenteil</span><span class="arw">'+esc(x.ant)+'</span>'+(x.antDe?' – '+esc(x.antDe):'')+'</div>';
   return h;
 }
+// Vorangestelltes و (= und) weder anzeigen noch übersetzen
+const HARAKAT=/[\u064B-\u0652]/g;
+function noWaw(ar, de, note){
+  ar=ar||''; de=de||''; note=note||'';
+  const plain=ar.replace(HARAKAT,'');
+  const isConj = plain.length>2 && plain[0]==='و' && (/(^|[;،]\s*)و\s*=\s*und\b/.test(note.replace(HARAKAT,'')) || /^\(?und\)?\s+/i.test(de));
+  if(!isConj) return {ar, de, note, waw:false};
+  return { ar: ar.replace(/^و[\u064B-\u0652]*/,''), de: de.replace(/^\(?und\)?\s+/i,''),
+    note: note.replace(/و[\u064B-\u0652]*\s*=\s*und\s*[;،]?\s*/,'').replace(/^[;،\s]+/,'').trim(), waw:true };
+}
+function wordView(raw, e){ const v=noWaw(raw, e?e[0]:'', e&&e[1]?e[1]:''); v.key=strip(v.ar); return v; }
+const cardKeyOf = w => wordView(w.textContent, DICT[w.dataset.key]).key;
 function esc(s){ return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 // ältere Karten mit Wurzel/Gegenteil aus dem aktuellen Text ergänzen
-function enrichCards(){ let ch=false; for(const k in cards){ const c=cards[k]; if(!c.root && !c.ant && DICT[k]){ const x=info(DICT[k]); if(x.root||x.ant||x.rootDe){ Object.assign(c,x); ch=true; } } if(!c.box) { c.box=1; ch=true; } } if(ch) saveCards(); }
+function enrichCards(){
+  let ch=false;
+  for(const k of Object.keys(cards)){
+    const c=cards[k];
+    // Karten mit vorangestelltem و auf das Wort ohne و umstellen
+    const v=noWaw(c.ar, c.de, c.note);
+    if(v.waw){
+      const nk=strip(v.ar), src=DICT[k];
+      const nc=Object.assign({}, c, { key:nk, ar:v.ar, de:v.de, note:v.note, upd:Date.now() });
+      if(cards[nk]){ cards[nk].box=Math.max(cards[nk].box||1, c.box||1); touch(cards[nk]); } else cards[nk]=nc;
+      delete cards[k]; deleted[k]=Date.now(); if(src) DICT[nk]=DICT[nk]||src; ch=true; continue;
+    }
+    const d=DICT[k];
+    if(d){ const x=info(d);
+      if(!c.root && !c.ant && (x.root||x.ant||x.rootDe)){ Object.assign(c,{root:x.root,rootDe:x.rootDe,ant:x.ant,antDe:x.antDe}); touch(c); ch=true; }
+      if((x.pl && !c.pl) || (x.sg && !c.sg)){ c.pl=c.pl||x.pl; c.sg=c.sg||x.sg; touch(c); ch=true; } }
+    if(!c.box) { c.box=1; ch=true; }
+  }
+  if(ch) saveCards();
+}
 
 function addCard(w){
-  const key = w.dataset.key;
-  const e = DICT[key];
+  const e = DICT[w.dataset.key];
+  const v = wordView(w.textContent, e), key = v.key;
   const block = w.closest('.block');
   const i = +block.dataset.i;
   const arSent = sentenceOf(w);
   const deSent = i < 0 ? (DATA.title_tr || '') : ((DATA.translations || [])[i] || '');
   if(!cards[key]){
-    cards[key] = Object.assign({ key, ar: w.textContent, de: e ? e[0] : '', note: e && e[1] ? e[1] : '', ctxAr: arSent, ctxDe: deSent, date: DATA.date, box: 1, added: Date.now(), upd: Date.now() }, info(e));
+    cards[key] = Object.assign({ key, ar: v.ar, de: v.de, note: v.note, ctxAr: arSent, ctxDe: deSent, date: DATA.date, box: 1, added: Date.now(), upd: Date.now() }, info(e));
     delete deleted[key];
     saveCards(); markSaved(); return true;
   }
@@ -352,7 +397,7 @@ function sentenceOf(w){
   for(const s of parts){ if(pos < acc + s.length + 1) return s.trim(); acc += s.length + 1; }
   return full.trim();
 }
-function markSaved(){ document.querySelectorAll('.w').forEach(s => s.classList.toggle('saved', !!cards[s.dataset.key])); }
+function markSaved(){ document.querySelectorAll('.w').forEach(s => s.classList.toggle('saved', !!cards[cardKeyOf(s)])); }
 
 /* ---------- Tagestext laden ---------- */
 let workingBase = null; const loadErrors = [];
@@ -438,13 +483,13 @@ let selWord=null;
 function showTip(w, isNew){
   if(selWord) selWord.classList.remove('sel');
   selWord=w; w.classList.add('sel');
-  const e=DICT[w.dataset.key];
-  $('tipAr').textContent=w.textContent;
-  $('tipDe').textContent=e?e[0]:'(keine Übersetzung hinterlegt)';
-  $('tipNote').textContent=e&&e[1]?e[1]:''; $('tipNote').hidden=!(e&&e[1]);
-  $('tipExtra').innerHTML=extraHTML(info(e));
+  const e=DICT[w.dataset.key], v=wordView(w.textContent, e);
+  $('tipAr').textContent=v.ar;
+  $('tipDe').textContent=e?v.de:'(keine Übersetzung hinterlegt)';
+  $('tipNote').textContent=v.note; $('tipNote').hidden=!v.note;
+  $('tipExtra').innerHTML=extraHTML(info(e), false);
   $('tipSaved').textContent = isNew ? '✓ Neu auf Lernkarte gespeichert' : '✓ Schon auf deinen Lernkarten';
-  $('tipSaved').hidden = !cards[w.dataset.key]; $('tipRemove').hidden = !cards[w.dataset.key];
+  $('tipSaved').hidden = !cards[v.key]; $('tipRemove').hidden = !cards[v.key];
   tip.hidden=false;
   placeTip();
 }
@@ -462,7 +507,7 @@ $('text').addEventListener('keydown',e=>{ const w=e.target.closest('.w'); if(w&&
 document.addEventListener('click',e=>{ if(!tip.contains(e.target)) hideTip(); });
 document.addEventListener('keydown',e=>{ if(e.key==='Escape') hideTip(); });
 window.addEventListener('scroll',()=>{ if(!tip.hidden) placeTip(); },{passive:true});
-$('tipRemove').onclick=e=>{ e.stopPropagation(); if(!selWord) return; removeCard(selWord.dataset.key); markSaved(); toast('Karte entfernt'); hideTip(); };
+$('tipRemove').onclick=e=>{ e.stopPropagation(); if(!selWord) return; removeCard(cardKeyOf(selWord)); markSaved(); toast('Karte entfernt'); hideTip(); };
 
 /* ---------- Vorlesen ---------- */
 const synth = window.speechSynthesis;
@@ -517,7 +562,7 @@ $('prev').onclick=()=>jump(running ? idx-1 : Math.max(0,idx-1));
 $('next').onclick=()=>jump(idx+1);
 $('pause').onclick=()=>{ if(synth&&synth.speaking){ synth.pause(); status.textContent='Pausiert.'; } };
 $('stop').onclick=()=>{ if(!synth) return; running=false; gen++; synth.cancel(); idx=0; mark(-1); status.textContent='Gestoppt.'; };
-$('tipSay').onclick=e=>{ e.stopPropagation(); if(selWord) say(selWord.textContent); };
+$('tipSay').onclick=e=>{ e.stopPropagation(); if(selWord) say(wordView(selWord.textContent, DICT[selWord.dataset.key]).ar); };
 
 
 /* ---------- Ansicht wechseln ---------- */
@@ -624,11 +669,12 @@ if(synth) synth.addEventListener('voiceschanged',()=>{ if(EV) evSayState(); });
 function evHide(){ $('evPop').hidden=true; if(evSel){ evSel.classList.remove('sel'); evSel=null; } }
 function evShow(w){
   const e=((EV.dict||{})[evLang]||{})[w.dataset.k]; if(!e) return;
-  const [g,h,pr,xs]=e, x=EV.langs[evLang], pop=$('evPop');
+  let [g,h,pr,xs]=e; const x=EV.langs[evLang], pop=$('evPop'); let shown=w.textContent;
+  if(evLang==='ar'){ const v=noWaw(shown,g,h); shown=v.ar; g=v.de; h=v.note; }
   if(evSel) evSel.classList.remove('sel'); evSel=w; w.classList.add('sel');
   pop.innerHTML='';
   const mk=(cls,txt)=>{ const d=document.createElement('div'); d.className=cls; d.textContent=txt; pop.append(d); return d; };
-  const a=mk('pw '+x.cls, w.textContent); a.lang=evLang; if(x.rtl) a.dir='rtl';
+  const a=mk('pw '+x.cls, shown); a.lang=evLang; if(x.rtl) a.dir='rtl';
   if(pr) mk('pp','Aussprache: '+pr);
   mk('pg',g); if(h) mk('ph',h);
   if(xs && xs.length){ const dl=document.createElement('dl'); dl.className='px';
@@ -694,7 +740,8 @@ function answer(ok){
   if(ok && (c.box||1)<5){ c.box=(c.box||1)+1; touch(c); toast('Weiter auf Liste '+c.box); }
   lastKey=c.key; saveCards(); renderList(); nextCard();
 }
-/* ---------- Quiz: 15 zufällige Wörter, 3 Antworten ---------- */
+/* ---------- Quiz: Wörter von Liste 5, zufällig, 3 Antworten ---------- */
+const QUIZ_N=15, QHIST='arabisch-quiz-verlauf';
 let quiz=null;
 function setMode(m){
   const q = m==='quiz';
@@ -705,67 +752,69 @@ function setMode(m){
 $('modeCards').onclick=()=>{ setMode('cards'); nextCard(); };
 $('modeQuiz').onclick=()=>setMode('quiz');
 function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
-function quizPool(){
-  // zuerst deine Lernkarten, dann Wörter aus dem aktuellen Text
-  const seen=new Set(), pool=[];
-  const add=(ar,de,key)=>{ if(!ar||!de||seen.has(key)) return; seen.add(key); pool.push({ar,de,key}); };
-  shuffle(Object.values(cards)).forEach(c=>add(c.ar,c.de,c.key));
-  if(pool.length<15){
-    const extra=shuffle(Object.keys(DICT).filter(k=>DICT[k] && DICT[k][0] && (DICT[k][2]||'').length));
-    extra.forEach(k=>{ if(pool.length<15) add(k,DICT[k][0],k); });
-  }
-  return pool;
-}
+function quizList(){ return Object.values(cards).filter(c=>(c.box||1)>=5 && c.ar && c.de); }
 function allTranslations(){
   const set=new Set();
   Object.values(cards).forEach(c=>c.de&&set.add(c.de));
-  Object.values(DICT).forEach(e=>e&&e[0]&&set.add(e[0]));
+  for(const k in DICT){ const e=DICT[k]; if(e&&e[0]) set.add(noWaw(k,e[0],e[1]).de); }
   return [...set];
 }
+function quizHist(){ try{ return JSON.parse(localStorage.getItem(QHIST)||'[]'); }catch(e){ return []; } }
 function startQuiz(){
-  const pool=quizPool().slice(0,15);
-  const q=$('quiz');
-  if(pool.length<3){ q.innerHTML='<p class="empty">Für das Quiz braucht es mindestens 3 Wörter.<br>Tippe im Text auf ein paar Wörter.</p>'; quiz=null; return; }
-  const trans=allTranslations();
-  quiz={ items: pool.map(w=>{
-    const others=shuffle(trans.filter(t=>t.toLowerCase()!==w.de.toLowerCase())).slice(0,2);
-    return { ...w, options: shuffle([w.de, ...others]), answer:null };
-  }), i:0 };
+  const list=quizList(), q=$('quiz');
+  if(list.length<3){
+    q.innerHTML='<p class="empty">Ins Quiz kommen die Wörter von Liste 5.<br>Zurzeit '+(list.length===1?'ist 1 Wort':'sind '+list.length+' Wörter')+' auf Liste 5 – ab 3 Wörtern geht es los.</p>'; quiz=null; return;
+  }
+  const pool=shuffle(list.slice()).slice(0,QUIZ_N), trans=allTranslations();
+  quiz={ items: pool.map(c=>{
+    const others=shuffle(trans.filter(t=>t.toLowerCase()!==c.de.toLowerCase())).slice(0,2);
+    return { key:c.key, ar:c.ar, de:c.de, options: shuffle([c.de, ...others]), answer:null };
+  }), i:0, start:Date.now(), total:list.length };
   drawQuestion();
 }
 function drawQuestion(){
   const q=$('quiz'), it=quiz.items[quiz.i], n=quiz.items.length;
-  q.innerHTML='<div class="qcount">Frage '+(quiz.i+1)+' von '+n+'</div>'+
+  q.innerHTML='<div class="qcount">Frage '+(quiz.i+1)+' von '+n+' · aus '+quiz.total+' Wörtern auf Liste 5</div>'+
     '<div class="qbar"><span style="width:'+(quiz.i/n*100)+'%"></span></div>'+
     '<div class="big">'+esc(it.ar)+'</div>'+
     '<button class="small" id="qSay">🔊 Anhören</button>'+
-    '<div class="options">'+it.options.map((o,k)=>'<button class="opt" data-k="'+k+'">'+esc(o)+'</button>').join('')+'</div>'+
-    '<div id="qNext"></div>';
+    '<div class="options">'+it.options.map((o,k)=>'<button class="opt" data-k="'+k+'">'+esc(o)+'</button>').join('')+'</div>';
   $('qSay').onclick=()=>say(it.ar);
   q.querySelectorAll('.opt').forEach(b=>b.onclick=()=>choose(+b.dataset.k));
 }
 function choose(k){
   const it=quiz.items[quiz.i]; if(it.answer!==null) return;
   it.answer=it.options[k]; const ok = it.answer===it.de;
+  // Antwort ist endgültig: alle Knöpfe sperren, falsche Wahl rot, richtige grün
   $('quiz').querySelectorAll('.opt').forEach((b,j)=>{
     b.disabled=true;
     if(it.options[j]===it.de) b.classList.add('right');
-    else if(j===k) b.classList.add('wrong');
+    else if(j===k) b.classList.add('picked-wrong');
   });
-  const last = quiz.i===quiz.items.length-1;
-  $('qNext').innerHTML='<button class="primary" id="qGo">'+(last?'Auswertung zeigen':'Nächstes Wort')+'</button>';
-  $('qGo').onclick=()=>{ if(last) showResult(); else { quiz.i++; drawQuestion(); } };
-  $('qGo').focus();
+  const c=cards[it.key]; if(c){ c.qn=(c.qn||0)+1; if(ok) c.qr=(c.qr||0)+1; touch(c); }
+  const my=quiz;
+  setTimeout(()=>{ if(quiz!==my) return; if(quiz.i<quiz.items.length-1){ quiz.i++; drawQuestion(); } else showResult(); }, ok?900:1800);
 }
 function showResult(){
-  const n=quiz.items.length, right=quiz.items.filter(x=>x.answer===x.de).length, pct=Math.round(right/n*100);
+  const n=quiz.items.length, right=quiz.items.filter(x=>x.answer===x.de).length, wrong=n-right, pct=Math.round(right/n*100);
+  const secs=Math.round((Date.now()-quiz.start)/1000), time=secs>=60?Math.floor(secs/60)+' min '+(secs%60)+' s':secs+' s';
+  saveCards();
+  const hist=quizHist(); hist.push({d:Date.now(), n, r:right}); try{ localStorage.setItem(QHIST, JSON.stringify(hist.slice(-200))); }catch(e){}
   const verdict = pct>=90 ? 'Ausgezeichnet!' : pct>=70 ? 'Gut gemacht!' : pct>=50 ? 'Auf gutem Weg.' : 'Weiter üben – das wird!';
+  const tq=hist.reduce((a,x)=>a+x.n,0), tr=hist.reduce((a,x)=>a+x.r,0);
+  const prev=hist.length>1?Math.round(hist[hist.length-2].r/hist[hist.length-2].n*100):null;
+  let h='<div class="qcount">Auswertung</div><div class="score">'+pct+' %</div><div class="verdict">'+verdict+'</div>'+
+    '<div class="stats"><div><b>'+right+'</b><span>richtig</span></div><div><b>'+wrong+'</b><span>falsch</span></div><div><b>'+time+'</b><span>Zeit</span></div></div>'+
+    '<div class="note" style="font-size:14px;color:var(--muted)">Alle Quizze: '+hist.length+' · '+tq+' Fragen · Schnitt '+Math.round(tr/tq*100)+' %'+(prev!==null?' · letztes Quiz '+prev+' %':'')+'</div>';
   const misses=quiz.items.filter(x=>x.answer!==x.de);
-  let h='<div class="qcount">Auswertung</div><div class="score">'+pct+' %</div>'+
-    '<div class="verdict">'+verdict+'</div><div>'+right+' von '+n+' richtig</div>';
   if(misses.length){
-    h+='<div class="misses"><h2 style="font-size:15px;margin:8px 0">Diese Wörter nochmals anschauen</h2><ul class="list">'+
-      misses.map(x=>'<li><span class="lar">'+esc(x.ar)+'</span><span>'+esc(x.de)+'</span></li>').join('')+'</ul></div>';
+    h+='<div class="misses"><h2 style="font-size:15px;margin:8px 0">Falsch beantwortet</h2><ul class="list">'+
+      misses.map(x=>'<li><span class="lar">'+esc(x.ar)+'</span><span>'+esc(x.de)+'<span class="yours">deine Antwort: '+esc(x.answer)+'</span></span></li>').join('')+'</ul></div>';
+  }
+  const hard=Object.values(cards).filter(c=>(c.qn||0)>=2 && (c.qr||0)<c.qn).sort((a,b)=>(a.qr/a.qn)-(b.qr/b.qn)).slice(0,5);
+  if(hard.length){
+    h+='<div class="misses"><h2 style="font-size:15px;margin:8px 0">Schwierigste Wörter bisher</h2><ul class="list">'+
+      hard.map(c=>'<li><span class="lar">'+esc(c.ar)+'</span><span>'+esc(c.de)+'<span class="yours">'+(c.qr||0)+' von '+c.qn+' richtig</span></span></li>').join('')+'</ul></div>';
   }
   h+='<button class="primary" id="qAgain">Neues Quiz</button>';
   $('quiz').innerHTML=h;
