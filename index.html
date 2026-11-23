@@ -177,12 +177,16 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
 .ev-pop .pw.ar{font-family:var(--ar)} .ev-pop .pw.fa{font-family:var(--fa)}
 .ev-pop .pp{font-style:italic}
 .ev-pop .pg{font-weight:600}
-.ev-pop .ph{color:var(--muted);font-size:13px}
+.ev-pop .ph{color:var(--muted);font-size:15px}
 .ev-pop .px{margin:6px 0 0;padding-top:6px;border-top:1px solid var(--line);display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:16px;align-items:baseline}
-.ev-pop .px dt{color:var(--muted);font-size:13px}
+.ev-pop .px dt{color:var(--muted);font-size:15px}
 .ev-pop .px dd{margin:0;min-width:0}
 .ev-pop .px dd.ar{font-family:var(--ar);font-size:20px}
 .ev-pop .px dd.fa{font-family:var(--fa);font-size:18px}
+.ev-pop .px dd.syc{font-family:var(--syc);font-size:24px;line-height:1.6}
+.ev-verse.now{background:var(--word);border-radius:8px}
+.ev-saymsg{flex-basis:100%;text-align:center}
+.ev-saymsg:empty{display:none}
 .ev-pop .px dd[dir="rtl"]{text-align:right}
 </style>
 </head>
@@ -234,6 +238,8 @@ button.good{background:var(--good);border-color:var(--good);color:var(--surface)
     <label id="evGlossWrap"><input type="checkbox" id="evGloss"> Deutsch mitlesen</label>
     <button class="small" id="evSmaller" type="button">Schrift kleiner</button>
     <button class="small" id="evLarger" type="button">Schrift grösser</button>
+    <button class="small" id="evSay" type="button">▶ Vorlesen</button>
+    <span class="ev-saymsg" id="evSayMsg"></span>
   </div>
   <section class="ev-text" id="evText" role="tabpanel"></section>
   <p class="ev-link" id="evLink" hidden></p>
@@ -519,7 +525,7 @@ function showView(v){
   const cardsView = v==='cards';
   $('viewText').hidden = v!=='text'; $('viewCards').hidden = !cardsView; $('viewEv').hidden = v!=='ev'; $('player').hidden = v!=='text';
   $('tabText').setAttribute('aria-selected', v==='text'); $('tabCards').setAttribute('aria-selected', cardsView); $('tabEv').setAttribute('aria-selected', v==='ev');
-  hideTip(); evHide(); if(synth){ running=false; synth.cancel(); mark(-1); }
+  hideTip(); evHide(); if(synth){ running=false; synth.cancel(); mark(-1); if(EV) evSayStop(); }
   if(cardsView){ lastKey=null; setMode('cards'); nextCard(); renderList(); }
   if(v==='ev') loadEv();
 }
@@ -571,7 +577,7 @@ function evWords(el,text){
 }
 function evRender(){
   const x=EV.langs[evLang], box=$('evText'), withDe=$('evGloss').checked && evLang!=='de', dict=(EV.dict||{})[evLang];
-  evHide(); box.innerHTML=''; box.style.setProperty('--evs',evScale);
+  evHide(); if(synth) evSayStop(); evSayState(); box.innerHTML=''; box.style.setProperty('--evs',evScale);
   const h=$('evRef'); h.textContent=x.ref; h.lang=evLang; h.dir=x.rtl?'rtl':'ltr';
   h.style.fontFamily = evLang==='syc'?'var(--syc)':evLang==='ar'?'var(--ar)':evLang==='fa'?'var(--fa)':'';
   x.v.forEach((t,i)=>{
@@ -587,6 +593,34 @@ function evRender(){
   const lk=$('evLink'); lk.innerHTML=''; lk.hidden=!x.link;
   if(x.link){ const a=document.createElement('a'); a.href=x.link.url; a.target='_blank'; a.rel='noopener'; a.textContent=x.link.title+' ↗'; a.lang=evLang; if(x.rtl) lk.dir='rtl'; else lk.removeAttribute('dir'); lk.append(a); }
 }
+/* Vorlesen im Evangelium: Stimme des Geräts in der gewählten Sprache */
+const EV_TTS={de:['de'],fr:['fr'],en:['en'],it:['it'],es:['es'],ru:['ru'],ar:['ar'],fa:['fa'],la:['it'],grc:['el']};
+const EV_LNAME={de:'deutsche',fr:'französische',en:'englische',it:'italienische',es:'spanische',ru:'russische',ar:'arabische',fa:'persische',la:'italienische (für Latein)',grc:'griechische'};
+let evGen=0;
+function evVoice(k){ if(!synth||!EV_TTS[k]) return null; const all=synth.getVoices(); for(const c of EV_TTS[k]){ const v=all.find(x=>x.lang&&x.lang.toLowerCase().replace('_','-').startsWith(c)); if(v) return v; } return null; }
+function evSayStop(){ evGen++; if(synth) synth.cancel(); document.querySelectorAll('.ev-verse.now').forEach(x=>x.classList.remove('now')); $('evSay').textContent='▶ Vorlesen'; }
+function evSayState(){
+  const b=$('evSay'), m=$('evSayMsg'); m.textContent='';
+  if(!synth){ b.disabled=true; m.textContent='Dieser Browser unterstützt keine Sprachausgabe.'; return; }
+  if(!EV_TTS[evLang]){ b.disabled=true; m.textContent= evLang==='syc' ? 'Für Syrisch gibt es keine Sprachausgabe auf Geräten. Die Aussprache steht im Wort-Fenster.' : ''; return; }
+  b.disabled=false;
+  if(!evVoice(evLang) && synth.getVoices().length) m.textContent='Auf diesem Gerät ist keine '+EV_LNAME[evLang]+' Stimme installiert.';
+  if(evLang==='grc') m.textContent=(m.textContent?m.textContent+' ':'')+'Gelesen mit neugriechischer Aussprache.';
+  if(evLang==='la') m.textContent=(m.textContent?m.textContent+' ':'')+'Gelesen mit italienischer Stimme (kirchliche Aussprache).';
+}
+function evSayFrom(i,my){
+  const vs=[...document.querySelectorAll('#evText .ev-verse')], x=EV.langs[evLang];
+  if(my!==evGen) return;
+  if(i>=vs.length){ evSayStop(); return; }
+  vs.forEach((d,j)=>d.classList.toggle('now',j===i)); vs[i].scrollIntoView({block:'center',behavior:'smooth'});
+  const u=new SpeechSynthesisUtterance(x.v[i]); const v=evVoice(evLang);
+  u.lang = v ? v.lang : EV_TTS[evLang][0]; if(v) u.voice=v; u.rate=parseFloat($('rate').value)||0.9;
+  u.onend=()=>evSayFrom(i+1,my);
+  u.onerror=e=>{ if(my===evGen && e.error!=='interrupted' && e.error!=='canceled'){ $('evSayMsg').textContent='Sprachausgabe fehlgeschlagen ('+e.error+').'; evSayStop(); } };
+  synth.speak(u);
+}
+$('evSay').onclick=()=>{ if(!synth||!EV_TTS[evLang]) return; if($('evSay').textContent.startsWith('■')){ evSayStop(); return; } evSayStop(); const my=evGen; $('evSay').textContent='■ Stopp'; evSayFrom(0,my); };
+if(synth) synth.addEventListener('voiceschanged',()=>{ if(EV) evSayState(); });
 function evHide(){ $('evPop').hidden=true; if(evSel){ evSel.classList.remove('sel'); evSel=null; } }
 function evShow(w){
   const e=((EV.dict||{})[evLang]||{})[w.dataset.k]; if(!e) return;

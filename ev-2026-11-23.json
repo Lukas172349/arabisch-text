@@ -191,7 +191,7 @@
         "title": "Peschitta (biblehub)"
       },
       "v": [
-        "ܚܰܪ ܕܶܝܢ ܝܶܫܽܘܥ ܒܥܰܬܺܝܪܶܐ ܐܰܝܠܶܝܢ ܕܪܳܡܶܝܢ ܗܘܰܘ ܒܶܝܬ ܓܰܙܳܐ ܩܽܘܪܒܳܢܰܝܗܽܘܢ܂",
+        "ܚܳܪ ܕܶܝܢ ܝܶܫܽܘܥ ܒܥܰܬܺܝܪܶܐ ܐܰܝܠܶܝܢ ܕܪܳܡܶܝܢ ܗܘܰܘ ܒܶܝܬ ܓܰܙܳܐ ܩܽܘܪܒܳܢܰܝܗܽܘܢ܂",
         "ܘܰܚܙܳܐ ܐܳܦ ܐܰܪܡܰܠܬܳܐ ܚܕܳܐ ܡܶܣܟܶܢܬܳܐ ܕܐܰܪܡܝܰܬ ܫܡܽܘܢܶܐ ܬܪܶܝܢ܂",
         "ܘܶܐܡܰܪ ܫܪܳܪܳܐ ܐܳܡܰܪ ܐܶܢܳܐ ܠܟܽܘܢ ܕܗܳܕܶܐ ܐܰܪܡܰܠܬܳܐ ܡܶܣܟܶܢܬܳܐ ܐܰܪܡܝܰܬ ܝܰܬܺܝܪ ܡܶܢ ܟܽܠܢܳܫ܂",
         "ܟܽܠܗܽܘܢ ܓܶܝܪ ܗܳܠܶܝܢ ܡܶܢ ܡܳܐ ܕܝܰܬܺܝܪ ܗܘܳܐ ܠܗܽܘܢ ܐܰܪܡܺܝܘ ܒܶܝܬ ܩܽܘܪܒܳܢܳܐ ܕܰܐܠܳܗܳܐ ܗܳܕܶܐ ܕܶܝܢ ܡܶܢ ܚܣܺܝܪܽܘܬܳܗ ܟܽܠ ܕܩܶܢܝܳܐ ܗܘܳܬ ܐܰܪܡܝܰܬܶܗ܂"
@@ -2385,9 +2385,15 @@
     "syc": {
       "ܚܪ": [
         "(er) schaute",
-        "Perfekt 3. m. Sg.",
-        "ḥar",
-        []
+        "Perfekt 3. m. Sg. (Wurzel ḥwr)",
+        "ḥor",
+        [
+          [
+            "Grundform",
+            "ܚܳܪ",
+            1
+          ]
+        ]
       ],
       "ܕܝܢ": [
         "aber, nun",
@@ -2405,7 +2411,13 @@
         "auf die Reichen",
         "ܒ = auf, in; Pl. von ܥܬܝܪܐ",
         "bʿatire",
-        []
+        [
+          [
+            "Grundform",
+            "ܥܰܬܺܝܪܳܐ",
+            1
+          ]
+        ]
       ],
       "ܐܝܠܝܢ": [
         "diejenigen, welche",
@@ -2415,39 +2427,75 @@
       ],
       "ܕܪܡܝܢ": [
         "die warfen",
-        "ܕ = die, welche; Partizip Pl. von ܪܡܐ (vgl. arab. رمى)",
+        "ܕ = die, welche; Partizip Pl. (vgl. arab. رمى)",
         "dromen",
-        []
+        [
+          [
+            "Grundform",
+            "ܪܡܳܐ",
+            1
+          ]
+        ]
       ],
       "ܗܘܘ": [
         "(sie) waren",
         "Perfekt 3. m. Pl. von ܗܘܐ; mit Partizip = Vergangenheit",
         "hwaw",
-        []
+        [
+          [
+            "Grundform",
+            "ܗܘܳܐ",
+            1
+          ]
+        ]
       ],
       "ܒܝܬ": [
         "Haus",
         "ܒܝܬ ܓܙܐ = Schatzhaus",
         "bet",
-        []
+        [
+          [
+            "Grundform",
+            "ܒܰܝܬܳܐ",
+            1
+          ]
+        ]
       ],
       "ܓܙܐ": [
         "Schatz",
         "",
         "gazo",
-        []
+        [
+          [
+            "Grundform",
+            "ܓܰܙܳܐ",
+            1
+          ]
+        ]
       ],
       "ܩܘܪܒܢܝܗܘܢ": [
         "ihre Opfergaben",
         "Pl. von ܩܘܪܒܢܐ; ܝܗܘܢ = ihre (vgl. arab. قربان)",
         "qurbonayhun",
-        []
+        [
+          [
+            "Grundform",
+            "ܩܽܘܪܒܳܢܳܐ",
+            1
+          ]
+        ]
       ],
       "ܘܚܙܐ": [
         "und (er) sah",
         "ܘ = und; Perfekt 3. m. Sg.",
         "waḥzo",
-        []
+        [
+          [
+            "Grundform",
+            "ܚܙܳܐ",
+            1
+          ]
+        ]
       ],
       "ܐܦ": [
         "auch",
@@ -2459,55 +2507,109 @@
         "Witwe",
         "vgl. arab. أرملة",
         "armalto",
-        []
+        [
+          [
+            "Grundform",
+            "ܐܰܪܡܰܠܬܳܐ",
+            1
+          ]
+        ]
       ],
       "ܚܕܐ": [
         "eine",
         "f.",
         "ḥdo",
-        []
+        [
+          [
+            "Grundform",
+            "ܚܰܕ",
+            1
+          ]
+        ]
       ],
       "ܡܣܟܢܬܐ": [
         "arme",
         "f. (vgl. arab. مسكين)",
         "meskento",
-        []
+        [
+          [
+            "Grundform",
+            "ܡܶܣܟܺܝܢܳܐ",
+            1
+          ]
+        ]
       ],
       "ܕܐܪܡܝܬ": [
         "die warf",
-        "ܕ = die; Perfekt 3. f. Sg. (Afʿel)",
+        "ܕ = die; Perfekt 3. f. Sg., Afʿel von ܪܡܐ",
         "darmyat",
-        []
+        [
+          [
+            "Grundform",
+            "ܐܰܪܡܺܝ",
+            1
+          ]
+        ]
       ],
       "ܫܡܘܢܐ": [
         "kleine Münzen",
         "Pl.",
         "shmune",
-        []
+        [
+          [
+            "Grundform",
+            "ܫܡܽܘܢܳܐ",
+            1
+          ]
+        ]
       ],
       "ܬܪܝܢ": [
         "zwei",
         "",
         "tren",
-        []
+        [
+          [
+            "Grundform",
+            "ܬܪܶܝܢ",
+            1
+          ]
+        ]
       ],
       "ܘܐܡܪ": [
         "und (er) sagte",
         "ܘ = und; Perfekt 3. m. Sg.",
         "wemar",
-        []
+        [
+          [
+            "Grundform",
+            "ܐܶܡܰܪ",
+            1
+          ]
+        ]
       ],
       "ܫܪܪܐ": [
         "Wahrheit; wahrlich",
         "",
         "shroro",
-        []
+        [
+          [
+            "Grundform",
+            "ܫܪܳܪܳܐ",
+            1
+          ]
+        ]
       ],
       "ܐܡܪ": [
         "sagend, (ich) sage",
         "Partizip",
         "omar",
-        []
+        [
+          [
+            "Grundform",
+            "ܐܶܡܰܪ",
+            1
+          ]
+        ]
       ],
       "ܐܢܐ": [
         "ich",
@@ -2519,19 +2621,37 @@
         "euch",
         "ܠ = zu; ܟܘܢ = euch",
         "lkun",
-        []
+        [
+          [
+            "Grundform",
+            "ܠ",
+            1
+          ]
+        ]
       ],
       "ܕܗܕܐ": [
         "dass diese",
         "ܕ = dass",
         "dhode",
-        []
+        [
+          [
+            "Grundform",
+            "ܗܳܢܳܐ",
+            1
+          ]
+        ]
       ],
       "ܐܪܡܝܬ": [
         "(sie) warf",
-        "Perfekt 3. f. Sg. (Afʿel)",
+        "Perfekt 3. f. Sg., Afʿel von ܪܡܐ",
         "armyat",
-        []
+        [
+          [
+            "Grundform",
+            "ܐܰܪܡܺܝ",
+            1
+          ]
+        ]
       ],
       "ܝܬܝܪ": [
         "mehr",
@@ -2555,7 +2675,13 @@
         "sie alle",
         "ܗܘܢ = sie",
         "kulhun",
-        []
+        [
+          [
+            "Grundform",
+            "ܟܽܠ",
+            1
+          ]
+        ]
       ],
       "ܓܝܪ": [
         "denn",
@@ -2567,7 +2693,13 @@
         "diese",
         "",
         "holen",
-        []
+        [
+          [
+            "Grundform",
+            "ܗܳܢܳܐ",
+            1
+          ]
+        ]
       ],
       "ܡܐ": [
         "was",
@@ -2579,49 +2711,97 @@
         "das übrig",
         "ܕ = das",
         "dyatir",
-        []
+        [
+          [
+            "Grundform",
+            "ܝܰܬܺܝܪ",
+            1
+          ]
+        ]
       ],
       "ܗܘܐ": [
         "war",
         "Perfekt 3. m. Sg.",
         "hwo",
-        []
+        [
+          [
+            "Grundform",
+            "ܗܘܳܐ",
+            1
+          ]
+        ]
       ],
       "ܠܗܘܢ": [
         "ihnen",
         "ܠ = zu",
         "lhun",
-        []
+        [
+          [
+            "Grundform",
+            "ܠ",
+            1
+          ]
+        ]
       ],
       "ܐܪܡܝܘ": [
         "(sie) warfen",
-        "Perfekt 3. m. Pl. (Afʿel)",
+        "Perfekt 3. m. Pl., Afʿel von ܪܡܐ",
         "armiw",
-        []
+        [
+          [
+            "Grundform",
+            "ܐܰܪܡܺܝ",
+            1
+          ]
+        ]
       ],
       "ܩܘܪܒܢܐ": [
         "Opfergabe",
         "ܒܝܬ ܩܘܪܒܢܐ = Opferkasten (vgl. arab. قربان)",
         "qurbono",
-        []
+        [
+          [
+            "Grundform",
+            "ܩܽܘܪܒܳܢܳܐ",
+            1
+          ]
+        ]
       ],
       "ܕܐܠܗܐ": [
         "Gottes",
         "ܕ = des (vgl. arab. إله)",
         "daloho",
-        []
+        [
+          [
+            "Grundform",
+            "ܐܰܠܳܗܳܐ",
+            1
+          ]
+        ]
       ],
       "ܗܕܐ": [
         "diese",
         "f.",
         "hode",
-        []
+        [
+          [
+            "Grundform",
+            "ܗܳܢܳܐ",
+            1
+          ]
+        ]
       ],
       "ܚܣܝܪܘܬܗ": [
         "ihrem Mangel",
         "ܗ = ihr (vgl. arab. خسارة)",
         "ḥsirutoh",
-        []
+        [
+          [
+            "Grundform",
+            "ܚܣܺܝܪܽܘܬܳܐ",
+            1
+          ]
+        ]
       ],
       "ܟܠ": [
         "all, ganz",
@@ -2633,19 +2813,37 @@
         "was (sie) besass",
         "ܕ = was; Partizip f. von ܩܢܐ",
         "dqenyo",
-        []
+        [
+          [
+            "Grundform",
+            "ܩܢܳܐ",
+            1
+          ]
+        ]
       ],
       "ܗܘܬ": [
         "war",
         "Perfekt 3. f. Sg.",
         "hwot",
-        []
+        [
+          [
+            "Grundform",
+            "ܗܘܳܐ",
+            1
+          ]
+        ]
       ],
       "ܐܪܡܝܬܗ": [
         "warf (sie) es",
-        "Perfekt 3. f. Sg.; ܗ = es",
+        "Perfekt 3. f. Sg., Afʿel von ܪܡܐ; ܗ = es",
         "armyateh",
-        []
+        [
+          [
+            "Grundform",
+            "ܐܰܪܡܺܝ",
+            1
+          ]
+        ]
       ]
     }
   },
