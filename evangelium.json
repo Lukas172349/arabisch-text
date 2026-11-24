@@ -163,13 +163,13 @@
     "title": "خواندن در ترجمهٔ معاصر (bibleserver)"
    },
    "v": [
-    "و چون بَرخی دَربارهٔ مَعبَد می‌گُفتَند کِه با سَنگ‌هایِ زیبا و هَدایایِ نَذری آراستِه شُدِه اَست، عیسی گُفت:",
-    "«روزهایی خواهَد آمَد کِه اَز آنچِه اِکنون می‌بینید، سَنگی بَر سَنگی نَخواهَد ماند کِه فِرو ریختِه نَشَوَد.»",
-    "پَس اَز او پُرسیدَند: «اُستاد، این چیزها کِی رُخ خواهَد داد؟ و نِشانِهٔ نَزدیک شُدَنِ آن چیست؟»",
-    "گُفت: «هُشیار باشید کِه گُمراه نَشَوید. زیرا بِسیاری بِه نامِ مَن خواهَند آمَد و خواهَند گُفت: “مَن هَستَم” و “زَمان نَزدیک اَست.” دُنبالِ آنان نَرَوید!",
-    "و چون خَبَرِ جَنگ‌ها و آشوب‌ها را بِشِنَوید، هَراسان نَشَوید؛ زیرا نَخُست باید این چیزها رُخ دَهَد، اَمّا پایان بی‌دَرنگ نَخواهَد رَسید.»",
-    "آنگاه بِه آنان گُفت: «قومی بَر ضِدِّ قومی و کِشوَری بَر ضِدِّ کِشوَری بَرخواهَد خاست.",
-    "زَمین‌لَرزه‌هایِ سَخت و دَر جاهایِ گوناگون قَحطی‌ها و وَباها خواهَد بود، و رویدادهایِ هولناک و نِشانِه‌هایِ بُزُرگ اَز آسمان پَدید خواهَد آمَد.»"
+    "دَر این هَنگام بَعضی اَز شاگِردانِ عیسی اَز سَنگهایِ زیبایی کِه دَر بِنایِ خانهٔ خُدا بِکار رَفتِه بود و اَز اَشیاءِ گِرانبَهایی کِه مَردُم وَقف کَردِه بودَند، تَعریف می‌کَردَند. اَمّا عیسی بِه ایشان فَرمود:",
+    "«روزی فَرا می‌رَسَد کِه تَمامِ این چیزهایی کِه می‌بینید، خَراب و ویران خواهَد شُد و سَنگی بَر سَنگیِ دیگَر باقی نَخواهَد ماند.»",
+    "ایشان با تَعَجُّب گُفتَند: «اُستاد، این وَقایِع کِی روی خواهَد داد؟ آیا پیش اَز وُقوعِ آنها، عَلامَتی وُجود خواهَد داشت؟»",
+    "عیسی دَر جَواب گُفت: «مُواظِب باشید کَسی شُما را گُمراه نَکُنَد! زیرا بِسیاری آمَدِه، اِدِّعا خواهَند کَرد کِه مَسیح هَستَند و خواهَند گُفت کِه دُنیا بِه آخَر رِسیدِه اَست. اَمّا باوَر نَکُنید!",
+    "و هَنگامی کِه خَبَرِ جَنگها و آشوبها را بِشِنَوید، مُضطَرِب نَشَوید. لازِم اَست کِه چُنین وَقایِعی رُخ دَهَد، اَمّا این بِه آن مَعنی نیست کِه آخَرِ دُنیا نَزدیک شُدِه اَست!»",
+    "سِپَس اِدامِه داد: «قَومها و مَمالِک عَلِیهِ یِکدیگَر بِه جَنگ بَرخواهَند خاست.",
+    "زِلزِلِه‌هایِ عَظیم، قَحطی‌ها و بیماریهایِ مُسری دَر بِسیاری اَز نِقاط روی خواهَد داد و دَر آسمان نیز چیزهایِ عَجیب و هولناک دیدِه خواهَد شُد."
    ]
   },
   "la": {
@@ -2173,111 +2173,105 @@
    ]
   },
   "fa": {
-   "و": [
-    "und",
+   "در": [
+    "in, an",
     "",
     "",
     []
    ],
-   "چون": [
-    "als, da; wenn",
+   "این": [
+    "diese(r), dies",
     "",
     "",
     []
    ],
-   "برخی": [
+   "هنگام": [
+    "Zeit, Zeitpunkt",
+    "در این هنگام = zu dieser Zeit",
+    "",
+    []
+   ],
+   "بعضی": [
     "einige",
-    "برخ = Teil; ـی",
-    "",
-    []
-   ],
-   "دربارهٔ": [
-    "über, betreffend",
-    "mit Ezafe (ـهٔ)",
-    "",
-    []
-   ],
-   "معبد": [
-    "Tempel",
-    "arab. Lehnwort",
-    "",
-    []
-   ],
-   "می‌گفتند": [
-    "(sie) sagten",
-    "Imperfekt 3. Pl. (می‌ + گفت + ند)",
-    "",
-    [
-     [
-      "Infinitiv",
-      "گفتن",
-      1
-     ]
-    ]
-   ],
-   "که": [
-    "dass; der, welcher",
-    "Konjunktion bzw. Relativpartikel",
-    "",
-    []
-   ],
-   "با": [
-    "mit",
     "",
     "",
     []
    ],
-   "سنگ‌های": [
+   "از": [
+    "von, aus; über",
+    "",
+    "",
+    []
+   ],
+   "شاگردان": [
+    "Jünger",
+    "Plural von شاگرد mit Ezafe",
+    "",
+    []
+   ],
+   "عیسی": [
+    "Jesus",
+    "Eigenname",
+    "",
+    []
+   ],
+   "سنگهای": [
     "Steine",
     "Plural von سنگ mit Ezafe",
     "",
     []
    ],
-   "زیبا": [
-    "schön",
+   "زیبایی": [
+    "schöne",
+    "زیبا + ـی (vor Relativsatz)",
+    "",
+    []
+   ],
+   "که": [
+    "die, welche; dass",
+    "Relativpartikel bzw. Konjunktion",
+    "",
+    []
+   ],
+   "بنای": [
+    "Bau",
+    "arab. Lehnwort بنا, mit Ezafe",
+    "",
+    []
+   ],
+   "خانهٔ": [
+    "Haus",
+    "mit Ezafe; خانهٔ خدا = Haus Gottes (Tempel)",
+    "",
+    []
+   ],
+   "خدا": [
+    "Gott",
     "",
     "",
     []
    ],
-   "هدایای": [
-    "Gaben",
-    "arab. Plural von هدیه, mit Ezafe",
+   "بکار": [
+    "verwendet",
+    "به کار رفتن = verwendet werden",
     "",
     []
    ],
-   "نذری": [
-    "Weih-, Votiv-",
-    "Adjektiv zu نذر (Gelübde)",
-    "",
-    []
-   ],
-   "آراسته": [
-    "geschmückt",
-    "Partizip Perfekt; آراسته شدن = geschmückt werden",
+   "رفته": [
+    "gegangen",
+    "Partizip Perfekt; بکار رفته بود = war verwendet worden",
     "",
     [
      [
       "Infinitiv",
-      "آراستن",
+      "رفتن",
       1
      ]
     ]
    ],
-   "شده": [
-    "geworden",
-    "Partizip Perfekt von شدن (Passivhilfsverb)",
-    "",
-    [
-     [
-      "Infinitiv",
-      "شدن",
-      1
-     ]
-    ]
-   ],
-   "است": [
-    "ist",
-    "3. Sg. von بودن",
+   "بود": [
+    "war",
+    "Vergangenheit 3. Sg.; Hilfsverb des Plusquamperfekts",
     "",
     [
      [
@@ -2287,69 +2281,141 @@
      ]
     ]
    ],
-   "عیسی": [
-    "Jesus",
-    "Eigenname",
+   "و": [
+    "und",
+    "",
     "",
     []
    ],
-   "گفت": [
-    "(er) sagte",
-    "Vergangenheit 3. Sg.",
+   "اشیاء": [
+    "Gegenstände",
+    "arab. Plural von شیء, mit Ezafe",
+    "",
+    []
+   ],
+   "گرانبهایی": [
+    "kostbare",
+    "گرانبها + ـی (vor Relativsatz)",
+    "",
+    []
+   ],
+   "مردم": [
+    "die Leute",
+    "",
+    "",
+    []
+   ],
+   "وقف": [
+    "Stiftung",
+    "arab. Lehnwort; وقف کردن = stiften, weihen",
+    "",
+    []
+   ],
+   "کرده": [
+    "getan",
+    "Partizip Perfekt von کردن",
     "",
     [
      [
       "Infinitiv",
-      "گفتن",
+      "کردن",
       1
      ]
     ]
    ],
-   "روزهایی": [
-    "Tage",
-    "Plural von روز + ـی (unbestimmt)",
-    "",
-    []
-   ],
-   "خواهد": [
-    "wird",
-    "Futurhilfsverb 3. Sg. (خواستن)",
+   "بودند": [
+    "(sie) hatten",
+    "Hilfsverb des Plusquamperfekts 3. Pl.",
     "",
     [
      [
       "Infinitiv",
-      "خواستن",
+      "بودن",
       1
      ]
     ]
    ],
-   "آمد": [
-    "kommen",
-    "Kurzinfinitiv nach خواهد (Futur)",
+   "تعریف": [
+    "Lob, Beschreibung",
+    "تعریف کردن از = rühmen",
+    "",
+    []
+   ],
+   "می‌کردند": [
+    "(sie) taten",
+    "Imperfekt 3. Pl.; تعریف می‌کردند = rühmten",
     "",
     [
      [
       "Infinitiv",
-      "آمدن",
+      "کردن",
       1
      ]
     ]
    ],
-   "از": [
-    "von, aus",
+   "اما": [
+    "aber",
+    "arab. Lehnwort",
+    "",
+    []
+   ],
+   "به": [
+    "zu",
     "",
     "",
     []
    ],
-   "آنچه": [
-    "das, was",
-    "آن + چه",
+   "ایشان": [
+    "ihnen, sie",
+    "höfliches Pronomen 3. Pl.",
     "",
     []
    ],
-   "اکنون": [
-    "jetzt",
+   "فرمود": [
+    "(er) sprach",
+    "Vergangenheit 3. Sg.; ehrerbietig für گفت",
     "",
+    [
+     [
+      "Infinitiv",
+      "فرمودن",
+      1
+     ]
+    ]
+   ],
+   "روزی": [
+    "ein Tag",
+    "روز + ـی",
+    "",
+    []
+   ],
+   "فرا": [
+    "heran",
+    "Verbpräfix; فرا رسیدن = herankommen",
+    "",
+    []
+   ],
+   "می‌رسد": [
+    "(er) kommt",
+    "Präsens 3. Sg.",
+    "",
+    [
+     [
+      "Infinitiv",
+      "رسیدن",
+      1
+     ]
+    ]
+   ],
+   "تمام": [
+    "all, ganz",
+    "mit Ezafe",
+    "",
+    []
+   ],
+   "چیزهایی": [
+    "Dinge",
+    "Plural von چیز + ـی (vor Relativsatz)",
     "",
     []
    ],
@@ -2365,15 +2431,63 @@
      ]
     ]
    ],
+   "خراب": [
+    "zerstört",
+    "",
+    "",
+    []
+   ],
+   "ویران": [
+    "verwüstet",
+    "",
+    "",
+    []
+   ],
+   "خواهد": [
+    "wird",
+    "Futurhilfsverb 3. Sg.",
+    "",
+    [
+     [
+      "Infinitiv",
+      "خواستن",
+      1
+     ]
+    ]
+   ],
+   "شد": [
+    "werden",
+    "Kurzinfinitiv nach خواهد",
+    "",
+    [
+     [
+      "Infinitiv",
+      "شدن",
+      1
+     ]
+    ]
+   ],
    "سنگی": [
     "ein Stein",
-    "سنگ + ـی = ein",
+    "سنگ + ـی; سنگیِ دیگر = ein anderer Stein",
     "",
     []
    ],
    "بر": [
-    "auf; gegen",
+    "auf",
     "",
+    "",
+    []
+   ],
+   "دیگر": [
+    "anderer",
+    "",
+    "",
+    []
+   ],
+   "باقی": [
+    "übrig",
+    "باقی ماندن = übrig bleiben",
     "",
     []
    ],
@@ -2401,59 +2515,29 @@
      ]
     ]
    ],
-   "فرو": [
-    "hinab, nieder",
-    "Verbpräfix; فرو ریختن = einstürzen",
-    "",
-    []
-   ],
-   "ریخته": [
-    "gestürzt",
-    "Partizip Perfekt; فرو ریخته شدن = niedergerissen werden",
-    "",
-    [
-     [
-      "Infinitiv",
-      "ریختن",
-      1
-     ]
-    ]
-   ],
-   "نشود": [
-    "nicht werde",
-    "Subjunktiv 3. Sg., verneint",
-    "",
-    [
-     [
-      "Infinitiv",
-      "شدن",
-      1
-     ]
-    ]
-   ],
-   "پس": [
-    "da, dann",
-    "",
-    "",
-    []
-   ],
-   "او": [
-    "er, ihn",
-    "",
-    "",
-    []
-   ],
-   "پرسیدند": [
-    "(sie) fragten",
+   "گفتند": [
+    "(sie) sagten",
     "Vergangenheit 3. Pl.",
     "",
     [
      [
       "Infinitiv",
-      "پرسیدن",
+      "گفتن",
       1
      ]
     ]
+   ],
+   "با": [
+    "mit",
+    "",
+    "",
+    []
+   ],
+   "تعجب": [
+    "Verwunderung",
+    "با تعجب = verwundert",
+    "",
+    []
    ],
    "استاد": [
     "Meister, Lehrer",
@@ -2461,33 +2545,27 @@
     "",
     []
    ],
-   "این": [
-    "diese(r)",
-    "",
-    "",
-    []
-   ],
-   "چیزها": [
-    "Dinge",
-    "Plural von چیز",
+   "وقایع": [
+    "Ereignisse",
+    "arab. Plural von واقعه",
     "",
     []
    ],
    "کی": [
     "wann",
-    "Fragewort (kei)",
+    "Fragewort",
     "",
     []
    ],
-   "رخ": [
-    "Gesicht; Vorfall",
-    "رخ دادن = geschehen",
+   "روی": [
+    "Gesicht",
+    "روی دادن = geschehen",
     "",
     []
    ],
    "داد": [
-    "geben",
-    "Kurzinfinitiv nach خواهد; رخ خواهد داد = wird geschehen",
+    "(er) gab; geben",
+    "Vergangenheit 3. Sg. (ادامه داد = fuhr fort) bzw. Kurzinfinitiv",
     "",
     [
      [
@@ -2497,45 +2575,75 @@
      ]
     ]
    ],
-   "نشانهٔ": [
-    "Zeichen",
-    "mit Ezafe",
+   "آیا": [
+    "(Fragepartikel)",
+    "leitet Entscheidungsfragen ein",
     "",
     []
    ],
-   "نزدیک": [
-    "nahe",
+   "پیش": [
+    "vor",
     "",
     "",
     []
    ],
-   "شدن": [
-    "Werden",
-    "Infinitiv als Substantiv, mit Ezafe; نزدیک شدن = Nahekommen",
+   "وقوع": [
+    "Eintreten",
+    "mit Ezafe; arab. Lehnwort",
+    "",
+    []
+   ],
+   "آنها": [
+    "sie, jene",
+    "Plural von آن",
+    "",
+    []
+   ],
+   "علامتی": [
+    "ein Zeichen",
+    "علامت + ـی",
+    "",
+    []
+   ],
+   "وجود": [
+    "Dasein",
+    "وجود داشتن = existieren",
+    "",
+    []
+   ],
+   "داشت": [
+    "haben",
+    "Kurzinfinitiv nach خواهد",
     "",
     [
      [
       "Infinitiv",
-      "شدن",
+      "داشتن",
       1
      ]
     ]
    ],
-   "آن": [
-    "jenes, es",
-    "",
-    "",
-    []
-   ],
-   "چیست": [
-    "was ist",
-    "چه + است",
+   "جواب": [
+    "Antwort",
+    "در جواب = als Antwort",
     "",
     []
    ],
-   "هشیار": [
-    "wachsam",
-    "هشیار بودن = wachsam sein",
+   "گفت": [
+    "(er) sagte; sagen",
+    "Vergangenheit 3. Sg. bzw. Kurzinfinitiv nach خواهند",
+    "",
+    [
+     [
+      "Infinitiv",
+      "گفتن",
+      1
+     ]
+    ]
+   ],
+   "مواظب": [
+    "achtsam",
+    "مواظب بودن = aufpassen",
     "",
     []
    ],
@@ -2551,26 +2659,44 @@
      ]
     ]
    ],
-   "گمراه": [
-    "irregeführt",
-    "گمراه شدن = in die Irre gehen",
+   "کسی": [
+    "jemand",
+    "",
     "",
     []
    ],
-   "نشوید": [
-    "(ihr) werdet nicht",
-    "Subjunktiv/Imperativ 2. Pl., verneint",
+   "شما": [
+    "euch, ihr",
+    "",
+    "",
+    []
+   ],
+   "را": [
+    "(Objektzeichen)",
+    "markiert das bestimmte Objekt",
+    "",
+    []
+   ],
+   "گمراه": [
+    "irregeführt",
+    "گمراه کردن = irreführen",
+    "",
+    []
+   ],
+   "نکند": [
+    "(er) mache nicht",
+    "Subjunktiv 3. Sg., verneint",
     "",
     [
      [
       "Infinitiv",
-      "شدن",
+      "کردن",
       1
      ]
     ]
    ],
    "زیرا": [
-    "denn, weil",
+    "denn",
     "",
     "",
     []
@@ -2581,21 +2707,21 @@
     "",
     []
    ],
-   "به": [
-    "zu, in, mit",
-    "Präposition",
+   "آمده": [
+    "gekommen",
+    "Partizip Perfekt; reihend: kommen und ...",
     "",
-    []
+    [
+     [
+      "Infinitiv",
+      "آمدن",
+      1
+     ]
+    ]
    ],
-   "نام": [
-    "Name",
-    "mit Ezafe",
-    "",
-    []
-   ],
-   "من": [
-    "ich; mein",
-    "",
+   "ادعا": [
+    "Behauptung",
+    "ادعا کردن = behaupten",
     "",
     []
    ],
@@ -2611,9 +2737,27 @@
      ]
     ]
    ],
-   "هستم": [
-    "(ich) bin",
-    "Präsens 1. Sg.",
+   "کرد": [
+    "tun",
+    "Kurzinfinitiv nach خواهند",
+    "",
+    [
+     [
+      "Infinitiv",
+      "کردن",
+      1
+     ]
+    ]
+   ],
+   "مسیح": [
+    "Messias, Christus",
+    "",
+    "",
+    []
+   ],
+   "هستند": [
+    "(sie) sind",
+    "Präsens 3. Pl.",
     "",
     [
      [
@@ -2623,57 +2767,81 @@
      ]
     ]
    ],
-   "زمان": [
-    "Zeit",
+   "دنیا": [
+    "Welt",
     "",
     "",
     []
    ],
-   "دنبال": [
-    "hinter ... her",
-    "mit Ezafe; دنبال کسی رفتن = jemandem nachlaufen",
+   "آخر": [
+    "Ende",
+    "به آخر رسیدن = zu Ende gehen",
     "",
     []
    ],
-   "آنان": [
-    "sie, jene (Personen)",
-    "Plural von آن",
+   "رسیده": [
+    "angekommen",
+    "Partizip Perfekt",
+    "",
+    [
+     [
+      "Infinitiv",
+      "رسیدن",
+      1
+     ]
+    ]
+   ],
+   "است": [
+    "ist",
+    "3. Sg. von بودن; mit Partizip = Perfekt",
+    "",
+    [
+     [
+      "Infinitiv",
+      "بودن",
+      1
+     ]
+    ]
+   ],
+   "باور": [
+    "Glaube",
+    "باور کردن = glauben",
     "",
     []
    ],
-   "نروید": [
-    "geht nicht",
+   "نکنید": [
+    "tut nicht",
     "verneinter Imperativ 2. Pl.",
     "",
     [
      [
       "Infinitiv",
-      "رفتن",
+      "کردن",
       1
      ]
     ]
    ],
-   "خبر": [
-    "Nachricht",
-    "mit Ezafe; arab. Lehnwort",
+   "هنگامی": [
+    "wenn, als",
+    "هنگامی که = wenn",
     "",
     []
    ],
-   "جنگ‌ها": [
+   "خبر": [
+    "Nachricht",
+    "mit Ezafe",
+    "",
+    []
+   ],
+   "جنگها": [
     "Kriege",
     "Plural von جنگ",
     "",
     []
    ],
-   "آشوب‌ها": [
+   "آشوبها": [
     "Unruhen",
     "Plural von آشوب",
-    "",
-    []
-   ],
-   "را": [
-    "(Objektzeichen)",
-    "markiert das bestimmte Objekt",
     "",
     []
    ],
@@ -2689,32 +2857,50 @@
      ]
     ]
    ],
-   "هراسان": [
-    "erschrocken",
-    "هراسان شدن = erschrecken",
+   "مضطرب": [
+    "beunruhigt",
+    "arab. Lehnwort",
     "",
     []
    ],
-   "نخست": [
-    "zuerst",
-    "",
-    "",
-    []
-   ],
-   "باید": [
-    "muss",
-    "unpersönliches Modalverb",
+   "نشوید": [
+    "werdet nicht",
+    "verneinter Imperativ 2. Pl.",
     "",
     [
      [
       "Infinitiv",
-      "بایستن",
+      "شدن",
       1
      ]
     ]
    ],
+   "لازم": [
+    "nötig",
+    "",
+    "",
+    []
+   ],
+   "چنین": [
+    "solche",
+    "",
+    "",
+    []
+   ],
+   "وقایعی": [
+    "Ereignisse",
+    "وقایع + ـی",
+    "",
+    []
+   ],
+   "رخ": [
+    "Antlitz",
+    "رخ دادن = geschehen",
+    "",
+    []
+   ],
    "دهد": [
-    "gebe, geschehe",
+    "gebe",
     "Subjunktiv 3. Sg.; رخ دهد = geschehe",
     "",
     [
@@ -2725,63 +2911,93 @@
      ]
     ]
    ],
-   "اما": [
-    "aber",
-    "arab. Lehnwort",
-    "",
-    []
-   ],
-   "پایان": [
-    "Ende",
+   "آن": [
+    "jenes, das",
     "",
     "",
     []
    ],
-   "بی‌درنگ": [
-    "sogleich",
-    "بی = ohne + درنگ = Zögern",
+   "معنی": [
+    "Bedeutung",
+    "به این معنی = in diesem Sinn",
     "",
     []
    ],
-   "رسید": [
-    "ankommen",
-    "Kurzinfinitiv nach نخواهد",
+   "نیست": [
+    "ist nicht",
+    "verneint 3. Sg.",
     "",
     [
      [
       "Infinitiv",
-      "رسیدن",
+      "بودن",
       1
      ]
     ]
    ],
-   "آنگاه": [
-    "dann",
+   "نزدیک": [
+    "nahe",
     "",
     "",
     []
    ],
-   "قومی": [
-    "ein Volk",
-    "قوم + ـی",
+   "شده": [
+    "geworden",
+    "Partizip Perfekt; شده است = ist geworden",
+    "",
+    [
+     [
+      "Infinitiv",
+      "شدن",
+      1
+     ]
+    ]
+   ],
+   "سپس": [
+    "dann, danach",
+    "",
     "",
     []
    ],
-   "ضد": [
+   "ادامه": [
+    "Fortsetzung",
+    "ادامه دادن = fortfahren",
+    "",
+    []
+   ],
+   "قومها": [
+    "Völker",
+    "Plural von قوم",
+    "",
+    []
+   ],
+   "ممالک": [
+    "Reiche",
+    "arab. Plural von مملکت",
+    "",
+    []
+   ],
+   "علیه": [
     "gegen",
-    "mit Ezafe; بر ضد = gegen",
+    "arab. Lehnwort",
     "",
     []
    ],
-   "کشوری": [
-    "ein Land, Reich",
-    "کشور + ـی",
+   "یکدیگر": [
+    "einander",
+    "",
     "",
     []
    ],
-   "برخواهد": [
-    "wird sich (erheben)",
-    "بر + خواهد; Futur von برخاستن",
+   "جنگ": [
+    "Krieg",
+    "به جنگ برخاستن = sich zum Krieg erheben",
+    "",
+    []
+   ],
+   "برخواهند": [
+    "werden sich (erheben)",
+    "بر + خواهند; Futur von برخاستن",
     "",
     [
      [
@@ -2793,7 +3009,7 @@
    ],
    "خاست": [
     "aufstehen",
-    "Kurzinfinitiv; برخواهد خاست = wird sich erheben",
+    "Kurzinfinitiv",
     "",
     [
      [
@@ -2803,32 +3019,14 @@
      ]
     ]
    ],
-   "زمین‌لرزه‌های": [
+   "زلزله‌های": [
     "Erdbeben",
-    "Plural von زمین‌لرزه mit Ezafe",
+    "Plural von زلزله mit Ezafe",
     "",
     []
    ],
-   "سخت": [
-    "heftig, schwer",
-    "",
-    "",
-    []
-   ],
-   "در": [
-    "in, an",
-    "",
-    "",
-    []
-   ],
-   "جاهای": [
-    "Orte",
-    "Plural von جا mit Ezafe",
-    "",
-    []
-   ],
-   "گوناگون": [
-    "verschieden",
+   "عظیم": [
+    "gewaltig",
     "",
     "",
     []
@@ -2839,45 +3037,21 @@
     "",
     []
    ],
-   "وباها": [
-    "Seuchen",
-    "Plural von وبا",
+   "بیماریهای": [
+    "Krankheiten",
+    "Plural von بیماری mit Ezafe",
     "",
     []
    ],
-   "بود": [
-    "sein",
-    "Kurzinfinitiv nach خواهد",
-    "",
-    [
-     [
-      "Infinitiv",
-      "بودن",
-      1
-     ]
-    ]
-   ],
-   "رویدادهای": [
-    "Ereignisse",
-    "Plural von رویداد mit Ezafe",
-    "",
-    []
-   ],
-   "هولناک": [
-    "schrecklich",
+   "مسری": [
+    "ansteckend",
     "",
     "",
     []
    ],
-   "نشانه‌های": [
-    "Zeichen",
-    "Plural von نشانه mit Ezafe",
-    "",
-    []
-   ],
-   "بزرگ": [
-    "gross",
-    "",
+   "نقاط": [
+    "Orte, Punkte",
+    "arab. Plural von نقطه",
     "",
     []
    ],
@@ -2887,11 +3061,41 @@
     "",
     []
    ],
-   "پدید": [
-    "sichtbar",
-    "پدید آمدن = erscheinen",
+   "نیز": [
+    "auch",
+    "",
     "",
     []
+   ],
+   "چیزهای": [
+    "Dinge",
+    "Plural von چیز mit Ezafe",
+    "",
+    []
+   ],
+   "عجیب": [
+    "seltsam, wunderbar",
+    "",
+    "",
+    []
+   ],
+   "هولناک": [
+    "schrecklich",
+    "",
+    "",
+    []
+   ],
+   "دیده": [
+    "gesehen",
+    "Partizip Perfekt; دیده خواهد شد = wird gesehen werden",
+    "",
+    [
+     [
+      "Infinitiv",
+      "دیدن",
+      1
+     ]
+    ]
    ]
   },
   "la": {
@@ -5827,7 +6031,7 @@
   "Leseordnung: römisch-katholischer Kalender, Dienstag der 34. Woche im Jahreskreis (Lesejahr A / Wochentagsreihe II; Gedenktag hl. Andreas Dũng-Lạc und Gefährten).",
   "Syrisch: Peschitta in westsyrischer Schrift (Serto), Buchstabe für Buchstabe aus einer Umschrift übertragen; Vokalzeichen (ohne Pluralpunkte und Härtezeichen) und Aussprache westsyrisch, selbst gesetzt. Die Peschitta hat in Vers 10 kein „Dann sagte er zu ihnen“.",
   "Latein: Vulgata (Clementina). Altgriechisch: Textus Receptus (Stephanus 1550); Vers 8 „ὅτι“ statt „ὃτι“ und „καὶ“ statt „καί“ der Vorlage korrigiert; Grossschreibung und Satzzeichen ergänzt.",
-  "Russisch: Synodalübersetzung (1876, gemeinfrei); Vers 6 „всё“ mit ё gesetzt. Englisch: Douay-Rheims (Challoner-Revision, gemeinfrei), Text über ccel.org abgerufen. Arabisch: Smith-Van-Dyck-Bibel (1865, gemeinfrei), Hamza-Schreibung und Satzzeichen vereinheitlicht; die Verse 7–11 konnten nicht abgerufen werden und wurden aus dem Gedächtnis ergänzt. Persisch mit selbst gesetzten Vokalzeichen. Deutsch, Französisch, Italienisch, Spanisch und Persisch sind eigene Übersetzungen nach dem griechischen Text, keine amtlichen Bibelausgaben."
+  "Russisch: Synodalübersetzung (1876, gemeinfrei); Vers 6 „всё“ mit ё gesetzt. Englisch: Douay-Rheims (Challoner-Revision, gemeinfrei), Text über ccel.org abgerufen. Arabisch: Smith-Van-Dyck-Bibel (1865, gemeinfrei), Hamza-Schreibung und Satzzeichen vereinheitlicht; die Verse 7–11 konnten nicht abgerufen werden und wurden aus dem Gedächtnis ergänzt. Persisch: Farsi Bible (International Bible Society, 1997), Vokalzeichen selbst gesetzt. Deutsch, Französisch, Italienisch und Spanisch sind eigene Übersetzungen nach dem griechischen Text, keine amtlichen Bibelausgaben."
  ],
  "sources": [
   {
