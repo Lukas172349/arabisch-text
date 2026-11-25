@@ -1,14 +1,15 @@
 {
- "date": "2026-11-24",
- "day": "Dienstag, 24. November 2026 · Dienstag der 34. Woche im Jahreskreis",
+ "date": "2026-11-25",
+ "day": "Mittwoch, 25. November 2026 · Mittwoch der 34. Woche im Jahreskreis",
  "verses": [
-  5,
-  6,
-  7,
-  8,
-  9,
-  10,
-  11
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19
  ],
  "order": [
   "de",
@@ -26,428 +27,552 @@
  "langs": {
   "de": {
    "tab": "Deutsch",
-   "ref": "Lukas 21,5–11 · Von der Zerstörung des Tempels",
+   "ref": "Lukas 21,12–19 · Verfolgung um Jesu Namen willen",
    "cls": "lat",
    "link": {
-    "url": "https://www.bibleserver.com/EU/Lukas21%2C5-11",
+    "url": "https://www.bibleserver.com/EU/Lukas21%2C12-19",
     "title": "Einheitsübersetzung lesen (bibleserver)"
    },
    "v": [
-    "Als einige über den Tempel sagten, er sei mit schönen Steinen und Weihegaben geschmückt, sprach er:",
-    "„Was ihr da seht – es werden Tage kommen, an denen kein Stein auf dem anderen bleibt, der nicht niedergerissen wird.“",
-    "Da fragten sie ihn: „Meister, wann wird das denn geschehen? Und woran erkennt man, dass es so weit ist?“",
-    "Er antwortete: „Gebt acht, dass ihr euch nicht irreführen lasst! Denn viele werden unter meinem Namen auftreten und sagen: ‚Ich bin es‘ und: ‚Die Zeit ist nahe.‘ Lauft ihnen nicht nach!",
-    "Wenn ihr aber von Kriegen und Aufständen hört, so erschreckt nicht! Denn das muss zuerst geschehen; aber das Ende kommt nicht sogleich.“",
-    "Dann sagte er zu ihnen: „Ein Volk wird sich gegen das andere erheben und ein Reich gegen das andere.",
-    "Gewaltige Erdbeben wird es geben und da und dort Hungersnöte und Seuchen; Schreckensbilder und grosse Zeichen wird man am Himmel sehen.“"
+    "„Doch vor all dem wird man Hand an euch legen und euch verfolgen; man wird euch den Synagogen und Gefängnissen ausliefern und euch um meines Namens willen vor Könige und Statthalter schleppen.",
+    "Das wird für euch zum Zeugnis werden.",
+    "Nehmt euch also fest vor, nicht schon im Voraus zu überlegen, wie ihr euch verteidigen sollt;",
+    "denn ich selbst werde euch Mund und Weisheit geben, der alle eure Gegner weder widersprechen noch widerstehen können.",
+    "Ihr werdet sogar von Eltern und Brüdern, von Verwandten und Freunden ausgeliefert werden, und manche von euch wird man töten.",
+    "Und ihr werdet von allen gehasst werden um meines Namens willen.",
+    "Doch kein Haar von eurem Kopf wird verloren gehen.",
+    "Durch eure Standhaftigkeit gewinnt euer Leben!“"
    ]
   },
   "fr": {
    "tab": "Français",
-   "ref": "Luc 21,5-11",
+   "ref": "Luc 21,12-19",
    "cls": "lat",
    "link": {
-    "url": "https://www.aelf.org/2026-11-24/romain/messe",
+    "url": "https://www.aelf.org/2026-11-25/romain/messe",
     "title": "Lire la traduction liturgique (AELF)"
    },
    "v": [
-    "Comme certains disaient du Temple qu’il était orné de belles pierres et d’offrandes votives, Jésus dit :",
-    "« De tout ce que vous regardez là, viendront des jours où l’on ne laissera pas une pierre sur une autre qui ne soit renversée. »",
-    "Ils l’interrogèrent : « Maître, quand donc cela aura-t-il lieu ? Et à quel signe saura-t-on que cela va arriver ? »",
-    "Il répondit : « Prenez garde à ne pas vous laisser égarer. Car beaucoup viendront en se réclamant de mon nom et diront : “C’est moi” et : “Le moment est proche.” Ne courez pas après eux !",
-    "Quand vous entendrez parler de guerres et de soulèvements, ne vous effrayez pas : il faut que cela arrive d’abord, mais la fin ne viendra pas aussitôt. »",
-    "Alors il leur dit : « Un peuple se dressera contre un autre peuple, un royaume contre un autre royaume.",
-    "Il y aura de violents tremblements de terre et, çà et là, des famines et des épidémies ; il y aura des phénomènes effrayants et de grands signes venant du ciel. »"
+    "« Mais avant tout cela, on portera la main sur vous et l’on vous persécutera ; on vous livrera aux synagogues et aux prisons, on vous traînera devant des rois et des gouverneurs à cause de mon nom.",
+    "Cela tournera pour vous en témoignage.",
+    "Mettez-vous donc bien dans le cœur de ne pas préparer d’avance votre défense,",
+    "car moi, je vous donnerai une bouche et une sagesse que tous vos adversaires ne pourront ni contredire ni combattre.",
+    "Vous serez livrés même par vos parents, vos frères, vos proches et vos amis, et l’on fera mourir certains d’entre vous.",
+    "Vous serez haïs de tous à cause de mon nom.",
+    "Mais pas un cheveu de votre tête ne périra.",
+    "Par votre persévérance, gagnez vos âmes. »"
    ]
   },
   "en": {
    "tab": "English",
-   "ref": "Luke 21:5–11",
+   "ref": "Luke 21:12–19",
    "cls": "lat",
    "link": {
     "url": "https://catholicbibleonline.com/bible/luke/21/",
     "title": "Douay-Rheims (Catholic Bible Online)"
    },
    "v": [
-    "And some saying of the temple that it was adorned with goodly stones and gifts, he said:",
-    "These things which you see, the days will come in which there shall not be left a stone upon a stone that shall not be thrown down.",
-    "And they asked him, saying: Master, when shall these things be? And what shall be the sign when they shall begin to come to pass?",
-    "Who said: Take heed you be not seduced: for many will come in my name, saying: I am he and the time is at hand. Go ye not therefore after them.",
-    "And when you shall hear of wars and seditions, be not terrified. These things must first come to pass: but the end is not yet presently.",
-    "Then he said to them: Nation shall rise against nation, and kingdom against kingdom.",
-    "And there shall be great earthquakes in divers places and pestilences and famines and terrors from heaven: and there shall be great signs."
+    "But before all these things, they will lay their hands on you and persecute you, delivering you up to the synagogues and into prisons, dragging you before kings and governors, for my name's sake.",
+    "And it shall happen unto you for a testimony.",
+    "Lay it up therefore in your hearts, not to meditate before how you shall answer:",
+    "For I will give you a mouth and wisdom, which all your adversaries shall not be able to resist and gainsay.",
+    "And you shall be betrayed by your parents and brethren and kinsmen and friends: and some of you they will put to death.",
+    "And you shall be hated by all men for my name's sake.",
+    "But a hair of your head shall not perish.",
+    "In your patience you shall possess your souls."
    ]
   },
   "it": {
    "tab": "Italiano",
-   "ref": "Luca 21,5-11",
+   "ref": "Luca 21,12-19",
    "cls": "lat",
    "link": {
-    "url": "https://www.bibbiaedu.it/CEI2008/nt/Lc/21/?sel=21,5-11",
+    "url": "https://www.bibbiaedu.it/CEI2008/nt/Lc/21/?sel=21,12-19",
     "title": "Leggi la Bibbia CEI 2008 (BibbiaEdu)"
    },
    "v": [
-    "Mentre alcuni parlavano del tempio, dicendo che era adorno di belle pietre e di doni votivi, egli disse:",
-    "«Di ciò che state guardando verranno giorni in cui non sarà lasciata pietra su pietra che non venga abbattuta».",
-    "Allora gli domandarono: «Maestro, quando accadrà dunque tutto questo? E da quale segno si capirà che sta per avvenire?».",
-    "Egli rispose: «Badate di non lasciarvi sviare. Molti infatti verranno servendosi del mio nome e diranno: “Sono io” e: “Il tempo è vicino”. Non andate dietro a loro!",
-    "Quando poi sentirete parlare di guerre e di sommosse, non spaventatevi: prima devono accadere queste cose, ma la fine non verrà subito».",
-    "Poi diceva loro: «Si solleverà popolo contro popolo e regno contro regno;",
-    "vi saranno grandi terremoti e, qua e là, carestie e pestilenze; vi saranno anche fatti terrificanti e grandi segni dal cielo»."
+    "«Ma prima di tutto questo metteranno le mani su di voi e vi perseguiteranno, consegnandovi alle sinagoghe e alle prigioni, trascinandovi davanti a re e governatori a causa del mio nome.",
+    "Questo vi darà occasione di rendere testimonianza.",
+    "Fissatevi dunque bene in cuore di non preparare in anticipo la vostra difesa;",
+    "io stesso infatti vi darò una bocca e una sapienza a cui tutti i vostri avversari non potranno né ribattere né resistere.",
+    "Sarete consegnati perfino dai genitori, dai fratelli, dai parenti e dagli amici, e faranno morire alcuni di voi.",
+    "Sarete odiati da tutti a causa del mio nome.",
+    "Eppure nemmeno un capello del vostro capo andrà perduto.",
+    "Con la vostra perseveranza acquistate le vostre anime»."
    ]
   },
   "es": {
    "tab": "Español",
-   "ref": "Lucas 21,5-11",
+   "ref": "Lucas 21,12-19",
    "cls": "lat",
    "link": {
     "url": "https://www.conferenciaepiscopal.es/biblia/",
     "title": "Leer la Sagrada Biblia (CEE)"
    },
    "v": [
-    "Como algunos comentaban del templo que estaba adornado con hermosas piedras y ofrendas votivas, él dijo:",
-    "«De esto que estáis mirando vendrán días en que no se dejará piedra sobre piedra que no sea derribada».",
-    "Entonces le preguntaron: «Maestro, ¿cuándo sucederá eso? ¿Y en qué señal se conocerá que está a punto de ocurrir?».",
-    "Él respondió: «Cuidad de que nadie os extravíe. Porque muchos vendrán sirviéndose de mi nombre y dirán: “Yo soy” y: “El momento está cerca”. ¡No vayáis tras ellos!",
-    "Cuando oigáis hablar de guerras y revueltas, no os aterroricéis; porque es necesario que esto suceda primero, pero el fin no llegará en seguida».",
-    "Luego les decía: «Se alzará pueblo contra pueblo y reino contra reino;",
-    "habrá grandes terremotos, y aquí y allá hambres y pestes; habrá también hechos espantosos y grandes señales venidas del cielo»."
+    "«Pero antes de todo esto os echarán mano y os perseguirán, entregándoos a las sinagogas y a las cárceles, y os arrastrarán ante reyes y gobernadores por causa de mi nombre.",
+    "Esto os servirá para dar testimonio.",
+    "Proponeos, pues, en vuestro corazón no preparar de antemano vuestra defensa,",
+    "porque yo mismo os daré una boca y una sabiduría a la que ninguno de vuestros adversarios podrá contradecir ni resistir.",
+    "Seréis entregados incluso por padres, hermanos, parientes y amigos, y a algunos de vosotros os darán muerte.",
+    "Todos os odiarán por causa de mi nombre.",
+    "Pero ni un cabello de vuestra cabeza se perderá.",
+    "Con vuestra perseverancia ganad vuestras almas»."
    ]
   },
   "ru": {
    "tab": "Русский",
-   "ref": "От Луки 21:5–11",
+   "ref": "От Луки 21:12–19",
    "cls": "lat",
    "link": {
-    "url": "https://azbyka.org/biblia/?Lk.21:5-11",
+    "url": "https://azbyka.org/biblia/?Lk.21:12-19",
     "title": "Синодальный перевод (azbyka)"
    },
    "v": [
-    "И когда некоторые говорили о храме, что он украшен дорогими камнями и вкладами, Он сказал:",
-    "придут дни, в которые из того, что вы здесь видите, не останется камня на камне; всё будет разрушено.",
-    "И спросили Его: Учитель! когда же это будет? и какой признак, когда это должно произойти?",
-    "Он сказал: берегитесь, чтобы вас не ввели в заблуждение, ибо многие придут под именем Моим, говоря, что это Я; и это время близко: не ходите вслед их.",
-    "Когда же услышите о войнах и смятениях, не ужасайтесь, ибо этому надлежит быть прежде; но не тотчас конец.",
-    "Тогда сказал им: восстанет народ на народ, и царство на царство;",
-    "будут большие землетрясения по местам, и глады, и моры, и ужасные явления, и великие знамения с неба."
+    "Прежде же всего того возложат на вас руки и будут гнать вас, предавая в синагоги и в темницы, и поведут пред царей и правителей за имя Моё;",
+    "будет же это вам для свидетельства.",
+    "Итак положите себе на сердце не обдумывать заранее, что отвечать,",
+    "ибо Я дам вам уста и премудрость, которой не возмогут противоречить ни противостоять все, противящиеся вам.",
+    "Преданы также будете и родителями, и братьями, и родственниками, и друзьями, и некоторых из вас умертвят;",
+    "и будете ненавидимы всеми за имя Моё,",
+    "но и волос с головы вашей не пропадёт, –",
+    "терпением вашим спасайте души ваши."
    ]
   },
   "ar": {
    "tab": "العربية",
-   "ref": "لوقا ٢١: ٥–١١",
+   "ref": "لوقا ٢١: ١٢–١٩",
    "cls": "ar",
    "rtl": 1,
    "digits": "٠١٢٣٤٥٦٧٨٩",
    "link": {
-    "url": "https://www.bibleserver.com/NAV/Lukas21%2C5-11",
+    "url": "https://www.bibleserver.com/NAV/Lukas21%2C12-19",
     "title": "اقرأ في كتاب الحياة (bibleserver)"
    },
    "v": [
-    "وإذ كان قوم يقولون عن الهيكل: إنه مزين بحجارة حسنة وتحف، قال:",
-    "هذه التي ترونها ستأتي أيام لا يترك فيها حجر على حجر لا ينقض.",
-    "فسألوه قائلين: يا معلم، متى يكون هذا؟ وما هي العلامة عندما يصير هذا؟",
-    "فقال: انظروا! لا تضلوا. فإن كثيرين سيأتون باسمي قائلين: إني أنا هو، والزمان قد قرب. فلا تذهبوا وراءهم.",
-    "فإذا سمعتم بحروب وقلاقل فلا تجزعوا، لأنه لا بد أن يكون هذا أولا، ولكن لا يكون المنتهى سريعا.",
-    "ثم قال لهم: تقوم أمة على أمة ومملكة على مملكة،",
-    "وتكون زلازل عظيمة في أماكن، ومجاعات وأوبئة. وتكون مخاوف وعلامات عظيمة من السماء."
+    "وقبل هذا كله يلقون أيديهم عليكم ويطردونكم، ويسلمونكم إلى مجامع وسجون، وتساقون أمام ملوك وولاة لأجل اسمي.",
+    "فيؤول ذلك لكم شهادة.",
+    "فضعوا في قلوبكم أن لا تهتموا من قبل لكي تحتجوا،",
+    "لأني أنا أعطيكم فما وحكمة لا يقدر جميع معانديكم أن يقاوموها أو يناقضوها.",
+    "وسوف تسلمون من الوالدين والإخوة والأقرباء والأصدقاء، ويقتلون منكم.",
+    "وتكونون مبغضين من الجميع من أجل اسمي.",
+    "ولكن شعرة من رؤوسكم لا تهلك.",
+    "بصبركم اقتنوا أنفسكم."
    ]
   },
   "fa": {
    "tab": "فارسی",
-   "ref": "لوقا ۲۱: ۵–۱۱",
+   "ref": "لوقا ۲۱: ۱۲–۱۹",
    "cls": "fa",
    "rtl": 1,
    "digits": "۰۱۲۳۴۵۶۷۸۹",
    "link": {
-    "url": "https://www.bibleserver.com/PCB/Lukas21%2C5-11",
+    "url": "https://www.bibleserver.com/PCB/Lukas21%2C12-19",
     "title": "خواندن در ترجمهٔ معاصر (bibleserver)"
    },
    "v": [
-    "دَر این هَنگام بَعضی اَز شاگِردانِ عیسی اَز سَنگهایِ زیبایی کِه دَر بِنایِ خانهٔ خُدا بِکار رَفتِه بود و اَز اَشیاءِ گِرانبَهایی کِه مَردُم وَقف کَردِه بودَند، تَعریف می‌کَردَند. اَمّا عیسی بِه ایشان فَرمود:",
-    "«روزی فَرا می‌رَسَد کِه تَمامِ این چیزهایی کِه می‌بینید، خَراب و ویران خواهَد شُد و سَنگی بَر سَنگیِ دیگَر باقی نَخواهَد ماند.»",
-    "ایشان با تَعَجُّب گُفتَند: «اُستاد، این وَقایِع کِی روی خواهَد داد؟ آیا پیش اَز وُقوعِ آنها، عَلامَتی وُجود خواهَد داشت؟»",
-    "عیسی دَر جَواب گُفت: «مُواظِب باشید کَسی شُما را گُمراه نَکُنَد! زیرا بِسیاری آمَدِه، اِدِّعا خواهَند کَرد کِه مَسیح هَستَند و خواهَند گُفت کِه دُنیا بِه آخَر رِسیدِه اَست. اَمّا باوَر نَکُنید!",
-    "و هَنگامی کِه خَبَرِ جَنگها و آشوبها را بِشِنَوید، مُضطَرِب نَشَوید. لازِم اَست کِه چُنین وَقایِعی رُخ دَهَد، اَمّا این بِه آن مَعنی نیست کِه آخَرِ دُنیا نَزدیک شُدِه اَست!»",
-    "سِپَس اِدامِه داد: «قَومها و مَمالِک عَلِیهِ یِکدیگَر بِه جَنگ بَرخواهَند خاست.",
-    "زِلزِلِه‌هایِ عَظیم، قَحطی‌ها و بیماریهایِ مُسری دَر بِسیاری اَز نِقاط روی خواهَد داد و دَر آسمان نیز چیزهایِ عَجیب و هولناک دیدِه خواهَد شُد."
+    "«اَمّا قَبل اَز این وَقایِع، دُورِهٔ آزار و جَفا و شِکَنجِه پیش خواهَد آمَد. شُما را بِخاطِرِ نامِ مَن، بِه عِبادَتگاه‌ها، زِندانها، و بِه حُضورِ پادشاهان و فَرمانرَوایان خواهَند کَشاند.",
+    "اَمّا این فُرصَتی خواهَد بود تا بِتَوانید خَبَرِ خوشِ اِنجیل را بِه آنان اِعلام دارید.",
+    "پَس دَر این فِکر نَباشید کِه چِگونِه اَز خود دِفاع کُنید،",
+    "زیرا مَن خود، بِه شُما خواهَم آموخت کِه چِه بِگویید، بِطوری کِه هیچیک اَز دُشمَنانِتان، یارایِ پاسُخگویی و ایستادِگی دَرمُقابِلِ شُما را نَخواهَند داشت!",
+    "پِدَر و مادَر و بَرادَران و بَستِگان و دوستانِتان بِه شُما خیانَت خواهَند کَرد و شُما را تَحویلِ دُشمَن خواهَند داد؛ و بَرخی اَز شُما کُشتِه خواهید شُد؛",
+    "و هَمِه بِسَبَبِ اینکِه پِیرُوِ مَن هَستید، اَز شُما مُتَنَفِّر خواهَند شُد.",
+    "اَمّا مویی اَز سَرِ شُما گُم نَخواهَد شُد!",
+    "اَگَر تا بِه آخَر تَحَمُّل کُنید، جانهایِ خود را نِجات خواهید داد."
    ]
   },
   "la": {
    "tab": "Latina",
-   "ref": "Secundum Lucam 21,5-11",
+   "ref": "Secundum Lucam 21,12-19",
    "cls": "lat",
    "link": {
-    "url": "https://lueur.org/bible/luc21.5-19/KJV,TR1550,VULC",
+    "url": "https://www.lueur.org/bible/luc21.5-19/KJV,TR1550,VULC",
     "title": "Vulgata Clementina (lueur.org)"
    },
    "v": [
-    "Et quibusdam dicentibus de templo quod bonis lapidibus et donis ornatum esset, dixit:",
-    "Hæc quæ videtis, venient dies in quibus non relinquetur lapis super lapidem, qui non destruatur.",
-    "Interrogaverunt autem illum, dicentes: Præceptor, quando hæc erunt, et quod signum cum fieri incipient?",
-    "Qui dixit: Videte ne seducamini: multi enim venient in nomine meo, dicentes quia ego sum: et tempus appropinquavit: nolite ergo ire post eos.",
-    "Cum autem audieritis prælia et seditiones, nolite terreri: oportet primum hæc fieri, sed nondum statim finis.",
-    "Tunc dicebat illis: Surget gens contra gentem, et regnum adversus regnum.",
-    "Et terræmotus magni erunt per loca, et pestilentiæ, et fames, terroresque de cælo, et signa magna erunt."
+    "Sed ante hæc omnia injicient vobis manus suas, et persequentur tradentes in synagogas et custodias, trahentes ad reges et præsides propter nomen meum:",
+    "continget autem vobis in testimonium.",
+    "Ponite ergo in cordibus vestris non præmeditari quemadmodum respondeatis:",
+    "ego enim dabo vobis os et sapientiam, cui non poterunt resistere et contradicere omnes adversarii vestri.",
+    "Trademini autem a parentibus, et fratribus, et cognatis, et amicis, et morte afficient ex vobis:",
+    "et eritis odio omnibus propter nomen meum:",
+    "et capillus de capite vestro non peribit.",
+    "In patientia vestra possidebitis animas vestras."
    ]
   },
   "grc": {
    "tab": "Ἑλληνικά",
-   "ref": "Κατὰ Λουκᾶν 21,5–11",
+   "ref": "Κατὰ Λουκᾶν 21,12–19",
    "cls": "lat",
    "link": {
-    "url": "https://lueur.org/bible/luc21.5-19/KJV,TR1550,VULC",
+    "url": "https://www.lueur.org/bible/luc21.5-19/KJV,TR1550,VULC",
     "title": "Textus Receptus 1550 (lueur.org)"
    },
    "v": [
-    "Καί τινων λεγόντων περὶ τοῦ ἱεροῦ, ὅτι λίθοις καλοῖς καὶ ἀναθήμασιν κεκόσμηται, εἶπεν,",
-    "Ταῦτα ἃ θεωρεῖτε, ἐλεύσονται ἡμέραι ἐν αἷς οὐκ ἀφεθήσεται λίθος ἐπὶ λίθῳ ὃς οὐ καταλυθήσεται.",
-    "Ἐπηρώτησαν δὲ αὐτὸν λέγοντες, Διδάσκαλε, πότε οὖν ταῦτα ἔσται; καὶ τί τὸ σημεῖον ὅταν μέλλῃ ταῦτα γίνεσθαι;",
-    "Ὁ δὲ εἶπεν, Βλέπετε μὴ πλανηθῆτε· πολλοὶ γὰρ ἐλεύσονται ἐπὶ τῷ ὀνόματί μου, λέγοντες ὅτι Ἐγώ εἰμι· καὶ ὁ καιρὸς ἤγγικεν· μὴ οὖν πορευθῆτε ὀπίσω αὐτῶν.",
-    "Ὅταν δὲ ἀκούσητε πολέμους καὶ ἀκαταστασίας, μὴ πτοηθῆτε· δεῖ γὰρ ταῦτα γενέσθαι πρῶτον, ἀλλ᾽ οὐκ εὐθέως τὸ τέλος.",
-    "Τότε ἔλεγεν αὐτοῖς, Ἐγερθήσεται ἔθνος ἐπὶ ἔθνος, καὶ βασιλεία ἐπὶ βασιλείαν·",
-    "σεισμοί τε μεγάλοι κατὰ τόπους καὶ λιμοὶ καὶ λοιμοὶ ἔσονται, φόβητρά τε καὶ σημεῖα ἀπ᾽ οὐρανοῦ μεγάλα ἔσται."
+    "Πρὸ δὲ τούτων ἁπάντων ἐπιβαλοῦσιν ἐφ᾽ ὑμᾶς τὰς χεῖρας αὐτῶν καὶ διώξουσιν, παραδιδόντες εἰς συναγωγὰς καὶ φυλακάς, ἀγομένους ἐπὶ βασιλεῖς καὶ ἡγεμόνας ἕνεκεν τοῦ ὀνόματός μου·",
+    "ἀποβήσεται δὲ ὑμῖν εἰς μαρτύριον.",
+    "Θέσθε οὖν εἰς τὰς καρδίας ὑμῶν μὴ προμελετᾶν ἀπολογηθῆναι·",
+    "ἐγὼ γὰρ δώσω ὑμῖν στόμα καὶ σοφίαν, ᾗ οὐ δυνήσονται ἀντειπεῖν οὐδὲ ἀντιστῆναι πάντες οἱ ἀντικείμενοι ὑμῖν.",
+    "Παραδοθήσεσθε δὲ καὶ ὑπὸ γονέων καὶ ἀδελφῶν καὶ συγγενῶν καὶ φίλων, καὶ θανατώσουσιν ἐξ ὑμῶν,",
+    "καὶ ἔσεσθε μισούμενοι ὑπὸ πάντων διὰ τὸ ὄνομά μου.",
+    "Καὶ θρὶξ ἐκ τῆς κεφαλῆς ὑμῶν οὐ μὴ ἀπόληται.",
+    "Ἐν τῇ ὑπομονῇ ὑμῶν κτήσασθε τὰς ψυχὰς ὑμῶν."
    ]
   },
   "syc": {
    "tab": "ܣܘܪܝܝܐ",
-   "ref": "ܠܘܩܐ ܟܐ: ܗ–ܝܐ",
+   "ref": "ܠܘܩܐ ܟܐ: ܝܒ–ܝܛ",
    "cls": "syc",
    "rtl": 1,
    "nums": [
-    "ܗ",
-    "ܘ",
-    "ܙ",
-    "ܚ",
-    "ܛ",
-    "ܝ",
-    "ܝܐ"
+    "ܝܒ",
+    "ܝܓ",
+    "ܝܕ",
+    "ܝܗ",
+    "ܝܘ",
+    "ܝܙ",
+    "ܝܚ",
+    "ܝܛ"
    ],
    "link": {
     "url": "https://mail.biblehub.com/aramaic-english/pdf/Luke_21.pdf",
     "title": "Peschitta (biblehub)"
    },
    "v": [
-    "ܘܟܰܕ ܐܳܡܪܺܝܢ ܗܘܰܘ ܐܢܳܫܺܝܢ ܥܰܠ ܗܰܝܟܠܳܐ ܕܒܟܺܐܦܶܐ ܫܰܦܺܝܪܳܬܳܐ ܘܰܒܩܽܘܪܒܳܢܶܐ ܡܨܰܒܰܬ ܐܶܡܰܪ ܠܗܽܘܢ ܝܶܫܽܘܥ܂",
-    "ܗܳܠܶܝܢ ܕܚܳܙܶܝܢ ܐܰܢܬܽܘܢ ܢܶܐܬܽܘܢ ܝܰܘܡܳܬܳܐ ܕܒܗܽܘܢ ܠܳܐ ܬܶܫܬܒܶܩ ܟܺܐܦ ܥܰܠ ܟܺܐܦ ܕܠܳܐ ܬܶܣܬܬܰܪ܂",
-    "ܘܰܡܫܰܐܠܺܝܢ ܗܘܰܘ ܠܶܗ ܘܳܐܡܪܺܝܢ ܡܰܠܦܳܢܳܐ ܐܶܡܬܰܝ ܗܳܠܶܝܢ ܢܶܗܘܝܳܢ ܘܡܳܢܳܐ ܗܺܝ ܐܳܬܳܐ ܡܳܐ ܕܩܰܪܺܝܒܳܢ ܗܳܠܶܝܢ ܕܢܶܗܘܝܳܢ܂",
-    "ܗܽܘ ܕܶܝܢ ܐܶܡܰܪ ܠܗܽܘܢ ܚܙܰܘ ܠܡܳܐ ܬܶܛܥܽܘܢ ܣܰܓܺܝܐܶܐ ܓܶܝܪ ܢܶܐܬܽܘܢ ܒܫܶܡܝ ܘܢܶܐܡܪܽܘܢ ܕܶܐܢܳܐ ܐܶܢܳܐ ܡܫܺܝܚܳܐ ܘܰܙܒܰܢܳܐ ܩܪܶܒ ܠܳܐ ܕܶܝܢ ܬܶܐܙܠܽܘܢ ܒܳܬܪܗܽܘܢ܂",
-    "ܘܡܳܐ ܕܫܳܡܥܺܝܢ ܐܰܢܬܽܘܢ ܩܪܳܒܶܐ ܘܫܓܽܘܫܝܶܐ ܠܳܐ ܬܶܕܚܠܽܘܢ ܥܬܺܝܕܳܢ ܐܶܢܶܝܢ ܓܶܝܪ ܗܳܠܶܝܢ ܠܽܘܩܕܰܡ ܠܡܶܗܘܳܐ ܐܶܠܳܐ ܠܳܐ ܥܕܰܟܺܝܠ ܡܶܛܳܬ ܚܰܪܬܳܐ܂",
-    "ܢܩܽܘܡ ܓܶܝܪ ܥܰܡܳܐ ܥܰܠ ܥܰܡܳܐ ܘܡܰܠܟܽܘ ܥܰܠ ܡܰܠܟܽܘ܂",
-    "ܘܙܰܘܥܶܐ ܪܰܘܪܒܶܐ ܢܶܗܘܽܘܢ ܒܕܽܘܟܳܐ ܕܽܘܟܳܐ ܘܰܟܦܢܶܐ ܘܡܰܘܬܳܢܶܐ ܘܢܶܗܘܝܳܢ ܕܶܚܠܳܬܳܐ ܘܣܽܘܪܳܕܶܐ ܘܳܐܬܘܳܬܳܐ ܪܰܘܪܒܳܬܳܐ ܡܶܢ ܫܡܰܝܳܐ ܢܶܬܚܰܙܝܳܢ ܘܣܶܬܘܶܐ ܪܰܘܪܒܶܐ ܢܶܗܘܽܘܢ܂"
+    "ܩܕܳܡ ܕܶܝܢ ܗܳܠܶܝܢ ܟܽܠܗܶܝܢ ܢܶܪܡܽܘܢ ܥܠܰܝܟܽܘܢ ܐܺܝܕܰܝܳܐ ܘܢܶܪܕܦܽܘܢܟܽܘܢ ܘܢܰܫܠܡܽܘܢܟܽܘܢ ܠܰܟܢܽܘܫܳܬܳܐ ܘܰܠܒܶܝܬ ܐܰܣܺܝܪܶܐ ܘܢܩܰܪܒܽܘܢܟܽܘܢ ܩܕܳܡ ܡܰܠܟܶܐ ܘܗܶܓܡܽܘܢܶܐ ܡܶܛܽܠ ܫܡܺܝ܂",
+    "ܗܳܘܝܳܐ ܠܟܽܘܢ ܕܶܝܢ ܠܣܳܗܕܽܘܬܳܐ܂",
+    "ܣܺܝܡܘ ܕܶܝܢ ܒܠܶܒܟܽܘܢ ܕܠܳܐ ܬܶܗܘܽܘܢ ܡܶܬܝܰܠܦܺܝܢ ܠܡܶܦܰܩ ܪܽܘܚܳܐ܂",
+    "ܐܶܢܳܐ ܓܶܝܪ ܐܶܬܶܠ ܠܟܽܘܢ ܦܽܘܡܳܐ ܘܚܶܟܡܬܳܐ ܐܰܝܕܳܐ ܕܠܳܐ ܢܶܫܟܚܽܘܢ ܠܡܶܩܳܡ ܠܩܽܘܒܠܳܗ ܟܽܠܗܽܘܢ ܒܥܶܠܕܒܳܒܰܝܟܽܘܢ܂",
+    "ܢܰܫܠܡܽܘܢܟܽܘܢ ܕܶܝܢ ܐܰܒܳܗܰܝܟܽܘܢ ܘܰܐܚܰܝܟܽܘܢ ܘܰܐܚܝܳܢܰܝܟܽܘܢ ܘܪܳܚܡܰܝܟܽܘܢ ܘܢܰܡܺܝܬܽܘܢ ܡܶܢܟܽܘܢ܂",
+    "ܘܬܶܗܘܽܘܢ ܣܢܺܝܐܺܝܢ ܡܶܢ ܟܽܠ ܐܢܳܫ ܡܶܛܽܠ ܫܡܺܝ܂",
+    "ܘܡܶܢܬܳܐ ܡܶܢ ܪܺܫܟܽܘܢ ܠܳܐ ܬܺܐܒܰܕ܂",
+    "ܒܡܰܣܝܒܪܳܢܽܘܬܟܽܘܢ ܕܶܝܢ ܬܶܩܢܽܘܢ ܢܰܦܫܟܽܘܢ܂"
    ]
   }
  },
  "dict": {
   "ru": {
+   "прежде": [
+    "vor, zuvor",
+    "kirchensprachlich-gehoben; прежде + Gen. = vor",
+    "",
+    []
+   ],
+   "же": [
+    "aber, doch",
+    "Partikel, betont oder verbindet",
+    "",
+    []
+   ],
+   "всего": [
+    "all(em)",
+    "Gen. Sg. n. von весь; прежде всего того = vor all dem",
+    "",
+    [
+     [
+      "Nominativ",
+      "весь (m.), всё (n.)"
+     ]
+    ]
+   ],
+   "того": [
+    "dessen, dem",
+    "Gen. Sg. n. von тот",
+    "",
+    [
+     [
+      "Nominativ",
+      "тот (m.), то (n.)"
+     ]
+    ]
+   ],
+   "возложат": [
+    "(sie) werden legen",
+    "Futur vollendet 3. Pl.; возложить руки = Hand anlegen",
+    "",
+    [
+     [
+      "Infinitiv unvollendet",
+      "возлагать"
+     ],
+     [
+      "Infinitiv vollendet",
+      "возложить"
+     ]
+    ]
+   ],
+   "на": [
+    "auf",
+    "Präposition + Akk./Präp.",
+    "",
+    []
+   ],
+   "вас": [
+    "euch",
+    "Akk./Gen. von вы",
+    "",
+    [
+     [
+      "Nominativ",
+      "вы"
+     ]
+    ]
+   ],
+   "руки": [
+    "Hände",
+    "Akk. Pl. von рука",
+    "",
+    [
+     [
+      "Nominativ",
+      "рука (Sg.), руки (Pl.)"
+     ]
+    ]
+   ],
    "и": [
-    "und",
+    "und; auch",
     "",
     "",
     []
    ],
-   "когда": [
-    "als, wenn; wann",
-    "Konjunktion bzw. Fragewort",
-    "",
-    []
-   ],
-   "некоторые": [
-    "einige",
-    "Nom. Pl. von некоторый",
-    "",
-    [
-     [
-      "Nominativ",
-      "некоторый (Sg.), некоторые (Pl.)"
-     ]
-    ]
-   ],
-   "говорили": [
-    "(sie) sprachen",
-    "Präteritum Pl.",
+   "будут": [
+    "(sie) werden",
+    "Futur von быть 3. Pl.; mit Infinitiv = Futur unvollendet",
     "",
     [
      [
       "Infinitiv unvollendet",
-      "говорить"
+      "быть"
      ],
      [
       "Infinitiv vollendet",
-      "сказать"
+      "—"
      ]
     ]
    ],
-   "о": [
-    "über, von",
-    "Präposition + Präpositiv",
-    "",
-    []
-   ],
-   "храме": [
-    "Tempel",
-    "Präpositiv Sg. von храм",
-    "",
-    [
-     [
-      "Nominativ",
-      "храм (Sg.), храмы (Pl.)"
-     ]
-    ]
-   ],
-   "что": [
-    "dass; was",
-    "Konjunktion bzw. Relativpronomen",
-    "",
-    []
-   ],
-   "он": [
-    "er",
-    "Personalpronomen; in Bezug auf Jesus gross geschrieben",
-    "",
-    []
-   ],
-   "украшен": [
-    "geschmückt (ist)",
-    "Kurzform Partizip Passiv m. Sg.",
+   "гнать": [
+    "verfolgen, treiben",
+    "Infinitiv; будут гнать = werden verfolgen",
     "",
     [
      [
       "Infinitiv unvollendet",
-      "украшать"
+      "гнать"
      ],
      [
       "Infinitiv vollendet",
-      "украсить"
+      "погнать"
      ]
     ]
    ],
-   "дорогими": [
-    "kostbaren",
-    "Instrumental Pl. von дорогой (teuer, kostbar)",
-    "",
-    [
-     [
-      "Nominativ",
-      "дорогой"
-     ]
-    ]
-   ],
-   "камнями": [
-    "(mit) Steinen",
-    "Instrumental Pl. von камень",
-    "",
-    [
-     [
-      "Nominativ",
-      "камень (Sg.), камни (Pl.)"
-     ]
-    ]
-   ],
-   "вкладами": [
-    "(mit) Weihegaben",
-    "Instrumental Pl. von вклад; hier: gestiftete Gaben",
-    "",
-    [
-     [
-      "Nominativ",
-      "вклад (Sg.), вклады (Pl.)"
-     ]
-    ]
-   ],
-   "сказал": [
-    "(er) sagte",
-    "Präteritum m.",
+   "предавая": [
+    "ausliefernd",
+    "Adverbialpartizip unvollendet",
     "",
     [
      [
       "Infinitiv unvollendet",
-      "говорить"
+      "предавать"
      ],
      [
       "Infinitiv vollendet",
-      "сказать"
-     ]
-    ]
-   ],
-   "придут": [
-    "(sie) werden kommen",
-    "Futur 3. Pl.",
-    "",
-    [
-     [
-      "Infinitiv unvollendet",
-      "приходить"
-     ],
-     [
-      "Infinitiv vollendet",
-      "прийти"
-     ]
-    ]
-   ],
-   "дни": [
-    "Tage",
-    "Nom. Pl. von день",
-    "",
-    [
-     [
-      "Nominativ",
-      "день (Sg.), дни (Pl.)"
+      "предать"
      ]
     ]
    ],
    "в": [
-    "in, an",
-    "Präposition; в которые = an denen",
+    "in",
+    "Präposition + Akk. (Richtung) bzw. Präp.",
     "",
     []
    ],
-   "которые": [
-    "welche",
-    "Relativpronomen Akk. Pl. von который",
+   "синагоги": [
+    "Synagogen",
+    "Akk. Pl. von синагога",
     "",
     [
      [
       "Nominativ",
-      "который"
+      "синагога (Sg.), синагоги (Pl.)"
      ]
     ]
    ],
-   "из": [
-    "aus, von",
-    "Präposition + Genitiv",
+   "темницы": [
+    "Gefängnisse, Kerker",
+    "Akk. Pl. von темница; kirchensprachlich-altertümlich",
     "",
-    []
+    [
+     [
+      "Nominativ",
+      "темница (Sg.), темницы (Pl.)"
+     ]
+    ]
    ],
-   "того": [
-    "dem, jenem",
-    "Genitiv von то; из того, что = von dem, was",
-    "",
-    []
-   ],
-   "вы": [
-    "ihr",
-    "",
-    "",
-    []
-   ],
-   "здесь": [
-    "hier",
-    "",
-    "",
-    []
-   ],
-   "видите": [
-    "(ihr) seht",
-    "Präsens 2. Pl.",
+   "поведут": [
+    "(sie) werden führen",
+    "Futur vollendet 3. Pl.",
     "",
     [
      [
       "Infinitiv unvollendet",
-      "видеть"
+      "вести"
      ],
      [
       "Infinitiv vollendet",
-      "увидеть"
+      "повести"
+     ]
+    ]
+   ],
+   "пред": [
+    "vor",
+    "kirchensprachliche Form von перед + Instr./Akk.",
+    "",
+    []
+   ],
+   "царей": [
+    "Könige",
+    "Akk. Pl. von царь",
+    "",
+    [
+     [
+      "Nominativ",
+      "царь (Sg.), цари (Pl.)"
+     ]
+    ]
+   ],
+   "правителей": [
+    "Statthalter, Herrscher",
+    "Akk. Pl. von правитель",
+    "",
+    [
+     [
+      "Nominativ",
+      "правитель (Sg.), правители (Pl.)"
+     ]
+    ]
+   ],
+   "за": [
+    "für, um … willen",
+    "Präposition + Akk.",
+    "",
+    []
+   ],
+   "имя": [
+    "Name",
+    "Akk. Sg.",
+    "",
+    [
+     [
+      "Nominativ",
+      "имя (Sg.), имена (Pl.)"
+     ]
+    ]
+   ],
+   "моё": [
+    "mein",
+    "Possessivpronomen n.; gross geschrieben, da auf Christus bezogen",
+    "",
+    [
+     [
+      "Nominativ",
+      "мой (m.), моё (n.)"
+     ]
+    ]
+   ],
+   "будет": [
+    "(es) wird sein",
+    "Futur 3. Sg. von быть",
+    "",
+    [
+     [
+      "Infinitiv unvollendet",
+      "быть"
+     ],
+     [
+      "Infinitiv vollendet",
+      "—"
+     ]
+    ]
+   ],
+   "это": [
+    "dies",
+    "Demonstrativpronomen n.",
+    "",
+    [
+     [
+      "Nominativ",
+      "этот (m.), это (n.)"
+     ]
+    ]
+   ],
+   "вам": [
+    "euch",
+    "Dat. von вы",
+    "",
+    [
+     [
+      "Nominativ",
+      "вы"
+     ]
+    ]
+   ],
+   "для": [
+    "für, zu",
+    "Präposition + Gen.",
+    "",
+    []
+   ],
+   "свидетельства": [
+    "Zeugnis",
+    "Gen. Sg. von свидетельство",
+    "",
+    [
+     [
+      "Nominativ",
+      "свидетельство (Sg.), свидетельства (Pl.)"
+     ]
+    ]
+   ],
+   "итак": [
+    "also, folglich",
+    "",
+    "",
+    []
+   ],
+   "положите": [
+    "legt, nehmt euch vor",
+    "Imperativ Pl.; положить на сердце = sich fest vornehmen",
+    "",
+    [
+     [
+      "Infinitiv unvollendet",
+      "класть"
+     ],
+     [
+      "Infinitiv vollendet",
+      "положить"
+     ]
+    ]
+   ],
+   "себе": [
+    "(sich) selbst",
+    "Dat. des Reflexivpronomens",
+    "",
+    [
+     [
+      "Nominativ",
+      "себя"
+     ]
+    ]
+   ],
+   "сердце": [
+    "Herz",
+    "Akk. Sg.",
+    "",
+    [
+     [
+      "Nominativ",
+      "сердце (Sg.), сердца (Pl.)"
      ]
     ]
    ],
@@ -457,494 +582,214 @@
     "",
     []
    ],
-   "останется": [
-    "(es) wird bleiben",
-    "Futur 3. Sg., reflexiv",
-    "",
-    [
-     [
-      "Infinitiv unvollendet",
-      "оставаться"
-     ],
-     [
-      "Infinitiv vollendet",
-      "остаться"
-     ]
-    ]
-   ],
-   "камня": [
-    "Stein",
-    "Genitiv Sg. von камень (Verneinung: не останется камня)",
-    "",
-    [
-     [
-      "Nominativ",
-      "камень (Sg.), камни (Pl.)"
-     ]
-    ]
-   ],
-   "на": [
-    "auf, gegen",
-    "Präposition; на + Akk. = gegen",
-    "",
-    []
-   ],
-   "камне": [
-    "Stein",
-    "Präpositiv Sg. von камень; камня на камне = Stein auf Stein",
-    "",
-    [
-     [
-      "Nominativ",
-      "камень (Sg.), камни (Pl.)"
-     ]
-    ]
-   ],
-   "всё": [
-    "alles",
-    "Pronomen весь, n.",
-    "",
-    []
-   ],
-   "будет": [
-    "(es) wird sein",
-    "Futur 3. Sg. von быть; Hilfsverb",
-    "",
-    [
-     [
-      "Infinitiv unvollendet",
-      "быть"
-     ],
-     [
-      "Infinitiv vollendet",
-      "–"
-     ]
-    ]
-   ],
-   "разрушено": [
-    "zerstört",
-    "Kurzform Partizip Passiv n. Sg.",
-    "",
-    [
-     [
-      "Infinitiv unvollendet",
-      "разрушать"
-     ],
-     [
-      "Infinitiv vollendet",
-      "разрушить"
-     ]
-    ]
-   ],
-   "спросили": [
-    "(sie) fragten",
-    "Präteritum Pl.",
-    "",
-    [
-     [
-      "Infinitiv unvollendet",
-      "спрашивать"
-     ],
-     [
-      "Infinitiv vollendet",
-      "спросить"
-     ]
-    ]
-   ],
-   "его": [
-    "ihn",
-    "Akkusativ von он; in Bezug auf Jesus gross geschrieben",
-    "",
-    []
-   ],
-   "учитель": [
-    "Lehrer, Meister",
-    "Nominativ als Anrede",
-    "",
-    [
-     [
-      "Nominativ",
-      "учитель (Sg.), учители/учителя (Pl.)"
-     ]
-    ]
-   ],
-   "же": [
-    "denn, aber",
-    "verstärkende Partikel",
-    "",
-    []
-   ],
-   "это": [
-    "dies, das",
-    "Demonstrativpronomen n.",
-    "",
-    []
-   ],
-   "какой": [
-    "welcher",
-    "Fragepronomen m.",
-    "",
-    []
-   ],
-   "признак": [
-    "Zeichen, Merkmal",
-    "",
-    "",
-    [
-     [
-      "Nominativ",
-      "признак (Sg.), признаки (Pl.)"
-     ]
-    ]
-   ],
-   "должно": [
-    "(es) muss, soll",
-    "Kurzform n. von должный",
-    "",
-    []
-   ],
-   "произойти": [
-    "geschehen",
-    "Infinitiv vollendet",
-    "",
-    [
-     [
-      "Infinitiv unvollendet",
-      "происходить"
-     ],
-     [
-      "Infinitiv vollendet",
-      "произойти"
-     ]
-    ]
-   ],
-   "берегитесь": [
-    "hütet euch",
-    "Imperativ Pl., reflexiv",
-    "",
-    [
-     [
-      "Infinitiv unvollendet",
-      "беречься"
-     ],
-     [
-      "Infinitiv vollendet",
-      "поберечься"
-     ]
-    ]
-   ],
-   "чтобы": [
-    "damit, dass",
-    "Konjunktion",
-    "",
-    []
-   ],
-   "вас": [
-    "euch",
-    "Akkusativ von вы",
-    "",
-    []
-   ],
-   "ввели": [
-    "(sie) führten",
-    "Präteritum Pl.; ввести в заблуждение = irreführen",
-    "",
-    [
-     [
-      "Infinitiv unvollendet",
-      "вводить"
-     ],
-     [
-      "Infinitiv vollendet",
-      "ввести"
-     ]
-    ]
-   ],
-   "заблуждение": [
-    "Irrtum",
-    "Akkusativ Sg.",
-    "",
-    [
-     [
-      "Nominativ",
-      "заблуждение (Sg.), заблуждения (Pl.)"
-     ]
-    ]
-   ],
-   "ибо": [
-    "denn",
-    "kirchensprachlich-gehoben für потому что",
-    "",
-    []
-   ],
-   "многие": [
-    "viele",
-    "Nom. Pl. von многий, substantiviert",
-    "",
-    [
-     [
-      "Nominativ",
-      "многие"
-     ]
-    ]
-   ],
-   "под": [
-    "unter",
-    "Präposition + Instrumental",
-    "",
-    []
-   ],
-   "именем": [
-    "Namen",
-    "Instrumental Sg. von имя",
-    "",
-    [
-     [
-      "Nominativ",
-      "имя (Sg.), имена (Pl.)"
-     ]
-    ]
-   ],
-   "моим": [
-    "meinem",
-    "Possessivpronomen мой, Instr. Sg.; in Bezug auf Jesus gross geschrieben",
-    "",
-    []
-   ],
-   "говоря": [
-    "sagend",
-    "Adverbialpartizip (Deepritschastije)",
-    "",
-    [
-     [
-      "Infinitiv unvollendet",
-      "говорить"
-     ],
-     [
-      "Infinitiv vollendet",
-      "сказать"
-     ]
-    ]
-   ],
-   "я": [
-    "ich",
-    "in Bezug auf Jesus gross geschrieben",
-    "",
-    []
-   ],
-   "время": [
-    "Zeit",
-    "Nominativ Sg.",
-    "",
-    [
-     [
-      "Nominativ",
-      "время (Sg.), времена (Pl.)"
-     ]
-    ]
-   ],
-   "близко": [
-    "nahe",
-    "Adverb bzw. Kurzform",
-    "",
-    []
-   ],
-   "ходите": [
-    "geht",
-    "Imperativ Pl.; не ходите вслед = folgt nicht nach",
-    "",
-    [
-     [
-      "Infinitiv unvollendet",
-      "ходить"
-     ],
-     [
-      "Infinitiv vollendet",
-      "пойти"
-     ]
-    ]
-   ],
-   "вслед": [
-    "nach, hinterher",
-    "вслед их = ihnen nach (älter für вслед за ними)",
-    "",
-    []
-   ],
-   "их": [
-    "ihnen, sie",
-    "Genitiv/Akkusativ von они",
-    "",
-    []
-   ],
-   "услышите": [
-    "(ihr) hört",
-    "Futur 2. Pl.",
-    "",
-    [
-     [
-      "Infinitiv unvollendet",
-      "слышать"
-     ],
-     [
-      "Infinitiv vollendet",
-      "услышать"
-     ]
-    ]
-   ],
-   "войнах": [
-    "Kriegen",
-    "Präpositiv Pl. von война",
-    "",
-    [
-     [
-      "Nominativ",
-      "война (Sg.), войны (Pl.)"
-     ]
-    ]
-   ],
-   "смятениях": [
-    "Unruhen, Wirren",
-    "Präpositiv Pl. von смятение",
-    "",
-    [
-     [
-      "Nominativ",
-      "смятение (Sg.), смятения (Pl.)"
-     ]
-    ]
-   ],
-   "ужасайтесь": [
-    "entsetzt euch",
-    "Imperativ Pl., reflexiv",
-    "",
-    [
-     [
-      "Infinitiv unvollendet",
-      "ужасаться"
-     ],
-     [
-      "Infinitiv vollendet",
-      "ужаснуться"
-     ]
-    ]
-   ],
-   "этому": [
-    "diesem",
-    "Dativ von это; этому надлежит быть = dies muss geschehen",
-    "",
-    []
-   ],
-   "надлежит": [
-    "es gebührt, muss",
-    "unpersönlich, gehoben (+ Dativ + Infinitiv)",
-    "",
-    [
-     [
-      "Infinitiv unvollendet",
-      "надлежать"
-     ],
-     [
-      "Infinitiv vollendet",
-      "–"
-     ]
-    ]
-   ],
-   "быть": [
-    "sein, geschehen",
+   "обдумывать": [
+    "überlegen, durchdenken",
     "Infinitiv",
     "",
     [
      [
       "Infinitiv unvollendet",
-      "быть"
+      "обдумывать"
      ],
      [
       "Infinitiv vollendet",
-      "–"
+      "обдумать"
      ]
     ]
    ],
-   "прежде": [
-    "zuvor, zuerst",
+   "заранее": [
+    "im Voraus",
     "Adverb",
     "",
     []
    ],
-   "но": [
-    "aber",
-    "",
-    "",
-    []
-   ],
-   "тотчас": [
-    "sofort",
-    "Adverb, gehoben",
+   "что": [
+    "was",
+    "Fragepronomen",
     "",
     []
    ],
-   "конец": [
-    "Ende",
-    "",
-    "",
-    [
-     [
-      "Nominativ",
-      "конец (Sg.), концы (Pl.)"
-     ]
-    ]
-   ],
-   "тогда": [
-    "dann, damals",
-    "",
-    "",
-    []
-   ],
-   "им": [
-    "ihnen",
-    "Dativ von они",
-    "",
-    []
-   ],
-   "восстанет": [
-    "(es) wird sich erheben",
-    "Futur 3. Sg.",
+   "отвечать": [
+    "antworten",
+    "Infinitiv",
     "",
     [
      [
       "Infinitiv unvollendet",
-      "восставать"
+      "отвечать"
      ],
      [
       "Infinitiv vollendet",
-      "восстать"
+      "ответить"
      ]
     ]
    ],
-   "народ": [
-    "Volk",
+   "ибо": [
+    "denn",
+    "kirchensprachlich-gehoben",
     "",
+    []
+   ],
+   "я": [
+    "ich",
+    "gross geschrieben, da Christus spricht",
     "",
     [
      [
       "Nominativ",
-      "народ (Sg.), народы (Pl.)"
+      "я"
      ]
     ]
    ],
-   "царство": [
-    "Reich, Königreich",
+   "дам": [
+    "(ich) werde geben",
+    "Futur vollendet 1. Sg.",
     "",
+    [
+     [
+      "Infinitiv unvollendet",
+      "давать"
+     ],
+     [
+      "Infinitiv vollendet",
+      "дать"
+     ]
+    ]
+   ],
+   "уста": [
+    "Mund",
+    "kirchensprachlich, Pluraletantum (Akk.)",
     "",
     [
      [
       "Nominativ",
-      "царство (Sg.), царства (Pl.)"
+      "уста (Pl.)"
      ]
     ]
    ],
-   "будут": [
-    "(sie) werden sein",
-    "Futur 3. Pl. von быть",
+   "премудрость": [
+    "Weisheit",
+    "Akk. Sg.; kirchensprachlich für мудрость",
+    "",
+    [
+     [
+      "Nominativ",
+      "премудрость"
+     ]
+    ]
+   ],
+   "которой": [
+    "welcher (Dat.)",
+    "Relativpronomen f. Dat. Sg.",
+    "",
+    [
+     [
+      "Nominativ",
+      "который (m.), которая (f.)"
+     ]
+    ]
+   ],
+   "возмогут": [
+    "(sie) werden vermögen",
+    "Futur 3. Pl.; kirchensprachlich für смогут",
+    "",
+    [
+     [
+      "Infinitiv unvollendet",
+      "мочь"
+     ],
+     [
+      "Infinitiv vollendet",
+      "возмочь"
+     ]
+    ]
+   ],
+   "противоречить": [
+    "widersprechen",
+    "Infinitiv + Dat.",
+    "",
+    [
+     [
+      "Infinitiv unvollendet",
+      "противоречить"
+     ],
+     [
+      "Infinitiv vollendet",
+      "—"
+     ]
+    ]
+   ],
+   "ни": [
+    "(weder) noch",
+    "Verneinungspartikel",
+    "",
+    []
+   ],
+   "противостоять": [
+    "widerstehen",
+    "Infinitiv + Dat.",
+    "",
+    [
+     [
+      "Infinitiv unvollendet",
+      "противостоять"
+     ],
+     [
+      "Infinitiv vollendet",
+      "—"
+     ]
+    ]
+   ],
+   "все": [
+    "alle",
+    "Nom. Pl. von весь",
+    "",
+    [
+     [
+      "Nominativ",
+      "весь (m.), все (Pl.)"
+     ]
+    ]
+   ],
+   "противящиеся": [
+    "die sich Widersetzenden",
+    "Partizip Präsens Aktiv, Nom. Pl.; substantiviert = Gegner",
+    "",
+    [
+     [
+      "Infinitiv unvollendet",
+      "противиться"
+     ],
+     [
+      "Infinitiv vollendet",
+      "воспротивиться"
+     ]
+    ]
+   ],
+   "преданы": [
+    "ausgeliefert",
+    "Kurzform Partizip Passiv Pl.; преданы будете = ihr werdet ausgeliefert",
+    "",
+    [
+     [
+      "Infinitiv unvollendet",
+      "предавать"
+     ],
+     [
+      "Infinitiv vollendet",
+      "предать"
+     ]
+    ]
+   ],
+   "также": [
+    "auch, ebenso",
+    "",
+    "",
+    []
+   ],
+   "будете": [
+    "(ihr) werdet sein",
+    "Futur 2. Pl. von быть",
     "",
     [
      [
@@ -953,159 +798,785 @@
      ],
      [
       "Infinitiv vollendet",
-      "–"
+      "—"
      ]
     ]
    ],
-   "большие": [
-    "grosse",
-    "Adjektiv большой, Nom. Pl.",
+   "родителями": [
+    "von den Eltern",
+    "Instr. Pl. (Urheber beim Passiv)",
     "",
     [
      [
       "Nominativ",
-      "большой"
+      "родитель (Sg.), родители (Pl.)"
      ]
     ]
    ],
-   "землетрясения": [
-    "Erdbeben",
-    "Nom. Pl. von землетрясение",
+   "братьями": [
+    "von den Brüdern",
+    "Instr. Pl.",
     "",
     [
      [
       "Nominativ",
-      "землетрясение (Sg.), землетрясения (Pl.)"
+      "брат (Sg.), братья (Pl.)"
      ]
     ]
    ],
-   "по": [
-    "an, nach, über ... hin",
-    "Präposition + Dativ; по местам = da und dort",
+   "родственниками": [
+    "von den Verwandten",
+    "Instr. Pl.",
+    "",
+    [
+     [
+      "Nominativ",
+      "родственник (Sg.), родственники (Pl.)"
+     ]
+    ]
+   ],
+   "друзьями": [
+    "von den Freunden",
+    "Instr. Pl.",
+    "",
+    [
+     [
+      "Nominativ",
+      "друг (Sg.), друзья (Pl.)"
+     ]
+    ]
+   ],
+   "некоторых": [
+    "einige",
+    "Akk. Pl. (belebt) von некоторый",
+    "",
+    [
+     [
+      "Nominativ",
+      "некоторый (Sg.), некоторые (Pl.)"
+     ]
+    ]
+   ],
+   "из": [
+    "aus, von",
+    "Präposition + Gen.",
     "",
     []
    ],
-   "местам": [
-    "Orten",
-    "Dativ Pl. von место",
+   "умертвят": [
+    "(sie) werden töten",
+    "Futur vollendet 3. Pl.",
     "",
     [
      [
-      "Nominativ",
-      "место (Sg.), места (Pl.)"
+      "Infinitiv unvollendet",
+      "умерщвлять"
+     ],
+     [
+      "Infinitiv vollendet",
+      "умертвить"
      ]
     ]
    ],
-   "глады": [
-    "Hungersnöte",
-    "Pl. von глад, kirchensprachlich für голод",
+   "ненавидимы": [
+    "gehasst",
+    "Kurzform Partizip Präsens Passiv Pl.",
     "",
     [
      [
-      "Nominativ",
-      "глад (Sg.), глады (Pl.)"
+      "Infinitiv unvollendet",
+      "ненавидеть"
+     ],
+     [
+      "Infinitiv vollendet",
+      "возненавидеть"
      ]
     ]
    ],
-   "моры": [
-    "Seuchen",
-    "Pl. von мор (Pest, Massensterben), veraltet",
+   "всеми": [
+    "von allen",
+    "Instr. Pl. von весь",
     "",
     [
      [
       "Nominativ",
-      "мор (Sg.), моры (Pl.)"
+      "весь (m.), все (Pl.)"
      ]
     ]
    ],
-   "ужасные": [
-    "schreckliche",
-    "Adjektiv ужасный, Nom. Pl.",
+   "но": [
+    "aber, doch",
     "",
-    [
-     [
-      "Nominativ",
-      "ужасный"
-     ]
-    ]
+    "",
+    []
    ],
-   "явления": [
-    "Erscheinungen",
-    "Nom. Pl. von явление",
+   "волос": [
+    "Haar",
+    "Nom. Sg.; и волос = auch nicht ein Haar",
     "",
     [
      [
       "Nominativ",
-      "явление (Sg.), явления (Pl.)"
-     ]
-    ]
-   ],
-   "великие": [
-    "grosse",
-    "Adjektiv великий, Nom. Pl.",
-    "",
-    [
-     [
-      "Nominativ",
-      "великий"
-     ]
-    ]
-   ],
-   "знамения": [
-    "Zeichen",
-    "Nom. Pl. von знамение (kirchensprachlich: Wunderzeichen)",
-    "",
-    [
-     [
-      "Nominativ",
-      "знамение (Sg.), знамения (Pl.)"
+      "волос (Sg.), волосы (Pl.)"
      ]
     ]
    ],
    "с": [
-    "von ... herab",
-    "Präposition + Genitiv",
+    "von (… herab)",
+    "Präposition + Gen.",
     "",
     []
    ],
-   "неба": [
-    "Himmel",
-    "Genitiv Sg. von небо",
+   "головы": [
+    "Kopf",
+    "Gen. Sg. von голова",
     "",
     [
      [
       "Nominativ",
-      "небо (Sg.), небеса (Pl.)"
+      "голова (Sg.), головы (Pl.)"
+     ]
+    ]
+   ],
+   "вашей": [
+    "eures",
+    "Possessivpronomen f. Gen. Sg.",
+    "",
+    [
+     [
+      "Nominativ",
+      "ваш (m.), ваша (f.)"
+     ]
+    ]
+   ],
+   "пропадёт": [
+    "(es) wird verloren gehen",
+    "Futur vollendet 3. Sg.",
+    "",
+    [
+     [
+      "Infinitiv unvollendet",
+      "пропадать"
+     ],
+     [
+      "Infinitiv vollendet",
+      "пропасть"
+     ]
+    ]
+   ],
+   "терпением": [
+    "durch Geduld",
+    "Instr. Sg. von терпение",
+    "",
+    [
+     [
+      "Nominativ",
+      "терпение"
+     ]
+    ]
+   ],
+   "вашим": [
+    "eurer",
+    "Possessivpronomen n. Instr. Sg.",
+    "",
+    [
+     [
+      "Nominativ",
+      "ваш (m.), ваше (n.)"
+     ]
+    ]
+   ],
+   "спасайте": [
+    "rettet",
+    "Imperativ Pl. unvollendet",
+    "",
+    [
+     [
+      "Infinitiv unvollendet",
+      "спасать"
+     ],
+     [
+      "Infinitiv vollendet",
+      "спасти"
+     ]
+    ]
+   ],
+   "души": [
+    "Seelen",
+    "Akk. Pl. von душа",
+    "",
+    [
+     [
+      "Nominativ",
+      "душа (Sg.), души (Pl.)"
+     ]
+    ]
+   ],
+   "ваши": [
+    "eure",
+    "Possessivpronomen Akk. Pl.",
+    "",
+    [
+     [
+      "Nominativ",
+      "ваш (m.), ваши (Pl.)"
      ]
     ]
    ]
   },
   "ar": {
-   "وإذ": [
-    "als",
-    "و = und; إذ = als, da (temporal)",
-    "",
-    []
-   ],
-   "كان": [
-    "(er) war",
-    "Perfekt 3. m. Sg.; كان + Imperfekt = Verlaufsform der Vergangenheit",
+   "وقبل": [
+    "vor",
+    "و = und; قبل = vor (zeitlich)",
     "",
     [
      [
       "Wurzel",
-      "كون",
+      "قبل",
       1
      ],
      [
       "Bedeutung der Wurzel",
-      "sein, existieren"
+      "vorn sein, annehmen"
      ]
     ]
    ],
-   "قوم": [
-    "Leute, einige",
-    "im Kontext: einige Leute",
+   "هذا": [
+    "dies(em)",
+    "Demonstrativpronomen m. Sg.",
+    "",
+    []
+   ],
+   "كله": [
+    "all(em)",
+    "كل + ـه (sein); هذا كله = all dies",
+    "",
+    [
+     [
+      "Wurzel",
+      "كلل",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "Gesamtheit, ermüden"
+     ]
+    ]
+   ],
+   "يلقون": [
+    "(sie) werfen, legen",
+    "Imperfekt 3. m. Pl., IV. Stamm; يلقون أيديهم على = Hand anlegen an",
+    "",
+    [
+     [
+      "Wurzel",
+      "لقي",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "begegnen, werfen"
+     ]
+    ]
+   ],
+   "أيديهم": [
+    "ihre Hände",
+    "أيدي (Pl. von يد) + ـهم (ihr)",
+    "",
+    [
+     [
+      "Wurzel",
+      "يدي",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "Hand"
+     ],
+     [
+      "Singular",
+      "يد",
+      1
+     ]
+    ]
+   ],
+   "عليكم": [
+    "auf euch",
+    "على + ـكم (euch)",
+    "",
+    []
+   ],
+   "ويطردونكم": [
+    "(sie) verjagen euch",
+    "و = und; Imperfekt 3. m. Pl. + ـكم; bei Van Dyck: verfolgen",
+    "",
+    [
+     [
+      "Wurzel",
+      "طرد",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "vertreiben, verjagen"
+     ]
+    ]
+   ],
+   "ويسلمونكم": [
+    "(sie) liefern euch aus",
+    "و = und; Imperfekt 3. m. Pl., II. Stamm + ـكم",
+    "",
+    [
+     [
+      "Wurzel",
+      "سلم",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "unversehrt sein, übergeben"
+     ]
+    ]
+   ],
+   "إلى": [
+    "zu, an",
+    "Präposition",
+    "",
+    []
+   ],
+   "مجامع": [
+    "Synagogen, Versammlungen",
+    "gebrochener Plural; im NT für Synagogen",
+    "",
+    [
+     [
+      "Wurzel",
+      "جمع",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "sammeln, vereinen"
+     ],
+     [
+      "Singular",
+      "مجمع",
+      1
+     ]
+    ]
+   ],
+   "وسجون": [
+    "Gefängnisse",
+    "و = und; gebrochener Plural",
+    "",
+    [
+     [
+      "Wurzel",
+      "سجن",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "einsperren"
+     ],
+     [
+      "Singular",
+      "سجن",
+      1
+     ]
+    ]
+   ],
+   "وتساقون": [
+    "(ihr) werdet geführt",
+    "و = und; Imperfekt Passiv 2. m. Pl. von ساق",
+    "",
+    [
+     [
+      "Wurzel",
+      "سوق",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "treiben, führen"
+     ]
+    ]
+   ],
+   "أمام": [
+    "vor",
+    "Präposition",
+    "",
+    [
+     [
+      "Wurzel",
+      "أمم",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "vorangehen, Mutter"
+     ]
+    ]
+   ],
+   "ملوك": [
+    "Könige",
+    "gebrochener Plural",
+    "",
+    [
+     [
+      "Wurzel",
+      "ملك",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "besitzen, herrschen"
+     ],
+     [
+      "Singular",
+      "ملك",
+      1
+     ]
+    ]
+   ],
+   "وولاة": [
+    "Statthalter",
+    "و = und; gebrochener Plural",
+    "",
+    [
+     [
+      "Wurzel",
+      "ولي",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "nahe sein, verwalten"
+     ],
+     [
+      "Singular",
+      "وال",
+      1
+     ]
+    ]
+   ],
+   "لأجل": [
+    "wegen, um … willen",
+    "لـ + أجل; لأجل = um … willen",
+    "",
+    [
+     [
+      "Wurzel",
+      "أجل",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "Frist, Grund"
+     ]
+    ]
+   ],
+   "اسمي": [
+    "mein Name",
+    "اسم + ـي (mein)",
+    "",
+    [
+     [
+      "Wurzel",
+      "سمو",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "hoch sein, benennen"
+     ],
+     [
+      "Plural",
+      "أسماء",
+      1
+     ]
+    ]
+   ],
+   "فيؤول": [
+    "und es wird ausschlagen",
+    "فـ = und so; Imperfekt 3. m. Sg.; آل إلى/لـ = hinauslaufen auf (gehoben)",
+    "",
+    [
+     [
+      "Wurzel",
+      "أول",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "zurückkehren, hinauslaufen"
+     ]
+    ]
+   ],
+   "ذلك": [
+    "das",
+    "Demonstrativpronomen (fern)",
+    "",
+    []
+   ],
+   "لكم": [
+    "euch, für euch",
+    "لـ + ـكم",
+    "",
+    []
+   ],
+   "شهادة": [
+    "Zeugnis",
+    "",
+    "",
+    [
+     [
+      "Wurzel",
+      "شهد",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "bezeugen, anwesend sein"
+     ]
+    ]
+   ],
+   "فضعوا": [
+    "so legt",
+    "فـ = so, also; Imperativ 2. m. Pl. von وضع",
+    "",
+    [
+     [
+      "Wurzel",
+      "وضع",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "legen, setzen"
+     ]
+    ]
+   ],
+   "في": [
+    "in",
+    "Präposition",
+    "",
+    []
+   ],
+   "قلوبكم": [
+    "eure Herzen",
+    "قلوب + ـكم",
+    "",
+    [
+     [
+      "Wurzel",
+      "قلب",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "umwenden, Herz"
+     ],
+     [
+      "Singular",
+      "قلب",
+      1
+     ]
+    ]
+   ],
+   "أن": [
+    "dass",
+    "Konjunktion",
+    "",
+    []
+   ],
+   "لا": [
+    "nicht",
+    "Verneinung",
+    "",
+    []
+   ],
+   "تهتموا": [
+    "(ihr) sorgt euch",
+    "Subjunktiv 2. m. Pl., VIII. Stamm; nach أن",
+    "",
+    [
+     [
+      "Wurzel",
+      "همم",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "beabsichtigen, Sorge"
+     ]
+    ]
+   ],
+   "من": [
+    "von, aus",
+    "Präposition; من قبل = im Voraus",
+    "",
+    []
+   ],
+   "قبل": [
+    "vorher",
+    "من قبل = im Voraus",
+    "",
+    [
+     [
+      "Wurzel",
+      "قبل",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "vorn sein, annehmen"
+     ]
+    ]
+   ],
+   "لكي": [
+    "um zu",
+    "لـ + كي; mit Subjunktiv",
+    "",
+    []
+   ],
+   "تحتجوا": [
+    "(ihr) euch verteidigt",
+    "Subjunktiv 2. m. Pl., VIII. Stamm; احتج = argumentieren, sich rechtfertigen",
+    "",
+    [
+     [
+      "Wurzel",
+      "حجج",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "Beweis führen, pilgern"
+     ]
+    ]
+   ],
+   "لأني": [
+    "denn ich",
+    "لأن + ـي (ich)",
+    "",
+    []
+   ],
+   "أنا": [
+    "ich",
+    "Personalpronomen",
+    "",
+    []
+   ],
+   "أعطيكم": [
+    "(ich) gebe euch",
+    "Imperfekt 1. Sg., IV. Stamm + ـكم",
+    "",
+    [
+     [
+      "Wurzel",
+      "عطو",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "geben, reichen"
+     ]
+    ]
+   ],
+   "فما": [
+    "einen Mund",
+    "فم im Akkusativ (فمًا); kein فـ-Präfix",
+    "",
+    [
+     [
+      "Wurzel",
+      "فوه",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "Mund, aussprechen"
+     ],
+     [
+      "Plural",
+      "أفواه",
+      1
+     ]
+    ]
+   ],
+   "وحكمة": [
+    "Weisheit",
+    "و = und",
+    "",
+    [
+     [
+      "Wurzel",
+      "حكم",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "urteilen, weise sein"
+     ],
+     [
+      "Plural",
+      "حكم",
+      1
+     ]
+    ]
+   ],
+   "يقدر": [
+    "(er) vermag",
+    "Imperfekt 3. m. Sg.; يقدر أن = kann",
+    "",
+    [
+     [
+      "Wurzel",
+      "قدر",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "können, bemessen"
+     ]
+    ]
+   ],
+   "جميع": [
+    "alle",
+    "mit Genitiv",
+    "",
+    [
+     [
+      "Wurzel",
+      "جمع",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "sammeln, vereinen"
+     ]
+    ]
+   ],
+   "معانديكم": [
+    "eure Widersacher",
+    "معاندين + ـكم (ن fällt aus); Partizip III. Stamm",
+    "",
+    [
+     [
+      "Wurzel",
+      "عند",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "widerstreben, bei"
+     ]
+    ]
+   ],
+   "يقاوموها": [
+    "ihr widerstehen",
+    "Subjunktiv 3. m. Pl., III. Stamm + ـها (sie, die Weisheit)",
     "",
     [
      [
@@ -1116,276 +1587,18 @@
      [
       "Bedeutung der Wurzel",
       "aufstehen, sich erheben"
-     ],
-     [
-      "Plural",
-      "أقوام",
-      1
      ]
     ]
    ],
-   "يقولون": [
-    "(sie) sagen",
-    "Imperfekt 3. m. Pl.",
+   "أو": [
+    "oder",
     "",
-    [
-     [
-      "Wurzel",
-      "قول",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "sagen"
-     ]
-    ]
-   ],
-   "عن": [
-    "über, von",
-    "Präposition",
     "",
     []
    ],
-   "الهيكل": [
-    "der Tempel",
-    "mit الـ",
-    "",
-    [
-     [
-      "Wurzel",
-      "هكل",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "groß sein"
-     ],
-     [
-      "Plural",
-      "هياكل",
-      1
-     ]
-    ]
-   ],
-   "إنه": [
-    "(dass) er",
-    "إن + ـه = er; leitet hier die Rede ein",
-    "",
-    []
-   ],
-   "مزين": [
-    "geschmückt",
-    "Partizip Passiv, Form II",
-    "",
-    [
-     [
-      "Wurzel",
-      "زين",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "schmücken, Schönheit"
-     ]
-    ]
-   ],
-   "بحجارة": [
-    "mit Steinen",
-    "بـ = mit; gebrochener Plural",
-    "",
-    [
-     [
-      "Wurzel",
-      "حجر",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "Stein, versteinern"
-     ],
-     [
-      "Singular",
-      "حجر",
-      1
-     ]
-    ]
-   ],
-   "حسنة": [
-    "schönen",
-    "Adjektiv f.",
-    "",
-    [
-     [
-      "Wurzel",
-      "حسن",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "schön, gut sein"
-     ]
-    ]
-   ],
-   "وتحف": [
-    "Kostbarkeiten, Weihegaben",
-    "و = und; gebrochener Plural",
-    "",
-    [
-     [
-      "Wurzel",
-      "تحف",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "beschenken, Kostbarkeit"
-     ],
-     [
-      "Singular",
-      "تحفة",
-      1
-     ]
-    ]
-   ],
-   "قال": [
-    "(er) sagte",
-    "Perfekt 3. m. Sg.",
-    "",
-    [
-     [
-      "Wurzel",
-      "قول",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "sagen"
-     ]
-    ]
-   ],
-   "هذه": [
-    "diese",
-    "Demonstrativpronomen f.; hier: das, was",
-    "",
-    []
-   ],
-   "التي": [
-    "die, welche",
-    "Relativpronomen f.",
-    "",
-    []
-   ],
-   "ترونها": [
-    "(ihr) seht sie",
-    "Imperfekt 2. m. Pl.; ـها = sie (es)",
-    "",
-    [
-     [
-      "Wurzel",
-      "رأي",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "sehen"
-     ]
-    ]
-   ],
-   "ستأتي": [
-    "(sie) werden kommen",
-    "سـ = Futur; Imperfekt 3. f. Sg.",
-    "",
-    [
-     [
-      "Wurzel",
-      "أتي",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "kommen"
-     ]
-    ]
-   ],
-   "أيام": [
-    "Tage",
-    "gebrochener Plural",
-    "",
-    [
-     [
-      "Wurzel",
-      "يوم",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "Tag"
-     ],
-     [
-      "Singular",
-      "يوم",
-      1
-     ]
-    ]
-   ],
-   "لا": [
-    "nicht, kein",
-    "Verneinung",
-    "",
-    []
-   ],
-   "يترك": [
-    "(es) wird gelassen",
-    "Imperfekt Passiv 3. m. Sg.",
-    "",
-    [
-     [
-      "Wurzel",
-      "ترك",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "lassen, verlassen"
-     ]
-    ]
-   ],
-   "فيها": [
-    "in ihnen, darin",
-    "في = in; ـها = ihnen (den Tagen)",
-    "",
-    []
-   ],
-   "حجر": [
-    "Stein",
-    "",
-    "",
-    [
-     [
-      "Wurzel",
-      "حجر",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "Stein, versteinern"
-     ],
-     [
-      "Plural",
-      "حجارة",
-      1
-     ]
-    ]
-   ],
-   "على": [
-    "auf, gegen",
-    "Präposition",
-    "",
-    []
-   ],
-   "ينقض": [
-    "(der) niedergerissen wird",
-    "Imperfekt Passiv 3. m. Sg.; لا ينقض = der nicht niedergerissen wird",
+   "يناقضوها": [
+    "ihr widersprechen",
+    "Subjunktiv 3. m. Pl., III. Stamm + ـها",
     "",
     [
      [
@@ -1395,297 +1608,72 @@
      ],
      [
       "Bedeutung der Wurzel",
-      "niederreißen, brechen"
+      "einreißen, widerlegen"
      ]
     ]
    ],
-   "فسألوه": [
-    "da fragten sie ihn",
-    "ف = da; Perfekt 3. m. Pl.; ـه = ihn",
-    "",
-    [
-     [
-      "Wurzel",
-      "سأل",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "fragen, bitten"
-     ]
-    ]
-   ],
-   "قائلين": [
-    "sagend",
-    "Partizip Aktiv Pl. (Akk./Gen.), hier als Zustandsangabe",
-    "",
-    [
-     [
-      "Wurzel",
-      "قول",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "sagen"
-     ]
-    ]
-   ],
-   "يا": [
-    "o!",
-    "Anrufpartikel",
+   "وسوف": [
+    "werden (Futur)",
+    "و = und; سوف = Futurpartikel",
     "",
     []
    ],
-   "معلم": [
-    "Lehrer, Meister",
-    "Partizip Aktiv Form II",
+   "تسلمون": [
+    "(ihr) werdet ausgeliefert",
+    "Imperfekt Passiv 2. m. Pl., II. Stamm (تُسَلَّمون)",
     "",
     [
      [
       "Wurzel",
-      "علم",
+      "سلم",
       1
      ],
      [
       "Bedeutung der Wurzel",
-      "wissen, lehren"
+      "unversehrt sein, übergeben"
      ]
     ]
    ],
-   "متى": [
-    "wann",
-    "Fragewort",
-    "",
-    []
-   ],
-   "يكون": [
-    "(er/es) wird sein, geschieht",
-    "Imperfekt 3. m. Sg.",
+   "الوالدين": [
+    "den Eltern",
+    "mit الـ; Dual von والد (Vater) = Eltern",
     "",
     [
      [
       "Wurzel",
-      "كون",
+      "ولد",
       1
      ],
      [
       "Bedeutung der Wurzel",
-      "sein, existieren"
+      "gebären, zeugen"
      ]
     ]
    ],
-   "هذا": [
-    "dies",
-    "Demonstrativpronomen m.",
-    "",
-    []
-   ],
-   "وما": [
-    "was",
-    "و = und; ما = was",
-    "",
-    []
-   ],
-   "هي": [
-    "(ist) sie",
-    "Personalpronomen f., als Kopula",
-    "",
-    []
-   ],
-   "العلامة": [
-    "das Zeichen",
-    "mit الـ",
+   "والإخوة": [
+    "den Brüdern",
+    "و = und; mit الـ; gebrochener Plural",
     "",
     [
      [
       "Wurzel",
-      "علم",
+      "أخو",
       1
      ],
      [
       "Bedeutung der Wurzel",
-      "wissen, kennzeichnen"
-     ]
-    ]
-   ],
-   "عندما": [
-    "wenn, sobald",
-    "Konjunktion (عند + ما)",
-    "",
-    []
-   ],
-   "يصير": [
-    "(es) geschieht, wird",
-    "Imperfekt 3. m. Sg.; in der Van-Dyck-Bibel oft = geschehen",
-    "",
-    [
-     [
-      "Wurzel",
-      "صير",
-      1
+      "Bruder"
      ],
      [
-      "Bedeutung der Wurzel",
-      "werden"
-     ]
-    ]
-   ],
-   "فقال": [
-    "da sagte (er)",
-    "ف = da; Perfekt 3. m. Sg.",
-    "",
-    [
-     [
-      "Wurzel",
-      "قول",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "sagen"
-     ]
-    ]
-   ],
-   "انظروا": [
-    "seht zu!",
-    "Imperativ 2. m. Pl.",
-    "",
-    [
-     [
-      "Wurzel",
-      "نظر",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "sehen, schauen"
-     ]
-    ]
-   ],
-   "تضلوا": [
-    "(ihr) werdet irregeführt",
-    "Jussiv 2. m. Pl. nach لا (Verbot)",
-    "",
-    [
-     [
-      "Wurzel",
-      "ضلل",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "irregehen"
-     ]
-    ]
-   ],
-   "فإن": [
-    "denn",
-    "ف + إن",
-    "",
-    []
-   ],
-   "كثيرين": [
-    "viele",
-    "Akk./Gen. Pl. von كثير",
-    "",
-    [
-     [
-      "Wurzel",
-      "كثر",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "viel sein"
-     ]
-    ]
-   ],
-   "سيأتون": [
-    "(sie) werden kommen",
-    "سـ = Futur; Imperfekt 3. m. Pl.",
-    "",
-    [
-     [
-      "Wurzel",
-      "أتي",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "kommen"
-     ]
-    ]
-   ],
-   "باسمي": [
-    "in meinem Namen",
-    "بـ = in, mit; ـي = mein",
-    "",
-    [
-     [
-      "Wurzel",
-      "سمو",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "Name, hoch sein"
-     ],
-     [
-      "Plural",
-      "أسماء",
+      "Singular",
+      "أخ",
       1
      ]
     ]
    ],
-   "إني": [
-    "(dass) ich",
-    "إن + ـي = ich",
-    "",
-    []
-   ],
-   "أنا": [
-    "ich",
-    "",
-    "",
-    []
-   ],
-   "هو": [
-    "er",
-    "إني أنا هو = ich bin es",
-    "",
-    []
-   ],
-   "والزمان": [
-    "die Zeit",
-    "و = und; mit الـ",
-    "",
-    [
-     [
-      "Wurzel",
-      "زمن",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "Zeit, dauern"
-     ],
-     [
-      "Plural",
-      "أزمنة",
-      1
-     ]
-    ]
-   ],
-   "قد": [
-    "schon, gewiss",
-    "Partikel vor Perfekt (Abschluss)",
-    "",
-    []
-   ],
-   "قرب": [
-    "(sie) ist nahe gekommen",
-    "Perfekt 3. m. Sg.",
+   "والأقرباء": [
+    "den Verwandten",
+    "و = und; mit الـ; gebrochener Plural",
     "",
     [
      [
@@ -1696,303 +1684,60 @@
      [
       "Bedeutung der Wurzel",
       "nahe sein"
-     ]
-    ]
-   ],
-   "فلا": [
-    "so ... nicht",
-    "ف = so; لا = nicht (Verbot)",
-    "",
-    []
-   ],
-   "تذهبوا": [
-    "(ihr) geht",
-    "Jussiv 2. m. Pl. nach لا",
-    "",
-    [
-     [
-      "Wurzel",
-      "ذهب",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "gehen"
-     ]
-    ]
-   ],
-   "وراءهم": [
-    "hinter ihnen her",
-    "وراء = hinter (gehört zur Wurzel); ـهم = ihnen",
-    "",
-    [
-     [
-      "Wurzel",
-      "وري",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "verbergen, hinten"
-     ]
-    ]
-   ],
-   "فإذا": [
-    "wenn nun",
-    "ف + إذا = wenn",
-    "",
-    []
-   ],
-   "سمعتم": [
-    "(ihr) hört",
-    "Perfekt 2. m. Pl. (nach إذا futurisch)",
-    "",
-    [
-     [
-      "Wurzel",
-      "سمع",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "hören"
-     ]
-    ]
-   ],
-   "بحروب": [
-    "von Kriegen",
-    "بـ = von; gebrochener Plural",
-    "",
-    [
-     [
-      "Wurzel",
-      "حرب",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "Krieg"
      ],
      [
       "Singular",
-      "حرب",
+      "قريب",
       1
      ]
     ]
    ],
-   "وقلاقل": [
-    "Unruhen",
-    "و = und; gebrochener Plural",
+   "والأصدقاء": [
+    "den Freunden",
+    "و = und; mit الـ; gebrochener Plural",
     "",
     [
      [
       "Wurzel",
-      "قلقل",
+      "صدق",
       1
      ],
      [
       "Bedeutung der Wurzel",
-      "erschüttern, unruhig sein"
+      "wahr sein, aufrichtig"
      ],
      [
       "Singular",
-      "قلقلة",
+      "صديق",
       1
      ]
     ]
    ],
-   "تجزعوا": [
-    "(ihr) erschreckt, verzagt",
-    "Jussiv 2. m. Pl. nach لا",
+   "ويقتلون": [
+    "(sie) werden töten",
+    "و = und; Imperfekt 3. m. Pl.; يقتلون منكم = sie töten einige von euch",
     "",
     [
      [
       "Wurzel",
-      "جزع",
+      "قتل",
       1
      ],
      [
       "Bedeutung der Wurzel",
-      "verzagen, sich ängstigen"
+      "töten"
      ]
     ]
    ],
-   "لأنه": [
-    "denn, weil",
-    "لأن + ـه (Füllpronomen)",
+   "منكم": [
+    "von euch",
+    "من + ـكم",
     "",
     []
    ],
-   "بد": [
-    "Ausweg",
-    "لا بد أن = es ist unvermeidlich, dass",
-    "",
-    [
-     [
-      "Wurzel",
-      "بدد",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "zerstreuen"
-     ]
-    ]
-   ],
-   "أن": [
-    "dass",
-    "Konjunktion vor Verb",
-    "",
-    []
-   ],
-   "أولا": [
-    "zuerst",
-    "Adverb (Akk.)",
-    "",
-    [
-     [
-      "Wurzel",
-      "أول",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "zurückkehren, erster"
-     ]
-    ]
-   ],
-   "ولكن": [
-    "aber",
-    "و = und; لكن = aber",
-    "",
-    []
-   ],
-   "المنتهى": [
-    "das Ende",
-    "mit الـ; Partizip Passiv Form VIII, gehoben",
-    "",
-    [
-     [
-      "Wurzel",
-      "نهي",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "enden, verbieten"
-     ]
-    ]
-   ],
-   "سريعا": [
-    "schnell, sogleich",
-    "Adverb (Akk.)",
-    "",
-    [
-     [
-      "Wurzel",
-      "سرع",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "eilen, schnell sein"
-     ]
-    ]
-   ],
-   "ثم": [
-    "dann, darauf",
-    "",
-    "",
-    []
-   ],
-   "لهم": [
-    "zu ihnen",
-    "لـ = zu; ـهم = ihnen",
-    "",
-    []
-   ],
-   "تقوم": [
-    "(sie) wird sich erheben",
-    "Imperfekt 3. f. Sg.",
-    "",
-    [
-     [
-      "Wurzel",
-      "قوم",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "aufstehen, sich erheben"
-     ]
-    ]
-   ],
-   "أمة": [
-    "ein Volk",
-    "",
-    "",
-    [
-     [
-      "Wurzel",
-      "أمم",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "Mutter, Volk"
-     ],
-     [
-      "Plural",
-      "أمم",
-      1
-     ]
-    ]
-   ],
-   "ومملكة": [
-    "ein Reich",
-    "و = und",
-    "",
-    [
-     [
-      "Wurzel",
-      "ملك",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "besitzen, herrschen"
-     ],
-     [
-      "Plural",
-      "ممالك",
-      1
-     ]
-    ]
-   ],
-   "مملكة": [
-    "ein Reich",
-    "",
-    "",
-    [
-     [
-      "Wurzel",
-      "ملك",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "besitzen, herrschen"
-     ],
-     [
-      "Plural",
-      "ممالك",
-      1
-     ]
-    ]
-   ],
-   "وتكون": [
-    "(es) werden sein",
-    "و = und; Imperfekt 3. f. Sg. (bei Plural von Sachen)",
+   "وتكونون": [
+    "(ihr) werdet sein",
+    "و = und; Imperfekt 2. m. Pl.",
     "",
     [
      [
@@ -2006,175 +1751,182 @@
      ]
     ]
    ],
-   "زلازل": [
-    "Erdbeben",
-    "gebrochener Plural",
+   "مبغضين": [
+    "gehasst",
+    "Partizip Passiv IV. Stamm, Akk. Pl. (Prädikat von كان)",
     "",
     [
      [
       "Wurzel",
-      "زلزل",
+      "بغض",
       1
      ],
      [
       "Bedeutung der Wurzel",
-      "erschüttern, beben"
-     ],
-     [
-      "Singular",
-      "زلزلة",
-      1
+      "hassen"
      ]
     ]
    ],
-   "عظيمة": [
-    "große, gewaltige",
-    "Adjektiv f. (hier zu Plural)",
+   "الجميع": [
+    "allen",
+    "mit الـ; الجميع = alle",
     "",
     [
      [
       "Wurzel",
-      "عظم",
+      "جمع",
       1
      ],
      [
       "Bedeutung der Wurzel",
-      "groß sein, Knochen"
+      "sammeln, vereinen"
      ]
     ]
    ],
-   "في": [
-    "in, an",
-    "Präposition",
+   "أجل": [
+    "wegen",
+    "من أجل = um … willen",
+    "",
+    [
+     [
+      "Wurzel",
+      "أجل",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "Frist, Grund"
+     ]
+    ]
+   ],
+   "ولكن": [
+    "aber",
+    "و = und; لكن = aber; ولكن als Einheit = aber",
     "",
     []
    ],
-   "أماكن": [
-    "Orten",
-    "gebrochener Plural; في أماكن = an (verschiedenen) Orten",
+   "شعرة": [
+    "ein Haar",
+    "Einheitsnomen von شعر (Haar)",
     "",
     [
      [
       "Wurzel",
-      "مكن",
+      "شعر",
       1
      ],
      [
       "Bedeutung der Wurzel",
-      "Ort, ermöglichen"
+      "fühlen, Haar"
+     ]
+    ]
+   ],
+   "رؤوسكم": [
+    "euren Köpfen",
+    "رؤوس + ـكم",
+    "",
+    [
+     [
+      "Wurzel",
+      "رأس",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "Kopf, an der Spitze stehen"
      ],
      [
       "Singular",
-      "مكان",
+      "رأس",
       1
      ]
     ]
    ],
-   "ومجاعات": [
-    "Hungersnöte",
-    "و = und; Plural f. von مجاعة",
+   "تهلك": [
+    "(sie) geht zugrunde",
+    "Imperfekt 3. f. Sg.",
     "",
     [
      [
       "Wurzel",
-      "جوع",
+      "هلك",
       1
      ],
      [
       "Bedeutung der Wurzel",
-      "hungern"
+      "zugrunde gehen"
      ]
     ]
    ],
-   "وأوبئة": [
-    "Seuchen",
-    "و = und; gebrochener Plural",
+   "بصبركم": [
+    "durch eure Geduld",
+    "بـ = durch; صبر + ـكم",
     "",
     [
      [
       "Wurzel",
-      "وبأ",
+      "صبر",
       1
      ],
      [
       "Bedeutung der Wurzel",
-      "Seuche"
+      "geduldig sein, ausharren"
+     ]
+    ]
+   ],
+   "اقتنوا": [
+    "erwerbt",
+    "Imperativ 2. m. Pl., VIII. Stamm",
+    "",
+    [
+     [
+      "Wurzel",
+      "قني",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "erwerben, besitzen"
+     ]
+    ]
+   ],
+   "أنفسكم": [
+    "eure Seelen",
+    "أنفس + ـكم; Van Dyck: eure Seelen (Leben)",
+    "",
+    [
+     [
+      "Wurzel",
+      "نفس",
+      1
+     ],
+     [
+      "Bedeutung der Wurzel",
+      "Seele, atmen"
      ],
      [
       "Singular",
-      "وباء",
-      1
-     ]
-    ]
-   ],
-   "مخاوف": [
-    "Schrecknisse",
-    "gebrochener Plural",
-    "",
-    [
-     [
-      "Wurzel",
-      "خوف",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "fürchten"
-     ],
-     [
-      "Singular",
-      "مخافة",
-      1
-     ]
-    ]
-   ],
-   "وعلامات": [
-    "Zeichen",
-    "و = und; Plural f. von علامة",
-    "",
-    [
-     [
-      "Wurzel",
-      "علم",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "wissen, kennzeichnen"
-     ]
-    ]
-   ],
-   "من": [
-    "von, aus",
-    "Präposition",
-    "",
-    []
-   ],
-   "السماء": [
-    "der Himmel",
-    "mit الـ",
-    "",
-    [
-     [
-      "Wurzel",
-      "سمو",
-      1
-     ],
-     [
-      "Bedeutung der Wurzel",
-      "hoch sein, Himmel"
-     ],
-     [
-      "Plural",
-      "سماوات",
+      "نفس",
       1
      ]
     ]
    ]
   },
   "fa": {
-   "در": [
-    "in, an",
+   "اما": [
+    "aber",
+    "arab. Lehnwort",
+    "",
+    []
+   ],
+   "قبل": [
+    "vor",
+    "قبل از = vor",
+    "",
+    []
+   ],
+   "از": [
+    "von, aus; vor",
     "",
     "",
     []
@@ -2185,101 +1937,23 @@
     "",
     []
    ],
-   "هنگام": [
-    "Zeit, Zeitpunkt",
-    "در این هنگام = zu dieser Zeit",
+   "وقایع": [
+    "Ereignisse",
+    "arab. Plural von واقعه",
     "",
     []
    ],
-   "بعضی": [
-    "einige",
-    "",
-    "",
-    []
-   ],
-   "از": [
-    "von, aus; über",
-    "",
+   "دورهٔ": [
+    "Zeit, Periode",
+    "mit Ezafe",
     "",
     []
    ],
-   "شاگردان": [
-    "Jünger",
-    "Plural von شاگرد mit Ezafe",
-    "",
-    []
-   ],
-   "عیسی": [
-    "Jesus",
-    "Eigenname",
-    "",
-    []
-   ],
-   "سنگهای": [
-    "Steine",
-    "Plural von سنگ mit Ezafe",
-    "",
-    []
-   ],
-   "زیبایی": [
-    "schöne",
-    "زیبا + ـی (vor Relativsatz)",
-    "",
-    []
-   ],
-   "که": [
-    "die, welche; dass",
-    "Relativpartikel bzw. Konjunktion",
-    "",
-    []
-   ],
-   "بنای": [
-    "Bau",
-    "arab. Lehnwort بنا, mit Ezafe",
-    "",
-    []
-   ],
-   "خانهٔ": [
-    "Haus",
-    "mit Ezafe; خانهٔ خدا = Haus Gottes (Tempel)",
-    "",
-    []
-   ],
-   "خدا": [
-    "Gott",
+   "آزار": [
+    "Qual, Verfolgung",
     "",
     "",
     []
-   ],
-   "بکار": [
-    "verwendet",
-    "به کار رفتن = verwendet werden",
-    "",
-    []
-   ],
-   "رفته": [
-    "gegangen",
-    "Partizip Perfekt; بکار رفته بود = war verwendet worden",
-    "",
-    [
-     [
-      "Infinitiv",
-      "رفتن",
-      1
-     ]
-    ]
-   ],
-   "بود": [
-    "war",
-    "Vergangenheit 3. Sg.; Hilfsverb des Plusquamperfekts",
-    "",
-    [
-     [
-      "Infinitiv",
-      "بودن",
-      1
-     ]
-    ]
    ],
    "و": [
     "und",
@@ -2287,159 +1961,21 @@
     "",
     []
    ],
-   "اشیاء": [
-    "Gegenstände",
-    "arab. Plural von شیء, mit Ezafe",
-    "",
-    []
-   ],
-   "گرانبهایی": [
-    "kostbare",
-    "گرانبها + ـی (vor Relativsatz)",
-    "",
-    []
-   ],
-   "مردم": [
-    "die Leute",
-    "",
-    "",
-    []
-   ],
-   "وقف": [
-    "Stiftung",
-    "arab. Lehnwort; وقف کردن = stiften, weihen",
-    "",
-    []
-   ],
-   "کرده": [
-    "getan",
-    "Partizip Perfekt von کردن",
-    "",
-    [
-     [
-      "Infinitiv",
-      "کردن",
-      1
-     ]
-    ]
-   ],
-   "بودند": [
-    "(sie) hatten",
-    "Hilfsverb des Plusquamperfekts 3. Pl.",
-    "",
-    [
-     [
-      "Infinitiv",
-      "بودن",
-      1
-     ]
-    ]
-   ],
-   "تعریف": [
-    "Lob, Beschreibung",
-    "تعریف کردن از = rühmen",
-    "",
-    []
-   ],
-   "می‌کردند": [
-    "(sie) taten",
-    "Imperfekt 3. Pl.; تعریف می‌کردند = rühmten",
-    "",
-    [
-     [
-      "Infinitiv",
-      "کردن",
-      1
-     ]
-    ]
-   ],
-   "اما": [
-    "aber",
+   "جفا": [
+    "Unrecht, Grausamkeit",
     "arab. Lehnwort",
     "",
     []
    ],
-   "به": [
-    "zu",
+   "شکنجه": [
+    "Folter",
     "",
     "",
     []
    ],
-   "ایشان": [
-    "ihnen, sie",
-    "höfliches Pronomen 3. Pl.",
-    "",
-    []
-   ],
-   "فرمود": [
-    "(er) sprach",
-    "Vergangenheit 3. Sg.; ehrerbietig für گفت",
-    "",
-    [
-     [
-      "Infinitiv",
-      "فرمودن",
-      1
-     ]
-    ]
-   ],
-   "روزی": [
-    "ein Tag",
-    "روز + ـی",
-    "",
-    []
-   ],
-   "فرا": [
-    "heran",
-    "Verbpräfix; فرا رسیدن = herankommen",
-    "",
-    []
-   ],
-   "می‌رسد": [
-    "(er) kommt",
-    "Präsens 3. Sg.",
-    "",
-    [
-     [
-      "Infinitiv",
-      "رسیدن",
-      1
-     ]
-    ]
-   ],
-   "تمام": [
-    "all, ganz",
-    "mit Ezafe",
-    "",
-    []
-   ],
-   "چیزهایی": [
-    "Dinge",
-    "Plural von چیز + ـی (vor Relativsatz)",
-    "",
-    []
-   ],
-   "می‌بینید": [
-    "(ihr) seht",
-    "Präsens 2. Pl.",
-    "",
-    [
-     [
-      "Infinitiv",
-      "دیدن",
-      1
-     ]
-    ]
-   ],
-   "خراب": [
-    "zerstört",
-    "",
-    "",
-    []
-   ],
-   "ویران": [
-    "verwüstet",
-    "",
+   "پیش": [
+    "vor; voran",
+    "پیش آمدن = eintreten, geschehen",
     "",
     []
    ],
@@ -2455,261 +1991,9 @@
      ]
     ]
    ],
-   "شد": [
-    "werden",
-    "Kurzinfinitiv nach خواهد",
-    "",
-    [
-     [
-      "Infinitiv",
-      "شدن",
-      1
-     ]
-    ]
-   ],
-   "سنگی": [
-    "ein Stein",
-    "سنگ + ـی; سنگیِ دیگر = ein anderer Stein",
-    "",
-    []
-   ],
-   "بر": [
-    "auf",
-    "",
-    "",
-    []
-   ],
-   "دیگر": [
-    "anderer",
-    "",
-    "",
-    []
-   ],
-   "باقی": [
-    "übrig",
-    "باقی ماندن = übrig bleiben",
-    "",
-    []
-   ],
-   "نخواهد": [
-    "wird nicht",
-    "verneintes Futurhilfsverb 3. Sg.",
-    "",
-    [
-     [
-      "Infinitiv",
-      "خواستن",
-      1
-     ]
-    ]
-   ],
-   "ماند": [
-    "bleiben",
-    "Kurzinfinitiv nach نخواهد",
-    "",
-    [
-     [
-      "Infinitiv",
-      "ماندن",
-      1
-     ]
-    ]
-   ],
-   "گفتند": [
-    "(sie) sagten",
-    "Vergangenheit 3. Pl.",
-    "",
-    [
-     [
-      "Infinitiv",
-      "گفتن",
-      1
-     ]
-    ]
-   ],
-   "با": [
-    "mit",
-    "",
-    "",
-    []
-   ],
-   "تعجب": [
-    "Verwunderung",
-    "با تعجب = verwundert",
-    "",
-    []
-   ],
-   "استاد": [
-    "Meister, Lehrer",
-    "Anrede",
-    "",
-    []
-   ],
-   "وقایع": [
-    "Ereignisse",
-    "arab. Plural von واقعه",
-    "",
-    []
-   ],
-   "کی": [
-    "wann",
-    "Fragewort",
-    "",
-    []
-   ],
-   "روی": [
-    "Gesicht",
-    "روی دادن = geschehen",
-    "",
-    []
-   ],
-   "داد": [
-    "(er) gab; geben",
-    "Vergangenheit 3. Sg. (ادامه داد = fuhr fort) bzw. Kurzinfinitiv",
-    "",
-    [
-     [
-      "Infinitiv",
-      "دادن",
-      1
-     ]
-    ]
-   ],
-   "آیا": [
-    "(Fragepartikel)",
-    "leitet Entscheidungsfragen ein",
-    "",
-    []
-   ],
-   "پیش": [
-    "vor",
-    "",
-    "",
-    []
-   ],
-   "وقوع": [
-    "Eintreten",
-    "mit Ezafe; arab. Lehnwort",
-    "",
-    []
-   ],
-   "آنها": [
-    "sie, jene",
-    "Plural von آن",
-    "",
-    []
-   ],
-   "علامتی": [
-    "ein Zeichen",
-    "علامت + ـی",
-    "",
-    []
-   ],
-   "وجود": [
-    "Dasein",
-    "وجود داشتن = existieren",
-    "",
-    []
-   ],
-   "داشت": [
-    "haben",
-    "Kurzinfinitiv nach خواهد",
-    "",
-    [
-     [
-      "Infinitiv",
-      "داشتن",
-      1
-     ]
-    ]
-   ],
-   "جواب": [
-    "Antwort",
-    "در جواب = als Antwort",
-    "",
-    []
-   ],
-   "گفت": [
-    "(er) sagte; sagen",
-    "Vergangenheit 3. Sg. bzw. Kurzinfinitiv nach خواهند",
-    "",
-    [
-     [
-      "Infinitiv",
-      "گفتن",
-      1
-     ]
-    ]
-   ],
-   "مواظب": [
-    "achtsam",
-    "مواظب بودن = aufpassen",
-    "",
-    []
-   ],
-   "باشید": [
-    "seid",
-    "Imperativ/Subjunktiv 2. Pl.",
-    "",
-    [
-     [
-      "Infinitiv",
-      "بودن",
-      1
-     ]
-    ]
-   ],
-   "کسی": [
-    "jemand",
-    "",
-    "",
-    []
-   ],
-   "شما": [
-    "euch, ihr",
-    "",
-    "",
-    []
-   ],
-   "را": [
-    "(Objektzeichen)",
-    "markiert das bestimmte Objekt",
-    "",
-    []
-   ],
-   "گمراه": [
-    "irregeführt",
-    "گمراه کردن = irreführen",
-    "",
-    []
-   ],
-   "نکند": [
-    "(er) mache nicht",
-    "Subjunktiv 3. Sg., verneint",
-    "",
-    [
-     [
-      "Infinitiv",
-      "کردن",
-      1
-     ]
-    ]
-   ],
-   "زیرا": [
-    "denn",
-    "",
-    "",
-    []
-   ],
-   "بسیاری": [
-    "viele",
-    "بسیار + ـی",
-    "",
-    []
-   ],
-   "آمده": [
-    "gekommen",
-    "Partizip Perfekt; reihend: kommen und ...",
+   "آمد": [
+    "kommen",
+    "Kurzinfinitiv nach خواهد; پیش خواهد آمد = wird eintreten",
     "",
     [
      [
@@ -2719,9 +2003,69 @@
      ]
     ]
    ],
-   "ادعا": [
-    "Behauptung",
-    "ادعا کردن = behaupten",
+   "شما": [
+    "ihr, euch",
+    "",
+    "",
+    []
+   ],
+   "را": [
+    "(Objektmarker)",
+    "kennzeichnet das bestimmte direkte Objekt",
+    "",
+    []
+   ],
+   "بخاطر": [
+    "wegen",
+    "به خاطرِ = wegen, um … willen",
+    "",
+    []
+   ],
+   "نام": [
+    "Name",
+    "mit Ezafe",
+    "",
+    []
+   ],
+   "من": [
+    "ich, mein",
+    "",
+    "",
+    []
+   ],
+   "به": [
+    "zu, in",
+    "",
+    "",
+    []
+   ],
+   "عبادتگاه‌ها": [
+    "Gebetshäuser",
+    "Plural von عبادتگاه (Ort der Anbetung), hier Synagogen",
+    "",
+    []
+   ],
+   "زندانها": [
+    "Gefängnisse",
+    "Plural von زندان",
+    "",
+    []
+   ],
+   "حضور": [
+    "Gegenwart",
+    "arab. Lehnwort; به حضورِ = vor (jemanden)",
+    "",
+    []
+   ],
+   "پادشاهان": [
+    "Könige",
+    "Plural von پادشاه",
+    "",
+    []
+   ],
+   "فرمانروایان": [
+    "Herrscher, Statthalter",
+    "Plural von فرمانروا",
     "",
     []
    ],
@@ -2737,6 +2081,312 @@
      ]
     ]
    ],
+   "کشاند": [
+    "schleppen, ziehen",
+    "Kurzinfinitiv nach خواهند",
+    "",
+    [
+     [
+      "Infinitiv",
+      "کشاندن",
+      1
+     ]
+    ]
+   ],
+   "فرصتی": [
+    "eine Gelegenheit",
+    "فرصت + ـی",
+    "",
+    []
+   ],
+   "بود": [
+    "sein",
+    "Kurzinfinitiv nach خواهد; خواهد بود = wird sein",
+    "",
+    [
+     [
+      "Infinitiv",
+      "بودن",
+      1
+     ]
+    ]
+   ],
+   "تا": [
+    "damit, sodass; bis",
+    "Konjunktion bzw. Präposition",
+    "",
+    []
+   ],
+   "بتوانید": [
+    "(ihr) könnt",
+    "Subjunktiv 2. Pl.",
+    "",
+    [
+     [
+      "Infinitiv",
+      "توانستن",
+      1
+     ]
+    ]
+   ],
+   "خبر": [
+    "Nachricht",
+    "mit Ezafe; خبرِ خوش = frohe Botschaft",
+    "",
+    []
+   ],
+   "خوش": [
+    "froh, gut",
+    "mit Ezafe",
+    "",
+    []
+   ],
+   "انجیل": [
+    "Evangelium",
+    "griech. Lehnwort über das Arabische",
+    "",
+    []
+   ],
+   "آنان": [
+    "ihnen, sie",
+    "Pronomen 3. Pl. (Personen)",
+    "",
+    []
+   ],
+   "اعلام": [
+    "Verkündigung",
+    "arab. Lehnwort; اعلام داشتن = verkünden",
+    "",
+    []
+   ],
+   "دارید": [
+    "(ihr) habt",
+    "Subjunktiv 2. Pl. (nach تا); اعلام دارید = verkündet",
+    "",
+    [
+     [
+      "Infinitiv",
+      "داشتن",
+      1
+     ]
+    ]
+   ],
+   "پس": [
+    "also, darum",
+    "",
+    "",
+    []
+   ],
+   "در": [
+    "in",
+    "",
+    "",
+    []
+   ],
+   "فکر": [
+    "Gedanke",
+    "arab. Lehnwort; در فکرِ … بودن = sich Gedanken machen über",
+    "",
+    []
+   ],
+   "نباشید": [
+    "seid nicht",
+    "verneinter Imperativ 2. Pl.",
+    "",
+    [
+     [
+      "Infinitiv",
+      "بودن",
+      1
+     ]
+    ]
+   ],
+   "که": [
+    "dass; welche(r)",
+    "Konjunktion bzw. Relativpartikel",
+    "",
+    []
+   ],
+   "چگونه": [
+    "wie",
+    "Fragewort",
+    "",
+    []
+   ],
+   "خود": [
+    "selbst, sich",
+    "Reflexivpronomen; من خود = ich selbst",
+    "",
+    []
+   ],
+   "دفاع": [
+    "Verteidigung",
+    "arab. Lehnwort; دفاع کردن = verteidigen",
+    "",
+    []
+   ],
+   "کنید": [
+    "(ihr) tut",
+    "Subjunktiv 2. Pl.",
+    "",
+    [
+     [
+      "Infinitiv",
+      "کردن",
+      1
+     ]
+    ]
+   ],
+   "زیرا": [
+    "denn, weil",
+    "",
+    "",
+    []
+   ],
+   "خواهم": [
+    "werde",
+    "Futurhilfsverb 1. Sg.",
+    "",
+    [
+     [
+      "Infinitiv",
+      "خواستن",
+      1
+     ]
+    ]
+   ],
+   "آموخت": [
+    "lehren",
+    "Kurzinfinitiv nach خواهم; hier: beibringen",
+    "",
+    [
+     [
+      "Infinitiv",
+      "آموختن",
+      1
+     ]
+    ]
+   ],
+   "چه": [
+    "was",
+    "Fragewort",
+    "",
+    []
+   ],
+   "بگویید": [
+    "(ihr) sagen sollt",
+    "Subjunktiv 2. Pl.",
+    "",
+    [
+     [
+      "Infinitiv",
+      "گفتن",
+      1
+     ]
+    ]
+   ],
+   "بطوری": [
+    "so, derart",
+    "به طوری که = sodass",
+    "",
+    []
+   ],
+   "هیچیک": [
+    "keiner",
+    "هیچ + یک",
+    "",
+    []
+   ],
+   "دشمنانتان": [
+    "eure Feinde",
+    "دشمنان + ـتان (euer)",
+    "",
+    []
+   ],
+   "یارای": [
+    "Kraft, Vermögen",
+    "mit Ezafe; یارای … داشتن = imstande sein zu",
+    "",
+    []
+   ],
+   "پاسخگویی": [
+    "Erwiderung",
+    "پاسخ (Antwort) + گو + ـیی",
+    "",
+    []
+   ],
+   "ایستادگی": [
+    "Widerstand",
+    "von ایستادن (stehen)",
+    "",
+    []
+   ],
+   "درمقابل": [
+    "gegenüber",
+    "در مقابلِ = gegenüber, gegen",
+    "",
+    []
+   ],
+   "نخواهند": [
+    "werden nicht",
+    "verneintes Futurhilfsverb 3. Pl.",
+    "",
+    [
+     [
+      "Infinitiv",
+      "خواستن",
+      1
+     ]
+    ]
+   ],
+   "داشت": [
+    "haben",
+    "Kurzinfinitiv nach نخواهند",
+    "",
+    [
+     [
+      "Infinitiv",
+      "داشتن",
+      1
+     ]
+    ]
+   ],
+   "پدر": [
+    "Vater",
+    "",
+    "",
+    []
+   ],
+   "مادر": [
+    "Mutter",
+    "",
+    "",
+    []
+   ],
+   "برادران": [
+    "Brüder",
+    "Plural von برادر",
+    "",
+    []
+   ],
+   "بستگان": [
+    "Verwandte",
+    "Plural von بسته (Verwandter)",
+    "",
+    []
+   ],
+   "دوستانتان": [
+    "eure Freunde",
+    "دوستان + ـتان",
+    "",
+    []
+   ],
+   "خیانت": [
+    "Verrat",
+    "arab. Lehnwort; خیانت کردن به = verraten",
+    "",
+    []
+   ],
    "کرد": [
     "tun",
     "Kurzinfinitiv nach خواهند",
@@ -2749,159 +2399,21 @@
      ]
     ]
    ],
-   "مسیح": [
-    "Messias, Christus",
+   "تحویل": [
+    "Übergabe",
+    "arab. Lehnwort; تحویلِ … دادن = übergeben an",
+    "",
+    []
+   ],
+   "دشمن": [
+    "Feind",
     "",
     "",
     []
    ],
-   "هستند": [
-    "(sie) sind",
-    "Präsens 3. Pl.",
-    "",
-    [
-     [
-      "Infinitiv",
-      "بودن",
-      1
-     ]
-    ]
-   ],
-   "دنیا": [
-    "Welt",
-    "",
-    "",
-    []
-   ],
-   "آخر": [
-    "Ende",
-    "به آخر رسیدن = zu Ende gehen",
-    "",
-    []
-   ],
-   "رسیده": [
-    "angekommen",
-    "Partizip Perfekt",
-    "",
-    [
-     [
-      "Infinitiv",
-      "رسیدن",
-      1
-     ]
-    ]
-   ],
-   "است": [
-    "ist",
-    "3. Sg. von بودن; mit Partizip = Perfekt",
-    "",
-    [
-     [
-      "Infinitiv",
-      "بودن",
-      1
-     ]
-    ]
-   ],
-   "باور": [
-    "Glaube",
-    "باور کردن = glauben",
-    "",
-    []
-   ],
-   "نکنید": [
-    "tut nicht",
-    "verneinter Imperativ 2. Pl.",
-    "",
-    [
-     [
-      "Infinitiv",
-      "کردن",
-      1
-     ]
-    ]
-   ],
-   "هنگامی": [
-    "wenn, als",
-    "هنگامی که = wenn",
-    "",
-    []
-   ],
-   "خبر": [
-    "Nachricht",
-    "mit Ezafe",
-    "",
-    []
-   ],
-   "جنگها": [
-    "Kriege",
-    "Plural von جنگ",
-    "",
-    []
-   ],
-   "آشوبها": [
-    "Unruhen",
-    "Plural von آشوب",
-    "",
-    []
-   ],
-   "بشنوید": [
-    "(ihr) hört",
-    "Subjunktiv 2. Pl.",
-    "",
-    [
-     [
-      "Infinitiv",
-      "شنیدن",
-      1
-     ]
-    ]
-   ],
-   "مضطرب": [
-    "beunruhigt",
-    "arab. Lehnwort",
-    "",
-    []
-   ],
-   "نشوید": [
-    "werdet nicht",
-    "verneinter Imperativ 2. Pl.",
-    "",
-    [
-     [
-      "Infinitiv",
-      "شدن",
-      1
-     ]
-    ]
-   ],
-   "لازم": [
-    "nötig",
-    "",
-    "",
-    []
-   ],
-   "چنین": [
-    "solche",
-    "",
-    "",
-    []
-   ],
-   "وقایعی": [
-    "Ereignisse",
-    "وقایع + ـی",
-    "",
-    []
-   ],
-   "رخ": [
-    "Antlitz",
-    "رخ دادن = geschehen",
-    "",
-    []
-   ],
-   "دهد": [
-    "gebe",
-    "Subjunktiv 3. Sg.; رخ دهد = geschehe",
+   "داد": [
+    "geben",
+    "Kurzinfinitiv nach خواهند",
     "",
     [
      [
@@ -2911,39 +2423,39 @@
      ]
     ]
    ],
-   "آن": [
-    "jenes, das",
+   "برخی": [
+    "einige",
     "",
     "",
     []
    ],
-   "معنی": [
-    "Bedeutung",
-    "به این معنی = in diesem Sinn",
-    "",
-    []
-   ],
-   "نیست": [
-    "ist nicht",
-    "verneint 3. Sg.",
+   "کشته": [
+    "getötet",
+    "Partizip Perfekt von کشتن; کشته شدن = getötet werden",
     "",
     [
      [
       "Infinitiv",
-      "بودن",
+      "کشتن",
       1
      ]
     ]
    ],
-   "نزدیک": [
-    "nahe",
+   "خواهید": [
+    "werdet",
+    "Futurhilfsverb 2. Pl.",
     "",
-    "",
-    []
+    [
+     [
+      "Infinitiv",
+      "خواستن",
+      1
+     ]
+    ]
    ],
-   "شده": [
-    "geworden",
-    "Partizip Perfekt; شده است = ist geworden",
+   "شد": [
+    "werden",
+    "Kurzinfinitiv nach dem Futurhilfsverb",
     "",
     [
      [
@@ -2953,571 +2465,331 @@
      ]
     ]
    ],
-   "سپس": [
-    "dann, danach",
+   "همه": [
+    "alle",
     "",
     "",
     []
    ],
-   "ادامه": [
-    "Fortsetzung",
-    "ادامه دادن = fortfahren",
+   "بسبب": [
+    "wegen",
+    "به سببِ = wegen",
     "",
     []
    ],
-   "قومها": [
-    "Völker",
-    "Plural von قوم",
+   "اینکه": [
+    "dass",
+    "این + که; به سبب اینکه = weil",
     "",
     []
    ],
-   "ممالک": [
-    "Reiche",
-    "arab. Plural von مملکت",
+   "پیرو": [
+    "Anhänger",
+    "mit Ezafe; پیروِ من = meine Anhänger",
     "",
     []
    ],
-   "علیه": [
-    "gegen",
-    "arab. Lehnwort",
-    "",
-    []
-   ],
-   "یکدیگر": [
-    "einander",
-    "",
-    "",
-    []
-   ],
-   "جنگ": [
-    "Krieg",
-    "به جنگ برخاستن = sich zum Krieg erheben",
-    "",
-    []
-   ],
-   "برخواهند": [
-    "werden sich (erheben)",
-    "بر + خواهند; Futur von برخاستن",
+   "هستید": [
+    "(ihr) seid",
+    "Präsens 2. Pl.",
     "",
     [
      [
       "Infinitiv",
-      "برخاستن",
+      "بودن",
       1
      ]
     ]
    ],
-   "خاست": [
-    "aufstehen",
-    "Kurzinfinitiv",
+   "متنفر": [
+    "angewidert, hassend",
+    "arab. Lehnwort; متنفر شدن از = hassen",
+    "",
+    []
+   ],
+   "مویی": [
+    "ein Haar",
+    "مو + ـیی",
+    "",
+    []
+   ],
+   "سر": [
+    "Kopf",
+    "mit Ezafe",
+    "",
+    []
+   ],
+   "گم": [
+    "verloren",
+    "گم شدن = verloren gehen",
+    "",
+    []
+   ],
+   "نخواهد": [
+    "wird nicht",
+    "verneintes Futurhilfsverb 3. Sg.",
     "",
     [
      [
       "Infinitiv",
-      "برخاستن",
+      "خواستن",
       1
      ]
     ]
    ],
-   "زلزله‌های": [
-    "Erdbeben",
-    "Plural von زلزله mit Ezafe",
-    "",
-    []
-   ],
-   "عظیم": [
-    "gewaltig",
+   "اگر": [
+    "wenn",
     "",
     "",
     []
    ],
-   "قحطی‌ها": [
-    "Hungersnöte",
-    "Plural von قحطی",
+   "آخر": [
+    "Ende",
+    "تا به آخر = bis zum Ende",
     "",
     []
    ],
-   "بیماریهای": [
-    "Krankheiten",
-    "Plural von بیماری mit Ezafe",
+   "تحمل": [
+    "Erdulden",
+    "arab. Lehnwort; تحمل کردن = ausharren",
     "",
     []
    ],
-   "مسری": [
-    "ansteckend",
-    "",
-    "",
-    []
-   ],
-   "نقاط": [
-    "Orte, Punkte",
-    "arab. Plural von نقطه",
+   "جانهای": [
+    "Seelen, Leben",
+    "Plural von جان mit Ezafe",
     "",
     []
    ],
-   "آسمان": [
-    "Himmel",
-    "",
-    "",
-    []
-   ],
-   "نیز": [
-    "auch",
-    "",
+   "نجات": [
+    "Rettung",
+    "arab. Lehnwort; نجات دادن = retten",
     "",
     []
-   ],
-   "چیزهای": [
-    "Dinge",
-    "Plural von چیز mit Ezafe",
-    "",
-    []
-   ],
-   "عجیب": [
-    "seltsam, wunderbar",
-    "",
-    "",
-    []
-   ],
-   "هولناک": [
-    "schrecklich",
-    "",
-    "",
-    []
-   ],
-   "دیده": [
-    "gesehen",
-    "Partizip Perfekt; دیده خواهد شد = wird gesehen werden",
-    "",
-    [
-     [
-      "Infinitiv",
-      "دیدن",
-      1
-     ]
-    ]
    ]
   },
   "la": {
+   "sed": [
+    "aber, sondern",
+    "",
+    "",
+    []
+   ],
+   "ante": [
+    "vor",
+    "Präposition + Akk.",
+    "",
+    []
+   ],
+   "hæc": [
+    "dies",
+    "Demonstrativpronomen hic, Akk. Pl. n.",
+    "",
+    []
+   ],
+   "omnia": [
+    "alles",
+    "omnis, Akk. Pl. n.",
+    "",
+    []
+   ],
+   "injicient": [
+    "(sie) werden (Hand) anlegen",
+    "",
+    "",
+    [
+     [
+      "Form",
+      "Futur I Ind. Aktiv, 3. Pl."
+     ],
+     [
+      "Infinitiv",
+      "injicere",
+      1
+     ],
+     [
+      "Stammformen",
+      "injicio, injeci, injectum",
+      1
+     ]
+    ]
+   ],
+   "vobis": [
+    "euch",
+    "Dat. von vos",
+    "",
+    []
+   ],
+   "manus": [
+    "Hände",
+    "manus, Akk. Pl. (u-Deklination)",
+    "",
+    []
+   ],
+   "suas": [
+    "ihre",
+    "Possessivpronomen suus, Akk. Pl. f.",
+    "",
+    []
+   ],
    "et": [
     "und; auch",
     "",
     "",
     []
    ],
-   "quibusdam": [
-    "einige",
-    "Pronomen quidam, Abl. Pl.; Ablativus absolutus mit dicentibus",
+   "persequentur": [
+    "(sie) werden verfolgen",
+    "Deponens",
     "",
-    []
+    [
+     [
+      "Form",
+      "Futur I Ind., 3. Pl. (Deponens)"
+     ],
+     [
+      "Infinitiv",
+      "persequi",
+      1
+     ],
+     [
+      "Stammformen",
+      "persequor, persecutus sum",
+      1
+     ]
+    ]
    ],
-   "dicentibus": [
-    "sagend",
+   "tradentes": [
+    "ausliefernd",
     "",
     "",
     [
      [
       "Form",
-      "Partizip Präsens Aktiv, Abl. Pl."
+      "Partizip Präsens Aktiv, Nom. Pl. m."
      ],
      [
       "Infinitiv",
-      "dicere",
+      "tradere",
       1
      ],
      [
       "Stammformen",
-      "dico, dixi, dictum",
+      "trado, tradidi, traditum",
       1
      ]
     ]
-   ],
-   "de": [
-    "über, von",
-    "Präposition + Abl.",
-    "",
-    []
-   ],
-   "templo": [
-    "Tempel",
-    "templum, Abl. Sg.",
-    "",
-    []
-   ],
-   "quod": [
-    "dass; welches",
-    "Konjunktion bzw. Relativpronomen n.",
-    "",
-    []
-   ],
-   "bonis": [
-    "guten, schönen",
-    "bonus, Abl. Pl.",
-    "",
-    []
-   ],
-   "lapidibus": [
-    "Steinen",
-    "lapis, Abl. Pl.",
-    "",
-    []
-   ],
-   "donis": [
-    "Gaben",
-    "donum, Abl. Pl.",
-    "",
-    []
-   ],
-   "ornatum": [
-    "geschmückt",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Partizip Perfekt Passiv, n. Sg."
-     ],
-     [
-      "Infinitiv",
-      "ornare",
-      1
-     ],
-     [
-      "Stammformen",
-      "orno, ornavi, ornatum",
-      1
-     ]
-    ]
-   ],
-   "esset": [
-    "sei",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Konjunktiv Imperfekt, 3. Sg."
-     ],
-     [
-      "Infinitiv",
-      "esse",
-      1
-     ],
-     [
-      "Stammformen",
-      "sum, fui, –",
-      1
-     ]
-    ]
-   ],
-   "dixit": [
-    "(er) sagte",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Perfekt Ind. Aktiv, 3. Sg."
-     ],
-     [
-      "Infinitiv",
-      "dicere",
-      1
-     ],
-     [
-      "Stammformen",
-      "dico, dixi, dictum",
-      1
-     ]
-    ]
-   ],
-   "hæc": [
-    "diese (Dinge)",
-    "Pronomen hic, n. Pl.",
-    "",
-    []
-   ],
-   "quæ": [
-    "welche",
-    "Relativpronomen, n. Pl.",
-    "",
-    []
-   ],
-   "videtis": [
-    "(ihr) seht",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Präsens Ind. Aktiv, 2. Pl."
-     ],
-     [
-      "Infinitiv",
-      "videre",
-      1
-     ],
-     [
-      "Stammformen",
-      "video, vidi, visum",
-      1
-     ]
-    ]
-   ],
-   "venient": [
-    "(sie) werden kommen",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Futur I Ind. Aktiv, 3. Pl."
-     ],
-     [
-      "Infinitiv",
-      "venire",
-      1
-     ],
-     [
-      "Stammformen",
-      "venio, veni, ventum",
-      1
-     ]
-    ]
-   ],
-   "dies": [
-    "Tage",
-    "dies, Nom. Pl.",
-    "",
-    []
    ],
    "in": [
-    "in, an",
-    "Präposition",
+    "in (hinein)",
+    "Präposition + Akk. (Richtung) bzw. Abl.",
     "",
     []
    ],
-   "quibus": [
-    "welchen",
-    "Relativpronomen, Abl. Pl.",
+   "synagogas": [
+    "Synagogen",
+    "synagoga, Akk. Pl.",
     "",
     []
    ],
-   "non": [
-    "nicht",
-    "",
+   "custodias": [
+    "Gefängnisse",
+    "custodia, Akk. Pl.",
     "",
     []
    ],
-   "relinquetur": [
-    "(er) wird gelassen",
+   "trahentes": [
+    "schleppend",
     "",
     "",
     [
      [
       "Form",
-      "Futur I Ind. Passiv, 3. Sg."
+      "Partizip Präsens Aktiv, Nom. Pl. m."
      ],
      [
       "Infinitiv",
-      "relinquere",
+      "trahere",
       1
      ],
      [
       "Stammformen",
-      "relinquo, reliqui, relictum",
+      "traho, traxi, tractum",
       1
      ]
     ]
    ],
-   "lapis": [
-    "Stein",
-    "Nom. Sg.",
-    "",
-    []
-   ],
-   "super": [
-    "auf, über",
+   "ad": [
+    "zu, vor",
     "Präposition + Akk.",
     "",
     []
    ],
-   "lapidem": [
-    "Stein",
-    "lapis, Akk. Sg.",
+   "reges": [
+    "Könige",
+    "rex, Akk. Pl.",
     "",
     []
    ],
-   "qui": [
-    "der, welcher",
-    "Relativpronomen, Nom. Sg. m.",
+   "præsides": [
+    "Statthalter",
+    "præses, Akk. Pl.",
     "",
     []
    ],
-   "destruatur": [
-    "zerstört werde",
+   "propter": [
+    "wegen",
+    "Präposition + Akk.",
+    "",
+    []
+   ],
+   "nomen": [
+    "Namen",
+    "nomen, Akk. Sg.",
+    "",
+    []
+   ],
+   "meum": [
+    "meinen",
+    "Possessivpronomen meus, Akk. Sg. n.",
+    "",
+    []
+   ],
+   "continget": [
+    "(es) wird geschehen",
     "",
     "",
     [
      [
       "Form",
-      "Präsens Konj. Passiv, 3. Sg."
+      "Futur I Ind. Aktiv, 3. Sg."
      ],
      [
       "Infinitiv",
-      "destruere",
+      "contingere",
       1
      ],
      [
       "Stammformen",
-      "destruo, destruxi, destructum",
-      1
-     ]
-    ]
-   ],
-   "interrogaverunt": [
-    "(sie) fragten",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Perfekt Ind. Aktiv, 3. Pl."
-     ],
-     [
-      "Infinitiv",
-      "interrogare",
-      1
-     ],
-     [
-      "Stammformen",
-      "interrogo, interrogavi, interrogatum",
+      "contingo, contigi, contactum",
       1
      ]
     ]
    ],
    "autem": [
-    "aber, nun",
-    "",
-    "",
-    []
-   ],
-   "illum": [
-    "ihn",
-    "Pronomen ille, Akk. Sg. m.",
+    "aber",
+    "nachgestellt",
     "",
     []
    ],
-   "dicentes": [
-    "sagend",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Partizip Präsens Aktiv, Nom. Pl."
-     ],
-     [
-      "Infinitiv",
-      "dicere",
-      1
-     ],
-     [
-      "Stammformen",
-      "dico, dixi, dictum",
-      1
-     ]
-    ]
-   ],
-   "præceptor": [
-    "Meister, Lehrer",
-    "Vokativ Sg.",
+   "testimonium": [
+    "Zeugnis",
+    "testimonium, Akk. Sg.; in testimonium = zum Zeugnis",
     "",
     []
    ],
-   "quando": [
-    "wann",
-    "",
-    "",
-    []
-   ],
-   "erunt": [
-    "(sie) werden sein",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Futur I Ind., 3. Pl."
-     ],
-     [
-      "Infinitiv",
-      "esse",
-      1
-     ],
-     [
-      "Stammformen",
-      "sum, fui, –",
-      1
-     ]
-    ]
-   ],
-   "signum": [
-    "Zeichen",
-    "Nom. Sg.",
-    "",
-    []
-   ],
-   "cum": [
-    "wenn, sobald",
-    "Konjunktion",
-    "",
-    []
-   ],
-   "fieri": [
-    "geschehen",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Infinitiv Präsens"
-     ],
-     [
-      "Infinitiv",
-      "fieri",
-      1
-     ],
-     [
-      "Stammformen",
-      "fio, factus sum",
-      1
-     ]
-    ]
-   ],
-   "incipient": [
-    "(sie) werden beginnen",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Futur I Ind. Aktiv, 3. Pl."
-     ],
-     [
-      "Infinitiv",
-      "incipere",
-      1
-     ],
-     [
-      "Stammformen",
-      "incipio, incepi, inceptum",
-      1
-     ]
-    ]
-   ],
-   "videte": [
-    "seht",
+   "ponite": [
+    "setzt, legt",
     "",
     "",
     [
@@ -3527,144 +2799,12 @@
      ],
      [
       "Infinitiv",
-      "videre",
+      "ponere",
       1
      ],
      [
       "Stammformen",
-      "video, vidi, visum",
-      1
-     ]
-    ]
-   ],
-   "ne": [
-    "dass nicht",
-    "Konjunktion",
-    "",
-    []
-   ],
-   "seducamini": [
-    "(ihr) verführt werdet",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Präsens Konj. Passiv, 2. Pl."
-     ],
-     [
-      "Infinitiv",
-      "seducere",
-      1
-     ],
-     [
-      "Stammformen",
-      "seduco, seduxi, seductum",
-      1
-     ]
-    ]
-   ],
-   "multi": [
-    "viele",
-    "multus, Nom. Pl. m.",
-    "",
-    []
-   ],
-   "enim": [
-    "denn",
-    "",
-    "",
-    []
-   ],
-   "nomine": [
-    "Namen",
-    "nomen, Abl. Sg.",
-    "",
-    []
-   ],
-   "meo": [
-    "meinem",
-    "meus, Abl. Sg.",
-    "",
-    []
-   ],
-   "quia": [
-    "dass; weil",
-    "leitet hier die direkte Rede ein",
-    "",
-    []
-   ],
-   "ego": [
-    "ich",
-    "",
-    "",
-    []
-   ],
-   "sum": [
-    "(ich) bin",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Präsens Ind., 1. Sg."
-     ],
-     [
-      "Infinitiv",
-      "esse",
-      1
-     ],
-     [
-      "Stammformen",
-      "sum, fui, –",
-      1
-     ]
-    ]
-   ],
-   "tempus": [
-    "Zeit",
-    "Nom. Sg.",
-    "",
-    []
-   ],
-   "appropinquavit": [
-    "(sie) ist nahe gekommen",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Perfekt Ind. Aktiv, 3. Sg."
-     ],
-     [
-      "Infinitiv",
-      "appropinquare",
-      1
-     ],
-     [
-      "Stammformen",
-      "appropinquo, appropinquavi, appropinquatum",
-      1
-     ]
-    ]
-   ],
-   "nolite": [
-    "wollt nicht",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Imperativ, 2. Pl. (+ Infinitiv = Verbot)"
-     ],
-     [
-      "Infinitiv",
-      "nolle",
-      1
-     ],
-     [
-      "Stammformen",
-      "nolo, nolui, –",
+      "pono, posui, positum",
       1
      ]
     ]
@@ -3675,335 +2815,635 @@
     "",
     []
    ],
-   "ire": [
-    "gehen",
+   "cordibus": [
+    "Herzen",
+    "cor, Abl. Pl.",
+    "",
+    []
+   ],
+   "vestris": [
+    "euren",
+    "Possessivpronomen vester, Abl. Pl.",
+    "",
+    []
+   ],
+   "non": [
+    "nicht",
+    "",
+    "",
+    []
+   ],
+   "præmeditari": [
+    "vorher bedenken",
+    "Deponens",
+    "",
+    [
+     [
+      "Form",
+      "Infinitiv Präsens (Deponens)"
+     ],
+     [
+      "Infinitiv",
+      "præmeditari",
+      1
+     ],
+     [
+      "Stammformen",
+      "præmeditor, præmeditatus sum",
+      1
+     ]
+    ]
+   ],
+   "quemadmodum": [
+    "wie",
+    "",
+    "",
+    []
+   ],
+   "respondeatis": [
+    "(ihr) antworten sollt",
+    "indirekte Frage",
+    "",
+    [
+     [
+      "Form",
+      "Konjunktiv Präsens Aktiv, 2. Pl."
+     ],
+     [
+      "Infinitiv",
+      "respondere",
+      1
+     ],
+     [
+      "Stammformen",
+      "respondeo, respondi, responsum",
+      1
+     ]
+    ]
+   ],
+   "ego": [
+    "ich",
+    "",
+    "",
+    []
+   ],
+   "enim": [
+    "denn",
+    "nachgestellt",
+    "",
+    []
+   ],
+   "dabo": [
+    "(ich) werde geben",
     "",
     "",
     [
      [
       "Form",
-      "Infinitiv Präsens"
+      "Futur I Ind. Aktiv, 1. Sg."
      ],
      [
       "Infinitiv",
-      "ire",
+      "dare",
       1
      ],
      [
       "Stammformen",
-      "eo, ii, itum",
+      "do, dedi, datum",
       1
      ]
     ]
    ],
-   "post": [
-    "hinter, nach",
-    "Präposition + Akk.",
+   "os": [
+    "Mund",
+    "os, oris n., Akk. Sg.",
     "",
     []
    ],
-   "eos": [
-    "sie (Akk. Pl.)",
-    "Pronomen is",
+   "sapientiam": [
+    "Weisheit",
+    "sapientia, Akk. Sg.",
     "",
     []
    ],
-   "audieritis": [
-    "(ihr) gehört haben werdet",
+   "cui": [
+    "der (Dat.)",
+    "Relativpronomen qui, Dat. Sg.",
+    "",
+    []
+   ],
+   "poterunt": [
+    "(sie) werden können",
     "",
     "",
     [
      [
       "Form",
-      "Futur II Ind. Aktiv, 2. Pl."
+      "Futur I Ind., 3. Pl."
      ],
      [
       "Infinitiv",
-      "audire",
+      "posse",
       1
      ],
      [
       "Stammformen",
-      "audio, audivi, auditum",
+      "possum, potui, —",
       1
      ]
     ]
    ],
-   "prælia": [
-    "Kämpfe, Kriege",
-    "prælium, Akk. Pl.",
-    "",
-    []
-   ],
-   "seditiones": [
-    "Aufstände",
-    "seditio, Akk. Pl.",
-    "",
-    []
-   ],
-   "terreri": [
-    "erschreckt werden",
+   "resistere": [
+    "widerstehen",
     "",
     "",
     [
      [
       "Form",
-      "Infinitiv Präsens Passiv"
+      "Infinitiv Präsens Aktiv"
      ],
      [
       "Infinitiv",
-      "terrere",
+      "resistere",
       1
      ],
      [
       "Stammformen",
-      "terreo, terrui, territum",
+      "resisto, restiti, —",
       1
      ]
     ]
    ],
-   "oportet": [
-    "es ist nötig",
+   "contradicere": [
+    "widersprechen",
     "",
     "",
     [
      [
       "Form",
-      "Präsens Ind., 3. Sg. (unpersönlich)"
+      "Infinitiv Präsens Aktiv"
      ],
      [
       "Infinitiv",
-      "oportere",
+      "contradicere",
       1
      ],
      [
       "Stammformen",
-      "oportet, oportuit, –",
+      "contradico, contradixi, contradictum",
       1
      ]
     ]
    ],
-   "primum": [
-    "zuerst",
-    "Adverb",
+   "omnes": [
+    "alle",
+    "omnis, Nom. Pl. m.",
     "",
     []
    ],
-   "sed": [
-    "aber",
-    "",
-    "",
-    []
-   ],
-   "nondum": [
-    "noch nicht",
-    "",
+   "adversarii": [
+    "Gegner",
+    "adversarius, Nom. Pl.",
     "",
     []
    ],
-   "statim": [
-    "sofort",
-    "",
-    "",
-    []
-   ],
-   "finis": [
-    "Ende",
-    "Nom. Sg.",
+   "vestri": [
+    "eure",
+    "Possessivpronomen vester, Nom. Pl. m.",
     "",
     []
    ],
-   "tunc": [
-    "dann, damals",
-    "",
-    "",
-    []
-   ],
-   "dicebat": [
-    "(er) sagte",
+   "trademini": [
+    "(ihr) werdet ausgeliefert werden",
     "",
     "",
     [
      [
       "Form",
-      "Imperfekt Ind. Aktiv, 3. Sg."
+      "Futur I Ind. Passiv, 2. Pl."
      ],
      [
       "Infinitiv",
-      "dicere",
+      "tradere",
       1
      ],
      [
       "Stammformen",
-      "dico, dixi, dictum",
+      "trado, tradidi, traditum",
       1
      ]
     ]
    ],
-   "illis": [
-    "ihnen",
-    "Pronomen ille, Dat. Pl.",
+   "a": [
+    "von",
+    "Präposition + Abl. (Urheber beim Passiv)",
     "",
     []
    ],
-   "surget": [
-    "(es) wird sich erheben",
+   "parentibus": [
+    "Eltern",
+    "parens, Abl. Pl.",
+    "",
+    []
+   ],
+   "fratribus": [
+    "Brüdern",
+    "frater, Abl. Pl.",
+    "",
+    []
+   ],
+   "cognatis": [
+    "Verwandten",
+    "cognatus, Abl. Pl.",
+    "",
+    []
+   ],
+   "amicis": [
+    "Freunden",
+    "amicus, Abl. Pl.",
+    "",
+    []
+   ],
+   "morte": [
+    "mit dem Tod",
+    "mors, Abl. Sg.; morte afficere = töten",
+    "",
+    []
+   ],
+   "afficient": [
+    "(sie) werden versehen",
+    "morte afficient = sie werden töten",
+    "",
+    [
+     [
+      "Form",
+      "Futur I Ind. Aktiv, 3. Pl."
+     ],
+     [
+      "Infinitiv",
+      "afficere",
+      1
+     ],
+     [
+      "Stammformen",
+      "afficio, affeci, affectum",
+      1
+     ]
+    ]
+   ],
+   "ex": [
+    "aus, von",
+    "Präposition + Abl.; ex vobis = einige von euch",
+    "",
+    []
+   ],
+   "eritis": [
+    "(ihr) werdet sein",
     "",
     "",
     [
      [
       "Form",
-      "Futur I Ind. Aktiv, 3. Sg."
+      "Futur I Ind., 2. Pl."
      ],
      [
       "Infinitiv",
-      "surgere",
+      "esse",
       1
      ],
      [
       "Stammformen",
-      "surgo, surrexi, surrectum",
+      "sum, fui, —",
       1
      ]
     ]
    ],
-   "gens": [
-    "Volk",
-    "Nom. Sg.",
+   "odio": [
+    "zum Hass",
+    "odium, Dat. Sg.; odio esse + Dat. = verhasst sein (doppelter Dativ)",
     "",
     []
    ],
-   "contra": [
-    "gegen",
-    "Präposition + Akk.",
+   "omnibus": [
+    "allen",
+    "omnis, Dat. Pl.",
     "",
     []
    ],
-   "gentem": [
-    "Volk",
-    "gens, Akk. Sg.",
+   "capillus": [
+    "Haar",
+    "capillus, Nom. Sg.",
     "",
     []
    ],
-   "regnum": [
-    "Reich",
-    "Nom./Akk. Sg.",
+   "de": [
+    "von",
+    "Präposition + Abl.",
     "",
     []
    ],
-   "adversus": [
-    "gegen",
-    "Präposition + Akk.",
+   "capite": [
+    "Kopf",
+    "caput, Abl. Sg.",
     "",
     []
    ],
-   "terræmotus": [
-    "Erdbeben",
-    "terræmotus, Nom. Pl.",
+   "vestro": [
+    "eurem",
+    "Possessivpronomen vester, Abl. Sg. n.",
     "",
     []
    ],
-   "magni": [
-    "grosse",
-    "magnus, Nom. Pl. m.",
+   "peribit": [
+    "(es) wird zugrunde gehen",
+    "",
+    "",
+    [
+     [
+      "Form",
+      "Futur I Ind., 3. Sg."
+     ],
+     [
+      "Infinitiv",
+      "perire",
+      1
+     ],
+     [
+      "Stammformen",
+      "pereo, perii, peritum",
+      1
+     ]
+    ]
+   ],
+   "patientia": [
+    "Geduld",
+    "patientia, Abl. Sg.",
     "",
     []
    ],
-   "per": [
-    "durch, über ... hin",
-    "per loca = an verschiedenen Orten",
+   "vestra": [
+    "eurer",
+    "Possessivpronomen vester, Abl. Sg. f.",
     "",
     []
    ],
-   "loca": [
-    "Orte",
-    "locus, Akk. Pl. (loca)",
+   "possidebitis": [
+    "(ihr) werdet besitzen",
+    "",
+    "",
+    [
+     [
+      "Form",
+      "Futur I Ind. Aktiv, 2. Pl."
+     ],
+     [
+      "Infinitiv",
+      "possidere",
+      1
+     ],
+     [
+      "Stammformen",
+      "possideo, possedi, possessum",
+      1
+     ]
+    ]
+   ],
+   "animas": [
+    "Seelen",
+    "anima, Akk. Pl.",
     "",
     []
    ],
-   "pestilentiæ": [
-    "Seuchen",
-    "pestilentia, Nom. Pl.",
-    "",
-    []
-   ],
-   "fames": [
-    "Hungersnot",
-    "Nom. Sg.",
-    "",
-    []
-   ],
-   "terroresque": [
-    "und Schrecknisse",
-    "terror, Nom. Pl. + -que = und",
-    "",
-    []
-   ],
-   "cælo": [
-    "Himmel",
-    "cælum, Abl. Sg.",
-    "",
-    []
-   ],
-   "signa": [
-    "Zeichen",
-    "signum, Nom. Pl.",
-    "",
-    []
-   ],
-   "magna": [
-    "grosse",
-    "magnus, Nom. Pl. n.",
+   "vestras": [
+    "eure",
+    "Possessivpronomen vester, Akk. Pl. f.",
     "",
     []
    ]
   },
   "grc": {
-   "καί": [
-    "und, auch",
-    "Akzent vor Enklitikon",
+   "πρὸ": [
+    "vor",
+    "Präposition + Gen.",
     "",
     []
    ],
-   "τινων": [
-    "einige",
-    "Indefinitpronomen τις, Gen. Pl.; Genitivus absolutus",
+   "δὲ": [
+    "aber, doch",
+    "nachgestellte Partikel",
     "",
     []
    ],
-   "λεγόντων": [
-    "sagend",
+   "τούτων": [
+    "diesem",
+    "Demonstrativpronomen οὗτος, Gen. Pl. n.",
+    "",
+    []
+   ],
+   "ἁπάντων": [
+    "allem",
+    "ἅπας, Gen. Pl. n. (verstärktes πᾶς)",
+    "",
+    []
+   ],
+   "ἐπιβαλοῦσιν": [
+    "(sie) werden (Hand) anlegen",
     "",
     "",
     [
      [
       "Form",
-      "Partizip Präsens Aktiv, Gen. Pl. m."
+      "Futur Indikativ Aktiv, 3. Pl."
      ],
      [
       "Grundform",
-      "λέγω",
+      "ἐπιβάλλω",
       1
      ],
      [
       "Infinitiv",
-      "λέγειν",
+      "ἐπιβάλλειν",
       1
      ],
      [
       "Aorist",
-      "εἶπον",
+      "ἐπέβαλον",
       1
      ],
      [
       "Perfekt",
-      "εἴρηκα",
+      "ἐπιβέβληκα",
       1
      ]
     ]
    ],
-   "περὶ": [
-    "über, betreffend",
+   "ἐφ᾽": [
+    "auf",
+    "ἐπί vor Hauchlaut elidiert; + Akk.",
+    "",
+    []
+   ],
+   "ὑμᾶς": [
+    "euch",
+    "σύ, Akk. Pl.",
+    "",
+    []
+   ],
+   "τὰς": [
+    "die (Akk. Pl. f.)",
+    "Artikel",
+    "",
+    []
+   ],
+   "χεῖρας": [
+    "Hände",
+    "χείρ, Akk. Pl.",
+    "",
+    []
+   ],
+   "αὐτῶν": [
+    "ihre",
+    "αὐτός, Gen. Pl.",
+    "",
+    []
+   ],
+   "καὶ": [
+    "und, auch",
+    "",
+    "",
+    []
+   ],
+   "διώξουσιν": [
+    "(sie) werden verfolgen",
+    "",
+    "",
+    [
+     [
+      "Form",
+      "Futur Indikativ Aktiv, 3. Pl."
+     ],
+     [
+      "Grundform",
+      "διώκω",
+      1
+     ],
+     [
+      "Infinitiv",
+      "διώκειν",
+      1
+     ],
+     [
+      "Aorist",
+      "ἐδίωξα",
+      1
+     ],
+     [
+      "Perfekt",
+      "δεδίωχα",
+      1
+     ]
+    ]
+   ],
+   "παραδιδόντες": [
+    "ausliefernd",
+    "",
+    "",
+    [
+     [
+      "Form",
+      "Partizip Präsens Aktiv, Nom. Pl. m."
+     ],
+     [
+      "Grundform",
+      "παραδίδωμι",
+      1
+     ],
+     [
+      "Infinitiv",
+      "παραδιδόναι",
+      1
+     ],
+     [
+      "Aorist",
+      "παρέδωκα",
+      1
+     ],
+     [
+      "Perfekt",
+      "παραδέδωκα",
+      1
+     ]
+    ]
+   ],
+   "εἰς": [
+    "in, zu",
+    "Präposition + Akk.",
+    "",
+    []
+   ],
+   "συναγωγὰς": [
+    "Synagogen",
+    "συναγωγή, Akk. Pl.",
+    "",
+    []
+   ],
+   "φυλακάς": [
+    "Gefängnisse",
+    "φυλακή, Akk. Pl.",
+    "",
+    []
+   ],
+   "ἀγομένους": [
+    "geführt werdend",
+    "Akk. Pl. bezogen auf ὑμᾶς",
+    "",
+    [
+     [
+      "Form",
+      "Partizip Präsens Passiv, Akk. Pl. m."
+     ],
+     [
+      "Grundform",
+      "ἄγω",
+      1
+     ],
+     [
+      "Infinitiv",
+      "ἄγειν",
+      1
+     ],
+     [
+      "Aorist",
+      "ἤγαγον",
+      1
+     ],
+     [
+      "Perfekt",
+      "ἦχα",
+      1
+     ]
+    ]
+   ],
+   "ἐπὶ": [
+    "vor, zu",
+    "Präposition + Akk.",
+    "",
+    []
+   ],
+   "βασιλεῖς": [
+    "Könige",
+    "βασιλεύς, Akk. Pl.",
+    "",
+    []
+   ],
+   "ἡγεμόνας": [
+    "Statthalter",
+    "ἡγεμών, Akk. Pl.",
+    "",
+    []
+   ],
+   "ἕνεκεν": [
+    "wegen",
     "Präposition + Gen.",
     "",
     []
@@ -4014,388 +3454,20 @@
     "",
     []
    ],
-   "ἱεροῦ": [
-    "Tempel",
-    "ἱερόν, Gen. Sg.",
+   "ὀνόματός": [
+    "Namens",
+    "ὄνομα, Gen. Sg.; Zusatzakzent vor Enklitikon",
     "",
     []
    ],
-   "ὅτι": [
-    "dass",
-    "leitet Rede ein",
+   "μου": [
+    "mein",
+    "ἐγώ, Gen. Sg. (enklitisch)",
     "",
     []
    ],
-   "λίθοις": [
-    "(mit) Steinen",
-    "λίθος, Dat. Pl.",
-    "",
-    []
-   ],
-   "καλοῖς": [
-    "schönen",
-    "καλός, Dat. Pl.",
-    "",
-    []
-   ],
-   "καὶ": [
-    "und, auch",
-    "",
-    "",
-    []
-   ],
-   "ἀναθήμασιν": [
-    "Weihegaben",
-    "ἀνάθημα, Dat. Pl.",
-    "",
-    []
-   ],
-   "κεκόσμηται": [
-    "(er) ist geschmückt",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Perfekt Indikativ Passiv, 3. Sg."
-     ],
-     [
-      "Grundform",
-      "κοσμέω",
-      1
-     ],
-     [
-      "Infinitiv",
-      "κοσμεῖν",
-      1
-     ],
-     [
-      "Aorist",
-      "ἐκόσμησα",
-      1
-     ],
-     [
-      "Perfekt",
-      "κεκόσμηκα",
-      1
-     ]
-    ]
-   ],
-   "εἶπεν": [
-    "(er) sagte",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Aorist Indikativ Aktiv, 3. Sg."
-     ],
-     [
-      "Grundform",
-      "λέγω",
-      1
-     ],
-     [
-      "Infinitiv",
-      "λέγειν",
-      1
-     ],
-     [
-      "Aorist",
-      "εἶπον",
-      1
-     ],
-     [
-      "Perfekt",
-      "εἴρηκα",
-      1
-     ]
-    ]
-   ],
-   "ταῦτα": [
-    "diese (Dinge)",
-    "Demonstrativpronomen οὗτος, n. Pl.",
-    "",
-    []
-   ],
-   "ἃ": [
-    "welche",
-    "Relativpronomen, n. Pl.",
-    "",
-    []
-   ],
-   "θεωρεῖτε": [
-    "(ihr) schaut",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Präsens Indikativ Aktiv, 2. Pl."
-     ],
-     [
-      "Grundform",
-      "θεωρέω",
-      1
-     ],
-     [
-      "Infinitiv",
-      "θεωρεῖν",
-      1
-     ],
-     [
-      "Aorist",
-      "ἐθεώρησα",
-      1
-     ],
-     [
-      "Perfekt",
-      "τεθεώρηκα",
-      1
-     ]
-    ]
-   ],
-   "ἐλεύσονται": [
-    "(sie) werden kommen",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Futur Indikativ Medium, 3. Pl."
-     ],
-     [
-      "Grundform",
-      "ἔρχομαι",
-      1
-     ],
-     [
-      "Infinitiv",
-      "ἔρχεσθαι",
-      1
-     ],
-     [
-      "Aorist",
-      "ἦλθον",
-      1
-     ],
-     [
-      "Perfekt",
-      "ἐλήλυθα",
-      1
-     ]
-    ]
-   ],
-   "ἡμέραι": [
-    "Tage",
-    "ἡμέρα, Nom. Pl.",
-    "",
-    []
-   ],
-   "ἐν": [
-    "in, an",
-    "Präposition + Dat.",
-    "",
-    []
-   ],
-   "αἷς": [
-    "welchen",
-    "Relativpronomen, Dat. Pl. f.",
-    "",
-    []
-   ],
-   "οὐκ": [
-    "nicht",
-    "vor Vokal",
-    "",
-    []
-   ],
-   "ἀφεθήσεται": [
-    "(er) wird gelassen",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Futur Indikativ Passiv, 3. Sg."
-     ],
-     [
-      "Grundform",
-      "ἀφίημι",
-      1
-     ],
-     [
-      "Infinitiv",
-      "ἀφιέναι",
-      1
-     ],
-     [
-      "Aorist",
-      "ἀφῆκα",
-      1
-     ],
-     [
-      "Perfekt",
-      "ἀφεῖκα",
-      1
-     ]
-    ]
-   ],
-   "λίθος": [
-    "Stein",
-    "Nom. Sg.",
-    "",
-    []
-   ],
-   "ἐπὶ": [
-    "auf, gegen",
-    "Präposition",
-    "",
-    []
-   ],
-   "λίθῳ": [
-    "Stein",
-    "λίθος, Dat. Sg.",
-    "",
-    []
-   ],
-   "ὃς": [
-    "der, welcher",
-    "Relativpronomen, Nom. Sg. m.",
-    "",
-    []
-   ],
-   "οὐ": [
-    "nicht",
-    "",
-    "",
-    []
-   ],
-   "καταλυθήσεται": [
-    "(er) wird niedergerissen",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Futur Indikativ Passiv, 3. Sg."
-     ],
-     [
-      "Grundform",
-      "καταλύω",
-      1
-     ],
-     [
-      "Infinitiv",
-      "καταλύειν",
-      1
-     ],
-     [
-      "Aorist",
-      "κατέλυσα",
-      1
-     ],
-     [
-      "Perfekt",
-      "καταλέλυκα",
-      1
-     ]
-    ]
-   ],
-   "ἐπηρώτησαν": [
-    "(sie) fragten",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Aorist Indikativ Aktiv, 3. Pl."
-     ],
-     [
-      "Grundform",
-      "ἐπερωτάω",
-      1
-     ],
-     [
-      "Infinitiv",
-      "ἐπερωτᾶν",
-      1
-     ],
-     [
-      "Aorist",
-      "ἐπηρώτησα",
-      1
-     ],
-     [
-      "Perfekt",
-      "ἐπηρώτηκα",
-      1
-     ]
-    ]
-   ],
-   "δὲ": [
-    "aber, nun",
-    "",
-    "",
-    []
-   ],
-   "αὐτὸν": [
-    "ihn",
-    "αὐτός, Akk. Sg. m.",
-    "",
-    []
-   ],
-   "λέγοντες": [
-    "sagend",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Partizip Präsens Aktiv, Nom. Pl. m."
-     ],
-     [
-      "Grundform",
-      "λέγω",
-      1
-     ],
-     [
-      "Infinitiv",
-      "λέγειν",
-      1
-     ],
-     [
-      "Aorist",
-      "εἶπον",
-      1
-     ],
-     [
-      "Perfekt",
-      "εἴρηκα",
-      1
-     ]
-    ]
-   ],
-   "διδάσκαλε": [
-    "Meister, Lehrer",
-    "διδάσκαλος, Vokativ",
-    "",
-    []
-   ],
-   "πότε": [
-    "wann",
-    "",
-    "",
-    []
-   ],
-   "οὖν": [
-    "also, denn",
-    "",
-    "",
-    []
-   ],
-   "ἔσται": [
-    "(es) wird sein",
+   "ἀποβήσεται": [
+    "(es) wird ausgehen, führen zu",
     "",
     "",
     [
@@ -4405,630 +3477,225 @@
      ],
      [
       "Grundform",
-      "εἰμί",
+      "ἀποβαίνω",
       1
      ],
      [
       "Infinitiv",
-      "εἶναι",
+      "ἀποβαίνειν",
       1
      ],
      [
       "Aorist",
-      "–",
+      "ἀπέβην",
       1
      ],
      [
       "Perfekt",
-      "–",
+      "ἀποβέβηκα",
       1
      ]
     ]
    ],
-   "τί": [
-    "was",
-    "Fragepronomen, n.",
+   "ὑμῖν": [
+    "euch",
+    "σύ, Dat. Pl.",
     "",
     []
    ],
-   "τὸ": [
-    "das",
-    "Artikel n.",
+   "μαρτύριον": [
+    "Zeugnis",
+    "μαρτύριον, Akk. Sg.",
     "",
     []
    ],
-   "σημεῖον": [
-    "Zeichen",
-    "Nom. Sg.",
-    "",
-    []
-   ],
-   "ὅταν": [
-    "wenn, sobald",
-    "+ Konjunktiv",
-    "",
-    []
-   ],
-   "μέλλῃ": [
-    "(es) im Begriff ist",
+   "θέσθε": [
+    "setzt, legt",
     "",
     "",
     [
      [
       "Form",
-      "Präsens Konjunktiv Aktiv, 3. Sg."
+      "Aorist Imperativ Medium, 2. Pl."
      ],
      [
       "Grundform",
-      "μέλλω",
+      "τίθημι",
       1
      ],
      [
       "Infinitiv",
-      "μέλλειν",
+      "τιθέναι",
       1
      ],
      [
       "Aorist",
-      "ἐμέλλησα",
+      "ἔθηκα",
       1
      ],
      [
       "Perfekt",
-      "–",
+      "τέθεικα",
       1
      ]
     ]
    ],
-   "γίνεσθαι": [
-    "geschehen",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Infinitiv Präsens Medium"
-     ],
-     [
-      "Grundform",
-      "γίνομαι",
-      1
-     ],
-     [
-      "Infinitiv",
-      "γίνεσθαι",
-      1
-     ],
-     [
-      "Aorist",
-      "ἐγενόμην",
-      1
-     ],
-     [
-      "Perfekt",
-      "γέγονα",
-      1
-     ]
-    ]
-   ],
-   "ὁ": [
-    "der",
-    "Artikel; ὁ δὲ = er aber",
+   "οὖν": [
+    "also",
+    "nachgestellte Partikel",
     "",
     []
    ],
-   "βλέπετε": [
-    "seht (zu)",
+   "καρδίας": [
+    "Herzen",
+    "καρδία, Akk. Pl.",
     "",
+    []
+   ],
+   "ὑμῶν": [
+    "euer",
+    "σύ, Gen. Pl.",
     "",
-    [
-     [
-      "Form",
-      "Imperativ Präsens Aktiv, 2. Pl."
-     ],
-     [
-      "Grundform",
-      "βλέπω",
-      1
-     ],
-     [
-      "Infinitiv",
-      "βλέπειν",
-      1
-     ],
-     [
-      "Aorist",
-      "ἔβλεψα",
-      1
-     ],
-     [
-      "Perfekt",
-      "–",
-      1
-     ]
-    ]
+    []
    ],
    "μὴ": [
-    "nicht, dass nicht",
-    "",
+    "nicht",
+    "Verneinung beim Infinitiv",
     "",
     []
    ],
-   "πλανηθῆτε": [
-    "(ihr) irregeführt werdet",
+   "προμελετᾶν": [
+    "im Voraus einüben",
     "",
     "",
     [
      [
       "Form",
-      "Aorist Konjunktiv Passiv, 2. Pl."
+      "Infinitiv Präsens Aktiv"
      ],
      [
       "Grundform",
-      "πλανάω",
+      "προμελετάω",
       1
      ],
      [
       "Infinitiv",
-      "πλανᾶν",
+      "προμελετᾶν",
       1
      ],
      [
       "Aorist",
-      "ἐπλάνησα",
+      "προεμελέτησα",
       1
      ],
      [
       "Perfekt",
-      "πεπλάνηκα",
+      "—",
       1
      ]
     ]
    ],
-   "πολλοὶ": [
-    "viele",
-    "πολύς, Nom. Pl. m.",
+   "ἀπολογηθῆναι": [
+    "sich verteidigen",
+    "Deponens",
+    "",
+    [
+     [
+      "Form",
+      "Aorist Infinitiv Passiv"
+     ],
+     [
+      "Grundform",
+      "ἀπολογέομαι",
+      1
+     ],
+     [
+      "Infinitiv",
+      "ἀπολογεῖσθαι",
+      1
+     ],
+     [
+      "Aorist",
+      "ἀπελογήθην",
+      1
+     ],
+     [
+      "Perfekt",
+      "—",
+      1
+     ]
+    ]
+   ],
+   "ἐγὼ": [
+    "ich",
+    "betont",
     "",
     []
    ],
    "γὰρ": [
     "denn",
-    "",
-    "",
-    []
-   ],
-   "τῷ": [
-    "dem",
-    "Artikel, Dat. Sg.",
+    "nachgestellte Partikel",
     "",
     []
    ],
-   "ὀνόματί": [
-    "Namen",
-    "ὄνομα, Dat. Sg.; Akzent vor Enklitikon",
-    "",
-    []
-   ],
-   "μου": [
-    "mein",
-    "Gen. von ἐγώ, enklitisch",
-    "",
-    []
-   ],
-   "ἐγώ": [
-    "ich",
-    "",
-    "",
-    []
-   ],
-   "εἰμι": [
-    "(ich) bin",
+   "δώσω": [
+    "(ich) werde geben",
     "",
     "",
     [
      [
       "Form",
-      "Präsens Indikativ, 1. Sg. (enklitisch)"
+      "Futur Indikativ Aktiv, 1. Sg."
      ],
      [
       "Grundform",
-      "εἰμί",
+      "δίδωμι",
       1
      ],
      [
       "Infinitiv",
-      "εἶναι",
+      "διδόναι",
       1
      ],
      [
       "Aorist",
-      "–",
+      "ἔδωκα",
       1
      ],
      [
       "Perfekt",
-      "–",
+      "δέδωκα",
       1
      ]
     ]
    ],
-   "καιρὸς": [
-    "Zeit, Zeitpunkt",
-    "Nom. Sg.",
+   "στόμα": [
+    "Mund",
+    "στόμα, Akk. Sg.",
     "",
     []
    ],
-   "ἤγγικεν": [
-    "(sie) ist nahe gekommen",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Perfekt Indikativ Aktiv, 3. Sg."
-     ],
-     [
-      "Grundform",
-      "ἐγγίζω",
-      1
-     ],
-     [
-      "Infinitiv",
-      "ἐγγίζειν",
-      1
-     ],
-     [
-      "Aorist",
-      "ἤγγισα",
-      1
-     ],
-     [
-      "Perfekt",
-      "ἤγγικα",
-      1
-     ]
-    ]
-   ],
-   "πορευθῆτε": [
-    "(ihr) geht",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Aorist Konjunktiv Passiv (deponens), 2. Pl."
-     ],
-     [
-      "Grundform",
-      "πορεύομαι",
-      1
-     ],
-     [
-      "Infinitiv",
-      "πορεύεσθαι",
-      1
-     ],
-     [
-      "Aorist",
-      "ἐπορεύθην",
-      1
-     ],
-     [
-      "Perfekt",
-      "πεπόρευμαι",
-      1
-     ]
-    ]
-   ],
-   "ὀπίσω": [
-    "hinter ... her",
-    "+ Gen.",
+   "σοφίαν": [
+    "Weisheit",
+    "σοφία, Akk. Sg.",
     "",
     []
    ],
-   "αὐτῶν": [
-    "ihnen",
-    "αὐτός, Gen. Pl.",
+   "ᾗ": [
+    "der (Dat.)",
+    "Relativpronomen ἥ, Dat. Sg. f.",
     "",
     []
    ],
-   "ἀκούσητε": [
-    "(ihr) hört",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Aorist Konjunktiv Aktiv, 2. Pl."
-     ],
-     [
-      "Grundform",
-      "ἀκούω",
-      1
-     ],
-     [
-      "Infinitiv",
-      "ἀκούειν",
-      1
-     ],
-     [
-      "Aorist",
-      "ἤκουσα",
-      1
-     ],
-     [
-      "Perfekt",
-      "ἀκήκοα",
-      1
-     ]
-    ]
-   ],
-   "πολέμους": [
-    "Kriege",
-    "πόλεμος, Akk. Pl.",
-    "",
-    []
-   ],
-   "ἀκαταστασίας": [
-    "Unruhen",
-    "ἀκαταστασία, Akk. Pl.",
-    "",
-    []
-   ],
-   "πτοηθῆτε": [
-    "(ihr) erschreckt",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Aorist Konjunktiv Passiv, 2. Pl."
-     ],
-     [
-      "Grundform",
-      "πτοέω",
-      1
-     ],
-     [
-      "Infinitiv",
-      "πτοεῖν",
-      1
-     ],
-     [
-      "Aorist",
-      "ἐπτόησα",
-      1
-     ],
-     [
-      "Perfekt",
-      "–",
-      1
-     ]
-    ]
-   ],
-   "δεῖ": [
-    "es muss",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Präsens Indikativ Aktiv, 3. Sg. (unpersönlich)"
-     ],
-     [
-      "Grundform",
-      "δεῖ",
-      1
-     ],
-     [
-      "Infinitiv",
-      "δεῖν",
-      1
-     ],
-     [
-      "Aorist",
-      "ἔδει (Impf.)",
-      1
-     ],
-     [
-      "Perfekt",
-      "–",
-      1
-     ]
-    ]
-   ],
-   "γενέσθαι": [
-    "geschehen",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Infinitiv Aorist Medium"
-     ],
-     [
-      "Grundform",
-      "γίνομαι",
-      1
-     ],
-     [
-      "Infinitiv",
-      "γίνεσθαι",
-      1
-     ],
-     [
-      "Aorist",
-      "ἐγενόμην",
-      1
-     ],
-     [
-      "Perfekt",
-      "γέγονα",
-      1
-     ]
-    ]
-   ],
-   "πρῶτον": [
-    "zuerst",
-    "Adverb",
-    "",
-    []
-   ],
-   "ἀλλ᾽": [
-    "aber",
-    "ἀλλά mit Elision",
-    "",
-    []
-   ],
-   "εὐθέως": [
-    "sogleich",
+   "οὐ": [
+    "nicht",
     "",
     "",
     []
    ],
-   "τέλος": [
-    "Ende",
-    "Nom. Sg.",
-    "",
-    []
-   ],
-   "τότε": [
-    "dann",
-    "",
-    "",
-    []
-   ],
-   "ἔλεγεν": [
-    "(er) sagte",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Imperfekt Indikativ Aktiv, 3. Sg."
-     ],
-     [
-      "Grundform",
-      "λέγω",
-      1
-     ],
-     [
-      "Infinitiv",
-      "λέγειν",
-      1
-     ],
-     [
-      "Aorist",
-      "εἶπον",
-      1
-     ],
-     [
-      "Perfekt",
-      "εἴρηκα",
-      1
-     ]
-    ]
-   ],
-   "αὐτοῖς": [
-    "ihnen",
-    "αὐτός, Dat. Pl.",
-    "",
-    []
-   ],
-   "ἐγερθήσεται": [
-    "(es) wird sich erheben",
-    "",
-    "",
-    [
-     [
-      "Form",
-      "Futur Indikativ Passiv, 3. Sg."
-     ],
-     [
-      "Grundform",
-      "ἐγείρω",
-      1
-     ],
-     [
-      "Infinitiv",
-      "ἐγείρειν",
-      1
-     ],
-     [
-      "Aorist",
-      "ἤγειρα",
-      1
-     ],
-     [
-      "Perfekt",
-      "ἐγήγερκα",
-      1
-     ]
-    ]
-   ],
-   "ἔθνος": [
-    "Volk",
-    "Nom./Akk. Sg.",
-    "",
-    []
-   ],
-   "βασιλεία": [
-    "Reich",
-    "Nom. Sg.",
-    "",
-    []
-   ],
-   "βασιλείαν": [
-    "Reich",
-    "βασιλεία, Akk. Sg.",
-    "",
-    []
-   ],
-   "σεισμοί": [
-    "Erdbeben",
-    "σεισμός, Nom. Pl.; Akzent vor Enklitikon",
-    "",
-    []
-   ],
-   "τε": [
-    "und, sowohl",
-    "enklitisch",
-    "",
-    []
-   ],
-   "μεγάλοι": [
-    "grosse",
-    "μέγας, Nom. Pl. m.",
-    "",
-    []
-   ],
-   "κατὰ": [
-    "an ... hin",
-    "κατὰ τόπους = da und dort",
-    "",
-    []
-   ],
-   "τόπους": [
-    "Orte",
-    "τόπος, Akk. Pl.",
-    "",
-    []
-   ],
-   "λιμοὶ": [
-    "Hungersnöte",
-    "λιμός, Nom. Pl.",
-    "",
-    []
-   ],
-   "λοιμοὶ": [
-    "Seuchen",
-    "λοιμός, Nom. Pl.",
-    "",
-    []
-   ],
-   "ἔσονται": [
-    "(sie) werden sein",
-    "",
+   "δυνήσονται": [
+    "(sie) werden können",
+    "Deponens",
     "",
     [
      [
@@ -5037,6 +3704,246 @@
      ],
      [
       "Grundform",
+      "δύναμαι",
+      1
+     ],
+     [
+      "Infinitiv",
+      "δύνασθαι",
+      1
+     ],
+     [
+      "Aorist",
+      "ἠδυνήθην",
+      1
+     ],
+     [
+      "Perfekt",
+      "—",
+      1
+     ]
+    ]
+   ],
+   "ἀντειπεῖν": [
+    "widersprechen",
+    "",
+    "",
+    [
+     [
+      "Form",
+      "Aorist Infinitiv Aktiv"
+     ],
+     [
+      "Grundform",
+      "ἀντιλέγω",
+      1
+     ],
+     [
+      "Infinitiv",
+      "ἀντιλέγειν",
+      1
+     ],
+     [
+      "Aorist",
+      "ἀντεῖπον",
+      1
+     ],
+     [
+      "Perfekt",
+      "—",
+      1
+     ]
+    ]
+   ],
+   "οὐδὲ": [
+    "und nicht, noch",
+    "",
+    "",
+    []
+   ],
+   "ἀντιστῆναι": [
+    "widerstehen",
+    "",
+    "",
+    [
+     [
+      "Form",
+      "Aorist Infinitiv Aktiv (Wurzelaorist)"
+     ],
+     [
+      "Grundform",
+      "ἀνθίστημι",
+      1
+     ],
+     [
+      "Infinitiv",
+      "ἀνθιστάναι",
+      1
+     ],
+     [
+      "Aorist",
+      "ἀντέστην",
+      1
+     ],
+     [
+      "Perfekt",
+      "ἀνθέστηκα",
+      1
+     ]
+    ]
+   ],
+   "πάντες": [
+    "alle",
+    "πᾶς, Nom. Pl. m.",
+    "",
+    []
+   ],
+   "οἱ": [
+    "die (Nom. Pl. m.)",
+    "Artikel",
+    "",
+    []
+   ],
+   "ἀντικείμενοι": [
+    "Widersacher",
+    "substantiviertes Partizip",
+    "",
+    [
+     [
+      "Form",
+      "Partizip Präsens Medium, Nom. Pl. m."
+     ],
+     [
+      "Grundform",
+      "ἀντίκειμαι",
+      1
+     ],
+     [
+      "Infinitiv",
+      "ἀντικεῖσθαι",
+      1
+     ],
+     [
+      "Aorist",
+      "—",
+      1
+     ],
+     [
+      "Perfekt",
+      "—",
+      1
+     ]
+    ]
+   ],
+   "παραδοθήσεσθε": [
+    "(ihr) werdet ausgeliefert werden",
+    "",
+    "",
+    [
+     [
+      "Form",
+      "Futur Indikativ Passiv, 2. Pl."
+     ],
+     [
+      "Grundform",
+      "παραδίδωμι",
+      1
+     ],
+     [
+      "Infinitiv",
+      "παραδιδόναι",
+      1
+     ],
+     [
+      "Aorist",
+      "παρέδωκα",
+      1
+     ],
+     [
+      "Perfekt",
+      "παραδέδωκα",
+      1
+     ]
+    ]
+   ],
+   "ὑπὸ": [
+    "von",
+    "Präposition + Gen. (Urheber beim Passiv)",
+    "",
+    []
+   ],
+   "γονέων": [
+    "Eltern",
+    "γονεύς, Gen. Pl.",
+    "",
+    []
+   ],
+   "ἀδελφῶν": [
+    "Brüdern",
+    "ἀδελφός, Gen. Pl.",
+    "",
+    []
+   ],
+   "συγγενῶν": [
+    "Verwandten",
+    "συγγενής, Gen. Pl.",
+    "",
+    []
+   ],
+   "φίλων": [
+    "Freunden",
+    "φίλος, Gen. Pl.",
+    "",
+    []
+   ],
+   "θανατώσουσιν": [
+    "(sie) werden töten",
+    "",
+    "",
+    [
+     [
+      "Form",
+      "Futur Indikativ Aktiv, 3. Pl."
+     ],
+     [
+      "Grundform",
+      "θανατόω",
+      1
+     ],
+     [
+      "Infinitiv",
+      "θανατοῦν",
+      1
+     ],
+     [
+      "Aorist",
+      "ἐθανάτωσα",
+      1
+     ],
+     [
+      "Perfekt",
+      "τεθανάτωκα",
+      1
+     ]
+    ]
+   ],
+   "ἐξ": [
+    "aus, von",
+    "ἐκ vor Vokal; ἐξ ὑμῶν = einige von euch",
+    "",
+    []
+   ],
+   "ἔσεσθε": [
+    "(ihr) werdet sein",
+    "",
+    "",
+    [
+     [
+      "Form",
+      "Futur Indikativ Medium, 2. Pl."
+     ],
+     [
+      "Grundform",
       "εἰμί",
       1
      ],
@@ -5047,184 +3954,193 @@
      ],
      [
       "Aorist",
-      "–",
+      "—",
       1
      ],
      [
       "Perfekt",
-      "–",
+      "—",
       1
      ]
     ]
    ],
-   "φόβητρά": [
-    "Schreckbilder",
-    "φόβητρον, Nom. Pl.; Akzent vor Enklitikon",
+   "μισούμενοι": [
+    "gehasst",
+    "mit ἔσεσθε: periphrastisches Futur",
+    "",
+    [
+     [
+      "Form",
+      "Partizip Präsens Passiv, Nom. Pl. m."
+     ],
+     [
+      "Grundform",
+      "μισέω",
+      1
+     ],
+     [
+      "Infinitiv",
+      "μισεῖν",
+      1
+     ],
+     [
+      "Aorist",
+      "ἐμίσησα",
+      1
+     ],
+     [
+      "Perfekt",
+      "μεμίσηκα",
+      1
+     ]
+    ]
+   ],
+   "πάντων": [
+    "allen",
+    "πᾶς, Gen. Pl.",
     "",
     []
    ],
-   "σημεῖα": [
-    "Zeichen",
-    "σημεῖον, Nom. Pl.",
+   "διὰ": [
+    "wegen",
+    "Präposition + Akk.",
     "",
     []
    ],
-   "ἀπ᾽": [
-    "von",
-    "ἀπό mit Elision, + Gen.",
+   "τὸ": [
+    "den (Akk. Sg. n.)",
+    "Artikel",
     "",
     []
    ],
-   "οὐρανοῦ": [
-    "Himmel",
-    "οὐρανός, Gen. Sg.",
+   "ὄνομά": [
+    "Namen",
+    "ὄνομα, Akk. Sg.; Zusatzakzent vor Enklitikon",
     "",
     []
    ],
-   "μεγάλα": [
-    "grosse",
-    "μέγας, Nom. Pl. n.",
+   "θρὶξ": [
+    "Haar",
+    "θρίξ, Nom. Sg.",
+    "",
+    []
+   ],
+   "ἐκ": [
+    "aus, von",
+    "Präposition + Gen.",
+    "",
+    []
+   ],
+   "τῆς": [
+    "des (Gen. Sg. f.)",
+    "Artikel",
+    "",
+    []
+   ],
+   "κεφαλῆς": [
+    "Kopfes",
+    "κεφαλή, Gen. Sg.",
+    "",
+    []
+   ],
+   "ἀπόληται": [
+    "(es) gehe verloren",
+    "οὐ μὴ + Konj. Aorist = gewiss nicht",
+    "",
+    [
+     [
+      "Form",
+      "Aorist Konjunktiv Medium, 3. Sg."
+     ],
+     [
+      "Grundform",
+      "ἀπόλλυμι",
+      1
+     ],
+     [
+      "Infinitiv",
+      "ἀπολλύναι",
+      1
+     ],
+     [
+      "Aorist",
+      "ἀπωλόμην",
+      1
+     ],
+     [
+      "Perfekt",
+      "ἀπόλωλα",
+      1
+     ]
+    ]
+   ],
+   "ἐν": [
+    "in, durch",
+    "Präposition + Dat.",
+    "",
+    []
+   ],
+   "τῇ": [
+    "der (Dat. Sg. f.)",
+    "Artikel",
+    "",
+    []
+   ],
+   "ὑπομονῇ": [
+    "Geduld, Standhaftigkeit",
+    "ὑπομονή, Dat. Sg.",
+    "",
+    []
+   ],
+   "κτήσασθε": [
+    "erwerbt, gewinnt",
+    "",
+    "",
+    [
+     [
+      "Form",
+      "Aorist Imperativ Medium, 2. Pl."
+     ],
+     [
+      "Grundform",
+      "κτάομαι",
+      1
+     ],
+     [
+      "Infinitiv",
+      "κτᾶσθαι",
+      1
+     ],
+     [
+      "Aorist",
+      "ἐκτησάμην",
+      1
+     ],
+     [
+      "Perfekt",
+      "κέκτημαι",
+      1
+     ]
+    ]
+   ],
+   "ψυχὰς": [
+    "Seelen, Leben",
+    "ψυχή, Akk. Pl.",
     "",
     []
    ]
   },
   "syc": {
-   "ܘܟܕ": [
-    "und als",
-    "ܘ = und; ܟܕ = als",
-    "wkad",
+   "ܩܕܡ": [
+    "vor",
+    "Präposition (vgl. arab. قدّام)",
+    "qdom",
     []
    ],
-   "ܐܡܪܝܢ": [
-    "sagend",
-    "Partizip m. Pl. Peʿal (vgl. arab. أمر)",
-    "omrin",
-    [
-     [
-      "Grundform",
-      "ܐܶܡܰܪ",
-      1
-     ]
-    ]
-   ],
-   "ܗܘܘ": [
-    "(sie) waren",
-    "Perfekt 3. m. Pl. von ܗܘܐ; mit Partizip = Vergangenheit",
-    "hwaw",
-    [
-     [
-      "Grundform",
-      "ܗܘܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܐܢܫܝܢ": [
-    "einige Leute",
-    "Pl. abs. von ܐܢܫܐ (vgl. arab. أناس)",
-    "noshin",
-    [
-     [
-      "Grundform",
-      "ܐܢܳܫܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܥܠ": [
-    "über; auf; gegen",
-    "Präposition (vgl. arab. على)",
-    "ʿal",
-    []
-   ],
-   "ܗܝܟܠܐ": [
-    "Tempel",
-    "vgl. arab. هيكل",
-    "hayklo",
-    [
-     [
-      "Grundform",
-      "ܗܰܝܟܠܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܕܒܟܐܦܐ": [
-    "dass mit Steinen",
-    "ܕ = dass; ܒ = mit; Pl. von ܟܐܦܐ",
-    "dvkife",
-    [
-     [
-      "Grundform",
-      "ܟܺܐܦܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܫܦܝܪܬܐ": [
-    "schönen",
-    "Adjektiv f. Pl.",
-    "shafiroto",
-    [
-     [
-      "Grundform",
-      "ܫܰܦܺܝܪܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܘܒܩܘܪܒܢܐ": [
-    "und mit Opfergaben",
-    "ܘ = und; ܒ = mit; Pl. (vgl. arab. قربان)",
-    "wavqurbone",
-    [
-     [
-      "Grundform",
-      "ܩܽܘܪܒܳܢܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܡܨܒܬ": [
-    "geschmückt (ist)",
-    "Partizip passiv Paʿʿel m. Sg.",
-    "mṣabbat",
-    [
-     [
-      "Grundform",
-      "ܨܰܒܶܬ",
-      1
-     ]
-    ]
-   ],
-   "ܐܡܪ": [
-    "(er) sagte",
-    "Perfekt 3. m. Sg. Peʿal",
-    "emar",
-    [
-     [
-      "Grundform",
-      "ܐܶܡܰܪ",
-      1
-     ]
-    ]
-   ],
-   "ܠܗܘܢ": [
-    "zu ihnen",
-    "ܠ = zu; ܗܘܢ = ihnen",
-    "lhun",
-    [
-     [
-      "Grundform",
-      "ܠ",
-      1
-     ]
-    ]
-   ],
-   "ܝܫܘܥ": [
-    "Jesus",
-    "Eigenname",
-    "yeshuʿ",
+   "ܕܝܢ": [
+    "aber",
+    "nachgestellte Partikel (griech. δέ)",
+    "den",
     []
    ],
    "ܗܠܝܢ": [
@@ -5239,56 +4155,554 @@
      ]
     ]
    ],
-   "ܕܚܙܝܢ": [
-    "die ... seht",
-    "ܕ = die, welche; Partizip m. Pl. Peʿal",
-    "dḥozen",
+   "ܟܠܗܝܢ": [
+    "alle (diese)",
+    "ܟܠ + Suffix 3. f. Pl. ܗܝܢ (vgl. arab. كلهن)",
+    "kulhen",
     [
      [
       "Grundform",
-      "ܚܙܳܐ",
+      "ܟܽܠ",
       1
      ]
     ]
    ],
-   "ܐܢܬܘܢ": [
-    "ihr",
-    "Personalpronomen 2. m. Pl. (vgl. arab. أنتم)",
-    "antun",
+   "ܢܪܡܘܢ": [
+    "(sie) werden legen, werfen",
+    "Imperfekt 3. m. Pl. Peʿal von ܪܡܐ; ܪܡܐ ܐܝܕܝܐ = Hand anlegen",
+    "nermun",
+    [
+     [
+      "Grundform",
+      "ܪܡܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܥܠܝܟܘܢ": [
+    "auf euch",
+    "ܥܠ + Suffix 2. m. Pl. (vgl. arab. عليكم)",
+    "ʿlaykun",
+    [
+     [
+      "Grundform",
+      "ܥܰܠ",
+      1
+     ]
+    ]
+   ],
+   "ܐܝܕܝܐ": [
+    "Hände",
+    "Pl. von ܐܝܕܐ (vgl. arab. أيدي)",
+    "idayo",
+    [
+     [
+      "Grundform",
+      "ܐܺܝܕܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܘܢܪܕܦܘܢܟܘܢ": [
+    "und (sie) werden euch verfolgen",
+    "ܘ = und; Imperfekt 3. m. Pl. Peʿal + Suffix ܟܘܢ (euch)",
+    "wnerdfunkun",
+    [
+     [
+      "Grundform",
+      "ܪܕܰܦ",
+      1
+     ]
+    ]
+   ],
+   "ܘܢܫܠܡܘܢܟܘܢ": [
+    "und (sie) werden euch ausliefern",
+    "ܘ = und; Imperfekt 3. m. Pl. Afʿel von ܫܠܡ + ܟܘܢ (vgl. arab. أسلم/سلّم)",
+    "wnashlmunkun",
+    [
+     [
+      "Grundform",
+      "ܫܠܶܡ",
+      1
+     ]
+    ]
+   ],
+   "ܠܟܢܘܫܬܐ": [
+    "den Synagogen",
+    "ܠ = zu; Pl. von ܟܢܘܫܬܐ (Versammlung)",
+    "lakhnushotho",
+    [
+     [
+      "Grundform",
+      "ܟܢܽܘܫܬܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܘܠܒܝܬ": [
+    "und ins Haus",
+    "ܘ = und; ܠ = zu; ܒܝܬ = Haus von (Status constructus; vgl. arab. بيت)",
+    "walbeyt",
+    [
+     [
+      "Grundform",
+      "ܒܰܝܬܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܐܣܝܪܐ": [
+    "Gefangene",
+    "Pl.; ܒܝܬ ܐܣܝܪܐ = Gefängnis (vgl. arab. أسير)",
+    "asire",
+    [
+     [
+      "Grundform",
+      "ܐܰܣܺܝܪܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܘܢܩܪܒܘܢܟܘܢ": [
+    "und (sie) werden euch vorführen",
+    "ܘ = und; Imperfekt 3. m. Pl. Paʿʿel von ܩܪܒ + ܟܘܢ (vgl. arab. قرّب)",
+    "wnqarbunkun",
+    [
+     [
+      "Grundform",
+      "ܩܪܶܒ",
+      1
+     ]
+    ]
+   ],
+   "ܡܠܟܐ": [
+    "Könige",
+    "Pl. (vgl. arab. ملوك)",
+    "malke",
+    [
+     [
+      "Grundform",
+      "ܡܰܠܟܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܘܗܓܡܘܢܐ": [
+    "und Statthalter",
+    "ܘ = und; Pl.; griech. Lehnwort ἡγεμών",
+    "whegmune",
+    [
+     [
+      "Grundform",
+      "ܗܶܓܡܽܘܢܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܡܛܠ": [
+    "wegen",
+    "Präposition",
+    "metul",
     []
    ],
-   "ܢܐܬܘܢ": [
-    "(sie) werden kommen",
-    "Imperfekt 3. m. Pl. Peʿal (vgl. arab. أتى)",
-    "nethun",
+   "ܫܡܝ": [
+    "mein Name",
+    "ܫܡܐ + Suffix 1. Sg. (vgl. arab. اسمي)",
+    "shmi",
     [
      [
       "Grundform",
-      "ܐܶܬܳܐ",
+      "ܫܡܳܐ",
       1
      ]
     ]
    ],
-   "ܝܘܡܬܐ": [
-    "Tage",
-    "Pl. von ܝܘܡܐ (vgl. arab. يوم)",
-    "yawmoto",
+   "ܗܘܝܐ": [
+    "(es) wird",
+    "Partizip f. Sg. Peʿal von ܗܘܐ; hier futurisch",
+    "howyo",
     [
      [
       "Grundform",
-      "ܝܰܘܡܳܐ",
+      "ܗܘܳܐ",
       1
      ]
     ]
    ],
-   "ܕܒܗܘܢ": [
-    "an denen",
-    "ܕ = welche; ܒ = in, an; ܗܘܢ = ihnen",
-    "dvhun",
+   "ܠܟܘܢ": [
+    "euch",
+    "ܠ + Suffix 2. m. Pl. (vgl. arab. لكم)",
+    "lkun",
     [
      [
       "Grundform",
-      "ܒ",
+      "ܠ",
+      1
+     ]
+    ]
+   ],
+   "ܠܣܗܕܘܬܐ": [
+    "zum Zeugnis",
+    "ܠ = zu (vgl. arab. شهادة)",
+    "lsohdutho",
+    [
+     [
+      "Grundform",
+      "ܣܳܗܕܽܘܬܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܣܝܡܘ": [
+    "setzt, legt",
+    "Imperativ m. Pl. Peʿal von ܣܝܡ (ܣܳܡ; vgl. arab. وضع/سام)",
+    "sim",
+    [
+     [
+      "Grundform",
+      "ܣܳܡ",
+      1
+     ]
+    ]
+   ],
+   "ܒܠܒܟܘܢ": [
+    "in euer Herz",
+    "ܒ = in; ܠܒܐ + Suffix 2. m. Pl. (vgl. arab. لبّ)",
+    "blebkun",
+    [
+     [
+      "Grundform",
+      "ܠܶܒܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܕܠܐ": [
+    "dass nicht",
+    "ܕ = dass; ܠܐ = nicht",
+    "dlo",
+    []
+   ],
+   "ܬܗܘܘܢ": [
+    "(ihr) seid",
+    "Imperfekt 2. m. Pl. von ܗܘܐ; mit Partizip = Dauer",
+    "tehwun",
+    [
+     [
+      "Grundform",
+      "ܗܘܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܡܬܝܠܦܝܢ": [
+    "euch einübend, lernend",
+    "Partizip m. Pl. Ethpaʿʿal von ܝܠܦ",
+    "metyalfin",
+    [
+     [
+      "Grundform",
+      "ܝܠܶܦ",
+      1
+     ]
+    ]
+   ],
+   "ܠܡܦܩ": [
+    "herauszubringen",
+    "ܠ + Infinitiv Peʿal von ܢܦܩ; ܐܦܩ ܪܘܚܐ = sich verteidigen (vgl. arab. نفق)",
+    "lmefaq",
+    [
+     [
+      "Grundform",
+      "ܢܦܰܩ",
+      1
+     ]
+    ]
+   ],
+   "ܪܘܚܐ": [
+    "Geist; hier: Verteidigung",
+    "ܠܡܦܩ ܪܘܚܐ = Verteidigung vorbringen (vgl. arab. روح)",
+    "rukho",
+    [
+     [
+      "Grundform",
+      "ܪܽܘܚܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܐܢܐ": [
+    "ich",
+    "Personalpronomen (vgl. arab. أنا)",
+    "eno",
+    []
+   ],
+   "ܓܝܪ": [
+    "denn",
+    "nachgestellt (griech. γάρ)",
+    "geyr",
+    []
+   ],
+   "ܐܬܠ": [
+    "(ich) werde geben",
+    "Imperfekt 1. Sg. von ܝܗܒ (Imperfekt von ܢܬܠ)",
+    "etel",
+    [
+     [
+      "Grundform",
+      "ܝܰܗܒ",
+      1
+     ]
+    ]
+   ],
+   "ܦܘܡܐ": [
+    "Mund",
+    "vgl. arab. فم",
+    "pumo",
+    [
+     [
+      "Grundform",
+      "ܦܽܘܡܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܘܚܟܡܬܐ": [
+    "und Weisheit",
+    "ܘ = und (vgl. arab. حكمة)",
+    "wḥekhmtho",
+    [
+     [
+      "Grundform",
+      "ܚܶܟܡܬܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܐܝܕܐ": [
+    "welche",
+    "Relativ-/Fragepronomen f. Sg.",
+    "aydo",
+    [
+     [
+      "Grundform",
+      "ܐܰܝܢܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܢܫܟܚܘܢ": [
+    "(sie) können",
+    "Imperfekt 3. m. Pl. Peʿal von ܫܟܚ",
+    "neshkḥun",
+    [
+     [
+      "Grundform",
+      "ܫܟܰܚ",
+      1
+     ]
+    ]
+   ],
+   "ܠܡܩܡ": [
+    "zu stehen",
+    "ܠ + Infinitiv Peʿal von ܩܘܡ (vgl. arab. قام)",
+    "lmeqom",
+    [
+     [
+      "Grundform",
+      "ܩܳܡ",
+      1
+     ]
+    ]
+   ],
+   "ܠܩܘܒܠܗ": [
+    "ihr gegenüber",
+    "ܠܩܘܒܠ (gegenüber) + Suffix 3. f. Sg. (vgl. arab. قبالة)",
+    "lqubloh",
+    [
+     [
+      "Grundform",
+      "ܠܩܽܘܒܰܠ",
+      1
+     ]
+    ]
+   ],
+   "ܟܠܗܘܢ": [
+    "alle (sie)",
+    "ܟܠ + Suffix 3. m. Pl. (vgl. arab. كلهم)",
+    "kulhun",
+    [
+     [
+      "Grundform",
+      "ܟܽܠ",
+      1
+     ]
+    ]
+   ],
+   "ܒܥܠܕܒܒܝܟܘܢ": [
+    "eure Feinde",
+    "Pl. + Suffix 2. m. Pl.; ܒܥܠ ܕܒܒܐ = Herr der Feindschaft",
+    "beʿeldbobaykun",
+    [
+     [
+      "Grundform",
+      "ܒܥܶܠܕܒܳܒܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܢܫܠܡܘܢܟܘܢ": [
+    "(sie) werden euch ausliefern",
+    "Imperfekt 3. m. Pl. Afʿel von ܫܠܡ + ܟܘܢ",
+    "nashlmunkun",
+    [
+     [
+      "Grundform",
+      "ܫܠܶܡ",
+      1
+     ]
+    ]
+   ],
+   "ܐܒܗܝܟܘܢ": [
+    "eure Väter, Eltern",
+    "Pl. ܐܒܗܐ + Suffix 2. m. Pl.",
+    "abohaykun",
+    [
+     [
+      "Grundform",
+      "ܐܰܒܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܘܐܚܝܟܘܢ": [
+    "und eure Brüder",
+    "ܘ = und; Pl. + Suffix 2. m. Pl. (vgl. arab. أخ)",
+    "waḥaykun",
+    [
+     [
+      "Grundform",
+      "ܐܰܚܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܘܐܚܝܢܝܟܘܢ": [
+    "und eure Verwandten",
+    "ܘ = und; ܐܚܝܢܐ + Suffix 2. m. Pl.",
+    "waḥyonaykun",
+    [
+     [
+      "Grundform",
+      "ܐܰܚܝܳܢܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܘܪܚܡܝܟܘܢ": [
+    "und eure Freunde",
+    "ܘ = und; ܪܚܡܐ + Suffix 2. m. Pl. (vgl. arab. رحم)",
+    "wroḥmaykun",
+    [
+     [
+      "Grundform",
+      "ܪܳܚܡܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܘܢܡܝܬܘܢ": [
+    "und (sie) werden töten",
+    "ܘ = und; Imperfekt 3. m. Pl. Afʿel von ܡܘܬ (vgl. arab. أمات)",
+    "wnamitun",
+    [
+     [
+      "Grundform",
+      "ܡܺܝܬ",
+      1
+     ]
+    ]
+   ],
+   "ܡܢܟܘܢ": [
+    "von euch",
+    "ܡܢ + Suffix 2. m. Pl. (vgl. arab. منكم)",
+    "menkun",
+    [
+     [
+      "Grundform",
+      "ܡܶܢ",
+      1
+     ]
+    ]
+   ],
+   "ܘܬܗܘܘܢ": [
+    "und (ihr) werdet sein",
+    "ܘ = und; Imperfekt 2. m. Pl. von ܗܘܐ",
+    "wtehwun",
+    [
+     [
+      "Grundform",
+      "ܗܘܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܣܢܝܐܝܢ": [
+    "gehasst",
+    "Partizip passiv m. Pl. Peʿal von ܣܢܐ (vgl. arab. شنئ)",
+    "snin",
+    [
+     [
+      "Grundform",
+      "ܣܢܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܡܢ": [
+    "von",
+    "Präposition (vgl. arab. من)",
+    "men",
+    []
+   ],
+   "ܟܠ": [
+    "jeder, alle",
+    "vgl. arab. كل",
+    "kul",
+    []
+   ],
+   "ܐܢܫ": [
+    "Mensch, jemand",
+    "ܟܠ ܐܢܫ = jedermann (vgl. arab. إنسان)",
+    "nosh",
+    [
+     [
+      "Grundform",
+      "ܐܢܳܫܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܘܡܢܬܐ": [
+    "und ein Haar",
+    "ܘ = und; ܡܢܬܐ = (einzelnes) Haar",
+    "wmentho",
+    [
+     [
+      "Grundform",
+      "ܡܶܢܬܳܐ",
+      1
+     ]
+    ]
+   ],
+   "ܪܫܟܘܢ": [
+    "euer Kopf",
+    "ܪܫܐ + Suffix 2. m. Pl. (vgl. arab. رأس)",
+    "rishkun",
+    [
+     [
+      "Grundform",
+      "ܪܺܫܳܐ",
       1
      ]
     ]
@@ -5299,728 +4713,50 @@
     "lo",
     []
    ],
-   "ܬܫܬܒܩ": [
-    "(er) wird gelassen",
-    "Imperfekt 3. f. Sg. Etpeʿel von ܫܒܩ (ܟܐܦܐ ist f.)",
-    "teshtbeq",
+   "ܬܐܒܕ": [
+    "(sie) wird verloren gehen",
+    "Imperfekt 3. f. Sg. Peʿal von ܐܒܕ (vgl. arab. أبد/باد)",
+    "tibad",
     [
      [
       "Grundform",
-      "ܫܒܰܩ",
+      "ܐܶܒܰܕ",
       1
      ]
     ]
    ],
-   "ܟܐܦ": [
-    "Stein",
-    "Status absolutus; ܟܐܦ ܥܠ ܟܐܦ = Stein auf Stein",
-    "kif",
+   "ܒܡܣܝܒܪܢܘܬܟܘܢ": [
+    "durch eure Geduld",
+    "ܒ = durch; ܡܣܝܒܪܢܘܬܐ + Suffix 2. m. Pl. (vgl. arab. صبر)",
+    "bmasybronutkun",
     [
      [
       "Grundform",
-      "ܟܺܐܦܳܐ",
+      "ܡܰܣܝܒܪܳܢܽܘܬܳܐ",
       1
      ]
     ]
    ],
-   "ܕܠܐ": [
-    "der nicht",
-    "ܕ = der, welcher; ܠܐ = nicht",
-    "dlo",
+   "ܬܩܢܘܢ": [
+    "(ihr) werdet erwerben",
+    "Imperfekt 2. m. Pl. Peʿal von ܩܢܐ (vgl. arab. اقتنى)",
+    "teqnun",
     [
      [
       "Grundform",
-      "ܠܳܐ",
+      "ܩܢܳܐ",
       1
      ]
     ]
    ],
-   "ܬܣܬܬܪ": [
-    "(er) wird zerstört",
-    "Imperfekt 3. f. Sg. Etpeʿel von ܣܬܪ",
-    "testtar",
+   "ܢܦܫܟܘܢ": [
+    "eure Seelen",
+    "ܢܦܫܐ + Suffix 2. m. Pl. (vgl. arab. نفس)",
+    "nafshkun",
     [
      [
       "Grundform",
-      "ܣܬܰܪ",
-      1
-     ]
-    ]
-   ],
-   "ܘܡܫܐܠܝܢ": [
-    "und fragend",
-    "ܘ = und; Partizip m. Pl. Paʿʿel von ܫܐܠ (vgl. arab. سأل)",
-    "wamshaʾlin",
-    [
-     [
-      "Grundform",
-      "ܫܶܐܠ",
-      1
-     ]
-    ]
-   ],
-   "ܠܗ": [
-    "ihn, ihm",
-    "ܠ = zu; ܗ = ihm",
-    "leh",
-    [
-     [
-      "Grundform",
-      "ܠ",
-      1
-     ]
-    ]
-   ],
-   "ܘܐܡܪܝܢ": [
-    "und sagend",
-    "ܘ = und; Partizip m. Pl. Peʿal",
-    "womrin",
-    [
-     [
-      "Grundform",
-      "ܐܶܡܰܪ",
-      1
-     ]
-    ]
-   ],
-   "ܡܠܦܢܐ": [
-    "Lehrer, Meister",
-    "Anrede (Wurzel ܐܠܦ, vgl. arab. ألف)",
-    "malfono",
-    [
-     [
-      "Grundform",
-      "ܡܰܠܦܳܢܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܐܡܬܝ": [
-    "wann",
-    "vgl. arab. متى",
-    "emtay",
-    []
-   ],
-   "ܢܗܘܝܢ": [
-    "(sie) werden sein, geschehen",
-    "Imperfekt 3. f. Pl. von ܗܘܐ",
-    "nehwyon",
-    [
-     [
-      "Grundform",
-      "ܗܘܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܘܡܢܐ": [
-    "und was",
-    "ܘ = und; ܡܢܐ = was",
-    "wmono",
-    [
-     [
-      "Grundform",
-      "ܡܳܢܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܗܝ": [
-    "(ist) sie",
-    "Personalpronomen 3. f. Sg., hier Kopula",
-    "hi",
-    [
-     [
-      "Grundform",
-      "ܗܽܘ",
-      1
-     ]
-    ]
-   ],
-   "ܐܬܐ": [
-    "Zeichen",
-    "vgl. arab. آية",
-    "otho",
-    [
-     [
-      "Grundform",
-      "ܐܳܬܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܡܐ": [
-    "wenn (ܡܐ ܕ = wenn, sobald)",
-    "",
-    "mo",
-    []
-   ],
-   "ܕܩܪܝܒܢ": [
-    "dass ... nahe sind",
-    "ܕ = dass; Adjektiv f. Pl. abs. (vgl. arab. قريب)",
-    "dqarivon",
-    [
-     [
-      "Grundform",
-      "ܩܰܪܺܝܒܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܕܢܗܘܝܢ": [
-    "dass (sie) geschehen",
-    "ܕ = dass; Imperfekt 3. f. Pl. von ܗܘܐ",
-    "dnehwyon",
-    [
-     [
-      "Grundform",
-      "ܗܘܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܗܘ": [
-    "er",
-    "Personalpronomen 3. m. Sg. (vgl. arab. هو); ܗܘ ܕܝܢ = er aber",
-    "hu",
-    [
-     [
-      "Grundform",
-      "ܗܽܘ",
-      1
-     ]
-    ]
-   ],
-   "ܕܝܢ": [
-    "aber, nun",
-    "",
-    "den",
-    []
-   ],
-   "ܚܙܘ": [
-    "seht!",
-    "Imperativ m. Pl. Peʿal",
-    "ḥzaw",
-    [
-     [
-      "Grundform",
-      "ܚܙܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܠܡܐ": [
-    "dass nicht",
-    "ܠܡܐ = damit nicht",
-    "lmo",
-    []
-   ],
-   "ܬܛܥܘܢ": [
-    "(ihr) irregeht",
-    "Imperfekt 2. m. Pl. Peʿal von ܛܥܐ",
-    "teṭʿun",
-    [
-     [
-      "Grundform",
-      "ܛܥܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܣܓܝܐܐ": [
-    "viele",
-    "Adjektiv m. Pl.",
-    "sagie",
-    [
-     [
-      "Grundform",
-      "ܣܰܓܺܝܐܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܓܝܪ": [
-    "denn",
-    "",
-    "ger",
-    []
-   ],
-   "ܒܫܡܝ": [
-    "in meinem Namen",
-    "ܒ = in; ܝ = mein (vgl. arab. اسم)",
-    "bshem",
-    [
-     [
-      "Grundform",
-      "ܫܡܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܘܢܐܡܪܘܢ": [
-    "und (sie) werden sagen",
-    "ܘ = und; Imperfekt 3. m. Pl. Peʿal",
-    "wnemrun",
-    [
-     [
-      "Grundform",
-      "ܐܶܡܰܪ",
-      1
-     ]
-    ]
-   ],
-   "ܕܐܢܐ": [
-    "dass ich",
-    "ܕ = dass; ܐܢܐ = ich",
-    "deno",
-    [
-     [
-      "Grundform",
-      "ܐܶܢܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܐܢܐ": [
-    "ich",
-    "vgl. arab. أنا",
-    "eno",
-    []
-   ],
-   "ܡܫܝܚܐ": [
-    "der Messias, Christus",
-    "vgl. arab. مسيح",
-    "mshiḥo",
-    [
-     [
-      "Grundform",
-      "ܡܫܺܝܚܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܘܙܒܢܐ": [
-    "und die Zeit",
-    "ܘ = und (vgl. arab. زمان)",
-    "wazvno",
-    [
-     [
-      "Grundform",
-      "ܙܰܒܢܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܩܪܒ": [
-    "(sie) ist nahe gekommen",
-    "Perfekt 3. m. Sg. Peʿal (vgl. arab. قرب)",
-    "qreb",
-    [
-     [
-      "Grundform",
-      "ܩܪܶܒ",
-      1
-     ]
-    ]
-   ],
-   "ܬܐܙܠܘܢ": [
-    "(ihr) geht",
-    "Imperfekt 2. m. Pl. Peʿal von ܐܙܠ",
-    "tezlun",
-    [
-     [
-      "Grundform",
-      "ܐܶܙܰܠ",
-      1
-     ]
-    ]
-   ],
-   "ܒܬܪܗܘܢ": [
-    "hinter ihnen her",
-    "ܒܬܪ = hinter; ܗܘܢ = ihnen",
-    "bothrhun",
-    [
-     [
-      "Grundform",
-      "ܒܳܬܰܪ",
-      1
-     ]
-    ]
-   ],
-   "ܘܡܐ": [
-    "und wenn",
-    "ܘ = und; ܡܐ ܕ = wenn",
-    "wmo",
-    [
-     [
-      "Grundform",
-      "ܡܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܕܫܡܥܝܢ": [
-    "dass ... hört",
-    "ܕ = dass; Partizip m. Pl. Peʿal (vgl. arab. سمع)",
-    "dshomʿin",
-    [
-     [
-      "Grundform",
-      "ܫܡܰܥ",
-      1
-     ]
-    ]
-   ],
-   "ܩܪܒܐ": [
-    "Kriege",
-    "Pl. von ܩܪܒܐ (Kampf; vgl. arab. قرب Nähe)",
-    "qrove",
-    [
-     [
-      "Grundform",
-      "ܩܪܳܒܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܘܫܓܘܫܝܐ": [
-    "und Unruhen",
-    "ܘ = und; Pl. von ܫܓܘܫܝܐ (Verwirrung, Aufruhr)",
-    "wshgushye",
-    [
-     [
-      "Grundform",
-      "ܫܓܽܘܫܝܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܬܕܚܠܘܢ": [
-    "(ihr) fürchtet euch",
-    "Imperfekt 2. m. Pl. Peʿal",
-    "tedḥlun",
-    [
-     [
-      "Grundform",
-      "ܕܚܶܠ",
-      1
-     ]
-    ]
-   ],
-   "ܥܬܝܕܢ": [
-    "bereit, bestimmt (zu)",
-    "Adjektiv f. Pl. abs. (vgl. arab. عتيد)",
-    "ʿtidon",
-    [
-     [
-      "Grundform",
-      "ܥܬܺܝܕܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܐܢܝܢ": [
-    "sie",
-    "Personalpronomen 3. f. Pl., enklitisch",
-    "enen",
-    [
-     [
-      "Grundform",
-      "ܗܶܢܶܝܢ",
-      1
-     ]
-    ]
-   ],
-   "ܠܘܩܕܡ": [
-    "zuerst",
-    "ܠ + ܩܕܡ (vgl. arab. قدم)",
-    "luqdam",
-    [
-     [
-      "Grundform",
-      "ܩܕܳܡ",
-      1
-     ]
-    ]
-   ],
-   "ܠܡܗܘܐ": [
-    "zu sein, zu geschehen",
-    "ܠ = zu; Infinitiv Peʿal von ܗܘܐ",
-    "lmehwo",
-    [
-     [
-      "Grundform",
-      "ܗܘܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܐܠܐ": [
-    "aber, sondern",
-    "vgl. arab. إلا",
-    "elo",
-    []
-   ],
-   "ܥܕܟܝܠ": [
-    "noch",
-    "ܠܐ ܥܕܟܝܠ = noch nicht",
-    "ʿdakil",
-    []
-   ],
-   "ܡܛܬ": [
-    "(sie) ist gekommen",
-    "Perfekt 3. f. Sg. Peʿal von ܡܛܐ",
-    "meṭot",
-    [
-     [
-      "Grundform",
-      "ܡܛܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܚܪܬܐ": [
-    "das Ende",
-    "(vgl. arab. آخرة)",
-    "ḥarto",
-    [
-     [
-      "Grundform",
-      "ܚܰܪܬܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܢܩܘܡ": [
-    "(es) wird sich erheben",
-    "Imperfekt 3. m. Sg. Peʿal von ܩܘܡ (vgl. arab. قام)",
-    "nqum",
-    [
-     [
-      "Grundform",
-      "ܩܳܡ",
-      1
-     ]
-    ]
-   ],
-   "ܥܡܐ": [
-    "Volk",
-    "vgl. arab. أمة",
-    "ʿamo",
-    [
-     [
-      "Grundform",
-      "ܥܰܡܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܘܡܠܟܘ": [
-    "und Reich",
-    "ܘ = und (vgl. arab. ملك)",
-    "wmalku",
-    [
-     [
-      "Grundform",
-      "ܡܰܠܟܽܘ",
-      1
-     ]
-    ]
-   ],
-   "ܡܠܟܘ": [
-    "Reich",
-    "Status absolutus (vgl. arab. ملكوت)",
-    "malku",
-    [
-     [
-      "Grundform",
-      "ܡܰܠܟܽܘ",
-      1
-     ]
-    ]
-   ],
-   "ܘܙܘܥܐ": [
-    "und Erdbeben",
-    "ܘ = und; Pl. von ܙܘܥܐ",
-    "wzawʿe",
-    [
-     [
-      "Grundform",
-      "ܙܰܘܥܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܪܘܪܒܐ": [
-    "grosse",
-    "Adjektiv m. Pl.",
-    "rawrve",
-    [
-     [
-      "Grundform",
-      "ܪܰܘܪܒܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܢܗܘܘܢ": [
-    "(sie) werden sein",
-    "Imperfekt 3. m. Pl. von ܗܘܐ",
-    "nehwun",
-    [
-     [
-      "Grundform",
-      "ܗܘܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܒܕܘܟܐ": [
-    "an Orten",
-    "ܒ = an; Pl. von ܕܘܟܐ; ܒܕܘܟܐ ܕܘܟܐ = da und dort",
-    "bdukhe",
-    [
-     [
-      "Grundform",
-      "ܕܽܘܟܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܕܘܟܐ": [
-    "Orten",
-    "Pl. von ܕܘܟܐ (Wiederholung = verteilend)",
-    "dukhe",
-    [
-     [
-      "Grundform",
-      "ܕܽܘܟܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܘܟܦܢܐ": [
-    "und Hungersnöte",
-    "ܘ = und; Pl. von ܟܦܢܐ",
-    "wakhfne",
-    [
-     [
-      "Grundform",
-      "ܟܰܦܢܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܘܡܘܬܢܐ": [
-    "und Seuchen",
-    "ܘ = und; Pl. von ܡܘܬܢܐ (vgl. arab. موت)",
-    "wmawtone",
-    [
-     [
-      "Grundform",
-      "ܡܰܘܬܳܢܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܘܢܗܘܝܢ": [
-    "und (sie) werden sein",
-    "ܘ = und; Imperfekt 3. f. Pl. von ܗܘܐ",
-    "wnehwyon",
-    [
-     [
-      "Grundform",
-      "ܗܘܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܕܚܠܬܐ": [
-    "Schrecknisse",
-    "Pl. von ܕܚܠܬܐ (Furcht)",
-    "deḥloto",
-    [
-     [
-      "Grundform",
-      "ܕܶܚܠܬܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܘܣܘܪܕܐ": [
-    "und Schrecken",
-    "ܘ = und; Pl. von ܣܘܪܕܐ",
-    "wsurode",
-    [
-     [
-      "Grundform",
-      "ܣܽܘܪܳܕܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܘܐܬܘܬܐ": [
-    "und Zeichen",
-    "ܘ = und; Pl. von ܐܬܐ",
-    "wothwotho",
-    [
-     [
-      "Grundform",
-      "ܐܳܬܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܪܘܪܒܬܐ": [
-    "grosse",
-    "Adjektiv f. Pl.",
-    "rawrvoto",
-    [
-     [
-      "Grundform",
-      "ܪܰܘܪܒܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܡܢ": [
-    "von, aus",
-    "vgl. arab. من",
-    "men",
-    []
-   ],
-   "ܫܡܝܐ": [
-    "Himmel",
-    "vgl. arab. سماء",
-    "shmayo",
-    [
-     [
-      "Grundform",
-      "ܫܡܰܝܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܢܬܚܙܝܢ": [
-    "(sie) werden sich zeigen",
-    "Imperfekt 3. f. Pl. Etpeʿel von ܚܙܐ",
-    "netḥazyon",
-    [
-     [
-      "Grundform",
-      "ܚܙܳܐ",
-      1
-     ]
-    ]
-   ],
-   "ܘܣܬܘܐ": [
-    "und Winterstürme",
-    "ܘ = und; Pl. von ܣܬܘܐ (Winter, Unwetter; vgl. arab. شتاء)",
-    "wsetwe",
-    [
-     [
-      "Grundform",
-      "ܣܶܬܘܳܐ",
+      "ܢܰܦܫܳܐ",
       1
      ]
     ]
@@ -6028,10 +4764,10 @@
   }
  },
  "notes": [
-  "Leseordnung: römisch-katholischer Kalender, Dienstag der 34. Woche im Jahreskreis (Lesejahr A / Wochentagsreihe II; Gedenktag hl. Andreas Dũng-Lạc und Gefährten).",
-  "Syrisch: Peschitta in westsyrischer Schrift (Serto), Buchstabe für Buchstabe aus einer Umschrift übertragen; Vokalzeichen (ohne Pluralpunkte und Härtezeichen) und Aussprache westsyrisch, selbst gesetzt. Die Peschitta hat in Vers 10 kein „Dann sagte er zu ihnen“.",
-  "Latein: Vulgata (Clementina). Altgriechisch: Textus Receptus (Stephanus 1550); Vers 8 „ὅτι“ statt „ὃτι“ und „καὶ“ statt „καί“ der Vorlage korrigiert; Grossschreibung und Satzzeichen ergänzt.",
-  "Russisch: Synodalübersetzung (1876, gemeinfrei); Vers 6 „всё“ mit ё gesetzt. Englisch: Douay-Rheims (Challoner-Revision, gemeinfrei), Text über ccel.org abgerufen. Arabisch: Smith-Van-Dyck-Bibel (1865, gemeinfrei), Hamza-Schreibung und Satzzeichen vereinheitlicht; die Verse 7–11 konnten nicht abgerufen werden und wurden aus dem Gedächtnis ergänzt. Persisch: Farsi Bible (International Bible Society, 1997), Vokalzeichen selbst gesetzt. Deutsch, Französisch, Italienisch und Spanisch sind eigene Übersetzungen nach dem griechischen Text, keine amtlichen Bibelausgaben."
+  "Leseordnung: römisch-katholischer Kalender, Mittwoch der 34. Woche im Jahreskreis (Lesejahr A / Wochentagsreihe II; nichtgebotener Gedenktag hl. Katharina von Alexandrien).",
+  "Syrisch: Peschitta in westsyrischer Schrift (Serto), Buchstabe für Buchstabe aus einer Umschrift übertragen; Vokalzeichen (ohne Pluralpunkte und Härtezeichen) und Aussprache westsyrisch, selbst gesetzt. Die Peschitta sagt in Vers 14 „Verteidigung vorbringen“ wörtlich als „den Geist herausbringen“ (ܠܡܦܩ ܪܘܚܐ).",
+  "Latein: Vulgata (Clementina). Altgriechisch: Textus Receptus (Stephanus 1550); Vers 12 „ἁπάντων“ statt „ἅπαντων“ und Vers 14 „εἰς“ statt „εἴς“ der Vorlage korrigiert; Grossschreibung und Satzzeichen ergänzt.",
+  "Russisch: Synodalübersetzung (1876, gemeinfrei); Vers 12 und 17 „Моё“, Vers 18 „пропадёт“ mit ё gesetzt, überzähliges Leerzeichen vor dem Komma in Vers 12 entfernt. Englisch: Douay-Rheims (Challoner-Revision, gemeinfrei); catholicbibleonline.com war nicht abrufbar, der Text wurde über ccel.org abgerufen. Arabisch: Smith-Van-Dyck-Bibel (1865, gemeinfrei), Hamza-Schreibung und Satzzeichen vereinheitlicht. Persisch: Farsi Bible (International Bible Society, 1997), Vokalzeichen selbst gesetzt; „دوره“ in Vers 12 mit Ezafe als „دورهٔ“ geschrieben. Deutsch, Französisch, Italienisch und Spanisch sind eigene Übersetzungen nach dem griechischen Text, keine amtlichen Bibelausgaben."
  ],
  "sources": [
   {
@@ -6039,7 +4775,7 @@
    "title": "Peschitta Lukas 21 (biblehub)"
   },
   {
-   "url": "https://lueur.org/bible/luc21.5-19/KJV,TR1550,VULC",
+   "url": "https://www.lueur.org/bible/luc21.5-19/KJV,TR1550,VULC",
    "title": "Vulgata und Textus Receptus Lukas 21,5–19 (lueur.org)"
   },
   {
@@ -6047,16 +4783,20 @@
    "title": "Synodalübersetzung Lukas 21 (bibleserver)"
   },
   {
-   "url": "https://biblehub.com/multi/luke/21-5.htm",
-   "title": "Smith-Van Dyck Lukas 21,5–6 (biblehub)"
+   "url": "https://biblehub.com/multi/luke/21-12.htm",
+   "title": "Synodalübersetzung und Smith-Van Dyck Lukas 21,12 (biblehub)"
+  },
+  {
+   "url": "https://biblehub.com/arb/luke/21.htm",
+   "title": "Smith-Van Dyck Lukas 21 (biblehub)"
   },
   {
    "url": "https://ccel.org/ccel/challoner/douayrheims/Luke/21.html",
    "title": "Douay-Rheims Lukas 21 (ccel.org)"
   },
   {
-   "url": "https://catholicreadings.org/2411202-6",
-   "title": "Lesungen Dienstag der 34. Woche im Jahreskreis, 24.11.2026"
+   "url": "https://catholicreadings.org/2511202-6/",
+   "title": "Lesungen Mittwoch der 34. Woche im Jahreskreis, 25.11.2026"
   }
  ]
 }
