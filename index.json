@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-11-26",
+    "topic": "Kultur",
+    "title_de": "Visa For Music in Rabat"
+  },
+  {
     "date": "2026-11-25",
     "topic": "Sport",
     "title_de": "Mahrez dreht die Partie"
@@ -43,10 +48,5 @@
     "date": "2026-11-17",
     "topic": "Naher Osten",
     "title_de": "Dritter US-Flugzeugträger"
-  },
-  {
-    "date": "2026-11-16",
-    "topic": "Politik",
-    "title_de": "Abdelatty in Kuwait"
   }
 ]
