@@ -123,6 +123,7 @@ a{color:var(--accent)}
 .boxbtn .n{font-variant-numeric:tabular-nums;opacity:.8;margin-left:4px}
 .stats{display:flex;flex-wrap:wrap;gap:16px;font-size:14px;color:var(--muted);margin:0 0 16px}
 .stats strong{color:var(--fg);font-variant-numeric:tabular-nums}
+.del-card{margin-top:6px;opacity:.75}
 .flash{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px 20px;min-height:240px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center}
 .flash .big{font-family:var(--ar);font-size:2.6rem;line-height:1.5;direction:rtl}
 .flash .ans{font-size:1.3rem;font-weight:600}
@@ -832,8 +833,10 @@ function drawCard(){
     const x=extraHTML(c); if(x) h += '<div class="extra-info">'+x+'</div>';
     h += '<div class="answer-row"><button class="small" id="fSay">🔊 Anhören</button><button class="again" id="fAgain">Nochmal</button><button class="good" id="fGood">'+((c.box||1)>=5?'Gewusst':'Gewusst → Liste '+((c.box||1)+1))+'</button></div>';
   }
+  h += '<button class="small del-card" id="fDel">🗑 Karte löschen</button>';
   f.innerHTML=h;
   $('fSay').onclick=()=>say(c.ar);
+  $('fDel').onclick=()=>{ if(!confirm('Karte «'+c.ar+'» löschen?')) return; removeCard(c.key); markSaved(); renderList(); toast('Karte gelöscht'); nextCard(); };
   if(!flipped){ $('fFlip').onclick=()=>{ flipped=true; drawCard(); }; }
   else { $('fAgain').onclick=()=>answer(false); $('fGood').onclick=()=>answer(true); }
 }
