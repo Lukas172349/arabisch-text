@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-11-27",
+    "topic": "Literatur",
+    "title_de": "Arabische Literaturpreise"
+  },
+  {
     "date": "2026-11-26",
     "topic": "Kultur",
     "title_de": "Filmfestival in Fayoum"
@@ -43,10 +48,5 @@
     "date": "2026-11-18",
     "topic": "Sport",
     "title_de": "Nations League: Bosnien jubelt"
-  },
-  {
-    "date": "2026-11-17",
-    "topic": "Naher Osten",
-    "title_de": "Dritter US-Flugzeugträger"
   }
 ]
